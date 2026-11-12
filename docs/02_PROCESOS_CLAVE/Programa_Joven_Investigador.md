@@ -80,14 +80,14 @@ Una vez asignado el cupo, el tutor debe vincular formalmente al estudiante selec
 
 ## Reglas Bancarias Inquebrantables para Jóvenes Investigadores
 
-> **PRECAUCIÓN:** PROHIBICIÓN ESTRICTA DE BILLETERAS DIGITALES
-> Por directriz de la División de Tesorería de la Universidad de Antioquia:
-> - ❌ **NO se permiten:** Cuentas Nequi, Daviplata, Bancolombia Ahorro a la Mano ni cuentas de Agroseguro.
-> - **SÍ se permiten:** Únicamente **cuentas de ahorros tradicionales** radicadas en entidades financieras legalmente vigiladas por la Superintendencia Financiera de Colombia.
-> - **Titularidad:** La cuenta bancaria debe estar **exclusivamente a nombre del Joven Investigador** (no se aceptan cuentas de padres, cónyuges, tutores ni terceros).
+!!! danger "PROHIBICIÓN ESTRICTA DE BILLETERAS DIGITALES"
+    Por directriz de la División de Tesorería de la Universidad de Antioquia:
+    - ❌ **NO se permiten:** Cuentas Nequi, Daviplata, Bancolombia Ahorro a la Mano ni cuentas de Agroseguro.
+    - **SÍ se permiten:** Únicamente **cuentas de ahorros tradicionales** radicadas en entidades financieras legalmente vigiladas por la Superintendencia Financiera de Colombia.
+    - **Titularidad:** La cuenta bancaria debe estar **exclusivamente a nombre del Joven Investigador** (no se aceptan cuentas de padres, cónyuges, tutores ni terceros).
 
-> **IMPORTANTE:** NO SE EMITEN CARTAS LABORALES PARA APERTURA DE CUENTA
-> La Universidad **NO expide cartas institucionales para apertura de cuenta bancaria** a Jóvenes Investigadores, dado que la pasantía **no constituye vínculo laboral**, sino un **estímulo económico de fomento a la formación**. El estudiante debe aperturar su cuenta personal mediante los mecanismos habituales para personas naturales.
+!!! info "NO SE EMITEN CARTAS LABORALES PARA APERTURA DE CUENTA"
+    La Universidad **NO expide cartas institucionales para apertura de cuenta bancaria** a Jóvenes Investigadores, dado que la pasantía **no constituye vínculo laboral**, sino un **estímulo económico de fomento a la formación**. El estudiante debe aperturar su cuenta personal mediante los mecanismos habituales para personas naturales.
 
 ---
 

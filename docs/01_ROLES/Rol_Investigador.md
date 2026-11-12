@@ -45,19 +45,19 @@ flowchart TD
 
 ## 3. Puntos de Control Críticos para el Investigador
 
-> **ADVERTENCIA:** ALERTA DE ARCHIVOS ADJUNTOS
-> - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.
-> - **Formato:** Exclusivamente **PDF**.
-> - **Error común:** Nombrar archivos largos como *"INFORME_FINAL_PROYECTO_DE_INVESTIGACION_2024_APROBADO_VERSION_FINAL.pdf"*. El sistema truncará el archivo y generará error de guardado. Usa: *"InformeFinal_2024.pdf"*.
+!!! warning "ALERTA DE ARCHIVOS ADJUNTOS"
+    - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.
+    - **Formato:** Exclusivamente **PDF**.
+    - **Error común:** Nombrar archivos largos como *"INFORME_FINAL_PROYECTO_DE_INVESTIGACION_2024_APROBADO_VERSION_FINAL.pdf"*. El sistema truncará el archivo y generará error de guardado. Usa: *"InformeFinal_2024.pdf"*.
 
-> **PRECAUCIÓN:** JÓVENES INVESTIGADORES: CUENTAS BANCARIAS
-> - **Cuentas NO permitidas:** Nequi, Daviplata, Ahorro a la Mano, Bancolombia Agroseguro.
-> - **Cuentas permitidas:** Cuenta de ahorros tradicional a nombre del estudiante.
-> - **Nota:** La Universidad **no emite cartas para apertura de cuentas bancarias** para Jóvenes Investigadores porque no se trata de un contrato laboral, sino de un estímulo económico.
+!!! danger "JÓVENES INVESTIGADORES: CUENTAS BANCARIAS"
+    - **Cuentas NO permitidas:** Nequi, Daviplata, Ahorro a la Mano, Bancolombia Agroseguro.
+    - **Cuentas permitidas:** Cuenta de ahorros tradicional a nombre del estudiante.
+    - **Nota:** La Universidad **no emite cartas para apertura de cuentas bancarias** para Jóvenes Investigadores porque no se trata de un contrato laboral, sino de un estímulo económico.
 
-> **NOTA:** CAMBIO DE RUBRO PRESUPUESTAL
-> - No intentes trasladar presupuesto desde un rubro cuyo saldo actual sea \$0.
-> - El proyecto debe encontrarse en estado **En ejecución**.
+!!! note "CAMBIO DE RUBRO PRESUPUESTAL"
+    - No intentes trasladar presupuesto desde un rubro cuyo saldo actual sea \$0.
+    - El proyecto debe encontrarse en estado **En ejecución**.
 
 ---
 

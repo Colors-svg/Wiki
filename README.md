@@ -27,24 +27,28 @@ Portal técnico y operativo del **Sistema de Información para la Investigación
 - **Reportes y Certificaciones:** Emisión de certificados de participación, constancias de evaluación y reportes consolidados.
 
 ### 3. Normativa Institucional y Archivo Maestro
-- **Archivo Maestro (31 Documentos):** Transcripción fidedigna de las 21 guías de proceso (`VI-GU-*`) y 10 instructivos técnicos (`VI-IN-*`).
-- **Disposiciones Legales:** Acuerdos Superiores y Resoluciones Rectorales aplicables al sistema de investigación de la Universidad de Antioquia.
+- **Archivo Maestro de Procesos (31 Documentos):** Transcripción fidedigna de las 21 guías de proceso (`VI-GU-*`) y 10 instructivos técnicos (`VI-IN-*`).
+- **Archivo Maestro de Legalidad (21 Documentos):** Transcripción íntegra de las 21 leyes, acuerdos superiores y resoluciones rectorales que rigen la investigación en la UdeA (`archivo_maestro/legalidad/`).
+- **Marco Normativo Wiki (21 Fichas Didácticas):** Fichas operativas con diagramas Mermaid, tablas de impacto y enlaces cruzados hacia el SIIU (`wiki/05_MARCO_NORMATIVO/`).
+- **Matriz de Concordancia Normativa:** Mapa central de contenido que articula trámites del SIIU con normas habilitantes (`wiki/00_INICIO_Y_MOCS/MOC_Marco_Normativo.md`).
 
 ---
 
 ## Organización del Repositorio
 
 ```text
-├── index.html                     # Aplicación web de la Wiki (Docsify)
-├── _sidebar.md                    # Menú de navegación lateral
-├── _navbar.md                     # Barra de navegación superior
+├── mkdocs.yml                      # Configuración de compilación para GitHub Pages
+├── docs/                          # Directorio fuente de la documentación web
 ├── wiki/                          # Base de conocimiento modular y didáctica
-│   ├── 00_INICIO_Y_MOCS/          # Mapas de contenido y portal general
-│   ├── 01_ROLES/                  # Manuales por rol operativo
+│   ├── 00_INICIO_Y_MOCS/          # Mapas de contenido (Ciclo, Roles, Trámites, Marco Normativo)
+│   ├── 01_ROLES/                  # Manuales por rol operativo (Investigador, Centro, Vicerrectoría)
 │   ├── 02_PROCESOS_CLAVE/         # Procedimientos secuenciales detallados
-│   ├── 03_GUIAS_RAPIDAS_CHEAT_SHEETS/ # Resúmenes ejecutivos y reglas operativas
-│   └── 04_GLOSARIO_Y_CONCEPTOS/   # Glosario oficial y catálogo normativo
-├── archivo_maestro/               # Transcripción fidedigna 1 a 1 de guías e instructivos
+│   ├── 03_GUIAS_RAPIDAS_CHEAT_SHEETS/ # Resúmenes ejecutivos y reglas de oro
+│   ├── 04_GLOSARIO_Y_CONCEPTOS/   # Glosario oficial y catálogo de 31 docs
+│   └── 05_MARCO_NORMATIVO/        # 21 fichas didácticas del marco legal UdeA
+├── archivo_maestro/               # Transcripciones fidedignas 1 a 1
+│   ├── VI-GU-* / VI-IN-*          # 31 documentos de guías e instructivos
+│   └── legalidad/                 # 21 documentos normativos íntegros (Leyes, CSU, Resoluciones)
 ├── fuentes_pdf/                   # Documentos PDF originales de la Vicerrectoría
-└── Legalidad/                     # Normativa legal y reglamentaria de la Universidad
+└── Legalidad/                     # Normativa legal original en PDF de la Universidad
 ```

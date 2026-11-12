@@ -16,6 +16,7 @@ flowchart TD
     HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula ➔ Evaluación ➔ Inicio ➔ Cierre)</i>"]
     HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
     HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
+    HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
     HOME --> CHEAT["Guías Rápidas & Cheat Sheets<br><i>(Rutas express y reglas de oro)</i>"]
 ```
 
@@ -43,3 +44,4 @@ flowchart TD
 - **[Reglas de Oro del SIIU](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md):** Requisitos de adjuntos, ventanas emergentes, navegadores y limitaciones de cuentas bancarias.
 - **[Glosario de Términos del SIIU](04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md):** Conceptos clave (*Solicitud vs Novedad*, estados de proyectos, rubros).
 - **[Catálogo Normativo (31 Documentos)](04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md):** Índice oficial con vínculos a guías e instructivos.
+- **[Marco Normativo e Institucional (21 Documentos)](00_INICIO_Y_MOCS/MOC_Marco_Normativo.md):** Matriz integral y fichas operativas de las 21 leyes, acuerdos superiores y resoluciones rectorales que rigen la investigación universitaria.

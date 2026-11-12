@@ -96,10 +96,10 @@ El reporte más completo y exhaustivo del sistema SIIU:
 
 ## Regla de Navegadores y Ventanas Emergentes (Pop-ups)
 
-> **ADVERTENCIA:** PERMISOS DE VENTANAS EMERGENTES (POP-UPS)
-> Tanto las constancias oficiales en PDF como las fichas técnicas en HTML se abren en **ventanas emergentes nuevas**.  
-> Si al presionar "Ver constancia" o "Visualizar" no se abre ninguna ventana:
-> 1. Verifique la barra de direcciones en la parte superior derecha de su navegador (Chrome, Edge, Firefox).
-> 2. Haga clic en el icono de ventana bloqueada.
-> 3. Seleccione: **"Permitir siempre ventanas emergentes y redirecciones de https://ayudame2.udea.edu.co"**.
-> 4. Presione **Listo** y vuelva a generar la consulta.
+!!! warning "PERMISOS DE VENTANAS EMERGENTES (POP-UPS)"
+    Tanto las constancias oficiales en PDF como las fichas técnicas en HTML se abren en **ventanas emergentes nuevas**.  
+    Si al presionar "Ver constancia" o "Visualizar" no se abre ninguna ventana:
+    1. Verifique la barra de direcciones en la parte superior derecha de su navegador (Chrome, Edge, Firefox).
+    2. Haga clic en el icono de ventana bloqueada.
+    3. Seleccione: **"Permitir siempre ventanas emergentes y redirecciones de https://ayudame2.udea.edu.co"**.
+    4. Presione **Listo** y vuelva a generar la consulta.

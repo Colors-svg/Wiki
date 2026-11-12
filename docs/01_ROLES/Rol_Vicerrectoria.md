@@ -54,8 +54,8 @@ flowchart LR
 ```
 
 
-> **IMPORTANTE:** REGLA DE APLICACIÓN
-> Mientras una solicitud no esté en estado **APLICADO**, el presupuesto del proyecto no se moverá, la fecha de terminación no se extenderá y el nuevo participante no aparecerá en las constancias.
+!!! info "REGLA DE APLICACIÓN"
+    Mientras una solicitud no esté en estado **APLICADO**, el presupuesto del proyecto no se moverá, la fecha de terminación no se extenderá y el nuevo participante no aparecerá en las constancias.
 
 ---
 

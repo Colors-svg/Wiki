@@ -2,31 +2,28 @@ site_name: Wiki SIIU — Universidad de Antioquia
 site_description: Base de Conocimiento y Guía Operativa del Sistema de Información para la Investigación Universitaria
 site_author: Vicerrectoría de Investigación — Universidad de Antioquia
 
-repo_name: Colors-svg/Wiki
-repo_url: https://github.com/Colors-svg/Wiki
-
 theme:
   name: material
   language: es
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   palette:
-    # Modo Oscuro Institucional UdeA (Slate con tinte Bosque)
+    # Modo Nocturno (Dark Slate & Verde Institucional UdeA)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-night
-        name: Cambiar a modo diurno institucional
-    # Modo Claro Institucional UdeA
+        name: Cambiar a modo diurno
+    # Modo Diurno (Clean White & Verde Bosque UdeA)
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-sunny
-        name: Cambiar a modo nocturno institucional
+        name: Cambiar a modo nocturno
   font:
     text: Inter
     code: JetBrains Mono
@@ -41,9 +38,7 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
-    - search.share
     - content.code.copy
-    - content.code.annotate
 
 extra_css:
   - stylesheets/extra.css

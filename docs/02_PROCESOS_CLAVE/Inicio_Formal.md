@@ -74,10 +74,10 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 
 ## 3. ¿Qué ocurre si se vence el plazo sin iniciar?
 
-> **PRECAUCIÓN:** VENCIMIENTO DEL PLAZO DE INICIO
-> Si los trámites de pólizas o contratos toman más tiempo del reglamentario, el proyecto puede caer en estado **No iniciado** o ser **Cancelado**.  
-> Para evitar esto, el Investigador Principal debe solicitar oportunamente una **Prórroga de Inicio** mediante el menú de trámites administrativos mientras el proyecto aún figure en estado **Aprobado**.  
-> Consulta: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto).
+!!! danger "VENCIMIENTO DEL PLAZO DE INICIO"
+    Si los trámites de pólizas o contratos toman más tiempo del reglamentario, el proyecto puede caer en estado **No iniciado** o ser **Cancelado**.  
+    Para evitar esto, el Investigador Principal debe solicitar oportunamente una **Prórroga de Inicio** mediante el menú de trámites administrativos mientras el proyecto aún figure en estado **Aprobado**.  
+    Consulta: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto).
 
 ---
 

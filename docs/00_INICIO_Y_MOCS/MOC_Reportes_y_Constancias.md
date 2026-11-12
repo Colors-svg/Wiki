@@ -51,5 +51,5 @@ Herramientas para auditar la cartera de proyectos, verificar estados, vigencias 
 
 ---
 
-> **CONSEJO:** RECOMENDACIÓN DE RENDIMIENTO EN REPORTES
-> Al consultar en el SIIU, **evite seleccionar la opción "TODOS"** en todos los filtros de búsqueda simultáneamente. Esto genera consultas muy pesadas a la base de datos y puede ocasionar lentitud o bloqueo de sesión. Delimite siempre por año, centro o estado.
+!!! tip "RECOMENDACIÓN DE RENDIMIENTO EN REPORTES"
+    Al consultar en el SIIU, **evite seleccionar la opción "TODOS"** en todos los filtros de búsqueda simultáneamente. Esto genera consultas muy pesadas a la base de datos y puede ocasionar lentitud o bloqueo de sesión. Delimite siempre por año, centro o estado.
