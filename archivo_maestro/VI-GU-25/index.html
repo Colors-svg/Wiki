@@ -1,0 +1,1374 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Base de Conocimiento y Wiki Operativa del Sistema de Información para la Investigación Universitaria">
+      
+      
+        <meta name="author" content="Vicerrectoría de Investigación">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>GUÍA CKEditor PARA LA MATRÍCULA DE PROYECTOS EN EL SIIU - Wiki SIIU - Universidad de Antioquia</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="sky">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guia-ckeditor-para-la-matricula-de-proyectos-en-el-siiu" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Wiki SIIU - Universidad de Antioquia" class="md-header__button md-logo" aria-label="Wiki SIIU - Universidad de Antioquia" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wiki SIIU - Universidad de Antioquia
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              GUÍA CKEditor PARA LA MATRÍCULA DE PROYECTOS EN EL SIIU
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="sky"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Wiki SIIU - Universidad de Antioquia" class="md-nav__button md-logo" aria-label="Wiki SIIU - Universidad de Antioquia" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Wiki SIIU - Universidad de Antioquia
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles Operativos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles Operativos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_ROLES/Rol_Investigador/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigador Principal y Tutor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_ROLES/Rol_Centro_Investigacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Centro de Investigación / Extensión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_ROLES/Rol_Vicerrectoria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vicerrectoría de Investigación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procesos Clave
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Procesos Clave
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Matricula_Proyectos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matrícula de Proyectos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Evaluacion_y_Aval/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluación Técnica y Aval
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Inicio_Formal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio Formal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Modificaciones_y_Tramites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modificaciones y Trámites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Gestion_Compromisos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de Compromisos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Programa_Joven_Investigador/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programa Joven Investigador
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Cierre_y_Liquidacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cierre y Liquidación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_PROCESOS_CLAVE/Reportes_y_Certificaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reportes y Certificaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ciclos y Trámites (MOC)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ciclos y Trámites (MOC)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_INICIO_Y_MOCS/MOC_Ciclo_de_Vida_Proyectos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ciclo de Vida de Proyectos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_INICIO_Y_MOCS/MOC_Por_Roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa por Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trámites y Solicitudes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reportes y Constancias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referencia y Normativa
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Referencia y Normativa
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ficha Rápida Investigador
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ficha Rápida Centro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reglas de Oro SIIU
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario de Términos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catálogo Oficial (31 Documentos)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="guia-ckeditor-para-la-matricula-de-proyectos-en-el-siiu">GUÍA CKEditor PARA LA MATRÍCULA DE PROYECTOS EN EL SIIU</h1>
+<div class="admonition note">
+<p class="admonition-title">Información de Control Documental</p>
+</div>
+<blockquote>
+<p><strong>Código</strong>: VI-GU-25<br />
+<strong>Versión</strong>: 01 / 12-JUL-2024<br />
+<em>Aviso legal institucional</em>: La impresión o copia magnética de este documento se considera "COPIA NO CONTROLADA". Solo se garantiza la actualización de la documentación en el sitio oficial <code>http://www.udea.edu.co</code>.</p>
+</blockquote>
+<hr />
+<h2 id="contenido">Contenido</h2>
+<ol>
+<li><a href="#1-definición">Definición</a></li>
+<li><a href="#2-contenido">Contenido</a></li>
+<li>2.1. <a href="#21-requisitos-para-el-uso-del-ckeditor">Requisitos para el uso del CKEditor</a></li>
+<li>2.2. <a href="#22-usuarios-que-intervienen-en-el-proceso">Usuarios que intervienen en el proceso</a></li>
+<li>2.3. <a href="#23-menú-de-opciones-del-editor">Menú de Opciones del Editor</a></li>
+<li>2.4. <a href="#24-cómo-insertar-una-ecuación">¿Cómo insertar una ecuación?</a></li>
+<li>2.5. <a href="#25-insertar-fórmula">Insertar fórmula</a></li>
+<li>2.6. <a href="#26-agregar-color-a-una-fórmula">Agregar color a una fórmula</a></li>
+<li>2.7. <a href="#27-agregar-espacio-a-una-fórmula">Agregar espacio a una fórmula</a></li>
+<li>2.8. <a href="#28-agregar-matrices">Agregar matrices</a></li>
+<li>2.9. <a href="#29-editar-una-ecuación">Editar una ecuación</a></li>
+<li>2.10. <a href="#210-agregar-imágenes">Agregar imágenes</a></li>
+<li><a href="#3-nota-de-cambio">Nota de cambio</a></li>
+<li><a href="#registro-de-control-y-firmas">Registro de Control y Firmas</a></li>
+</ol>
+<hr />
+<h2 id="1-definicion">1. Definición</h2>
+<p>Este documento se ha elaborado con el fin de ayudar y capacitar a los investigadores principales que realizan la matrícula de proyectos en el Sistema de Información para la Investigación Universitaria – SIIU. Dado lo anterior se aclara que esta guía no hace parte de la normativa universitaria y solamente se debe utilizar como una herramienta que orienta los pasos a seguir.</p>
+<hr />
+<h2 id="2-contenido">2. Contenido</h2>
+<h3 id="21-requisitos-para-el-uso-del-ckeditor">2.1 Requisitos para el uso del CKEditor</h3>
+<ul>
+<li>El usuario con rol de investigador principal o responsable de proyecto debe contar con acceso a la plataforma SIIU en las secciones de descripción del proyecto.</li>
+</ul>
+<hr />
+<h3 id="22-usuarios-que-intervienen-en-el-proceso">2.2 Usuarios que intervienen en el proceso</h3>
+<ul>
+<li><strong>Usuario con rol Investigador Principal o Responsable del Proyecto</strong>.</li>
+</ul>
+<hr />
+<h3 id="23-menu-de-opciones-del-editor">2.3 Menú de Opciones del Editor</h3>
+<p>La barra de herramientas del CKEditor en el SIIU proporciona controles de formato de texto, estilos, tablas, enlaces, imágenes y fórmulas matemáticas.</p>
+<p>En la figura 1:
+- La opción <strong>1</strong> indica el icono a seleccionar en la barra principal cuando se requiere insertar una fórmula matemática.
+- El recuadro <strong>2</strong> destaca los iconos específicos: editor de ecuaciones (<code>fx</code>), inserción de imágenes y tablas.</p>
+<p>![[VI-GU-25-figura-01.png]]
+<em>Figura 1 – Menú CKEditor</em></p>
+<hr />
+<h3 id="24-como-insertar-una-ecuacion">2.4 ¿Cómo insertar una ecuación?</h3>
+<p>Para insertar una ecuación matemática en el texto:
+1. Haga clic en el icono <strong>fx</strong> (Editor de Ecuaciones) ubicado en el recuadro número 2 de la barra de herramientas.
+2. Se abrirá la ventana emergente modal del <strong>CodeCogs Equation Editor</strong> (Ver figura 2).</p>
+<p>![[VI-GU-25-figura-02.png]]
+<em>Figura 2 - Editor de Ecuaciones</em></p>
+<hr />
+<h3 id="25-insertar-formula">2.5 Insertar fórmula</h3>
+<p>Para agregar una ecuación matemática:
+1. Elija entre los símbolos matemáticos disponibles en los paneles superiores del editor (operadores, letras griegas, flechas, integrales, sumatorias, relaciones lógicas, etc.).
+2. Escriba los números o letras correspondientes a la ecuación. En su mayoría, los argumentos van encerrados entre llaves <code>{}</code> en sintaxis LaTeX.
+3. En el momento en que se coloca el cursor sobre algún símbolo matemático, el editor muestra un tooltip de ayuda con la sintaxis exacta del comando LaTeX. (Ver figura 3).</p>
+<p>![[VI-GU-25-figura-03.png]]
+<em>Figura 3 - Ayuda para escribir ecuaciones</em></p>
+<ul>
+<li><strong>Lista de Funciones</strong>: Se pueden visualizar y seleccionar funciones predefinidas (trigonométricas, hiperbólicas, logaritmos, inversas, etc.) haciendo clic en la lista desplegable <strong>Functions</strong>. (Ver figura 4).</li>
+</ul>
+<p>![[VI-GU-25-figura-04.png]]
+<em>Figura 4 - Funciones</em></p>
+<ul>
+<li><strong>Operaciones de Potencia y Exponentes</strong>: Para escribir una operación de potencia (ejemplo: $A^{(x)}$), se utiliza la sintaxis <code>A^{(x)}</code> o el botón de superíndice. (Ver figura 5).</li>
+</ul>
+<p>![[VI-GU-25-figura-05.png]]
+<em>Figura 5 - Escribir una operación de Potencia</em></p>
+<hr />
+<h3 id="26-agregar-color-a-una-formula">2.6 Agregar color a una fórmula</h3>
+<p>Para aplicar color a partes específicas de una ecuación:
+1. Haga clic en la lista desplegable <strong>Colors</strong>.
+2. Seleccione el color deseado (por ejemplo, <code>Red</code>).
+3. El editor aplicará la sintaxis LaTeX correspondiente: <code>{\color{Red} \sin 65}</code>. En la previsualización inferior se reflejará el texto coloreado. (Ver figura 6).</p>
+<p>![[VI-GU-25-figura-06.png]]
+<em>Figura 6 - Color a las funciones</em></p>
+<hr />
+<h3 id="27-agregar-espacio-a-una-formula">2.7 Agregar espacio a una fórmula</h3>
+<p>En la sintaxis matemática de LaTeX, los espacios normales no se reflejan automáticamente. Para dejar un espacio visible entre los elementos de una ecuación:
+- Se debe colocar una barra invertida con un espacio (<code>\</code>), o
+- Hacer clic en el icono de espaciado en la barra de herramientas. (Ver figura 7).</p>
+<p>![[VI-GU-25-figura-07.png]]
+<em>Figura 7 - Insertar espacio</em></p>
+<hr />
+<h3 id="28-agregar-matrices">2.8 Agregar matrices</h3>
+<p>Para insertar matrices:
+1. Haga clic en alguno de los iconos de matriz disponibles en el panel de delimitadores (matrices entre paréntesis, corchetes o barras determinantes). (Ver figura 8).</p>
+<p>![[VI-GU-25-figura-08.png]]
+<em>Figura 8 - Insertar matrices</em></p>
+<ol>
+<li>El sistema despliega un mensaje del navegador solicitando ingresar las dimensiones de la matriz:</li>
+<li>Ingrese las filas y columnas separadas por comas (ejemplo: <code>2,4</code> para 2 filas y 4 columnas).</li>
+<li>Haga clic en <strong>Aceptar</strong>. (Ver figura 9).</li>
+</ol>
+<p>![[VI-GU-25-figura-09.png]]
+<em>Figura 9 - Dimensiones de la matriz</em></p>
+<ol>
+<li>El editor genera la estructura LaTeX (por ejemplo, <code>\begin{vmatrix} ... \end{vmatrix}</code>).</li>
+<li>Coloque los valores numéricos o variables en cada posición de la matriz, utilizando <code>&amp;</code> para separar columnas y <code>\\</code> para saltar de fila.</li>
+<li>Verifique la previsualización y haga clic en <strong>Aceptar</strong>. (Ver figura 10).</li>
+</ol>
+<p>![[VI-GU-25-figura-10.png]]
+<em>Figura 10 - Elementos de la matriz</em></p>
+<hr />
+<h3 id="29-editar-una-ecuacion">2.9 Editar una ecuación</h3>
+<p>Para editar una ecuación que ya fue insertada en el cuerpo del texto:
+1. Seleccione la ecuación en el área de trabajo.
+2. Haga clic derecho sobre ella con el ratón.
+3. En el menú contextual, elija <strong>Edit Equation</strong>.
+4. Se abrirá nuevamente el editor de ecuaciones con la fórmula cargada para realizar los ajustes necesarios.</p>
+<hr />
+<h3 id="210-agregar-imagenes">2.10 Agregar imágenes</h3>
+<p>El CKEditor permite incrustar imágenes en las secciones descriptivas de la propuesta:</p>
+<ol>
+<li>Presione el icono de <strong>Imagen</strong> en la barra de herramientas.</li>
+<li>Se abrirá la ventana emergente <strong>Propiedades de Imagen</strong> con las pestañas: <em>Información de imagen</em>, <em>Vínculo</em>, <em>Cargar</em>, <em>Avanzado</em>. (Ver figura 11).</li>
+</ol>
+<p>![[VI-GU-25-figura-11.png]]
+<em>Figura 11 - Agregar imágenes</em></p>
+<ol>
+<li>Procedimiento para cargar desde el computador:</li>
+<li>Ingrese a la pestaña <strong>Cargar</strong>.</li>
+<li>Presione <strong>Seleccionar archivo</strong> y elija la imagen guardada en su equipo (formatos PNG, JPG, GIF).</li>
+<li>Presione el botón <strong>Enviar al Servidor</strong> (este paso es indispensable para subir la imagen a los servidores de la Universidad).</li>
+<li>Aparece un mensaje emergente confirmando: <em>"El archivo se ha cargado correctamente"</em>; haga clic en <strong>Aceptar</strong>.</li>
+<li>El sistema retorna a la pestaña <em>Información de imagen</em> mostrando la URL interna asignada y la previsualización.</li>
+<li>Ajuste opcionalmente la anchura, altura, borde, espaciado horizontal/vertical o alineación.</li>
+<li>Presione <strong>Aceptar</strong>. (Ver figura 12).</li>
+</ol>
+<p>![[VI-GU-25-figura-12.png]]
+<em>Figura 12 - Enviar al servidor</em></p>
+<ol>
+<li>La imagen quedará insertada en el área de redacción. Para almacenar los cambios en el SIIU:</li>
+<li>Presione el botón <strong>Guardar</strong> para continuar editando, o</li>
+<li>Presione <strong>Guardar y salir</strong> para cerrar el editor y retornar al tren de datos. (Ver figura 13).</li>
+</ol>
+<p>![[VI-GU-25-figura-13.png]]
+<em>Figura 13 - Guardar imagen</em></p>
+<hr />
+<h2 id="3-nota-de-cambio">3. Nota de cambio</h2>
+<ul>
+<li>No aplica para la primera versión.</li>
+</ul>
+<hr />
+<h2 id="registro-de-control-y-firmas">Registro de Control y Firmas</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Rol</th>
+<th style="text-align: left;">Nombre</th>
+<th style="text-align: left;">Cargo / Dependencia</th>
+<th style="text-align: left;">Fecha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Elaboró</strong></td>
+<td style="text-align: left;">Sandra Patricia Zabala Orrego</td>
+<td style="text-align: left;">Contratista, Vicerrectoría Investigación</td>
+<td style="text-align: left;">04-JUL-2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Revisó</strong></td>
+<td style="text-align: left;">Julio César García Castrillón</td>
+<td style="text-align: left;">Analista de Procesos, División de Arquitectura de Procesos</td>
+<td style="text-align: left;">09-JUL-2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Aprobó</strong></td>
+<td style="text-align: left;">Gloria Valencia Bustamante</td>
+<td style="text-align: left;">Asistente, Vicerrectoría de Investigación</td>
+<td style="text-align: left;">12-JUL-2024</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.integrate", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
