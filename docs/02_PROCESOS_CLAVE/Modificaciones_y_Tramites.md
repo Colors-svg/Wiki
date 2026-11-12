@@ -1,4 +1,4 @@
-﻿# Proceso Clave: Modificaciones y Trámites Administrativos
+# Proceso Clave: Modificaciones y Trámites Administrativos
 
 Durante la ejecución de un proyecto es habitual requerir ajustes de calendario, variaciones presupuestales o cambios en la composición del equipo de trabajo. El SIIU canaliza estas modificaciones mediante **Trámites Administrativos** auditables.
 

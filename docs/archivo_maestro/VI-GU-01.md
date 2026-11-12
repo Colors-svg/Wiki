@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-01"
 titulo: "Guía para cambiar el responsable del proyecto"
 version: "01"

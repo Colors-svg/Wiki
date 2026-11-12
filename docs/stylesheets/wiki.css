@@ -401,9 +401,8 @@ body, .md-typeset {
   background-color: var(--md-default-bg-color--lighter);
   color: var(--md-default-fg-color) !important;
   font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
   padding: 0.85rem 1.1rem;
   border-bottom: 2px solid var(--border-color);
 }
@@ -564,6 +563,9 @@ body, .md-typeset {
   position: relative;
 }
 .diagram-zoom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   position: absolute;
   top: 0.6rem;
   right: 0.6rem;

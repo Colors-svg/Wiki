@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-22"
 titulo: "Guía para la solicitud de plazo en la entrega de compromisos en el SIIU"
 version: "01"

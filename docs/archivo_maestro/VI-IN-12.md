@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-12
 titulo: Instructivo para solicitar actualización de proyectos en el sistema SIIU
 version: 01

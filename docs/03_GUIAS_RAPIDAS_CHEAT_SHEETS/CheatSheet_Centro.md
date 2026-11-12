@@ -1,4 +1,4 @@
-﻿# Ficha Rápida: Cheat Sheet del Centro de Investigación
+# Ficha Rápida: Cheat Sheet del Centro de Investigación
 
 Guía de consulta ágil para Jefes de Centro, Coordinadores y Analistas de Procesos en Unidades Académicas.
 

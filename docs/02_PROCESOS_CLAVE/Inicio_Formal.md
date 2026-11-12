@@ -1,4 +1,4 @@
-﻿# Proceso Clave: Inicio Formal de Proyectos
+# Proceso Clave: Inicio Formal de Proyectos
 
 La aprobación de un proyecto en una convocatoria no autoriza de manera automática el gasto de los recursos ni el reconocimiento oficial de tiempos. Para ello se requiere el **Inicio Formal**, un hito administrativo y legal que marca el paso del estado **Aprobado** al estado **En ejecución**.
 
@@ -74,7 +74,7 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 
 ## 3. ¿Qué ocurre si se vence el plazo sin iniciar?
 
-!!! danger "VENCIMIENTO DEL PLAZO DE INICIO"
+!!! danger "Vencimiento del plazo de inicio"
     Si los trámites de pólizas o contratos toman más tiempo del reglamentario, el proyecto puede caer en estado **No iniciado** o ser **Cancelado**.  
     Para evitar esto, el Investigador Principal debe solicitar oportunamente una **Prórroga de Inicio** mediante el menú de trámites administrativos mientras el proyecto aún figure en estado **Aprobado**.  
     Consulta: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto).

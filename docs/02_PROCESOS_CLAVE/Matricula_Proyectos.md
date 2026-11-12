@@ -1,4 +1,4 @@
-﻿# Proceso Clave: Matrícula e Inscripción de Proyectos
+# Proceso Clave: Matrícula e Inscripción de Proyectos
 
 !!! tip "En simple: ¿qué es matricular?"
     Es **inscribir tu propuesta en el SIIU** para que la Universidad la reconozca. Tienes 3 caminos: **convocatoria interna** (plata UdeA), **proyecto inscrito** (plata externa ya ganada) o **primer proyecto** (primera vez en el sistema). Llena 8 pestañas y presiona **Enviar a Centro**. Tiempo típico: 30-60 min si ya tienes el texto y el PDF listos.
@@ -139,7 +139,7 @@ flowchart LR
 ```
 
 
-!!! tip "REGLAS PARA EL CKEDITOR ([VI-GU-25](../archivo_maestro/VI-GU-25.md)"
+!!! tip "Reglas para el CKEditor ([VI-GU-25](../archivo_maestro/VI-GU-25.md))"
     1. **No copiar directamente estilos complejos de Word:** Los metadatos ocultos de MS Word (`mso-*`) pueden corromper el campo HTML y bloquear el guardado. Pega el texto plano y da formato en el SIIU.
     2. **Tablas:** Usa el botón de tabla propio del editor, define bordes sencillos y evita combinar celdas complejas.
     3. **Ecuaciones y fórmulas:** Insértalas como texto matemático plano o imágenes debidamente referenciadas.

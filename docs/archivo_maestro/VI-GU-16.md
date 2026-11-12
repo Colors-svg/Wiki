@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-16"
 titulo: "Guía para la información complementaria de los proyectos en el SIIU"
 version: "01"

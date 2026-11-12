@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-20"
 titulo: "Guía para la solicitud de cambio de rubro en el SIIU"
 version: "01"

@@ -1,4 +1,4 @@
-﻿# Manual Operativo: Rol Centro de Investigación y Extensión
+# Manual Operativo: Rol Centro de Investigación y Extensión
 
 Los **Centros de Investigación y de Extensión** de las Facultades, Escuelas e Institutos de la Universidad de Antioquia son los nodos de articulación técnico-académica. Tienen la potestad de validar formalmente las propuestas, interactuar con los pares evaluadores, avalar iniciativas ante el CODI o Comités de Extensión, y aprobar los trámites administrativos de los proyectos adscritos.
 

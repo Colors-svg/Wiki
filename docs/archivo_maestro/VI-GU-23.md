@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-23"
 titulo: "Guía para la solicitud de prórroga de proyectos en el SIIU"
 version: "01"

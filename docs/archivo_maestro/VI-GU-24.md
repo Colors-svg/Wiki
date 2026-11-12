@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-24"
 titulo: "Guía para la matrícula de proyectos en convocatoria en el SIIU"
 version: "01"

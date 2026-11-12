@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-05
 titulo: Instructivo para la actualización del proyecto devuelto al investigador principal
 version: 01

@@ -1,4 +1,4 @@
-﻿# Proceso Clave: Gestión de Compromisos Académicos
+# Proceso Clave: Gestión de Compromisos Académicos
 
 !!! tip "En simple: ¿qué son los compromisos?"
     Son **lo que prometiste entregar** (informes, artículos, tesis, patentes). Cada uno tiene fecha y estado: **Pendiente → En revisión → Aprobado**. Subes el PDF, presionas **Confirmar entrega** y el Centro lo aprueba o lo devuelve. Si solo necesitas más días para UN entregable, pide **plazo en compromisos** (no prórroga de todo el proyecto).

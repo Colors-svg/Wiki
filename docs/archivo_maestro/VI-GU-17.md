@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-17"
 titulo: "Guía para la matrícula de primer proyecto en el SIIU"
 version: "01"

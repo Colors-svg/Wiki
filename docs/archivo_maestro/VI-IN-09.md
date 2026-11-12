@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-09
 titulo: Instructivo para generar el reporte de información básica de proyectos
 version: 01

@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-15"
 titulo: "Guía para el inicio formal de proyectos en el SIIU"
 version: "01"

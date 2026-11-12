@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-06
 titulo: Instructivo para el registro de estudiante como joven investigador
 version: 01

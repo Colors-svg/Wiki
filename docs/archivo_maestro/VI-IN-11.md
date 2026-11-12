@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-11
 titulo: Instructivo para generar el reporte por persona
 version: 01

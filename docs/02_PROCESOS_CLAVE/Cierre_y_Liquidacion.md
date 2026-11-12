@@ -1,4 +1,4 @@
-﻿# Proceso Clave: Cierre y Liquidación de Proyectos
+# Proceso Clave: Cierre y Liquidación de Proyectos
 
 !!! tip "En simple: ¿cómo cierro mi proyecto?"
     Cerrar = **demostrar que entregaste todo y gastaste bien**. Necesitas: 1) **100% compromisos aprobados**, 2) informe final aprobado, 3) presupuesto legalizado sin saldos (o con reintegro). Luego el Centro hace el acta de cierre y la Vicerrectoría liquida. Sin paz y salvo no hay liquidación.

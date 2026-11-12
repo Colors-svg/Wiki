@@ -1,4 +1,4 @@
-﻿# Mapa de Contenido (MOC): Navegación por Roles
+# Mapa de Contenido (MOC): Navegación por Roles
 
 En el **Sistema SIIU**, las acciones y permisos están segmentados según la responsabilidad administrativa y académica del usuario. Utiliza este mapa para localizar los procedimientos y guías pertinentes a tu perfil:
 

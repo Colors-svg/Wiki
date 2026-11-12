@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-14"
 titulo: "Guía para configurar trámites administrativos en el SIIU"
 version: "01"

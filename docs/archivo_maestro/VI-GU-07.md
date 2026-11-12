@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-07"
 titulo: "Guía para la configuración de la convocatoria"
 version: "01"

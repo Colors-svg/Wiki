@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-09"
 titulo: "Guía para la gestión de compromisos en SIIU"
 version: "01"

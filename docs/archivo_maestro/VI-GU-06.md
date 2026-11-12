@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-06"
 titulo: "Guía para la asignación de evaluadores en SIIU"
 version: "01"

@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-08
 titulo: Instructivo para generar constancias evaluador de proyectos
 version: 01

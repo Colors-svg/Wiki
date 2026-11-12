@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-12"
 titulo: "Guía para aprobar solicitudes administrativas en el SIIU"
 version: "01"

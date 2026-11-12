@@ -1,4 +1,4 @@
-﻿# Mapa de Contenido (MOC): Trámites y Modificaciones Administrativas
+# Mapa de Contenido (MOC): Trámites y Modificaciones Administrativas
 
 Durante la vida de un proyecto en el SIIU surgen eventualidades que exigen modificaciones contractuales, operativas o presupuestales. El sistema gestiona estas solicitudes mediante flujos parametrizables de aprobación entre el **Investigador Principal**, el **Centro de Investigación** y la **Vicerrectoría**.
 

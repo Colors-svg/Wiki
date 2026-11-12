@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-19"
 titulo: "Guía para la solicitud de cambio de participante en el SIIU"
 version: "01"

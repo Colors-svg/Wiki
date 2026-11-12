@@ -1,4 +1,4 @@
-﻿# Ficha Rápida: Cheat Sheet del Investigador
+# Ficha Rápida: Cheat Sheet del Investigador
 
 Guía de consulta veloz para resolver las situaciones operativas más frecuentes en el SIIU en menos de 2 minutos.
 

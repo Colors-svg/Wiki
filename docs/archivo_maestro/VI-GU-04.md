@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-04"
 titulo: "Guía para el cierre de proyectos en SIIU"
 version: "01"

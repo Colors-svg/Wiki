@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-13"
 titulo: "Guía para avalar y aplicar solicitudes administrativas en el SIIU"
 version: "01"

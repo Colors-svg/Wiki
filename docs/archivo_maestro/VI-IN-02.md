@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-IN-02"
 titulo: "Instructivo para generar reporte historial de proyectos"
 version: "01"

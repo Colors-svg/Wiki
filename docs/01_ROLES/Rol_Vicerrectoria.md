@@ -1,4 +1,4 @@
-﻿# Manual Operativo: Rol Vicerrectoría de Investigación
+# Manual Operativo: Rol Vicerrectoría de Investigación
 
 La **Vicerrectoría de Investigación** (junto con la **Vicerrectoría de Extensión**) ejerce la administración global del **SIIU**, define las políticas operativas, parametriza convocatorias, avala las solicitudes que requieren decisión de instancias superiores (CODI) y formaliza tanto el inicio como la liquidación presupuestal de los proyectos.
 
@@ -54,7 +54,7 @@ flowchart LR
 ```
 
 
-!!! info "REGLA DE APLICACIÓN"
+!!! info "Regla de aplicación"
     Mientras una solicitud no esté en estado **APLICADO**, el presupuesto del proyecto no se moverá, la fecha de terminación no se extenderá y el nuevo participante no aparecerá en las constancias.
 
 ---

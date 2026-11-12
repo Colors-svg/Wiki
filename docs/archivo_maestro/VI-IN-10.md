@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-10
 titulo: Instructivo para generar el reporte historial de proyectos
 version: 01

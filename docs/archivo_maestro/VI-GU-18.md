@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-18"
 titulo: "Guía para la matrícula de proyectos inscritos al SIIU"
 version: "01"

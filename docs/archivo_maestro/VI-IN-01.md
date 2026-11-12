@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-IN-01"
 titulo: "Instructivo para generar constancias de proyectos por grupos de investigación"
 version: "01"

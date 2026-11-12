@@ -35,7 +35,7 @@
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'diagram-zoom-btn';
-    btn.textContent = '⛶ Ampliar';
+    btn.innerHTML = '<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg><span>Ampliar</span>';
     btn.setAttribute('aria-label', 'Ampliar diagrama en ventana grande');
     btn.addEventListener('click', function (ev) {
       ev.stopPropagation();
@@ -73,7 +73,7 @@
 
     var btnOut = document.createElement('button');
     btnOut.type = 'button';
-    btnOut.textContent = 'A−';
+    btnOut.textContent = 'A-';
     btnOut.setAttribute('aria-label', 'Reducir zoom');
     var btnIn = document.createElement('button');
     btnIn.type = 'button';
@@ -95,7 +95,7 @@
     var btnClose = document.createElement('button');
     btnClose.type = 'button';
     btnClose.className = 'diagram-lightbox-close';
-    btnClose.textContent = '✕ Cerrar';
+    btnClose.textContent = '× Cerrar';
     btnClose.addEventListener('click', function () {
       dlg.close();
     });

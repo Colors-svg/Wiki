@@ -1,4 +1,4 @@
-﻿# Reglas de Oro del Sistema SIIU
+# Reglas de Oro del Sistema SIIU
 
 Para evitar caídas de sesión, pérdidas de datos, rechazos administrativos o bloqueos técnicos en el **SIIU**, ten en cuenta estas directrices obligatorias en todas tus operaciones.
 
@@ -43,7 +43,7 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 
 ## 3. 💳 Cuentas Bancarias para Jóvenes Investigadores
 
-!!! danger "RESTRICCIÓN DE TESORERÍA INSTITUCIONAL"
+!!! danger "Restricción de tesorería institucional"
     1. **Billeteras electrónicas terminantemente prohibidas:** No se aceptan Nequi, Daviplata, Bancolombia Ahorro a la Mano ni Agroseguro.
     2. **Cuenta de Ahorros Tradicional:** Solo cuentas bancarias ordinarias a nombre del estudiante titular de la pasantía.
     3. **Sin cartas para el banco:** La Universidad **no emite cartas laborales** para abrir cuentas a pasantes de Jóvenes Investigadores, al tratarse de un auxilio o estímulo económico.

@@ -1,4 +1,4 @@
-﻿# Proceso Clave: Evaluación Técnica, Aval y Subsanación
+# Proceso Clave: Evaluación Técnica, Aval y Subsanación
 
 !!! tip "En simple: ¿qué pasa después de enviar?"
     Tu Centro revisa que todo esté completo. Si algo falla, te lo **devuelve con instrucciones** (estado **Pendiente Actualización**): corriges solo lo indicado y reenvías. Si todo está bien, te da el **aval** y asigna evaluadores pares que califican. No es un rechazo definitivo: es un ciclo de corrección.

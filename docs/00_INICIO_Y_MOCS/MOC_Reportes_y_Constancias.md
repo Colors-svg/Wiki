@@ -1,4 +1,4 @@
-﻿# Mapa de Contenido (MOC): Reportes, Consultas y Constancias
+# Mapa de Contenido (MOC): Reportes, Consultas y Constancias
 
 El **Sistema SIIU** ofrece dos grandes tipos de salidas documentales:
 1. **Constancias Oficiales en PDF:** Documentos con validez institucional para acreditar participación de personas, de grupos o labores de evaluación de pares.
@@ -51,5 +51,5 @@ Herramientas para auditar la cartera de proyectos, verificar estados, vigencias 
 
 ---
 
-!!! tip "RECOMENDACIÓN DE RENDIMIENTO EN REPORTES"
+!!! tip "Recomendación de rendimiento en reportes"
     Al consultar en el SIIU, **evite seleccionar la opción "TODOS"** en todos los filtros de búsqueda simultáneamente. Esto genera consultas muy pesadas a la base de datos y puede ocasionar lentitud o bloqueo de sesión. Delimite siempre por año, centro o estado.

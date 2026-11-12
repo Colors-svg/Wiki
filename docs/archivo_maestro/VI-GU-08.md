@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-08"
 titulo: "Guía para la evaluación técnica y aval del proyecto"
 version: "01"

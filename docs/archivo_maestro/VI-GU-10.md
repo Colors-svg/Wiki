@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-10"
 titulo: "Guía para la matrícula de cupos en el programa joven investigador"
 version: "01"

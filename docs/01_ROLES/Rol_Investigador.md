@@ -1,4 +1,4 @@
-﻿# Manual Operativo: Rol Investigador Principal y Tutor
+# Manual Operativo: Rol Investigador Principal y Tutor
 
 El **Investigador Principal (IP)** o **Coordinador de Proyecto (CP)** es el líder académico y técnico del proyecto ante la Universidad de Antioquia y ante los entes financiadores. En el **SIIU**, el IP administra sus iniciativas desde la postulación hasta el cierre final.
 
@@ -45,17 +45,17 @@ flowchart TD
 
 ## 3. Puntos de Control Críticos para el Investigador
 
-!!! warning "ALERTA DE ARCHIVOS ADJUNTOS"
+!!! warning "Alerta de archivos adjuntos"
     - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.
     - **Formato:** Exclusivamente **PDF**.
     - **Error común:** Nombrar archivos largos como *"INFORME_FINAL_PROYECTO_DE_INVESTIGACION_2024_APROBADO_VERSION_FINAL.pdf"*. El sistema truncará el archivo y generará error de guardado. Usa: *"InformeFinal_2024.pdf"*.
 
-!!! danger "JÓVENES INVESTIGADORES: CUENTAS BANCARIAS"
+!!! danger "Jóvenes investigadores: cuentas bancarias"
     - **Cuentas NO permitidas:** Nequi, Daviplata, Ahorro a la Mano, Bancolombia Agroseguro.
     - **Cuentas permitidas:** Cuenta de ahorros tradicional a nombre del estudiante.
     - **Nota:** La Universidad **no emite cartas para apertura de cuentas bancarias** para Jóvenes Investigadores porque no se trata de un contrato laboral, sino de un estímulo económico.
 
-!!! note "CAMBIO DE RUBRO PRESUPUESTAL"
+!!! note "Cambio de rubro presupuestal"
     - No intentes trasladar presupuesto desde un rubro cuyo saldo actual sea \$0.
     - El proyecto debe encontrarse en estado **En ejecución**.
 

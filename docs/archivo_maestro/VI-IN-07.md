@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: VI-IN-07
 titulo: Instructivo para generar constancias de participación en proyectos
 version: 01

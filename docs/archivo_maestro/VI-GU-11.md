@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-11"
 titulo: "Guía para la solicitud de prórroga de cupos del programa Joven Investigador"
 version: "01"

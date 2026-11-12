@@ -1,4 +1,4 @@
-﻿# Base de Conocimiento y Wiki Operativa del SIIU
+# Base de Conocimiento y Wiki Operativa del SIIU
 ### Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 
 Bienvenido al centro de navegación y documentación interactiva del **Sistema de Información para la Investigación Universitaria (SIIU)**, administrado por la **Vicerrectoría de Investigación** y la **Vicerrectoría de Extensión** de la Universidad de Antioquia.
@@ -52,5 +52,5 @@ flowchart TD
 
 ---
 
-!!! tip "CONSEJO DE NAVEGACIÓN EN OBSIDIAN"
+!!! tip "Consejo de navegación en Obsidian"
     Esta wiki utiliza enlaces nativos bidireccionales `**Wikilinks**`. Puedes abrir el **Graph View** (Vista de Grafo) de Obsidian para ver visualmente cómo se interconectan los roles, las convocatorias y las solicitudes administrativas.

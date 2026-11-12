@@ -67,13 +67,13 @@
 1. El **Acuerdo Superior 466 de 2020** (sustituyó al 350/2007 y 121/1997).
 2. Exige CDP previo y CRP definitivo antes de comprar o contratar.
 3. Prohíbe **hechos cumplidos** (gastar sin respaldo presupuestal).
-4. Resumen simple: [Estatuto Financiero Vigente](05_MARCO_NORMATIVO/AS_466_2020_Estatuto_Financiero_Vigente.md) · Texto fiel: [LEG-AS-466-2020](../archivo_maestro/legalidad/LEG-AS-466-2020.md).
+4. Resumen simple: [Estatuto Financiero Vigente](05_MARCO_NORMATIVO/AS_466_2020_Estatuto_Financiero_Vigente.md) · Texto fiel: [LEG-AS-466-2020](archivo_maestro/legalidad/LEG-AS-466-2020.md).
 
 ### ¿Puedo crear una spin-off con resultados de mi investigación?
 1. Sí. La **Ley 1838 de 2017** lo permite, con o sin particulares.
 2. Si hubo recursos públicos, parte de los beneficios revierte a la UdeA mediante fondo CTi.
 3. La UdeA debe tener una coordinación que armonice esas actividades.
-4. Texto fiel: [LEG-LEY-1838-2017](../archivo_maestro/legalidad/LEG-LEY-1838-2017.md).
+4. Texto fiel: [LEG-LEY-1838-2017](archivo_maestro/legalidad/LEG-LEY-1838-2017.md).
 
 ### ¿Qué necesito para cerrar y liquidar mi proyecto?
 1. Tener el **100% de compromisos aprobados** y el informe final aprobado.

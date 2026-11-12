@@ -1,4 +1,4 @@
-﻿# Base de Conocimiento y Wiki Operativa del SIIU
+# Base de Conocimiento y Wiki Operativa del SIIU
 ### Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 
 Bienvenido al centro de navegación y documentación del **Sistema de Información para la Investigación Universitaria (SIIU)**, administrado por la **Vicerrectoría de Investigación** y la **Vicerrectoría de Extensión** de la Universidad de Antioquia.
@@ -6,7 +6,7 @@ Bienvenido al centro de navegación y documentación del **Sistema de Informaci�
 Esta Wiki sintetiza de forma didáctica, estructurada y modular los **31 procedimientos oficiales** (21 Guías operativas y 10 Instructivos técnicos) contenidos íntegramente en el [Catálogo Normativo Oficial](04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md).
 
 !!! tip "¿Primera vez aquí? Empieza en 5 minutos"
-    Ve a **[Empieza aquí en 5 minutos](inicio-rapido.md)**: elige tu perfil, sigue la ruta en 6 pasos y resuelve tu duda en 60 segundos. Los diagramas traen botón **⛶ Ampliar** arriba a la derecha.
+    Ve a **[Empieza aquí en 5 minutos](inicio-rapido.md)**: elige tu perfil, sigue la ruta en 6 pasos y resuelve tu duda en 60 segundos. Los diagramas traen botón **Ampliar** arriba a la derecha.
 
 ---
 

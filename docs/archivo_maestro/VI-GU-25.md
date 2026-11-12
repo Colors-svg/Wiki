@@ -1,4 +1,4 @@
-﻿---
+---
 codigo: "VI-GU-25"
 titulo: "Guía CKEditor para la matrícula de proyectos en el SIIU"
 version: "01"
