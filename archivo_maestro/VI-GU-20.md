@@ -86,22 +86,22 @@ El investigador principal o responsable del proyecto debe autenticarse en el por
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (Ver figura 1).
 
-   ![[VI-GU-20-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-20/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-GU-20-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-20/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** y seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones`. (Ver figura 3).
 
-   ![[VI-GU-20-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-20/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver figura 4).
 
-   ![[VI-GU-20-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-20/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 > [!NOTE]
@@ -117,7 +117,7 @@ Una vez se encuentre en SIIU ingrese por la opción: `Trámites administrativos 
 > - **Solicitud**: Son los cambios que se pueden realizar a un proyecto en: *Tiempo, presupuesto, participante o compromisos*, el cual ha sido aprobado por su **(co)financiador responsable interno**, es decir, pertenece a la Universidad de Antioquia.
 > - **Novedad**: Son los cambios que se pueden realizar a un proyecto en: *Tiempo, presupuesto, participante o compromisos*, el cual ha sido aprobado por su **(co)financiador responsable externo** a la Universidad de Antioquia.
 
-![[VI-GU-20-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-GU-20/figura-05.png)
 *Figura 5 - Nueva solicitud o novedad*
 
 El sistema presenta un formulario para realizar el filtro de búsqueda con los siguientes campos:
@@ -137,10 +137,10 @@ El sistema presenta un formulario para realizar el filtro de búsqueda con los s
 
 En el filtro de búsqueda seleccione el centro de investigación y en el campo código del proyecto indique el código correspondiente (o filtre por estado *En ejecución*), y presione **Consultar**. (Ver figuras 6 y 7).
 
-![[VI-GU-20-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-GU-20/figura-06.png)
 *Figura 6 - Consulta por código del proyecto*
 
-![[VI-GU-20-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-GU-20/figura-07.png)
 *Figura 7 - Filtro de búsqueda*
 
 El sistema trae como resultado la información en las siguientes columnas:
@@ -160,7 +160,7 @@ La columna acciones presenta iconos de acceso directo a la información del proy
 - **Ver Detalle**
 - **Ver compromisos** (Ver figura 8).
 
-![[VI-GU-20-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-GU-20/figura-08.png)
 *Figura 8 - Resultado de búsqueda*
 
 El sistema trae la consulta de todos los proyectos en estado *En ejecución* para el centro indicado. Seleccione el proyecto al cual desea realizarle la solicitud. (Ver figura 9).
@@ -179,7 +179,7 @@ El sistema muestra la barra de iconos que corresponde a las solicitudes administ
 | **Homologación de Compromisos** | Permite cambiar los compromisos. |
 | **Historial de Solicitudes** | Permite ver el histórico de las solicitudes de un proyecto. |
 
-![[VI-GU-20-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-GU-20/figura-09.png)
 *Figura 9 - Resultado de búsqueda y barra de solicitudes administrativas*
 
 ---
@@ -188,7 +188,7 @@ El sistema muestra la barra de iconos que corresponde a las solicitudes administ
 
 Seleccione la opción **Cambio Rubro**. El sistema despliega un nuevo formulario: en el campo **Entidad**, despliegue la lista de valores (aparecen los aportantes del proyecto: financiadores y cofinanciadores). Seleccione el aportante al cual va a realizar el cambio de rubro. (Ver figura 10).
 
-![[VI-GU-20-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-20/figura-10.png)
 *Figura 10 - Seleccione aportante*
 
 Una vez seleccionado el aportante, el sistema presenta el formulario estructurado en 12 secciones: (Ver figura 11).
@@ -208,7 +208,7 @@ Una vez seleccionado el aportante, el sistema presenta el formulario estructurad
 | **11** | Rubro destino. |
 | **12** | Botón Cancelar. |
 
-![[VI-GU-20-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-GU-20/figura-11.png)
 *Figura 11 - Formulario cambio de rubro*
 
 ---
@@ -217,14 +217,14 @@ Una vez seleccionado el aportante, el sistema presenta el formulario estructurad
 
 Antes de iniciar la solicitud de cambio de rubro, se recomienda consultar el estado actual de los recursos aportados por la entidad seleccionada. Para hacerlo, presione el botón **Ver disponibilidad por período** ubicado al lado derecho de las opciones en pantalla. (Ver figura 12).
 
-![[VI-GU-20-figura-12.png]]
+![Figura 12](docs/assets/figuras/VI-GU-20/figura-12.png)
 *Figura 12 - Ver disponibilidad por período*
 
 El sistema muestra los valores disponibles en cada rubro, contemplando los valores trasladados en la misma solicitud o en solicitudes de cambio de rubro que estén en trámite (en estado *Pendiente de Aval*, *Avalada*, *Aprobada*).
 
 Para consultar los recursos disponibles, seleccione el **período** que desea consultar y el sistema mostrará el árbol de rubros con su respectiva disponibilidad en dinero fresco. (Ver figura 13).
 
-![[VI-GU-20-figura-13.png]]
+![Figura 13](docs/assets/figuras/VI-GU-20/figura-13.png)
 *Figura 13 - Consultar disponibilidad*
 
 ---
@@ -236,20 +236,20 @@ El rubro de origen es el rubro del cual se van a trasladar los recursos (el que 
 1. Ubique en el lado izquierdo de la pantalla el listado de rubros y seleccione el rubro o subrubro que desea utilizar como origen. (Ver figura 14).
 2. Presione el botón **Rubro Origen>>**. (Ver figura 15).
 
-![[VI-GU-20-figura-14.png]]
+![Figura 14](docs/assets/figuras/VI-GU-20/figura-14.png)
 *Figura 14 - Seleccionar rubros*
 
-![[VI-GU-20-figura-15.png]]
+![Figura 15](docs/assets/figuras/VI-GU-20/figura-15.png)
 *Figura 15 - Rubro Origen*
 
 3. Seleccione el **Período del Rubro de Origen** del que desea trasladar recursos (por ejemplo: período `1`). (Ver figura 16).
 
-![[VI-GU-20-figura-16.png]]
+![Figura 16](docs/assets/figuras/VI-GU-20/figura-16.png)
 *Figura 16 - Seleccionar período del Rubro de origen*
 
 4. El sistema mostrará en **color rojo** la cantidad de dinero que el rubro seleccionado tiene disponible en el campo *Consultar disponibilidad*. A su vez, el sistema habilita el botón **Rubro Destino>>**. (Ver figura 17).
 
-![[VI-GU-20-figura-17.png]]
+![Figura 17](docs/assets/figuras/VI-GU-20/figura-17.png)
 *Figura 17 - Recurso disponible del rubro*
 
 ---
@@ -261,28 +261,28 @@ El rubro de destino es el que recibirá el dinero trasladado:
 1. Seleccione el rubro que desea que reciba el dinero en la lista que aparece al lado izquierdo de la pantalla. A continuación, presione clic en el botón **Rubro Destino>>**. (Ver figura 18).
    *(En caso de no encontrarlo en la lista, deberá crearlo previamente usando las opciones Agregar rubro ++ o Agregar subrubro ++).*
 
-![[VI-GU-20-figura-18.png]]
+![Figura 18](docs/assets/figuras/VI-GU-20/figura-18.png)
 *Figura 18 - Rubro destino*
 
 2. Seleccione el número de período para el campo **Período del Rubro Destino** (ejemplo: período `1`). (Ver figura 19).
 
-![[VI-GU-20-figura-19.png]]
+![Figura 19](docs/assets/figuras/VI-GU-20/figura-19.png)
 *Figura 19 - Seleccionar periodo del Rubro Destino*
 
 3. El sistema habilita el campo **Valor a trasladar**. Ingrese el monto exacto del recurso que desea mover desde el rubro origen hacia el rubro destino, y presione la opción **Guardar**. (Ver figura 20).
 
-![[VI-GU-20-figura-20.png]]
+![Figura 20](docs/assets/figuras/VI-GU-20/figura-20.png)
 *Figura 20 - Confirmar valor a trasladar*
 
 4. El sistema muestra el resumen del traslado en una tabla que se actualiza automáticamente con la información ingresada (Rubro Origen, Valor a Trasladar, Rubro Destino).
 5. Agregue la **Justificación** detallada del cambio requerido en el campo de texto y presione el botón **Guardar**. (Ver figura 21).
 
-![[VI-GU-20-figura-21.png]]
+![Figura 21](docs/assets/figuras/VI-GU-20/figura-21.png)
 *Figura 21 - Tabla resumen del cambio de rubro*
 
 Una vez presionado el botón *Guardar*, el sistema muestra el mensaje *"Creado exitosamente"* en la parte superior. Observe que se habilitan las pestañas **Condiciones formales** y **Adjuntar documento** en la parte superior, y en la parte inferior se activa el botón **Siguiente**. (Ver figura 22).
 
-![[VI-GU-20-figura-22.png]]
+![Figura 22](docs/assets/figuras/VI-GU-20/figura-22.png)
 *Figura 22 - Nuevas pestañas*
 
 ---
@@ -300,12 +300,12 @@ Esta opción permite agregar un **nuevo rubro padre** al proyecto.
 2. El sistema despliega el listado de rubros disponibles para agregar (Personal, Servicios técnicos, Materiales e insumos, Equipos, Software, Publicaciones, etc.).
 3. Seleccione el rubro requerido, ingrese la **Justificación del investigador** y presione el botón **Crear Rubro**. (Ver figura 23).
 
-![[VI-GU-20-figura-23.png]]
+![Figura 23](docs/assets/figuras/VI-GU-20/figura-23.png)
 *Figura 23 - Listado de rubros disponibles para agregar*
 
 4. El sistema genera el mensaje *"Rubro creado exitosamente"* y actualiza la lista del árbol presupuestal con el nuevo rubro creado. (Ver figura 24).
 
-![[VI-GU-20-figura-24.png]]
+![Figura 24](docs/assets/figuras/VI-GU-20/figura-24.png)
 *Figura 24 - Lista con nuevo rubro*
 
 ---
@@ -317,7 +317,7 @@ Esta opción permite crear **rubros hijos (subrubros)** para discriminar gastos 
 - Posiciónese y seleccione primero el rubro padre.
 - Presione el botón **Agregar sub-rubro ++**. (Ver figura 25).
 
-![[VI-GU-20-figura-25.png]]
+![Figura 25](docs/assets/figuras/VI-GU-20/figura-25.png)
 *Figura 25 - Agregar subrubro*
 
 1. El sistema abre una nueva ventana donde debe asignar los campos obligatorios:
@@ -325,12 +325,12 @@ Esta opción permite crear **rubros hijos (subrubros)** para discriminar gastos 
    - **Justificación**: Detalle la necesidad presupuestal.
    - Presione el botón **Crear Rubro**. (Ver figura 26).
 
-![[VI-GU-20-figura-26.png]]
+![Figura 26](docs/assets/figuras/VI-GU-20/figura-26.png)
 *Figura 26 - Crear subrubro*
 
 2. Puede consultar el subrubro creado presionando el botón **Ver disponibilidad por período** para verificar su inclusión bajo el rubro padre. (Ver figura 27).
 
-![[VI-GU-20-figura-27.png]]
+![Figura 27](docs/assets/figuras/VI-GU-20/figura-27.png)
 *Figura 27 - Ver subrubro creado*
 
 ---
@@ -341,7 +341,7 @@ Si la convocatoria del proyecto exige condiciones formales para el cambio de rub
 - Diligencie la columna *Cumplimiento* si corresponde.
 - De lo contrario, presione el botón **Guardar** y luego haga clic en **Siguiente** para continuar. (Ver figura 28).
 
-![[VI-GU-20-figura-28.png]]
+![Figura 28](docs/assets/figuras/VI-GU-20/figura-28.png)
 *Figura 28 - Condiciones formales*
 
 ---
@@ -352,7 +352,7 @@ Seleccione la pestaña **Adjuntar Documento** para cargar el soporte técnico o 
 
 1. Presione el botón **+** para agregar un nuevo archivo. (Ver figura 29).
 
-![[VI-GU-20-figura-29.png]]
+![Figura 29](docs/assets/figuras/VI-GU-20/figura-29.png)
 *Figura 29 - Adjuntar documento*
 
 > [!CAUTION] Restricciones institucionales para el nombre de archivos
@@ -367,7 +367,7 @@ Seleccione la pestaña **Adjuntar Documento** para cargar el soporte técnico o 
    - Presione **Cargar Archivo** y verifique que la barra de carga esté azul con el nombre del archivo.
    - Presione **Guardar**. (Ver figura 30).
 
-![[VI-GU-20-figura-30.png]]
+![Figura 30](docs/assets/figuras/VI-GU-20/figura-30.png)
 *Figura 30 - Adjuntar documento*
 
 3. Valide que el archivo cargado aparezca listado en la tabla de la pestaña *Adjuntar Documento*.
@@ -384,7 +384,7 @@ Presione el botón **ENVIAR** para radicar la solicitud formalmente ante el Cent
 
 Al presionar el botón **ENVIAR**, el sistema mostrará el mensaje de confirmación: *"Enviado exitosamente"* en la parte superior de la ventana. (Ver figura 31).
 
-![[VI-GU-20-figura-31.png]]
+![Figura 31](docs/assets/figuras/VI-GU-20/figura-31.png)
 *Figura 31 - Enviar solicitud*
 
 ---
@@ -395,7 +395,7 @@ Antes de enviar la solicitud administrativa, esta puede ser editada en caso de q
 
 1. Ingrese por la opción: `Trámites administrativos / Seguimiento Solicitudes y novedades`. (Ver figura 32).
 
-![[VI-GU-20-figura-32.png]]
+![Figura 32](docs/assets/figuras/VI-GU-20/figura-32.png)
 *Figura 32 - Editar solicitud*
 
 2. El sistema abre el formulario de búsqueda con los siguientes campos: (Ver figura 33).
@@ -410,7 +410,7 @@ Antes de enviar la solicitud administrativa, esta puede ser editada en caso de q
 | **Rango de fecha inicial** | Seleccione la fecha inicial de creación. |
 | **Rango de fecha final** | Seleccione la fecha final de creación. |
 
-![[VI-GU-20-figura-33.png]]
+![Figura 33](docs/assets/figuras/VI-GU-20/figura-33.png)
 *Figura 33 - Filtro de búsqueda para editar*
 
 3. Presione **Consultar**, seleccione el proyecto en la lista de resultados y continúe con el registro hasta terminar y enviar la solicitud.

@@ -85,22 +85,22 @@ Investigador principal o responsable del proyecto debe autenticarse en el portal
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (Ver figura 1).
 
-   ![[VI-GU-19-figura-01.png]]
+   ![Figura 1](../assets/figuras/VI-GU-19/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-GU-19-figura-02.png]]
+   ![Figura 2](../assets/figuras/VI-GU-19/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones`. (Ver figura 3).
 
-   ![[VI-GU-19-figura-03.png]]
+   ![Figura 3](../assets/figuras/VI-GU-19/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver figura 4).
 
-   ![[VI-GU-19-figura-04.png]]
+   ![Figura 4](../assets/figuras/VI-GU-19/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 !!! note "> Se abre una nueva ventana con la aplicación SIIU. Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU."
@@ -115,7 +115,7 @@ Una vez se encuentre en SIIU ingrese por la opción: `Trámites administrativos 
 > - **Solicitud**: Son los cambios que se pueden realizar a un proyecto en: *Tiempo, presupuesto, participante o compromisos*, el cual ha sido aprobado por su **(co)financiador responsable interno**, es decir, pertenece a la Universidad de Antioquia.
 > - **Novedad**: Son los cambios que se pueden realizar a un proyecto en: *Tiempo, presupuesto, participante o compromisos*, el cual ha sido aprobado por su **(co)financiador responsable externo** a la Universidad de Antioquia.
 
-![[VI-GU-19-figura-05.png]]
+![Figura 5](../assets/figuras/VI-GU-19/figura-05.png)
 *Figura 5 - Nueva solicitud o novedad*
 
 ---
@@ -139,10 +139,10 @@ El sistema presenta un formulario para realizar el filtro de búsqueda con los s
 
 En el filtro de búsqueda seleccione el centro de investigación, en el campo código del proyecto indique el código (o filtre por estado *En ejecución*), y presione **Consultar**. (Ver figuras 6 y 7).
 
-![[VI-GU-19-figura-06.png]]
+![Figura 6](../assets/figuras/VI-GU-19/figura-06.png)
 *Figura 6 - Consulta por código del proyecto*
 
-![[VI-GU-19-figura-07.png]]
+![Figura 7](../assets/figuras/VI-GU-19/figura-07.png)
 *Figura 7 - Filtro de búsqueda*
 
 El sistema trae como resultado una tabla con las columnas:
@@ -165,7 +165,7 @@ La columna acciones presenta los siguientes iconos de acceso directo a la inform
 | | **Ver Detalle** |
 | | **Ver compromisos** |
 
-![[VI-GU-19-figura-08.png]]
+![Figura 8](../assets/figuras/VI-GU-19/figura-08.png)
 *Figura 8 - Resultado de búsqueda*
 
 Seleccione el proyecto al cual desea realizarle la solicitud. El sistema muestra la barra superior de solicitudes administrativas: (Ver figura 9).
@@ -182,7 +182,7 @@ Seleccione el proyecto al cual desea realizarle la solicitud. El sistema muestra
 | **Homologación de Compromisos** | Permite cambiar los compromisos. |
 | **Historial de Solicitudes** | Permite ver el histórico de las solicitudes de un proyecto. |
 
-![[VI-GU-19-figura-09.png]]
+![Figura 9](../assets/figuras/VI-GU-19/figura-09.png)
 *Figura 9 - Resultado de búsqueda por filtros definidos y barra de solicitudes*
 
 ---
@@ -203,7 +203,7 @@ En la solicitud de cambio de participante se puede realizar:
 
 Seleccione el botón **Cambio en Participante**; el sistema despliega el nuevo formulario. (Ver figura 10).
 
-![[VI-GU-19-figura-10.png]]
+![Figura 10](../assets/figuras/VI-GU-19/figura-10.png)
 *Figura 10 - Solicitud cambio de participante*
 
 ---
@@ -214,13 +214,13 @@ Seleccione el botón **Cambio en Participante**; el sistema despliega el nuevo f
 2. El sistema lo traslada a la tabla inferior **Participantes a Retirar**.
 3. **Asigne el valor de `0` al campo % PyB nuevo.** (Ver figura 11).
 
-![[VI-GU-19-figura-11.png]]
+![Figura 11](../assets/figuras/VI-GU-19/figura-11.png)
 *Figura 11 - Participante a retirar*
 
 - **Caso de solo retiro**: El sistema permite realizar la solicitud de solo retiro del participante (sin reemplazo). En este caso no se selecciona *Consultar persona*. Ingrese la **Justificación** del retiro, presione **Guardar** y continúe con la solicitud hasta finalizar. (Ver figura 12).
 - **Caso de reemplazo**: El sistema permite reemplazar al usuario saliente ingresando un nuevo participante desde el botón **Consultar persona**.
 
-![[VI-GU-19-figura-12.png]]
+![Figura 12](../assets/figuras/VI-GU-19/figura-12.png)
 *Figura 12 - Retiro de participante*
 
 ---
@@ -236,10 +236,10 @@ Para ingresar un nuevo participante, presione el botón **Consultar Persona**.
    - Ingrese el nombre y apellido en el campo **Nombre**.
    - Presione el botón **Consultar**. (Ver figuras 13 y 14).
 
-![[VI-GU-19-figura-13.png]]
+![Figura 13](../assets/figuras/VI-GU-19/figura-13.png)
 *Figura 13 - Consulta x cédula*
 
-![[VI-GU-19-figura-14.png]]
+![Figura 14](../assets/figuras/VI-GU-19/figura-14.png)
 *Figura 14 - Consulta x Nombre*
 
 2. Seleccione el participante presionando el ícono verde de visto bueno que aparece al lado derecho del nombre.
@@ -263,7 +263,7 @@ Para ingresar un nuevo participante, presione el botón **Consultar Persona**.
 | **Función** | Ingrese las funciones a desarrollar en el proyecto por parte del participante. |
 | **Observaciones** | Ingrese observaciones si son requeridas. |
 
-![[VI-GU-19-figura-15.png]]
+![Figura 15](../assets/figuras/VI-GU-19/figura-15.png)
 *Figura 15 - Ingreso de participante*
 
 4. Una vez ingresada la información, el sistema muestra en la pantalla principal la tabla **Participantes a Ingresar** con la operación `Ingresar`. (Ver figura 16).
@@ -273,7 +273,7 @@ Para ingresar un nuevo participante, presione el botón **Consultar Persona**.
 !!! warning "Participante no registrado en el portal"
 > Si el participante no se encuentra registrado, el sistema genera el mensaje *"La consulta no trajo resultados"*. En este caso, el investigador principal o responsable debe radicar un **ticket asignado a la Vicerrectoría de Investigación** indicando: Tipo de documento, número de documento, Nombre completo, correo electrónico y teléfono.
 
-![[VI-GU-19-figura-16.png]]
+![Figura 16](../assets/figuras/VI-GU-19/figura-16.png)
 *Figura 16 - Participantes a ingresar*
 
 ---
@@ -290,7 +290,7 @@ Para cambiar el %P&B de los participantes del proyecto:
 
 4. Finalice presionando el botón **Guardar**. (Ver figura 17).
 
-![[VI-GU-19-figura-17.png]]
+![Figura 17](../assets/figuras/VI-GU-19/figura-17.png)
 *Figura 17 - Cambio de% PyB*
 
 ---
@@ -303,7 +303,7 @@ Para cambiar las funciones de los participantes del proyecto:
 3. El sistema presenta una ventana emergente que muestra las *Funciones Anteriores* y un campo para ingresar las *Funciones Nuevas*.
 4. Ingrese los ajustes correspondientes y presione **Confirmar** para terminar. (Ver figura 18).
 
-![[VI-GU-19-figura-18.png]]
+![Figura 18](../assets/figuras/VI-GU-19/figura-18.png)
 *Figura 18 - Cambiar funciones del participante*
 
 ---
@@ -320,15 +320,15 @@ En la pestaña **Condiciones Formales** se validan las condiciones previas del t
 !!! note "Firma electrónica del Investigador Principal"
 > En el momento en que el Investigador Principal o responsable del proyecto acepta los términos y condiciones en la plataforma, **no se requiere su firma física manual** en el documento de respaldo generado, puesto que el sistema estampa automáticamente su firma electrónica institucional.
 
-![[VI-GU-19-figura-19.png]]
+![Figura 19](../assets/figuras/VI-GU-19/figura-19.png)
 *Figura 19 - Términos y condiciones*
 
 3. El sistema genera y descarga un archivo PDF con la información completa del cambio de participante (operaciones de retiro, ingreso, cambio de dedicación, P&B y funciones). Este archivo constituye el **Documento de Respaldo de Solicitud de Cambio de Participante**. (Ver figuras 20 y 21).
 
-![[VI-GU-19-figura-20.png]]
+![Figura 20](../assets/figuras/VI-GU-19/figura-20.png)
 *Figura 20 - Documento respaldo*
 
-![[VI-GU-19-figura-21.png]]
+![Figura 21](../assets/figuras/VI-GU-19/figura-21.png)
 *Figura 21 - Firmas documento de respaldo*
 
 !!! info "Recolección de firmas y radicación"

@@ -76,23 +76,23 @@ El usuario con rol de centro debe autenticarse en el portal de la Universidad de
 
 1. Ingrese al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-06-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-06/figura-01.png)
    *Figura 1 - Conectar al portal*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-06-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-06/figura-02.png)
    *Figura 2 - Inicio de sesión*
 
 3. Presione clic en la opción **Enlaces de Interés**, seleccione **Mis aplicaciones**.  
    *Ruta*: `Enlaces de interés → Mis aplicaciones`.
 
-   ![[VI-GU-06-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-06/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad, seleccione **SIIU**.
 
-   ![[VI-GU-06-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-06/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 5. Se abre una nueva ventana con la aplicación SIIU.  
@@ -108,12 +108,12 @@ Para el caso de los proyectos registrados en una convocatoria de *Primer proyect
 1. Para iniciar este proceso estando en SIIU, ingrese a la opción:  
    `Convocatorias > Proyectos en evaluación`.
 
-   ![[VI-GU-06-figura-05.png]]
+   ![Figura 5](docs/assets/figuras/VI-GU-06/figura-05.png)
    *Figura 5 - Opción de menú*
 
 2. Realice el filtro de búsqueda teniendo en cuenta que el proyecto se encuentre en estado **Aprobada Evaluación técnica**.
 
-   ![[VI-GU-06-figura-06.png]]
+   ![Figura 6](docs/assets/figuras/VI-GU-06/figura-06.png)
    *Figura 6 - Filtro de búsqueda*
 
 ---
@@ -124,12 +124,12 @@ Cuando el proyecto se encuentra en estado **Aprobada Evaluación técnica**, el 
 
 1. Una vez haya realizado la consulta, presione el botón **Acciones** y en los tres puntos seleccione **Asignar Evaluadores**.
 
-   ![[VI-GU-06-figura-07.png]]
+   ![Figura 7](docs/assets/figuras/VI-GU-06/figura-07.png)
    *Figura 7 - Asignar Evaluadores*
 
 2. El sistema muestra el o los evaluadores que fue(n) recomendado(s) en la matrícula del proyecto. Revise que en el campo asignación, el evaluador aparece con la etiqueta **Recomendado**. Presione los tres puntos del botón acciones.
 
-   ![[VI-GU-06-figura-08.png]]
+   ![Figura 8](docs/assets/figuras/VI-GU-06/figura-08.png)
    *Figura 8 (en doc ref. Figura 2) - Evaluador recomendado*
 
 3. El sistema presenta las siguientes acciones:
@@ -142,24 +142,24 @@ Cuando el proyecto se encuentra en estado **Aprobada Evaluación técnica**, el 
 | **Asignar rol de evaluador** | Permite habilitar al evaluador la ficha de evaluación. |
 | **Enviar correo con manual** | Envía al evaluador un correo con el enlace del proyecto. |
 
-   ![[VI-GU-06-figura-09.png]]
+   ![Figura 9](docs/assets/figuras/VI-GU-06/figura-09.png)
    *Figura 9 - Menú botón acciones evaluador*
 
 #### 2.5.1. Opción Editar
 
 1. Seleccione la opción **Editar**, el sistema presenta un nuevo formulario. En el campo asignación trae los valores *seleccionado* o *descartado*; elija la opción requerida para cambiar de estado al evaluador recomendado, agregue información en el campo comentario y presione **Editar**.
 
-   ![[VI-GU-06-figura-10.png]]
+   ![Figura 10](docs/assets/figuras/VI-GU-06/figura-10.png)
    *Figura 10 - Editar Evaluador*
 
 2. Para aceptar el Evaluador debe elegir la opción **Seleccionado**. El sistema abre un nuevo formulario para definir la **Fecha límite de envío** de la evaluación y el **Formato de evaluación** que será utilizado por el evaluador. Finalice con el botón **EDITAR**.
 
-   ![[VI-GU-06-figura-11.png]]
+   ![Figura 11](docs/assets/figuras/VI-GU-06/figura-11.png)
    *Figura 11 (en doc ref. Figura 3) - Editar evaluador*
 
 3. Una vez se ha seleccionado el evaluador, el sistema muestra el resumen. Presione el botón **GUARDAR**.
 
-   ![[VI-GU-06-figura-12.png]]
+   ![Figura 12](docs/assets/figuras/VI-GU-06/figura-12.png)
    *Figura 12 (en doc ref. Figura 4) - Resumen de evaluador*
 
 #### 2.5.2. Opción Eliminar
@@ -168,14 +168,14 @@ Puede suceder que se requiera eliminar el evaluador. Presione la opción **Elimi
 *¿Está seguro que desea eliminar este evaluador?*  
 Si desea eliminarlo presione **Eliminar**, o **Cancelar** para descartar.
 
-![[VI-GU-06-figura-13.png]]
+![Figura 13](docs/assets/figuras/VI-GU-06/figura-13.png)
 *Figura 13 - Eliminar evaluador*
 
 #### 2.5.3. Opción Actualizar información de evaluador
 
 En esta opción, el sistema muestra la información personal del evaluador para modificar en caso de ser requerido (Identificación, Tipo de documento, Fecha de nacimiento, Nombres, Primer apellido, Segundo apellido).
 
-![[VI-GU-06-figura-14.png]]
+![Figura 14](docs/assets/figuras/VI-GU-06/figura-14.png)
 *Figura 14 - Actualizar información del evaluador*
 
 Una vez termine de actualizar los datos personales y/o institución, presione el botón **Actualizar evaluador**, o cancelar para descartar los cambios.
@@ -184,7 +184,7 @@ Una vez termine de actualizar los datos personales y/o institución, presione el
 
 En esta opción el sistema genera un mensaje indicando que se ha enviado al evaluador el enlace para visualizar el proyecto.
 
-![[VI-GU-06-figura-15.png]]
+![Figura 15](docs/assets/figuras/VI-GU-06/figura-15.png)
 *Figura 15 (en doc ref. Figura 5) - Envío notificación al evaluador*
 
 ---
@@ -193,42 +193,42 @@ En esta opción el sistema genera un mensaje indicando que se ha enviado al eval
 
 Cuando no se tienen evaluadores recomendados es necesario **Agregar Nuevo evaluador**, cuando la convocatoria lo exija. Presione el botón **AGREGAR EVALUADOR**.
 
-![[VI-GU-06-figura-16.png]]
+![Figura 16](docs/assets/figuras/VI-GU-06/figura-16.png)
 *Figura 16 (en doc ref. Figura 6) - Filtro de búsqueda Agregar evaluador*
 
 El sistema presenta nuevo formulario para agregar un nuevo evaluador al sistema. Ingrese el número de documento en el campo identificación y presione **Buscar**.
 
-![[VI-GU-06-figura-17.png]]
+![Figura 17](docs/assets/figuras/VI-GU-06/figura-17.png)
 *Figura 17 (en doc ref. Figura 7) - Agregar evaluador*
 
 #### 2.6.1. Evaluador no registrado en SIIU
 
 Si el evaluador no se encuentra registrado en SIIU, el sistema permite el ingreso del nuevo evaluador por el botón **Registrar evaluador +**.
 
-![[VI-GU-06-figura-18.png]]
+![Figura 18](docs/assets/figuras/VI-GU-06/figura-18.png)
 *Figura 18 - Agregar nuevo evaluador*
 
 Ingrese toda la información requerida (Identificación, Tipo de documento, Fecha de nacimiento, Nombres, Primer apellido, Segundo apellido, Sexo, Correo, Teléfono, Celular, Estado, Dirección, Continente, País, Departamento, Municipio, Institución, Área de especialidad, Dirección CvLac, Observación). Presione **Registrar evaluador**.
 
-![[VI-GU-06-figura-19.png]]
+![Figura 19](docs/assets/figuras/VI-GU-06/figura-19.png)
 *Figura 19 - Datos nuevo evaluador*
 
 #### 2.6.2. Agregar evaluador existente
 
 1. Ingrese el número de documento en el campo **Identificación** y presione **Buscar**. El sistema trae la información del evaluador que existe en SIIU. Presione el botón **Seleccionar**.
 
-   ![[VI-GU-06-figura-20.png]]
+   ![Figura 20](docs/assets/figuras/VI-GU-06/figura-20.png)
    *Figura 20 - Consultar evaluador*
 
-   ![[VI-GU-06-figura-21.png]]
+   ![Figura 21](docs/assets/figuras/VI-GU-06/figura-21.png)
    *Figura 21 - Seleccionar evaluador*
 
 2. Se abre una nueva ventana para asignar el evaluador; el sistema despliega las opciones: *Recomendado, Seleccionado, Descartado*. Elija la opción **Seleccionado**. Ingrese la información requerida (Fecha límite de envío, Formato de evaluación, Correo de notificación, Comentario) y finalice con el botón **AGREGAR**.
 
-   ![[VI-GU-06-figura-22.png]]
+   ![Figura 22](docs/assets/figuras/VI-GU-06/figura-22.png)
    *Figura 22 (en doc ref. Figura 8) - Pasar el evaluador a estado seleccionado*
 
-   ![[VI-GU-06-figura-23.png]]
+   ![Figura 23](docs/assets/figuras/VI-GU-06/figura-23.png)
    *Figura 23 (en doc ref. Figura 9) - Agregar evaluador existente*
 
 ---
@@ -237,7 +237,7 @@ Ingrese toda la información requerida (Identificación, Tipo de documento, Fech
 
 1. Estando en la pantalla de resumen de los evaluadores seleccionados presione los tres puntos de la columna acciones.
 
-   ![[VI-GU-06-figura-24.png]]
+   ![Figura 24](docs/assets/figuras/VI-GU-06/figura-24.png)
    *Figura 24 - Asignar rol evaluador*
 
 2. Seleccione el registro del evaluador y presione la opción **Asignar rol de evaluador**. Presione **GUARDAR** para finalizar.

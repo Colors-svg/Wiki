@@ -77,23 +77,23 @@ El usuario con rol Vicerrectoría debe autenticarse en el portal de la Universid
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-12-figura-01.png]]
+   ![Figura 1](../assets/figuras/VI-GU-12/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-12-figura-02.png]]
+   ![Figura 2](../assets/figuras/VI-GU-12/figura-02.png)
    *Figura 2 - Ingresar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés**, seleccione **Mis aplicaciones**.  
    *Ruta*: `Enlaces de interés → Mis aplicaciones`.
 
-   ![[VI-GU-12-figura-03.png]]
+   ![Figura 3](../assets/figuras/VI-GU-12/figura-03.png)
    *Figura 3 – Enlaces de interés / Mis aplicaciones*
 
 4. El sistema abre una ventana con las aplicaciones de la Universidad; seleccione **SIIU**.
 
-   ![[VI-GU-12-figura-04.png]]
+   ![Figura 4](../assets/figuras/VI-GU-12/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 5. Se abre una nueva ventana con la aplicación SIIU.  
@@ -110,7 +110,7 @@ El usuario con rol Vicerrectoría debe autenticarse en el portal de la Universid
 1. Ingrese con rol Vicerrectoría en el SIIU y diríjase al menú:  
    `Trámites administrativos > Seguimiento a solicitudes y novedades`.
 
-   ![[VI-GU-12-figura-05.png]]
+   ![Figura 5](../assets/figuras/VI-GU-12/figura-05.png)
    *Figura 5 - Trámites Administrativos / Seguimiento Solicitudes y novedades*
 
 2. El sistema abre una ventana donde podrá ingresar los parámetros de búsqueda:
@@ -119,12 +119,12 @@ El usuario con rol Vicerrectoría debe autenticarse en el portal de la Universid
    - En el campo **Estado** seleccione la opción **“Avalada”**.
    - Presione el botón **Consultar**.
 
-   ![[VI-GU-12-figura-06.png]]
+   ![Figura 6](../assets/figuras/VI-GU-12/figura-06.png)
    *Figura 6 - Filtro de búsqueda*
 
 3. El sistema trae como resultado las solicitudes en estado Avalada. Observe que aparece un icono check de color azul (✔️), el cual indica que es el proceso para Aprobar la solicitud.
 
-   ![[VI-GU-12-figura-07.png]]
+   ![Figura 7](../assets/figuras/VI-GU-12/figura-07.png)
    *Figura 7 - Resultado de consulta*
 
    Iconos de acceso en la columna **Acciones**:
@@ -135,7 +135,7 @@ El usuario con rol Vicerrectoría debe autenticarse en el portal de la Universid
 
 4. Para aprobar la solicitud, garantice que está en la solicitud requerida; luego ubíquese en la columna acciones y presione clic en el icono azul de **Aprobar solicitud**.
 
-   ![[VI-GU-12-figura-08.png]]
+   ![Figura 8](../assets/figuras/VI-GU-12/figura-08.png)
    *Figura 8 - Seleccionar avalar solicitud*
 
 5. El sistema abre un formulario con la siguiente estructura:
@@ -145,7 +145,7 @@ El usuario con rol Vicerrectoría debe autenticarse en el portal de la Universid
    - **Botón Ver recomendaciones**: Permite elegir la opción de recomendación.
    - **Barra de botones de gestión**: Guardar, siguiente y salir.
 
-   ![[VI-GU-12-figura-09.png]]
+   ![Figura 9](../assets/figuras/VI-GU-12/figura-09.png)
    *Figura 9 - Pestaña aprobar solicitud*
 
 ---
@@ -163,10 +163,10 @@ Una vez se oprima la opción **“Ver recomendaciones”**, el sistema habilita 
 | **Fecha acta** | Ingrese la fecha del acta |
 | **Comentario** | Ingrese comentario del proceso que está realizando |
 
-![[VI-GU-12-figura-10.png]]
+![Figura 10](../assets/figuras/VI-GU-12/figura-10.png)
 *Figura 10 - Ingresar información completa*
 
-![[VI-GU-12-figura-11.png]]
+![Figura 11](../assets/figuras/VI-GU-12/figura-11.png)
 *Figura 11 - Recomendación Aprobar*
 
 1. En el campo **Recomendación**, seleccione entre las opciones **“Aprobar”** o **“Rechazar”** de acuerdo con la recomendación del comité técnico.
@@ -174,7 +174,7 @@ Una vez se oprima la opción **“Ver recomendaciones”**, el sistema habilita 
 3. Presione el botón **Guardar**.
 4. Verifique que el mensaje de **Guardado exitoso** se visualice en la parte superior. Para continuar con la siguiente pestaña, clic en el botón **“Siguiente”**.
 
-![[VI-GU-12-figura-12.png]]
+![Figura 12](../assets/figuras/VI-GU-12/figura-12.png)
 *Figura 12 - Almacenamiento exitoso*
 
 ---
@@ -184,10 +184,10 @@ Una vez se oprima la opción **“Ver recomendaciones”**, el sistema habilita 
 En esta pestaña podrá ver el listado de todas las solicitudes y novedades que ha tenido el proyecto a lo largo del tiempo.  
 Presione el botón **“Siguiente”** para continuar con el proceso.
 
-![[VI-GU-12-figura-13.png]]
+![Figura 13](../assets/figuras/VI-GU-12/figura-13.png)
 *Figura 13 - Pestaña Historial*
 
-![[VI-GU-12-figura-14.png]]
+![Figura 14](../assets/figuras/VI-GU-12/figura-14.png)
 *Figura 14 - Historial de solicitudes*
 
 ---
@@ -196,7 +196,7 @@ Presione el botón **“Siguiente”** para continuar con el proceso.
 
 En esta pestaña valide las condiciones formales existentes aplicables a la prórroga o trámite. Si la pantalla no tiene condiciones formales adicionales requeridas, presione el botón **“Siguiente”**.
 
-![[VI-GU-12-figura-15.png]]
+![Figura 15](../assets/figuras/VI-GU-12/figura-15.png)
 *Figura 15 - Condiciones formales*
 
 ---
@@ -207,7 +207,7 @@ En esta pestaña puede adjuntar los documentos de soporte que requiera la Vicerr
 
 1. Presione el botón **+ Agregar** ubicado al lado derecho de la pantalla.
 
-   ![[VI-GU-12-figura-16.png]]
+   ![Figura 16](../assets/figuras/VI-GU-12/figura-16.png)
    *Figura 16 - Adjuntar documento*
 
    !!! info "> El nombre del archivo a adjuntar debe ser corto, no exceder 30 caracteres, sin tildes ni caracteres especiales y sin mayúscula sostenida. No colocar documentos con nombres repetidos."
@@ -215,7 +215,7 @@ En esta pestaña puede adjuntar los documentos de soporte que requiera la Vicerr
 2. En la ventana emergente complete: *Nombre del documento*, *Emisor*, *Fecha de emisión*, *Número* y *Descripción*.
 3. Presione el botón **“Seleccionar Archivo”**, elija el archivo desde su ordenador y presione la opción **“Cargar Archivo”**. Luego presione **Guardar**.
 
-![[VI-GU-12-figura-17.png]]
+![Figura 17](../assets/figuras/VI-GU-12/figura-17.png)
 *Figura 17 - Adjuntar documento*
 
 ---
@@ -224,14 +224,14 @@ En esta pestaña puede adjuntar los documentos de soporte que requiera la Vicerr
 
 1. Presione el botón **ENVIAR** para que la solicitud sea enviada de nuevo al **Centro de Investigación**, quien se encarga de generar la adenda y aplicar la solicitud.
 
-   ![[VI-GU-12-figura-18.png]]
+   ![Figura 18](../assets/figuras/VI-GU-12/figura-18.png)
    *Figura 18 - Enviar solicitud*
 
 2. La solicitud queda formalmente en estado **Aprobada**.
 3. El sistema mostrará un mensaje de confirmación en la parte superior notificando:  
    *“Guardado éxitosamente. La solicitud fue actualizada exitosamente. Su estado asignado es: Aprobada.”*
 
-   ![[VI-GU-12-figura-19.png]]
+   ![Figura 19](../assets/figuras/VI-GU-12/figura-19.png)
    *Figura 19 - Aprobar solicitudes*
 
 !!! note "> Todos los datos mostrados en las imágenes fueron tomados de proyectos y procesos usados para efectos de pruebas."

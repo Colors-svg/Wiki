@@ -70,23 +70,23 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
 
 1. Ingrese al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-11-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-11/figura-01.png)
    *Figura 1. Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece la pantalla para iniciar sesión como usuario del portal; ingrese su usuario y contraseña y presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-11-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-11/figura-02.png)
    *Figura 2. Iniciar sesión en el portal de la Universidad de Antioquia*
 
 3. Se abrirá una ventana con su nombre en la parte izquierda de la página, seleccione:  
    `Enlaces de interés >> Mis aplicaciones`.
 
-   ![[VI-GU-11-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-11/figura-03.png)
    *Figura 3. Información de usuario registrado en el portal*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad permitidas para su ingreso; seleccione la aplicación **SIIU**.
 
-   ![[VI-GU-11-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-11/figura-04.png)
    *Figura 4. Pantalla de aplicaciones disponibles para usuario*
 
 5. Se debe abrir una nueva ventana con la aplicación SIIU.  
@@ -100,7 +100,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
 1. Una vez se encuentre en el aplicativo SIIU, ingrese por el menú:  
    `Trámites administrativos > Nueva solicitud o novedad`.
 
-   ![[VI-GU-11-figura-05.png]]
+   ![Figura 5](docs/assets/figuras/VI-GU-11/figura-05.png)
    *Figura 5- Trámites administrativos/Nueva solicitud o novedad*
 
 2. El sistema despliega un formulario con filtros de consulta:
@@ -108,13 +108,13 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    - En el campo **Código proyecto**, ingrese el código del cupo de JI que le fue aprobado en la convocatoria.
    - Presione el botón **CONSULTAR**.
 
-   ![[VI-GU-11-figura-06.png]]
+   ![Figura 6](docs/assets/figuras/VI-GU-11/figura-06.png)
    *Figura 6- Filtro de búsqueda*
 
 3. El sistema realiza la consulta de acuerdo con los parámetros indicados. Presione clic sobre la información del cupo.  
    Nótese que en la parte superior aparecen varios botones (prórroga, cambio en participante, entre otros).
 
-   ![[VI-GU-11-figura-07.png]]
+   ![Figura 7](docs/assets/figuras/VI-GU-11/figura-07.png)
    *Figura 7 - Barra de opciones administrativas*
 
 4. Presione el botón **Prórroga**.
@@ -129,7 +129,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    - En el campo **Justificación** ingrese las razones para la solicitud de prórroga.
    - Presione el botón **Guardar**.
 
-   ![[VI-GU-11-figura-08.png]]
+   ![Figura 8](docs/assets/figuras/VI-GU-11/figura-08.png)
    *Figura 8 - Formulario Solicitud de prórroga*
 
    *(Al momento de GUARDAR la solicitud, el sistema mostrará un mensaje de almacenamiento exitoso).*
@@ -138,19 +138,19 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    > [!NOTE]
    > En esta pestaña se agregan actividades que se desarrollarán durante la prórroga; no obstante, **esto no aplica para los cupos de JI**. Presione directamente **GUARDAR** para continuar.
 
-   ![[VI-GU-11-figura-09.png]]
+   ![Figura 9](docs/assets/figuras/VI-GU-11/figura-09.png)
    *Figura 9 - Actividades de prórroga*
 
 7. Pase a la siguiente pestaña **Condiciones formales**.  
    *(En esta pestaña no se incluye ninguna información para este trámite)*. Presione **Guardar**.
 
-   ![[VI-GU-11-figura-10.png]]
+   ![Figura 10](docs/assets/figuras/VI-GU-11/figura-10.png)
    *Figura 10- Pestaña condiciones formales*
 
 8. El sistema lo llevará a la última pestaña **Documento soporte** (o *Adjuntar Documento*). En esta pestaña puede adjuntar los soportes requeridos:
    - Presione el botón **+ Agregar** que encontrará al lado derecho de la pantalla.
 
-   ![[VI-GU-11-figura-11.png]]
+   ![Figura 11](docs/assets/figuras/VI-GU-11/figura-11.png)
    *Figura 11- Documento soporte botón Agregar*
 
    > [!IMPORTANT] Regla del Nombre de Archivo
@@ -159,7 +159,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    - En el formulario emergente ingrese: *Documento (Soportes)*, *Tipo*, *Emisor (Investigador Principal)*, *Fecha de emisión*, *Número*, *Descripción*.  
    - Clic en **Seleccionar archivo** para abrir el explorador y buscar el PDF; luego clic en **Abrir**.
 
-   ![[VI-GU-11-figura-12.png]]
+   ![Figura 12](docs/assets/figuras/VI-GU-11/figura-12.png)
    *Figura 12- Documento soporte _Seleccionar archivo*
 
    ![[VI-GU-11-figura-13a.png]]
@@ -173,7 +173,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
 
    - Valide en la lista que el documento de soporte quedó correctamente adjunto.
 
-   ![[VI-GU-11-figura-14.png]]
+   ![Figura 14](docs/assets/figuras/VI-GU-11/figura-14.png)
    *Figura 14 - Soporte adjuntado*
 
 ---
@@ -189,7 +189,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    > [!WARNING]
    > Una vez enviada la solicitud ya **no podrá hacerle modificaciones**. La solicitud queda en estado **Pendiente de Aval**.
 
-   ![[VI-GU-11-figura-15.png]]
+   ![Figura 15](docs/assets/figuras/VI-GU-11/figura-15.png)
    *Figura 15 - Mensaje Enviado exitosamente*
 
 ---
@@ -200,7 +200,7 @@ Antes de enviar la solicitud administrativa, se puede editar cuando se cierra el
 
 1. Ingrese por: `Trámites administrativos > Seguimiento solicitudes y novedades`.
 
-   ![[VI-GU-11-figura-16.png]]
+   ![Figura 16](docs/assets/figuras/VI-GU-11/figura-16.png)
    *Figura 17 - Editar solicitud*
 
 2. El sistema abre el formulario de seguimiento:
@@ -214,7 +214,7 @@ Antes de enviar la solicitud administrativa, se puede editar cuando se cierra el
 | **Código o nombre del cupo** | Ingrese el código o nombre del cupo que desea editar (campo código o Nombre del proyecto) |
 | **Rango de fecha inicial / final** | Seleccione el rango de fechas de creación |
 
-   ![[VI-GU-11-figura-17.png]]
+   ![Figura 17](docs/assets/figuras/VI-GU-11/figura-17.png)
    *Figura 16 - Filtro de búsqueda para editar*
 
 3. Seleccione el cupo a editar y continúe con el registro de la solicitud hasta enviar.

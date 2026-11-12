@@ -48,22 +48,22 @@ El Usuario Investigador principal o responsable del proyecto, de centro de inves
 
 Ingresa al portal de la Universidad: [http://www.udea.edu.co](http://www.udea.edu.co), en el encabezado seleccione **Ingresar >> Iniciar sesión** (ver Figura 1).
 
-![[VI-IN-10-figura-01.png]]
+![Figura 1](docs/assets/figuras/VI-IN-10/figura-01.png)
 *Figura 1- Ingreso al portal de la Universidad de Antioquia*
 
 Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR** ver figura 2
 
-![[VI-IN-10-figura-02.png]]
+![Figura 2](docs/assets/figuras/VI-IN-10/figura-02.png)
 *Figura 2 - Conectar al portal*
 
 Presione clic en la opción **Enlaces de Interés** seleccione **Mis aplicaciones**. así: **Enlaces de interés → Mis aplicaciones** (ver Figura 3).
 
-![[VI-IN-10-figura-03.png]]
+![Figura 3](docs/assets/figuras/VI-IN-10/figura-03.png)
 *Figura 3 - Enlaces de interés*
 
 Se abrirá una ventana con las aplicaciones de la Universidad seleccione **SIIU** (ver Figura 4).
 
-![[VI-IN-10-figura-04.png]]
+![Figura 4](docs/assets/figuras/VI-IN-10/figura-04.png)
 *Figura 4 Seleccione SIIU*
 
 Se abre una nueva ventana con la aplicación SIIU (ver Figura 5). Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU. (Ver instrucciones)
@@ -74,7 +74,7 @@ Se abre una nueva ventana con la aplicación SIIU (ver Figura 5). Si la ventana 
 
 Una vez se encuentre en el SIIU, ingrese al menú **Convocatorias / Reportes / Información básica de proyectos** ver figura 5
 
-![[VI-IN-10-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-IN-10/figura-05.png)
 *Figura 5 -menú de acceso al reporte*
 
 El sistema despliega un nuevo formulario con criterios de búsqueda para el reporte, los campos son:
@@ -94,17 +94,17 @@ El sistema despliega un nuevo formulario con criterios de búsqueda para el repo
 
 En la figura 6 se muestran los criterios de búsqueda para el reporte
 
-![[VI-IN-10-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-IN-10/figura-06.png)
 *Figura 6 - Criterios de búsqueda historial de proyectos*
 
 Una vez se ha realizado la consulta el sistema presenta en la figura 7 una muestra del resultado de la consulta, observe que aparece nuevos botones los cuales se detallan a continuación.
 
-![[VI-IN-10-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-IN-10/figura-07.png)
 *Figura 7 - Resultado de la consulta*
 
 En el resultado de búsqueda se habilitan unas opciones las cuales se explican a continuación: `Visualizar información` `Exportar a Excel` ver figura 8
 
-![[VI-IN-10-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-IN-10/figura-08.png)
 *Figura 8 - Resultado de búsqueda nuevos botones*
 
 > [!NOTE] RECOMENDACIÓN

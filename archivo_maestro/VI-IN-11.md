@@ -48,22 +48,22 @@ El usuario debe autenticarse en el portal de la Universidad de Antioquia, [http:
 
 Ingresa al portal de la Universidad: [http://www.udea.edu.co](http://www.udea.edu.co), en el encabezado seleccione **Ingresar >> Iniciar sesión** (ver Figura 1).
 
-![[VI-IN-11-figura-01.png]]
+![Figura 1](docs/assets/figuras/VI-IN-11/figura-01.png)
 *Figura 1- Ingreso al portal de la Universidad de Antioquia*
 
 Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR** ver figura 2
 
-![[VI-IN-11-figura-02.png]]
+![Figura 2](docs/assets/figuras/VI-IN-11/figura-02.png)
 *Figura 2 - Conectar al portal*
 
 Se abrirá una ventana con su nombre en la parte izquierda de la página, seleccione **Enlaces de interés → Mis aplicaciones** (ver Figura 3).
 
-![[VI-IN-11-figura-03.png]]
+![Figura 3](docs/assets/figuras/VI-IN-11/figura-03.png)
 *Figura 3 - Enlaces de interés*
 
 Se abrirá una ventana con las aplicaciones de la Universidad seleccione **SIIU** (ver Figura 4).
 
-![[VI-IN-11-figura-04.png]]
+![Figura 4](docs/assets/figuras/VI-IN-11/figura-04.png)
 *Figura 4 Seleccione SIIU*
 
 ---
@@ -72,12 +72,12 @@ Se abrirá una ventana con las aplicaciones de la Universidad seleccione **SIIU*
 
 Este reporte es muy utilizado cuando un participante requiere saber en qué proyectos a participado. Una vez que ingrese al SIIU, ingrese al menú **“Reportes”** y luego la opción **“Consulta por persona”** (ver Figura 5).
 
-![[VI-IN-11-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-IN-11/figura-05.png)
 *Figura 5 Menú reportes*
 
 El SIIU abre formulario con filtro de búsqueda para la consulta, ingrese valor en el campo cédula y presione la opción Buscar [icono]. Ver figura 6
 
-![[VI-IN-11-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-IN-11/figura-06.png)
 *Figura 6 - Filtros de búsqueda*
 
 > [!NOTE] NOTA
@@ -85,20 +85,20 @@ El SIIU abre formulario con filtro de búsqueda para la consulta, ingrese valor 
 
 El resultado de la búsqueda aparecerá bajo la información de consulta. Para cada proyecto podrá ver el código con que se encuentra registrado en el SIIU, el nombre, el grupo de investigación, la institución por la que participa, el rol, la dedicación horaria, la función en el proyecto, la fecha de ingreso, la fecha de retiro y el vínculo con la universidad. Si desea ver la información del proyecto debe dar clic en el icono [visualizar], que se encuentra ubicado al final de cada fila (ver Figura 7).
 
-![[VI-IN-11-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-IN-11/figura-07.png)
 *Figura 7 - Resultado de consulta por persona*
 
 En caso de no abrir la nueva ventana, presione clic en el icono de ventana emergente bloqueada que aparece en la parte superior derecha de su navegador, se abrirá la notificación de bloqueo de ventana emergente, debe dar clic en Permitir o en el link (ver Figura 8) presione el botón **Listo** para salir.
 
 Una vez confirme con la opción listo, el sistema abre ventana con la información del proyecto en formato HTML.
 
-![[VI-IN-11-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-IN-11/figura-08.png)
 *Figura 8 - Bloqueo ventana emergente*
 
-![[VI-IN-11-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-IN-11/figura-09.png)
 *Figura 9 - Información proyecto HTML*
 
-![[VI-IN-11-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-IN-11/figura-10.png)
 *Figura 10- Criterios de búsqueda*
 
 El sistema presenta otros criterios de búsqueda como son Fecha inicial y fecha final. Tipo de proyecto con lista desplegable para seleccionar a necesidad.
@@ -107,12 +107,12 @@ El sistema presenta otros criterios de búsqueda como son Fecha inicial y fecha 
 - **Campo Limpiar:** Borra el criterio de búsqueda seleccionado
 - **Exportar a PDF:** Permite llevar la consulta en listado a formato PDF.
 
-![[VI-IN-11-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-IN-11/figura-11.png)
 *Figura 11 Reporte PDF en navegador mozilla*
 
 Se abrirá una nueva ventana con la información de la participación del proyecto, si desea descargar el archivo debe dar clic en el icono de descarga, se descargará un archivo pdf con la información que se visualiza en la ventana.
 
-![[VI-IN-11-figura-12.png]]
+![Figura 12](docs/assets/figuras/VI-IN-11/figura-12.png)
 *Figura 12 - Reporte PDF en navegador chrome*
 
 > [!NOTE] NOTA

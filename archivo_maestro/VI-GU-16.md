@@ -75,22 +75,22 @@ El investigador principal o responsable del proyecto debe autenticarse en el por
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (Ver figura 1).
 
-   ![[VI-GU-16-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-16/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-GU-16-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-16/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** y seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones`. (Ver figura 3).
 
-   ![[VI-GU-16-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-16/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver figura 4).
 
-   ![[VI-GU-16-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-16/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 > [!NOTE]
@@ -112,7 +112,7 @@ El tren de datos de la inscripción comprende:
 7. Documento soporte
 8. Enviar
 
-![[VI-GU-16-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-GU-16/figura-05.png)
 *Figura 5 - Pestaña Información complementaria*
 
 Una vez ingrese a la pestaña de información complementaria, el sistema le presenta la ventana donde podrá agregar:
@@ -124,7 +124,7 @@ Una vez ingrese a la pestaña de información complementaria, el sistema le pres
 > [!IMPORTANT] Obligatoriedad de diligenciamiento
 > Tenga en cuenta que estos campos son **obligatorios** y debe diligenciarlos para que pueda enviar su proyecto al centro. El sistema le muestra un resumen de la selección realizada, tal como muestra la figura 6.
 
-![[VI-GU-16-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-GU-16/figura-06.png)
 *Figura 6 - Resumen Información complementaria*
 
 ---
@@ -135,7 +135,7 @@ Ubíquese en la opción **Agregar objetivos del milenio** y despliegue la pesta�
 
 El sistema permite agregar uno o varios objetivos del milenio / ODS. En caso de no seleccionar ningún ítem, el sistema le indicará que falta por seleccionar el registro y no le permitirá enviar el proyecto al centro. Tenga presente que puede seleccionar la opción **No aplica** en caso de que sea necesario. (Ver figura 7).
 
-![[VI-GU-16-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-GU-16/figura-07.png)
 *Figura 7 - Objetivos desarrollo del milenio*
 
 | Ítem | ODS (Objetivos de Desarrollo Sostenible / Milenio) |
@@ -167,7 +167,7 @@ Ubíquese en la opción **Agregar focos de misión de sabios** y despliegue la p
 
 El sistema permite agregar uno o varios focos de misión de sabios. Si no selecciona ningún ítem, el sistema le indicará que falta por seleccionar el registro y no le permitirá enviar el proyecto al centro. Se puede seleccionar la opción **No aplica** si el proyecto no se enmarca en ninguno de los focos. (Ver figura 8).
 
-![[VI-GU-16-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-GU-16/figura-08.png)
 *Figura 8 - Agregar focos de misión de sabios*
 
 | Ítem | Focos de la Misión de Sabios |
@@ -190,7 +190,7 @@ Ubíquese en la opción **Agregar Agenda G8** y despliegue la pestaña vertical.
 
 El sistema permite agregar uno o varios ítems de Agenda G8. Si no se selecciona ningún ítem, el sistema indicará que falta por seleccionar el registro bloqueando el envío al centro. Se puede marcar la opción **No aplica** si corresponde. (Ver figuras 9 y tabla).
 
-![[VI-GU-16-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-GU-16/figura-09.png)
 *Figura 9 - Agregar agenda G8*
 
 | Área | Subáreas / Líneas Agenda G8 |
@@ -210,7 +210,7 @@ Ubíquese en la opción **Agregar objetivo socioeconómico** y despliegue la pes
 > [!WARNING] Selección única
 > El sistema permite agregar **solo un objetivo socioeconómico** (a diferencia de los ODS, Misión de Sabios y Agenda G8 que permiten selección múltiple). En caso de no seleccionar ningún ítem el sistema le indicará que falta por seleccionar el registro. Puede seleccionar la opción **No aplica** en caso de que sea necesario. (Ver figura 10).
 
-![[VI-GU-16-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-16/figura-10.png)
 *Figura 10 - Agregar Objetivo socioeconómico*
 
 | Ítem | Objetivo Socioeconómico |
@@ -239,7 +239,7 @@ Una vez haya seleccionado cada ítem:
 1. Presione el botón **GUARDAR** para almacenar los registros seleccionados para el proyecto.
 2. Presione el botón **SIGUIENTE** para continuar con el paso 3 de la matrícula del proyecto (*Descripción cronograma*). Tal como muestra la figura 11.
 
-![[VI-GU-16-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-GU-16/figura-11.png)
 *Figura 11 - Botón Guardar para almacenar*
 
 ---

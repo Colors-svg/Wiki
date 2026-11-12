@@ -78,23 +78,23 @@ El usuario con rol Centro de Investigación debe autenticarse en el portal de la
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-13-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-13/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-13-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-13/figura-02.png)
    *Figura 2 - Ingresar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés**, seleccione **Mis aplicaciones**.  
    *Ruta*: `Enlaces de interés → Mis aplicaciones`.
 
-   ![[VI-GU-13-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-13/figura-03.png)
    *Figura 3 – Enlaces de interés / Mis aplicaciones*
 
 4. El sistema abre una ventana con las aplicaciones de la Universidad; seleccione **SIIU**.
 
-   ![[VI-GU-13-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-13/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 5. Se abre una nueva ventana con la aplicación SIIU.  
@@ -117,7 +117,7 @@ Una vez el Investigador principal ha realizado la solicitud administrativa, la e
 1. El usuario con rol Centro de Investigación debe ingresar al menú del SIIU:  
    `Trámites Administrativos > Seguimiento Solicitudes y novedades`.
 
-   ![[VI-GU-13-figura-05.png]]
+   ![Figura 5](docs/assets/figuras/VI-GU-13/figura-05.png)
    *Figura 5 - Trámites Administrativos / Seguimiento Solicitudes y novedades*
 
 2. Ingrese los parámetros de búsqueda:
@@ -126,12 +126,12 @@ Una vez el Investigador principal ha realizado la solicitud administrativa, la e
    - En el campo **Estado** seleccione la opción **“Pendiente por aval”** (o *“Aprobada”* si desea aplicar la solicitud).
    - Presione el botón **“Consultar”**.
 
-   ![[VI-GU-13-figura-06.png]]
+   ![Figura 6](docs/assets/figuras/VI-GU-13/figura-06.png)
    *Figura 6 - Filtro de búsqueda*
 
 3. El sistema trae como resultado el listado de las solicitudes coincidentes.
 
-   ![[VI-GU-13-figura-07.png]]
+   ![Figura 7](docs/assets/figuras/VI-GU-13/figura-07.png)
    *Figura 7 - Resultado de consulta*
 
    Iconos de acceso en la columna **Acciones**:
@@ -142,7 +142,7 @@ Una vez el Investigador principal ha realizado la solicitud administrativa, la e
 
 4. Para avalar la solicitud, garantice que está en la fila requerida y presione clic en el icono **Avalar solicitud**.
 
-   ![[VI-GU-13-figura-08.png]]
+   ![Figura 8](docs/assets/figuras/VI-GU-13/figura-08.png)
    *Figura 8 - Seleccionar avalar solicitud*
 
 5. Estructura del formulario de aval:
@@ -152,7 +152,7 @@ Una vez el Investigador principal ha realizado la solicitud administrativa, la e
    - **Botón Ver recomendaciones**: Muestra la recomendación para avalar la solicitud por parte del centro.
    - **Barra de botones de gestión**: Guardar, siguiente y salir.
 
-   ![[VI-GU-13-figura-09.png]]
+   ![Figura 9](docs/assets/figuras/VI-GU-13/figura-09.png)
    *Figura 9 - Pestaña avalar solicitud*
 
 #### 2.4.1. Ver recomendaciones
@@ -168,33 +168,33 @@ Una vez el Investigador principal ha realizado la solicitud administrativa, la e
 | **Fecha acta** | Ingrese la fecha del acta |
 | **Comentario** | Ingrese comentario justificativo si existe |
 
-![[VI-GU-13-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-13/figura-10.png)
 *Figura 10 - Ingresar información completa*
 
-![[VI-GU-13-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-GU-13/figura-11.png)
 *Figura 11 - Recomendación Avalar*
 
 2. Presione el botón **Guardar**.
 3. Verifique el mensaje de **Guardado exitosamente** en la parte superior. Para avanzar a la siguiente pestaña, presione **“Siguiente”**.
 
-![[VI-GU-13-figura-12.png]]
+![Figura 12](docs/assets/figuras/VI-GU-13/figura-12.png)
 *Figura 12 - Almacenamiento exitoso*
 
 #### 2.4.2. Pestaña Historial
 
 Permite examinar el historial previo de solicitudes y novedades del proyecto. Presione el botón **“Siguiente”**.
 
-![[VI-GU-13-figura-13.png]]
+![Figura 13](docs/assets/figuras/VI-GU-13/figura-13.png)
 *Figura 13 - Pestaña Historial*
 
-![[VI-GU-13-figura-14.png]]
+![Figura 14](docs/assets/figuras/VI-GU-13/figura-14.png)
 *Figura 14 - Historial de solicitudes*
 
 #### 2.4.3. Pestaña Condiciones Formales
 
 En esta pestaña valide las condiciones formales aplicables. Presione el botón **“Siguiente”**.
 
-![[VI-GU-13-figura-15.png]]
+![Figura 15](docs/assets/figuras/VI-GU-13/figura-15.png)
 *Figura 15 - Condiciones formales*
 
 #### 2.4.4. Pestaña Adjuntar documento
@@ -203,7 +203,7 @@ Permite adjuntar soportes documentales complementarios.
 
 1. Presione el botón **+ Agregar** al lado derecho.
 
-   ![[VI-GU-13-figura-16.png]]
+   ![Figura 16](docs/assets/figuras/VI-GU-13/figura-16.png)
    *Figura 16 - Adjuntar documento*
 
    > [!IMPORTANT]
@@ -212,14 +212,14 @@ Permite adjuntar soportes documentales complementarios.
 2. Ingrese los detalles (*Nombre del documento, emisor, fecha de emisión, número y descripción*).
 3. Presione **“Seleccionar Archivo”**, elija el archivo de su equipo y dé clic en **“Cargar Archivo”**. Luego presione **Guardar**.
 
-![[VI-GU-13-figura-17.png]]
+![Figura 17](docs/assets/figuras/VI-GU-13/figura-17.png)
 *Figura 17 - Adjuntar documento*
 
 #### 2.4.5. Enviar solicitud
 
 Presione el botón **ENVIAR** para remitir la solicitud a la Vicerrectoría de Investigación para su aprobación final. La solicitud pasa a estado **Avalada**.
 
-![[VI-GU-13-figura-18.png]]
+![Figura 18](docs/assets/figuras/VI-GU-13/figura-18.png)
 *Figura 18 - Enviar solicitud*
 
 *(El sistema confirmará: “Guardado éxitosamente. La solicitud fue actualizada exitosamente. Su estado asignado es: Avalada.”)*
@@ -232,7 +232,7 @@ Una vez la Vicerrectoría aprueba la solicitud, el **Jefe de Centro** entra nuev
 
 1. Ingrese a: `Trámites Administrativos > Seguimiento Solicitudes y novedades`.
 
-   ![[VI-GU-13-figura-19.png]]
+   ![Figura 19](docs/assets/figuras/VI-GU-13/figura-19.png)
    *Figura 19 - Seguimiento a solicitudes y novedades*
 
 2. En filtros de búsqueda:
@@ -240,18 +240,18 @@ Una vez la Vicerrectoría aprueba la solicitud, el **Jefe de Centro** entra nuev
    - En **Estado** seleccione **“Aprobada”**.
    - Presione **“Consultar”**.
 
-   ![[VI-GU-13-figura-20.png]]
+   ![Figura 20](docs/assets/figuras/VI-GU-13/figura-20.png)
    *Figura 20 - Criterios de búsqueda*
 
-   ![[VI-GU-13-figura-21.png]]
+   ![Figura 21](docs/assets/figuras/VI-GU-13/figura-21.png)
    *Figura 21 - Resultado de búsqueda*
 
 3. Ubique la solicitud y en la columna Acciones dé clic en el icono **Aplicar solicitud**.
 
-   ![[VI-GU-13-figura-22.png]]
+   ![Figura 22](docs/assets/figuras/VI-GU-13/figura-22.png)
    *Figura 22 - Icono aplicar*
 
-   ![[VI-GU-13-figura-23.png]]
+   ![Figura 23](docs/assets/figuras/VI-GU-13/figura-23.png)
    *Figura 23 - Resultado de búsqueda con opción aplicar*
 
 ---
@@ -261,19 +261,19 @@ Una vez la Vicerrectoría aprueba la solicitud, el **Jefe de Centro** entra nuev
 1. Seleccione la casilla de la columna **Aplicar** en la fila del rubro correspondiente.
 2. Verifique los valores y presione el botón **“Aplicar”**.
 
-   ![[VI-GU-13-figura-24.png]]
+   ![Figura 24](docs/assets/figuras/VI-GU-13/figura-24.png)
    *Figura 24 - Ventana Aplicar cambio de rubro*
 
 3. El sistema muestra mensaje de confirmación:  
    *“Luego de ejecutar esta acción no se podrá deshacer la operación. ¿Está seguro de aplicar el cambio de rubro?”*  
    Verifique el campo *Total aprobado fresco* y presione **Aceptar**.
 
-   ![[VI-GU-13-figura-25.png]]
+   ![Figura 25](docs/assets/figuras/VI-GU-13/figura-25.png)
    *Figura 25 - Aplicar solicitud cambio de rubro*
 
 4. El sistema regresa a la lista con el mensaje: **“La solicitud ha sido aplicada”**.
 
-   ![[VI-GU-13-figura-26.png]]
+   ![Figura 26](docs/assets/figuras/VI-GU-13/figura-26.png)
    *Figura 26 - Mensaje confirmación solicitud aplicada*
 
 ---
@@ -289,20 +289,20 @@ Al presionar el icono *Aplicar* en una prórroga aprobada, el sistema genera el 
 | **Generar** | Genera el documento de Adenda (*paso obligatorio* antes de aplicar). |
 | **Cancelar** | Cancela el proceso. |
 
-![[VI-GU-13-figura-27.png]]
+![Figura 27](docs/assets/figuras/VI-GU-13/figura-27.png)
 *Figura 27 - Mensaje de Información para aplicar la solicitud*
 
 1. Presione **Generar**. El sistema muestra los datos de la solicitud de prórroga; presione **Generar Adenda**.
 
-   ![[VI-GU-13-figura-28.png]]
+   ![Figura 28](docs/assets/figuras/VI-GU-13/figura-28.png)
    *Figura 28 - Generar adenda Solicitud de Prórroga*
 
 2. En la ventana emergente marque el check: **“He leído y aceptado los términos y condiciones de este documento”** y presione **Confirmar**.
 
-   ![[VI-GU-13-figura-29.png]]
+   ![Figura 29](docs/assets/figuras/VI-GU-13/figura-29.png)
    *Figura 29 - Términos y condiciones*
 
-   ![[VI-GU-13-figura-30.png]]
+   ![Figura 30](docs/assets/figuras/VI-GU-13/figura-30.png)
    *Figura 30 - Confirma los términos y condiciones*
 
 3. El sistema descarga automáticamente la **Adenda en formato PDF**.  
@@ -314,10 +314,10 @@ Al presionar el icono *Aplicar* en una prórroga aprobada, el sistema genera el 
    - Considerandos
    - Sección de firmas electrónicas: Investigador principal, Coordinador del Grupo de Investigación y Jefe de Centro de Investigación (*Firmado Electrónicamente*).
 
-   ![[VI-GU-13-figura-31.png]]
+   ![Figura 31](docs/assets/figuras/VI-GU-13/figura-31.png)
    *Figura 31 - Adenda generada en PDF encabezado*
 
-   ![[VI-GU-13-figura-32.png]]
+   ![Figura 32](docs/assets/figuras/VI-GU-13/figura-32.png)
    *Figura 32 - Sección de firmas de la adenda*
 
 4. Una vez generada y verificada la adenda, regrese y seleccione el botón **Aplicar** para formalizar la prórroga en el SIIU.
@@ -336,26 +336,26 @@ Para consultar y verificar los trámites ya aplicados:
    - Estado: **Aplicada**
    - Presione **Consultar**.
 
-   ![[VI-GU-13-figura-33.png]]
+   ![Figura 33](docs/assets/figuras/VI-GU-13/figura-33.png)
    *Figura 33 - Filtro de búsqueda*
 
-   ![[VI-GU-13-figura-34.png]]
+   ![Figura 34](docs/assets/figuras/VI-GU-13/figura-34.png)
    *Figura 34 - Solicitud aplicada*
 
 3. En la columna **Acciones** se encuentran los botones:
    - **Ver Solicitud**: Despliega la solicitud en modo de solo lectura. Permite descargar los archivos de respaldo y la adenda desde la pestaña *Adjuntar Documento*.
    - **Historial de estados**: Muestra la trazabilidad cronológica de cambios de estado y avales por cada nivel.
 
-   ![[VI-GU-13-figura-35.png]]
+   ![Figura 35](docs/assets/figuras/VI-GU-13/figura-35.png)
    *Figura 35 - Iconos botón acciones*
 
-   ![[VI-GU-13-figura-36.png]]
+   ![Figura 36](docs/assets/figuras/VI-GU-13/figura-36.png)
    *Figura 36 - Solicitud de solo lectura*
 
-   ![[VI-GU-13-figura-37.png]]
+   ![Figura 37](docs/assets/figuras/VI-GU-13/figura-37.png)
    *Figura 37 - Descargar documento*
 
-   ![[VI-GU-13-figura-38.png]]
+   ![Figura 38](docs/assets/figuras/VI-GU-13/figura-38.png)
    *Figura 38 - Historial de la solicitud*
 
 > [!NOTE]

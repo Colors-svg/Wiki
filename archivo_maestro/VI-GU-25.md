@@ -78,7 +78,7 @@ En la figura 1:
 - La opción **1** indica el icono a seleccionar en la barra principal cuando se requiere insertar una fórmula matemática.
 - El recuadro **2** destaca los iconos específicos: editor de ecuaciones (`fx`), inserción de imágenes y tablas.
 
-![[VI-GU-25-figura-01.png]]
+![Figura 1](docs/assets/figuras/VI-GU-25/figura-01.png)
 *Figura 1 – Menú CKEditor*
 
 ---
@@ -89,7 +89,7 @@ Para insertar una ecuación matemática en el texto:
 1. Haga clic en el icono **fx** (Editor de Ecuaciones) ubicado en el recuadro número 2 de la barra de herramientas.
 2. Se abrirá la ventana emergente modal del **CodeCogs Equation Editor** (Ver figura 2).
 
-![[VI-GU-25-figura-02.png]]
+![Figura 2](docs/assets/figuras/VI-GU-25/figura-02.png)
 *Figura 2 - Editor de Ecuaciones*
 
 ---
@@ -101,17 +101,17 @@ Para agregar una ecuación matemática:
 2. Escriba los números o letras correspondientes a la ecuación. En su mayoría, los argumentos van encerrados entre llaves `{}` en sintaxis LaTeX.
 3. En el momento en que se coloca el cursor sobre algún símbolo matemático, el editor muestra un tooltip de ayuda con la sintaxis exacta del comando LaTeX. (Ver figura 3).
 
-![[VI-GU-25-figura-03.png]]
+![Figura 3](docs/assets/figuras/VI-GU-25/figura-03.png)
 *Figura 3 - Ayuda para escribir ecuaciones*
 
 - **Lista de Funciones**: Se pueden visualizar y seleccionar funciones predefinidas (trigonométricas, hiperbólicas, logaritmos, inversas, etc.) haciendo clic en la lista desplegable **Functions**. (Ver figura 4).
 
-![[VI-GU-25-figura-04.png]]
+![Figura 4](docs/assets/figuras/VI-GU-25/figura-04.png)
 *Figura 4 - Funciones*
 
 - **Operaciones de Potencia y Exponentes**: Para escribir una operación de potencia (ejemplo: $A^{(x)}$), se utiliza la sintaxis `A^{(x)}` o el botón de superíndice. (Ver figura 5).
 
-![[VI-GU-25-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-GU-25/figura-05.png)
 *Figura 5 - Escribir una operación de Potencia*
 
 ---
@@ -123,7 +123,7 @@ Para aplicar color a partes específicas de una ecuación:
 2. Seleccione el color deseado (por ejemplo, `Red`).
 3. El editor aplicará la sintaxis LaTeX correspondiente: `{\color{Red} \sin 65}`. En la previsualización inferior se reflejará el texto coloreado. (Ver figura 6).
 
-![[VI-GU-25-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-GU-25/figura-06.png)
 *Figura 6 - Color a las funciones*
 
 ---
@@ -134,7 +134,7 @@ En la sintaxis matemática de LaTeX, los espacios normales no se reflejan autom�
 - Se debe colocar una barra invertida con un espacio (`\ `), o
 - Hacer clic en el icono de espaciado en la barra de herramientas. (Ver figura 7).
 
-![[VI-GU-25-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-GU-25/figura-07.png)
 *Figura 7 - Insertar espacio*
 
 ---
@@ -144,21 +144,21 @@ En la sintaxis matemática de LaTeX, los espacios normales no se reflejan autom�
 Para insertar matrices:
 1. Haga clic en alguno de los iconos de matriz disponibles en el panel de delimitadores (matrices entre paréntesis, corchetes o barras determinantes). (Ver figura 8).
 
-![[VI-GU-25-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-GU-25/figura-08.png)
 *Figura 8 - Insertar matrices*
 
 2. El sistema despliega un mensaje del navegador solicitando ingresar las dimensiones de la matriz:
    - Ingrese las filas y columnas separadas por comas (ejemplo: `2,4` para 2 filas y 4 columnas).
    - Haga clic en **Aceptar**. (Ver figura 9).
 
-![[VI-GU-25-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-GU-25/figura-09.png)
 *Figura 9 - Dimensiones de la matriz*
 
 3. El editor genera la estructura LaTeX (por ejemplo, `\begin{vmatrix} ... \end{vmatrix}`).
 4. Coloque los valores numéricos o variables en cada posición de la matriz, utilizando `&` para separar columnas y `\\` para saltar de fila.
 5. Verifique la previsualización y haga clic en **Aceptar**. (Ver figura 10).
 
-![[VI-GU-25-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-25/figura-10.png)
 *Figura 10 - Elementos de la matriz*
 
 ---
@@ -180,7 +180,7 @@ El CKEditor permite incrustar imágenes en las secciones descriptivas de la prop
 1. Presione el icono de **Imagen** en la barra de herramientas.
 2. Se abrirá la ventana emergente **Propiedades de Imagen** con las pestañas: *Información de imagen*, *Vínculo*, *Cargar*, *Avanzado*. (Ver figura 11).
 
-![[VI-GU-25-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-GU-25/figura-11.png)
 *Figura 11 - Agregar imágenes*
 
 3. Procedimiento para cargar desde el computador:
@@ -192,14 +192,14 @@ El CKEditor permite incrustar imágenes en las secciones descriptivas de la prop
    - Ajuste opcionalmente la anchura, altura, borde, espaciado horizontal/vertical o alineación.
    - Presione **Aceptar**. (Ver figura 12).
 
-![[VI-GU-25-figura-12.png]]
+![Figura 12](docs/assets/figuras/VI-GU-25/figura-12.png)
 *Figura 12 - Enviar al servidor*
 
 4. La imagen quedará insertada en el área de redacción. Para almacenar los cambios en el SIIU:
    - Presione el botón **Guardar** para continuar editando, o
    - Presione **Guardar y salir** para cerrar el editor y retornar al tren de datos. (Ver figura 13).
 
-![[VI-GU-25-figura-13.png]]
+![Figura 13](docs/assets/figuras/VI-GU-25/figura-13.png)
 *Figura 13 - Guardar imagen*
 
 ---

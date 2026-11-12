@@ -65,22 +65,22 @@ El usuario con rol de IP o de centro de investigación debe autenticarse en el p
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (ver Figura 1).
 
-   ![[VI-IN-01-figura-01.png]]
+   ![Figura 1](../assets/figuras/VI-IN-01/figura-01.png)
    *Figura 1- Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-IN-01-figura-02.png]]
+   ![Figura 2](../assets/figuras/VI-IN-01/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** y seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones`. (Ver figura 3).
 
-   ![[VI-IN-01-figura-03.png]]
+   ![Figura 3](../assets/figuras/VI-IN-01/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver figura 4).
 
-   ![[VI-IN-01-figura-04.png]]
+   ![Figura 4](../assets/figuras/VI-IN-01/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 !!! note "> Se abre una nueva ventana con la aplicación SIIU (Ver figura 5). Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU."
@@ -92,27 +92,27 @@ El usuario con rol de IP o de centro de investigación debe autenticarse en el p
 Una vez se encuentre en el SIIU:
 1. Ingrese al menú **Constancias / Proyectos por Grupo de Investigación**. (Ver figura 5).
 
-![[VI-IN-01-figura-05.png]]
+![Figura 5](../assets/figuras/VI-IN-01/figura-05.png)
 *Figura 5 - Menú constancia participación en proyectos*
 
 2. El sistema abre el formulario denominado *Constancia de grupos de investigación* (permite generar una constancia con la lista de los proyectos realizados por el grupo de investigación dado).
 3. Presione el botón **Seleccionar**. (Ver figura 6).
 
-![[VI-IN-01-figura-06.png]]
+![Figura 6](../assets/figuras/VI-IN-01/figura-06.png)
 *Figura 6 - Botón seleccionar*
 
 4. El sistema abre una ventana emergente para buscar el grupo:
    - Ingrese el nombre o la sigla del grupo de investigación en el campo **Palabra clave** (por ejemplo: `gepar`).
    - Presione el botón **Buscar**. (Ver figura 7).
 
-![[VI-IN-01-figura-07.png]]
+![Figura 7](../assets/figuras/VI-IN-01/figura-07.png)
 *Figura 7 - Consultar grupo de investigación*
 
 5. El sistema trae la información del grupo consultado:
    - Seleccione con un check el grupo deseado en la columna *Selección*.
    - Presione el botón **Agregar**. (Ver figura 8).
 
-![[VI-IN-01-figura-08.png]]
+![Figura 8](../assets/figuras/VI-IN-01/figura-08.png)
 *Figura 8 - Grupo consultado*
 
 6. Configure los parámetros de filtrado:
@@ -123,18 +123,18 @@ Una vez se encuentre en el SIIU:
    !!! tip "Histórico completo"
    > Si no selecciona un rango de fechas, el sistema generará automáticamente un **histórico completo** de la participación del grupo en proyectos.
 
-![[VI-IN-01-figura-09.png]]
+![Figura 9](../assets/figuras/VI-IN-01/figura-09.png)
 *Figura 9 - Estado y tipo de proyecto*
 
 7. Presione el botón **Buscar**.
 8. El sistema muestra la tabla con la lista de proyectos que cumplen con los criterios de búsqueda (Número de solicitud/Nombre del proyecto, Tipo de Proyecto, Convocatoria/Proceso de Selección, Estado del proyecto, Período de participación, Financiador, Valor total del proyecto). (Ver figura 10).
 
-![[VI-IN-01-figura-10.png]]
+![Figura 10](../assets/figuras/VI-IN-01/figura-10.png)
 *Figura 10 - Consulta constancia*
 
 9. Para visualizar y descargar el reporte, marque los proyectos y presione el botón **Ver constancia**. (Ver figura 11).
 
-![[VI-IN-01-figura-11.png]]
+![Figura 11](../assets/figuras/VI-IN-01/figura-11.png)
 *Figura 11 - Ver constancia*
 
 10. El sistema genera la constancia institucional como reporte oficial en **formato PDF**, el cual puede descargarse o imprimirse.

@@ -80,23 +80,23 @@ El usuario debe autenticarse en el portal de la Universidad de Antioquia (`http:
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-07-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-07/figura-01.png)
    *Figura 1. Ingreso al portal de la UdeA.*
 
 2. Aparecerá la pantalla para iniciar sesión como usuario del portal; ingrese usuario y contraseña luego presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-07-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-07/figura-02.png)
    *Figura 2. Inicio de sesión en portal de la UdeA.*
 
 3. Se abrirá una ventana con su nombre en la parte izquierda de la página, seleccione:  
    `Enlaces de interés → Mis aplicaciones`.
 
-   ![[VI-GU-07-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-07/figura-03.png)
    *Figura 3. Aplicaciones del sistema.*
 
 4. El sistema carga una ventana con las aplicaciones de la Universidad a las cuales el usuario tiene acceso, seleccione la aplicación **SIIU**.
 
-   ![[VI-GU-07-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-07/figura-04.png)
    *Figura 4. Seleccione SIIU.*
 
 5. Se debe abrir una nueva ventana con la aplicación SIIU en la que podrá iniciar el registro del proyecto.  
@@ -116,7 +116,7 @@ Para la matrícula de convocatorias en el sistema SIIU, es indispensable conside
 
 **Ruta de acceso**: Ingrese a la opción del menú SIIU: `Convocatorias > Inscripción`.
 
-![[VI-GU-07-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-GU-07/figura-05.png)
 *Figura 5. Menú convocatoria.*
 
 El sistema presenta la pantalla con la información general de la convocatoria con el **tren de opciones** que serán configuradas:
@@ -127,7 +127,7 @@ El sistema presenta la pantalla con la información general de la convocatoria c
 5. Estructura de proyecto
 6. Documentos soporte
 
-![[VI-GU-07-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-GU-07/figura-06.png)
 *Figura 6. Tren de opciones convocatoria.*
 
 ---
@@ -141,7 +141,7 @@ Ingrese la información a los siguientes campos de acuerdo a los términos de re
 - **Nombre largo**
 - **Descripción**: ingrese la descripción de la convocatoria. *(Tenga presente que tiene hasta 4000 caracteres para ingresar la información)*.
 
-![[VI-GU-07-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-GU-07/figura-07.png)
 *Figura 7. Información general / Sección nombre y descripción de la convocatoria.*
 
 #### 3.3.2 Sección Financiadores
@@ -150,17 +150,17 @@ Ingrese la información a los siguientes campos de acuerdo a los términos de re
 2. Realice la búsqueda de los financiadores nacional o internacional. En caso de que no existan en la base de datos, el sistema permite ingresar los financiadores.
 3. Ingrese el nombre de la entidad en el campo palabra clave o escriba el NIT en el campo definido, presione el botón **BUSCAR**.
 
-![[VI-GU-07-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-GU-07/figura-08.png)
 *Figura 8. Información General - Sección financiadores.*
 
 4. Una vez se ha realizado la consulta, el sistema trae la información del financiador y permite seleccionarlo con la opción **AGREGAR FINANCIADOR**.
 
-![[VI-GU-07-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-GU-07/figura-09.png)
 *Figura 9. Selección de financiador.*
 
 5. Cuando el financiador elegido es la **Universidad de Antioquia**, el sistema solicita información adicional, como la **dependencia** y **programa**. Esta opción se realiza para posteriormente definir el centro de costos.
 
-![[VI-GU-07-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-07/figura-10.png)
 *Figura 10. Selección dependencia.*
 
 6. Presione el botón **Guardar financiadores** para el almacenamiento en la base de datos del financiador elegido.
@@ -174,7 +174,7 @@ En esta sección se debe ingresar información en los siguientes campos:
 - **Fecha de resultados**: se elige del calendario la fecha de resultados de la convocatoria.
 - **Hora de cierre**: se define la hora de cierre de la convocatoria en formato militar 24 horas.
 
-![[VI-GU-07-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-GU-07/figura-11.png)
 *Figura 11. Definición de fechas para la convocatoria.*
 
 #### 3.3.4 Sección permisos
@@ -185,7 +185,7 @@ Defina los siguientes permisos:
 - **Instancia**: seleccione la(s) instancia(s) que hacen parte de la gestión o evaluación de los proyectos que se vinculen a la convocatoria.
 - **Utilización**: seleccione la opción **TODOS**; estos son roles propios del sistema para el ingreso desde el portal.
 
-![[VI-GU-07-figura-12.png]]
+![Figura 12](docs/assets/figuras/VI-GU-07/figura-12.png)
 *Figura 12. Permisos y roles de acceso.*
 
 #### 3.3.5 Sección Inicio con NN y GUARDAR
@@ -195,13 +195,13 @@ Defina los siguientes permisos:
 - **Observaciones**: campo que permite agregar observaciones para la convocatoria que se está configurando (puede ingresar hasta 400 caracteres).
 - Presione el botón **GUARDAR** para almacenar el registro de configuración de la convocatoria.
 
-![[VI-GU-07-figura-13.png]]
+![Figura 13](docs/assets/figuras/VI-GU-07/figura-13.png)
 *Figura 13. Inicio con NN y Guardar.*
 
-![[VI-GU-07-figura-14.png]]
+![Figura 14](docs/assets/figuras/VI-GU-07/figura-14.png)
 *Figura 14. Ejemplo Información general.*
 
-![[VI-GU-07-figura-15.png]]
+![Figura 15](docs/assets/figuras/VI-GU-07/figura-15.png)
 *Figura 15. Ejemplo Información general (Plazos, prórrogas, suspensiones y cancelaciones).*
 
 ---
@@ -210,7 +210,7 @@ Defina los siguientes permisos:
 
 Seleccione esta opción para agregar las etapas de la convocatoria y presione **Agregar evento**.
 
-![[VI-GU-07-figura-16.png]]
+![Figura 16](docs/assets/figuras/VI-GU-07/figura-16.png)
 *Figura 16. Agregar evento.*
 
 > [!IMPORTANT]
@@ -220,28 +220,28 @@ El sistema presenta formulario con las opciones:
 - **Nombre del evento**: defina si el proceso a configurar es Avalar o Aprobar.
 - **Hito en proceso de selección**: despliegue la lista de valores para el hito y seleccione de acuerdo al nombre del evento definido.
 
-![[VI-GU-07-figura-17.png]]
+![Figura 17](docs/assets/figuras/VI-GU-07/figura-17.png)
 *Figura 17. Configuración Hito.*
 
 - **Fecha de inicio**: ingrese la fecha de inicio del evento.
 - **Fecha fin**: ingrese la fecha fin del evento.
 - Presione botón **AGREGAR EVENTO**.
 
-![[VI-GU-07-figura-18.png]]
+![Figura 18](docs/assets/figuras/VI-GU-07/figura-18.png)
 *Figura 18. Agregar evento.*
 
 Una vez se agregue el evento, el sistema presenta resumen del evento guardado. Recuerde presionar **GUARDAR** para almacenar el registro.
 
-![[VI-GU-07-figura-19.png]]
+![Figura 19](docs/assets/figuras/VI-GU-07/figura-19.png)
 *Figura 19. Guardar evento.*
 
 > [!NOTE] Modificación de eventos
 > Puede modificar el evento **ANTES** de publicar la convocatoria: presione los tres puntos para **Editar** o **Eliminar** el evento.
 
-![[VI-GU-07-figura-20.png]]
+![Figura 20](docs/assets/figuras/VI-GU-07/figura-20.png)
 *Figura 20. Editar evento.*
 
-![[VI-GU-07-figura-21.png]]
+![Figura 21](docs/assets/figuras/VI-GU-07/figura-21.png)
 *Figura 21. Resumen de hitos para la convocatoria.*
 
 ---
@@ -254,7 +254,7 @@ En el proceso de configuración presupuestal para la convocatoria, aparecen las 
 - Cambio de rubros preautorizados
 - Porcentaje máximo de rubros
 
-![[VI-GU-07-figura-22.png]]
+![Figura 22](docs/assets/figuras/VI-GU-07/figura-22.png)
 *Figura 22. Configuración presupuestal de la convocatoria.*
 
 #### 3.5.1. Opción modalidades de financiación
@@ -265,7 +265,7 @@ Esta opción de la configuración presupuestal permite definir un monto fijo par
 - **Duración máxima**: ingrese la duración en meses.
 - Presione **Agregar Modalidad**.
 
-![[VI-GU-07-figura-23.png]]
+![Figura 23](docs/assets/figuras/VI-GU-07/figura-23.png)
 *Figura 23. Modalidad de financiación.*
 
 #### 3.5.2. Opción rubros financiables
@@ -283,36 +283,36 @@ El sistema abre un nuevo formulario con los siguientes campos:
 - **Calcular administración**: cuando se selecciona el rubro administración, se activa este botón.
 - Presione botón **Agregar Rubro**.
 
-![[VI-GU-07-figura-24.png]]
+![Figura 24](docs/assets/figuras/VI-GU-07/figura-24.png)
 *Figura 24. Agregar rubro.*
 
-![[VI-GU-07-figura-25.png]]
+![Figura 25](docs/assets/figuras/VI-GU-07/figura-25.png)
 *Figura 25. Lista rubros financiables.*
 
 > [!NOTE]
 > Debe realizar el mismo proceso por cada rubro que desea vincular a la convocatoria.
 
-![[VI-GU-07-figura-26.png]]
+![Figura 26](docs/assets/figuras/VI-GU-07/figura-26.png)
 *Figura 26. Agregando rubro financiable.*
 
 #### 3.5.3. Opción cambio de rubros preautorizados
 
 Si requiere agregar rubros preautorizados, presione el botón **Agregar Rubro +**.
 
-![[VI-GU-07-figura-27.png]]
+![Figura 27](docs/assets/figuras/VI-GU-07/figura-27.png)
 *Figura 27. Rubros preautorizados.*
 
 #### 3.5.4. Porcentaje máximo de rubros
 
 Dependiendo de los términos de la convocatoria, agregue el máximo porcentaje para los rubros. Presione el botón **Agregar Porcentaje**.
 
-![[VI-GU-07-figura-28.png]]
+![Figura 28](docs/assets/figuras/VI-GU-07/figura-28.png)
 *Figura 28. Máximo porcentaje para los rubros.*
 
-![[VI-GU-07-figura-29.png]]
+![Figura 29](docs/assets/figuras/VI-GU-07/figura-29.png)
 *Figura 29. Porcentaje máximo de rubros.*
 
-![[VI-GU-07-figura-30.png]]
+![Figura 30](docs/assets/figuras/VI-GU-07/figura-30.png)
 *Figura 30. Resumen porcentaje máximo de rubros.*
 
 ---
@@ -325,7 +325,7 @@ Permite la configuración en la convocatoria de los compromisos y las condicione
 
 Por defecto se posiciona en esta pestaña. Presione **Agregar Compromiso**.
 
-![[VI-GU-07-figura-31.png]]
+![Figura 31](docs/assets/figuras/VI-GU-07/figura-31.png)
 *Figura 31. Compromisos y condiciones formales.*
 
 Una vez se presiona el botón **Agregar compromisos** se ingresa información en los campos:
@@ -335,12 +335,12 @@ Una vez se presiona el botón **Agregar compromisos** se ingresa información en
 - **Tipo**: defina si el compromiso es *opcional* o si es *obligatorio*.
 - Presione botón **Agregar Compromiso**.
 
-![[VI-GU-07-figura-32.png]]
+![Figura 32](docs/assets/figuras/VI-GU-07/figura-32.png)
 *Figura 32. Agregar compromiso.*
 
 Una vez se guarde el compromiso aparece un resumen del compromiso guardado.
 
-![[VI-GU-07-figura-33.png]]
+![Figura 33](docs/assets/figuras/VI-GU-07/figura-33.png)
 *Figura 33. Resumen de compromisos.*
 
 #### 3.6.2. Condiciones formales
@@ -349,7 +349,7 @@ Las condiciones formales son definidas en los términos de referencia de la conv
 
 1. Presione **Agregar condición**.
 
-   ![[VI-GU-07-figura-34.png]]
+   ![Figura 34](docs/assets/figuras/VI-GU-07/figura-34.png)
    *Figura 34. Agregar condición formal.*
 
 2. El sistema presenta el formulario con los siguientes campos:
@@ -361,14 +361,14 @@ Las condiciones formales son definidas en los términos de referencia de la conv
 | **Quien Verifica** | Seleccione quien verifica las condiciones formales (ej. *Centro de investigación*, *Vicerrectoría*). |
 | **Momento de Verificar** | Seleccione los momentos en que se verificarán las condiciones formales (ej. *Presentación y selección*). |
 
-   ![[VI-GU-07-figura-35.png]]
+   ![Figura 35](docs/assets/figuras/VI-GU-07/figura-35.png)
    *Figura 35. Ingresar condiciones formales.*
 
    Presione el botón para agregar la condición formal ingresada; recuerde que debe realizar el mismo proceso por cada una.
 
 3. Cada vez que se agrega una condición formal y se guarda el sistema presenta un resumen. Esta opción permite editar la condición formal desde la opción de los tres puntos para modificarla **ANTES** de publicar la convocatoria. Recuerde presionar el botón **GUARDAR** para almacenar el registro.
 
-   ![[VI-GU-07-figura-36.png]]
+   ![Figura 36](docs/assets/figuras/VI-GU-07/figura-36.png)
    *Figura 36. Resumen condición formal.*
 
 ---
@@ -379,7 +379,7 @@ La opción de estructura del proyecto permite definir la información requerida 
 
 1. Presione **Agregar estructura proyecto** para comenzar.
 
-   ![[VI-GU-07-figura-37.png]]
+   ![Figura 37](docs/assets/figuras/VI-GU-07/figura-37.png)
    *Figura 37. Agregar estructura proyecto.*
 
 2. El sistema despliega un formulario para ingresar información con los siguientes campos:
@@ -389,12 +389,12 @@ La opción de estructura del proyecto permite definir la información requerida 
    - **Tipo**: Obligatorio / Opcional
    - Finalice con el botón **Agregar estructura proyecto**.
 
-   ![[VI-GU-07-figura-38.png]]
+   ![Figura 38](docs/assets/figuras/VI-GU-07/figura-38.png)
    *Figura 38. Ingresar estructura de proyecto.*
 
 3. Cada vez que se agrega un registro de la estructura del proyecto y se guarda, el sistema presenta un resumen de lo guardado. Esta opción permite editar desde la opción de los tres puntos antes de publicar la convocatoria. Presione el botón **GUARDAR** para almacenar el registro.
 
-   ![[VI-GU-07-figura-39.png]]
+   ![Figura 39](docs/assets/figuras/VI-GU-07/figura-39.png)
    *Figura 39. Resumen estructura proyecto.*
 
 ---
@@ -403,7 +403,7 @@ La opción de estructura del proyecto permite definir la información requerida 
 
 La opción de documento soporte permite almacenar documentación de la convocatoria, como por ejemplo los términos de referencia. En esta opción encontrará también el botón **PUBLICAR**, el cual permite pasar la convocatoria de estado *En elaboración* a *Publicado*.
 
-![[VI-GU-07-figura-40.png]]
+![Figura 40](docs/assets/figuras/VI-GU-07/figura-40.png)
 *Figura 40. Publicar convocatoria.*
 
 1. El sistema despliega una ventana donde debe ingresar información en los campos obligatorios:
@@ -415,7 +415,7 @@ La opción de documento soporte permite almacenar documentación de la convocato
    - **Archivo adjunto**: presione el icono **+** y proceda a seleccionar desde su PC el archivo que desea anexar.
 2. Cuando lo haya seleccionado presione el botón **Agregar documento soporte**. Luego presione el botón **GUARDAR**.
 
-![[VI-GU-07-figura-41.png]]
+![Figura 41](docs/assets/figuras/VI-GU-07/figura-41.png)
 *Figura 41. Documento adjunto.*
 
 ---
@@ -427,13 +427,13 @@ Presione el botón **PUBLICAR**:
 > [!WARNING] Acción Irreversible
 > El sistema le presenta mensajes de confirmación ya que luego **no podrá realizar cambios**, por esta causa debe estar muy seguro de que va a publicar.
 
-![[VI-GU-07-figura-42.png]]
+![Figura 42](docs/assets/figuras/VI-GU-07/figura-42.png)
 *Figura 42. Mensaje confirmación para publicar convocatoria.*
 
 Una vez se confirma el mensaje con el botón **Aceptar**, el sistema genera un nuevo mensaje con un resumen de la convocatoria. Presione **Aceptar** para continuar.  
 La convocatoria pasa a estado **Publicado** y permite vincular los proyectos que se desean matricular.
 
-![[VI-GU-07-figura-43.png]]
+![Figura 43](docs/assets/figuras/VI-GU-07/figura-43.png)
 *Figura 43. Resumen de la convocatoria.*
 
 ---

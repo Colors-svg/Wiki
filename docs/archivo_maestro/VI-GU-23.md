@@ -84,22 +84,22 @@ El investigador principal o responsable del proyecto debe autenticarse en el por
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (Ver figura 1).
 
-   ![[VI-GU-23-figura-01.png]]
+   ![Figura 1](../assets/figuras/VI-GU-23/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-GU-23-figura-02.png]]
+   ![Figura 2](../assets/figuras/VI-GU-23/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** y seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones`. (Ver figura 3).
 
-   ![[VI-GU-23-figura-03.png]]
+   ![Figura 3](../assets/figuras/VI-GU-23/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver figura 4).
 
-   ![[VI-GU-23-figura-04.png]]
+   ![Figura 4](../assets/figuras/VI-GU-23/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 !!! note "> Se abre una nueva ventana con la aplicación SIIU. Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU."
@@ -114,7 +114,7 @@ Una vez se encuentre en SIIU ingrese por la opción: `Trámites administrativos 
 > - **Solicitud**: Son los cambios que se pueden realizar a un proyecto en: *Tiempo, presupuesto, participante o compromisos*, el cual ha sido aprobado por su **(co)financiador interno**, es decir, pertenece a la Universidad de Antioquia.
 > - **Novedad**: Son los cambios que se pueden realizar a un proyecto en: *Tiempo, presupuesto, participante o compromisos*, el cual ha sido aprobado por su **(co)financiador externo** a la Universidad de Antioquia.
 
-![[VI-GU-23-figura-05.png]]
+![Figura 5](../assets/figuras/VI-GU-23/figura-05.png)
 *Figura 5 - Nueva solicitud o novedad*
 
 El sistema presenta un formulario para realizar el filtro de búsqueda con los siguientes campos:
@@ -134,10 +134,10 @@ El sistema presenta un formulario para realizar el filtro de búsqueda con los s
 
 En el filtro de búsqueda seleccione el Centro de Investigación, en el campo código del proyecto indique el proyecto a tramitar (Ver figura 6) y en el campo Estado seleccione la opción **Aprobado** (para prórroga de inicio) o **En ejecución** (para prórroga de ejecución). Presione el botón **Consultar**. (Ver figura 7).
 
-![[VI-GU-23-figura-06.png]]
+![Figura 6](../assets/figuras/VI-GU-23/figura-06.png)
 *Figura 6 - Consulta por código del proyecto*
 
-![[VI-GU-23-figura-07.png]]
+![Figura 7](../assets/figuras/VI-GU-23/figura-07.png)
 *Figura 7 - Filtro de búsqueda*
 
 El sistema trae como resultado la información en las columnas del proyecto y habilita en la columna acciones iconos de consulta directa:
@@ -146,7 +146,7 @@ El sistema trae como resultado la información en las columnas del proyecto y ha
 - *Ver Detalle*
 - *Ver compromisos* (Ver figura 8).
 
-![[VI-GU-23-figura-08.png]]
+![Figura 8](../assets/figuras/VI-GU-23/figura-08.png)
 *Figura 8 - Resultado de búsqueda*
 
 Seleccione el proyecto de la lista sobre el cual realizará el trámite. (Ver figura 9).
@@ -165,7 +165,7 @@ El sistema despliega la barra superior de solicitudes administrativas:
 | **Homologación de Compromisos** | Permite cambiar los compromisos. |
 | **Historial de Solicitudes** | Permite ver el histórico de las solicitudes de un proyecto. |
 
-![[VI-GU-23-figura-09.png]]
+![Figura 9](../assets/figuras/VI-GU-23/figura-09.png)
 *Figura 9 - Resultado de búsqueda y barra de solicitudes*
 
 ---
@@ -178,13 +178,13 @@ El sistema distingue dos modalidades de prórroga según el estado:
 1. **Prórroga de inicio**: Permite extender la fecha de inicio del proyecto.  
    Al presionar el botón Prórroga, el sistema abre el formulario con la información básica del proyecto; observe que en el campo **"Para Iniciar"** aparece una `X`, lo que indica que el proyecto está en estado *Aprobado* y la solicitud es de prórroga de inicio. (Ver figura 10).
 
-   ![[VI-GU-23-figura-10.png]]
+   ![Figura 10](../assets/figuras/VI-GU-23/figura-10.png)
    *Figura 10 - Prórroga de inicio*
 
 2. **Prórroga de ejecución**: Permite extender la fecha de finalización del proyecto.  
    Al presionar el botón Prórroga, el sistema abre el formulario con la información básica; observe que en el campo **"En ejecución"** aparece una `X`, lo que indica que el proyecto está en estado *En ejecución* y se solicita plazo para extender la fecha final. (Ver figura 11).
 
-   ![[VI-GU-23-figura-11.png]]
+   ![Figura 11](../assets/figuras/VI-GU-23/figura-11.png)
    *Figura 11 - Prórroga en Ejecución*
 
 El formulario presenta las siguientes secciones para la solicitud de prórroga: (Ver figuras 11 y 12).
@@ -200,12 +200,12 @@ El formulario presenta las siguientes secciones para la solicitud de prórroga: 
 | **7** | **Justificación**: Ingrese el detalle y motivo de la solicitud de prórroga. |
 | **8** | Botones Guardar, Cancelar. |
 
-![[VI-GU-23-figura-12.png]]
+![Figura 12](../assets/figuras/VI-GU-23/figura-12.png)
 *Figura 12 - Formulario Solicitud de prórroga*
 
 Diligencie la información requerida en el formulario y presione el botón **GUARDAR**; el sistema le mostrará un mensaje de almacenamiento exitoso (*"La información de la solicitud se guardó correctamente"*). (Ver figura 13).
 
-![[VI-GU-23-figura-13.png]]
+![Figura 13](../assets/figuras/VI-GU-23/figura-13.png)
 *Figura 13 - Guardar solicitud de prórroga*
 
 ---
@@ -217,7 +217,7 @@ Diríjase a la pestaña **Actividades Prórroga**.
 - Ingrese el detalle en el campo *Actividades que se desarrollarán en tiempo de prórroga*.
 - Una vez diligenciadas, presione el botón **Guardar** para continuar a la pestaña *Condiciones formales*. (Ver figura 14).
 
-![[VI-GU-23-figura-14.png]]
+![Figura 14](../assets/figuras/VI-GU-23/figura-14.png)
 *Figura 14 - Actividades de prórroga*
 
 ---
@@ -228,7 +228,7 @@ En esta pestaña el SIIU le mostrará las condiciones formales que tiene por cum
 - Valide el cumplimiento de cada condición si existen.
 - En caso de no tener ninguna condición exigida, presione el botón **Guardar** y pase directamente a la siguiente pestaña *Documento soporte*. (Ver figura 15).
 
-![[VI-GU-23-figura-15.png]]
+![Figura 15](../assets/figuras/VI-GU-23/figura-15.png)
 *Figura 15 - Condiciones formales*
 
 ---
@@ -239,7 +239,7 @@ En esta pestaña puede adjuntar los documentos de soporte que requiera la solici
 
 1. Presione el botón **+ Agregar** ubicado al lado derecho de la pantalla. (Ver figura 16).
 
-![[VI-GU-23-figura-16.png]]
+![Figura 16](../assets/figuras/VI-GU-23/figura-16.png)
 *Figura 16 - Adjuntar documento*
 
 !!! caution "Reglas para nombres de archivos"
@@ -255,7 +255,7 @@ En esta pestaña puede adjuntar los documentos de soporte que requiera la solici
 4. Elija el archivo desde su ordenador y presione **Cargar Archivo**. (Ver figura 17).
 5. Presione el botón **Guardar**.
 
-![[VI-GU-23-figura-17.png]]
+![Figura 17](../assets/figuras/VI-GU-23/figura-17.png)
 *Figura 17 - Seleccionar archivo*
 
 ---
@@ -269,7 +269,7 @@ Presione el botón **ENVIAR** para que la solicitud sea remitida formalmente al 
 
 Al presionar el botón **ENVIAR**, el sistema mostrará un mensaje de confirmación en la parte superior notificando: *"Enviado exitosamente"*. (Ver figura 18).
 
-![[VI-GU-23-figura-18.png]]
+![Figura 18](../assets/figuras/VI-GU-23/figura-18.png)
 *Figura 18 - Enviar solicitud*
 
 ---
@@ -280,7 +280,7 @@ Antes de enviar la solicitud administrativa, esta se puede editar en caso de que
 
 1. Ingrese por la opción: `Trámites administrativos / Seguimiento Solicitudes y novedades`. (Ver figura 19).
 
-![[VI-GU-23-figura-19.png]]
+![Figura 19](../assets/figuras/VI-GU-23/figura-19.png)
 *Figura 19 - Editar solicitud*
 
 2. El sistema abre el formulario de seguimiento con los siguientes campos: (Ver figura 20).
@@ -295,7 +295,7 @@ Antes de enviar la solicitud administrativa, esta se puede editar en caso de que
 | **Rango de fecha inicial** | Seleccione el rango de fecha inicial de creación. |
 | **Rango de fecha final** | Seleccione el rango de fecha final. |
 
-![[VI-GU-23-figura-20.png]]
+![Figura 20](../assets/figuras/VI-GU-23/figura-20.png)
 *Figura 20 - Filtro de búsqueda para editar*
 
 3. Presione **Consultar**, seleccione el proyecto a editar y continúe con el registro hasta terminar y enviar la solicitud.

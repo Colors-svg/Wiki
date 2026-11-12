@@ -54,18 +54,18 @@ Aparece una pantalla para iniciar sesión como usuario del portal (ver Figura 2)
 
 Se abrirá una ventana con su nombre en la parte izquierda de la página, seleccione **Enlaces de interés → Mis aplicaciones** (ver Figura 3).
 
-![[VI-IN-12-figura-01.png]]
+![Figura 1](../assets/figuras/VI-IN-12/figura-01.png)
 *Figura 1- Iniciar sesión en el portal*
 
-![[VI-IN-12-figura-02.png]]
+![Figura 2](../assets/figuras/VI-IN-12/figura-02.png)
 *Figura 2- Pantalla login al portal*
 
-![[VI-IN-12-figura-03.png]]
+![Figura 3](../assets/figuras/VI-IN-12/figura-03.png)
 *Figura 3 Aplicaciones del sistema*
 
 Se abrirá una ventana con las aplicaciones de la Universidad, seleccione **SIIU** (ver Figura 4).
 
-![[VI-IN-12-figura-04.png]]
+![Figura 4](../assets/figuras/VI-IN-12/figura-04.png)
 *Figura 4 - Seleccione Siiu*
 
 Se debe abrir una nueva ventana con la aplicación SIIU en la que podrá iniciar el registro del proyecto. Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU. (Ver instrucciones).
@@ -76,29 +76,29 @@ Se debe abrir una nueva ventana con la aplicación SIIU en la que podrá iniciar
 
 Estando en la aplicación del SIIU, verá la ventana principal del SIIU, Ingrese por el menú: **“Convocatorias” / “Proyectos en evaluación”** (ver Figura 5).
 
-![[VI-IN-12-figura-05.png]]
+![Figura 5](../assets/figuras/VI-IN-12/figura-05.png)
 *Figura 5 - Proyectos en evaluación*
 
 Una vez el sistema le permita acceder, desplácese al lado izquierdo de la ventana en la opción **Filtros de consulta**. Seleccione el criterio de búsqueda por el campo deseado o simplemente oprima el botón r para traer la información de todos los proyectos del centro de investigación. Tal como muestra la figura 6.
 
-![[VI-IN-12-figura-06.png]]
+![Figura 6](../assets/figuras/VI-IN-12/figura-06.png)
 *Figura 6 - Consulta proyectos en evaluación*
 
 Una vez obtenga el resultado de la consulta, seleccione la columna **Acciones** y despliegue la opción de puntos suspensivos, tal como aparece en la figura 7.
 
-![[VI-IN-12-figura-07.png]]
+![Figura 7](../assets/figuras/VI-IN-12/figura-07.png)
 *Figura 7- Resultado de consulta botón acciones*
 
 Una vez seleccionado se despliega menú con diferentes opciones que podrá elegir, para el proceso a ejecutar seleccione la opción **Realizar evaluación técnica**. (Ver figura 8)
 
-![[VI-IN-12-figura-08.png]]
+![Figura 8](../assets/figuras/VI-IN-12/figura-08.png)
 *Figura 8 - Menú acciones*
 
 El sistema le presenta una nueva ventana que contiene en la parte superior la información general del proyecto. En caso de que requiera ampliar el detalle del proyecto, seleccione **Ver proyecto**.
 
 En la parte inferior de la ventana le aparece las condiciones formales definidas en los términos de referencia de la convocatoria y las opciones para seleccionar el cumplimiento o no de las mismas. Las opciones que aparecen para solo ser seleccionada una son: **Cumple**, **No cumple**, **No aplica**. (Ver figura 9)
 
-![[VI-IN-12-figura-09.png]]
+![Figura 9](../assets/figuras/VI-IN-12/figura-09.png)
 *Figura 9 - Realizar evaluación técnica*
 
 ---
@@ -107,7 +107,7 @@ En la parte inferior de la ventana le aparece las condiciones formales definidas
 
 Cuando al presionar el botón **GUARDAR** y alguna de las condiciones formales **No cumple** se habilitan los botones **Autorizar actualización** y **Confirmar** (ver figura 10).
 
-![[VI-IN-12-figura-10.png]]
+![Figura 10](../assets/figuras/VI-IN-12/figura-10.png)
 *Figura 10 - Autorizar actualización*
 
 Presione botón **Autorizar actualización**: Este botón permite configurar el proceso de actualización del proyecto en cada campo, tal como muestra la figura 11, recuerde los campos con asterisco son obligatorios.
@@ -122,7 +122,7 @@ Presione botón **Autorizar actualización**: Este botón permite configurar el 
 
 Una vez termine la configuración, presione la opción **AUTORIZAR ACTUALIZACIÓN**.
 
-![[VI-IN-12-figura-11.png]]
+![Figura 11](../assets/figuras/VI-IN-12/figura-11.png)
 *Figura 11- Autorizar actualización del proyecto*
 
 Al presionar el botón, el sistema presenta el siguiente mensaje de alerta, tal como muestra la figura 12.
@@ -130,12 +130,12 @@ Al presionar el botón, el sistema presenta el siguiente mensaje de alerta, tal 
 > *“¿Confirma que desea autorizar al investigador para que actualice las secciones indicadas para el proyecto? El proyecto quedará en estado Pendiente de actualización y el investigador podrá acceder a él para realizar las modificaciones pertinentes. Mientras el proyecto esté pendiente de actualización no podrá continuar con la evaluación del mismo.”*  
 > Presione **Aceptar** para continuar con el proceso.
 
-![[VI-IN-12-figura-12.png]]
+![Figura 12](../assets/figuras/VI-IN-12/figura-12.png)
 *Figura 12 - Mensaje de alerta para actualizar*
 
 Una vez se presiona el botón **Aceptar**, el sistema genera el siguiente mensaje de confirmación figura 13, verifique que la información coincide con la configuración realizada. Si está de acuerdo presione **ACEPTAR**.
 
-![[VI-IN-12-figura-13.png]]
+![Figura 13](../assets/figuras/VI-IN-12/figura-13.png)
 *Figura 13 -Mensaje de confirmación*
 
 Una vez se acepte la confirmación el proyecto, pasa a estado **Pendiente de actualización**, al investigador principal, coordinador o responsable de proyecto le llega correo electrónico informándole de las secciones pendientes por actualizar con el tiempo definido, para que pueda realizarlas.
@@ -144,7 +144,7 @@ Una vez se acepte la confirmación el proyecto, pasa a estado **Pendiente de act
 
 Valide que el proyecto quede en estado **Pendiente de actualización**, realizando la consulta del proyecto o buscando por el módulo de reportes.
 
-![[VI-IN-12-figura-14.png]]
+![Figura 14](../assets/figuras/VI-IN-12/figura-14.png)
 *Figura 14 -Validar estado del proyecto Pendiente de actualización*
 
 ---

@@ -68,23 +68,23 @@ El usuario con rol Centro debe autenticarse en el portal de la Universidad de An
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-09-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-09/figura-01.png)
    *Figura 1- Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-09-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-09/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés**, seleccione **Mis aplicaciones**.  
    *Ruta*: `Enlaces de interés → Mis aplicaciones`.
 
-   ![[VI-GU-09-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-09/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad, seleccione **SIIU**.
 
-   ![[VI-GU-09-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-09/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 5. Se abre una nueva ventana con la aplicación SIIU.  
@@ -102,12 +102,12 @@ Los compromisos del proyecto se dividen en dos conceptos:
 1. Ingrese por la opción:  
    `Trámites administrativos > Gestión de compromisos` *(referenciado también como Trámites Opcionales > Gestión de compromisos)*.
 
-   ![[VI-GU-09-figura-05.png]]
+   ![Figura 5](docs/assets/figuras/VI-GU-09/figura-05.png)
    *Figura 5 - Menú Gestión de compromisos*
 
 2. El SIIU abrirá una ventana con filtros de búsqueda, en la que deberá elegir el centro de investigación correspondiente (este campo es obligatorio). Podrá agregar a la búsqueda del proyecto los diferentes filtros o campos que dispone el sistema. Presione **Consultar**.
 
-   ![[VI-GU-09-figura-06.png]]
+   ![Figura 6](docs/assets/figuras/VI-GU-09/figura-06.png)
    *Figura 6 - Filtros de consulta compromisos*
 
    > [!IMPORTANT]
@@ -115,12 +115,12 @@ Los compromisos del proyecto se dividen en dos conceptos:
 
 3. Una vez realice la consulta, el sistema presenta el listado de los compromisos pendientes por cumplir, además de los campos: *Tipo, proyecto, estado del proyecto, fecha estimada, la fecha real (campo vacío)*.
 
-   ![[VI-GU-09-figura-07.png]]
+   ![Figura 7](docs/assets/figuras/VI-GU-09/figura-07.png)
    *Figura 7 - Consulta de compromisos*
 
 4. Seleccione con el cursor el compromiso que desea gestionar. En la parte superior del listado el sistema mostrará las diferentes opciones que tiene para el compromiso: **Nuevo**, **Ver Detalle**, **Editar**, **Cumplimiento**.
 
-   ![[VI-GU-09-figura-08.png]]
+   ![Figura 8](docs/assets/figuras/VI-GU-09/figura-08.png)
    *Figura 8 - Gestión para los compromisos*
 
 ---
@@ -144,7 +144,7 @@ Para el caso de los proyectos inscritos esta opción permite definir los comprom
 
 3. Una vez ingrese la información, presione el botón **GUARDAR**.
 
-![[VI-GU-09-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-GU-09/figura-09.png)
 *Figura 9 - Nuevo compromiso*
 
 ---
@@ -154,7 +154,7 @@ Para el caso de los proyectos inscritos esta opción permite definir los comprom
 Al presionar el botón **Ver detalle**, el sistema presenta una ventana emergente con información propia del compromiso (Tipo de compromiso, Explicación, Comentario, Fecha estimada de cumplimiento, Fecha real de cumplimiento, Notas, Funcionario).  
 Presione el botón **Cerrar** para salir.
 
-![[VI-GU-09-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-09/figura-10.png)
 *Figura 10 - Ver detalle de compromiso*
 
 ---
@@ -172,7 +172,7 @@ En la opción cumplimiento el jefe de centro podrá asignar la fecha real del cu
 
 1. Seleccione el compromiso y presione el botón **Cumplimiento**.
 
-   ![[VI-GU-09-figura-11.png]]
+   ![Figura 11](docs/assets/figuras/VI-GU-09/figura-11.png)
    *Figura 11 - Listado de compromisos, seleccione compromiso*
 
    > [!NOTE]
@@ -183,12 +183,12 @@ En la opción cumplimiento el jefe de centro podrá asignar la fecha real del cu
    - **Fecha acta**
    - **Fecha real de cumplimiento** *(es la fecha en la cual el investigador cumple con el compromiso)*.
 
-   ![[VI-GU-09-figura-12.png]]
+   ![Figura 12](docs/assets/figuras/VI-GU-09/figura-12.png)
    *Figura 12 – Fecha real de cumplimiento*
 
 3. Puede agregar un comentario del compromiso al que acaba de colocar la fecha real de finalización; presione el botón **NOTAS DEL COMPROMISO** y finalice con **AGREGAR NOTA**. Una vez termine de ingresar toda la información del compromiso, presione el botón **GUARDAR**.
 
-   ![[VI-GU-09-figura-13.png]]
+   ![Figura 13](docs/assets/figuras/VI-GU-09/figura-13.png)
    *Figura 13 - Nota al compromiso*
 
 4. El sistema muestra el mensaje *“Actualizado exitosamente”* y el compromiso desaparecerá de la lista del centro.  

@@ -78,22 +78,22 @@ El investigador principal o responsable del proyecto debe autenticarse en el por
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (ver Figura 1).
 
-   ![[VI-GU-18-figura-01.png]]
+   ![Figura 1](docs/assets/figuras/VI-GU-18/figura-01.png)
    *Figura 1 - Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-GU-18-figura-02.png]]
+   ![Figura 2](docs/assets/figuras/VI-GU-18/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones` (Ver Figura 3).
 
-   ![[VI-GU-18-figura-03.png]]
+   ![Figura 3](docs/assets/figuras/VI-GU-18/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver figura 4).
 
-   ![[VI-GU-18-figura-04.png]]
+   ![Figura 4](docs/assets/figuras/VI-GU-18/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 > [!NOTE]
@@ -105,7 +105,7 @@ El investigador principal o responsable del proyecto debe autenticarse en el por
 
 Estando en el aplicativo SIIU, ingrese al menú **Convocatorias** y seleccione la opción **Nuevos proyectos**. (Ver figura 5).
 
-![[VI-GU-18-figura-05.png]]
+![Figura 5](docs/assets/figuras/VI-GU-18/figura-05.png)
 *Figura 5 - Menú para matrícula de proyectos*
 
 El tren de datos de la inscripción para proyectos inscritos consta de 7 secciones:
@@ -140,7 +140,7 @@ El sistema abre el nuevo formulario llamado **Información general**. Ingrese la
 | **Duración** | Asigne duración al proyecto (meses) |
 | **Responsable** | El sistema coloca la información automáticamente |
 
-![[VI-GU-18-figura-06.png]]
+![Figura 6](docs/assets/figuras/VI-GU-18/figura-06.png)
 *Figura 6 - Información general*
 
 Presione el botón **Guardar** para que el sistema le asigne código al proyecto inscrito que está creando.
@@ -157,29 +157,29 @@ Presione el botón **Siguiente** y llene la información del próximo formulario
 
 Esta opción se divide en dos pestañas: **Descripción** y **Cronograma**. (Ver figura 7).
 
-![[VI-GU-18-figura-07.png]]
+![Figura 7](docs/assets/figuras/VI-GU-18/figura-07.png)
 *Figura 7 - Descripción _ cronograma*
 
 ##### A. Subpestaña Descripción
 En esta opción se ingresa la información requerida para los proyectos inscritos. Presione los tres puntos que aparecen en las descripciones para editar. (Ver figura 8).
 
-![[VI-GU-18-figura-08.png]]
+![Figura 8](docs/assets/figuras/VI-GU-18/figura-08.png)
 *Figura 8 - Descripciones*
 
 El sistema abre una ventana con un editor de texto enriquecido (HTML) para ingresar la información solicitada. Para guardar presione el icono de guardado (disco) y luego la opción **Cerrar**. (Ver figura 9).
 
-![[VI-GU-18-figura-09.png]]
+![Figura 9](docs/assets/figuras/VI-GU-18/figura-09.png)
 *Figura 9 - Editar descripciones*
 
 - **Agregar nueva descripción**: Si requiere agregar una nueva descripción, presione la opción **Agregar descripción**. El sistema abre una ventana; agregue el nuevo título y presione **Guardar título**. (Ver figura 10). Una vez almacenado, el sistema le permite editar la descripción.
 
-![[VI-GU-18-figura-10.png]]
+![Figura 10](docs/assets/figuras/VI-GU-18/figura-10.png)
 *Figura 10 - Agregar descripción*
 
 ##### B. Subpestaña Cronograma
 Esta opción le permite configurar la planeación de las actividades del proyecto; adicionalmente podrá visualizar las actividades en un cronograma de Gantt. Presione el botón **Agregar actividad**. (Ver figura 11).
 
-![[VI-GU-18-figura-11.png]]
+![Figura 11](docs/assets/figuras/VI-GU-18/figura-11.png)
 *Figura 11 - Agregar actividad _ cronograma*
 
 El sistema despliega una ventana emergente con los siguientes campos:
@@ -196,7 +196,7 @@ El sistema despliega una ventana emergente con los siguientes campos:
 
 Presione **Agregar actividad** para terminar el registro. Realice la misma acción por todas las actividades que desee configurar. (Ver figura 12).
 
-![[VI-GU-18-figura-12.png]]
+![Figura 12](docs/assets/figuras/VI-GU-18/figura-12.png)
 *Figura 12 - Agregar actividad*
 
 > [!TIP] Retomar el registro de un proyecto en proceso
@@ -205,13 +205,13 @@ Presione **Agregar actividad** para terminar el registro. Realice la misma acci�
 > 2. En el campo *Palabra clave*, indique el código del proyecto y presione **Consultar**. (Ver figura 14).
 > 3. En la columna *Acciones*, presione los tres puntos y elija la opción **Editar** para continuar. (Ver figura 15).
 
-![[VI-GU-18-figura-13.png]]
+![Figura 13](docs/assets/figuras/VI-GU-18/figura-13.png)
 *Figura 13 - Editar proyecto*
 
-![[VI-GU-18-figura-14.png]]
+![Figura 14](docs/assets/figuras/VI-GU-18/figura-14.png)
 *Figura 14 - Consulta proyecto a editar*
 
-![[VI-GU-18-figura-15.png]]
+![Figura 15](docs/assets/figuras/VI-GU-18/figura-15.png)
 *Figura 15 - Editar proyecto*
 
 ---
@@ -220,44 +220,44 @@ Presione **Agregar actividad** para terminar el registro. Realice la misma acci�
 
 En esta pestaña encontrará las entidades que financian el proyecto, bien sea en recursos frescos o en especie. Adicionalmente podrá agregar nuevos financiadores en la subpestaña **Cofinanciadores**, y configurar el presupuesto detallado en la subpestaña **Presupuesto**. (Ver figura 16).
 
-![[VI-GU-18-figura-16.png]]
+![Figura 16](docs/assets/figuras/VI-GU-18/figura-16.png)
 *Figura 16 - Pestaña presupuestal*
 
 ##### A. Subpestaña Cofinanciadores
 Si una dependencia de la Universidad va a aportar recursos frescos al proyecto, presione **Agregar cofinanciador**; el sistema despliega las opciones de *Financiador* o *Grupo* para elegir según la necesidad. (Ver figura 17).
 
-![[VI-GU-18-figura-17.png]]
+![Figura 17](docs/assets/figuras/VI-GU-18/figura-17.png)
 *Figura 17 - Agregar cofinanciador*
 
 1. Ingrese el NIT de la entidad y presione el botón **Buscar**. (Ver figura 18).
 
-   ![[VI-GU-18-figura-18.png]]
+   ![Figura 18](docs/assets/figuras/VI-GU-18/figura-18.png)
    *Figura 18 - Agregar financiador*
 
 2. Si desea agregar al CODI como financiador, digite el NIT de la Universidad (`890980040`) y presione **Buscar**. Seleccione la dependencia (`Comité Para El Desarrollo De La Investigación`), haga clic en **Agregar** y luego en **Guardar**. (Ver figura 19).
 
-   ![[VI-GU-18-figura-19.png]]
+   ![Figura 19](docs/assets/figuras/VI-GU-18/figura-19.png)
    *Figura 19 - Agregar financiador UdeA CODI*
 
 > [!IMPORTANT]
 > Si va a ingresar recursos de una entidad diferente a la(s) registrada(s), presione **Agregar cofinanciador** y registre los datos (recuerde adjuntar el documento soporte de respaldo).
 > Tenga en cuenta que, al momento de **GUARDAR**, el sistema valida que exista **al menos un financiador** por el proyecto. (Ver figura 20).
 
-![[VI-GU-18-figura-20.png]]
+![Figura 20](docs/assets/figuras/VI-GU-18/figura-20.png)
 *Figura 20 - Valida financiador*
 
 Para cambiar el campo tipo (por defecto aparecen como Cofinanciador), seleccione el aportante, elija la opción **Financiador** y presione el botón **Guardar** para almacenar el cambio. (Ver figuras 21 y 22).
 
-![[VI-GU-18-figura-21.png]]
+![Figura 21](docs/assets/figuras/VI-GU-18/figura-21.png)
 *Figura 21 - Seleccionar aportante*
 
-![[VI-GU-18-figura-22.png]]
+![Figura 22](docs/assets/figuras/VI-GU-18/figura-22.png)
 *Figura 22 - Cambiar tipo de financiador*
 
 **Matricular financiador que NO existe**:
 El sistema SIIU permite matricular un nuevo financiador cuando al buscar su NIT este no existe. Presione la opción **Registrar financiador**. (Ver figura 23).
 
-![[VI-GU-18-figura-23.png]]
+![Figura 23](docs/assets/figuras/VI-GU-18/figura-23.png)
 *Figura 23 - Financiador no existe*
 
 El sistema abre un formulario para ingresar:
@@ -267,31 +267,31 @@ El sistema abre un formulario para ingresar:
 - Ubicación: Continente, País, Departamento, Municipio, Dirección
 - Presione **REGISTRAR FINANCIADOR**. (Ver figura 24).
 
-![[VI-GU-18-figura-24.png]]
+![Figura 24](docs/assets/figuras/VI-GU-18/figura-24.png)
 *Figura 24 - Nueva persona jurídica*
 
 Seleccione el nuevo financiador; el sistema lo agrega a la tabla. Finalice con el botón **GUARDAR**. (Ver figura 25).
 
-![[VI-GU-18-figura-25.png]]
+![Figura 25](docs/assets/figuras/VI-GU-18/figura-25.png)
 *Figura 25 - Agregar nuevo financiador*
 
 ##### B. Subpestaña Presupuesto
 Permite ingresar los valores por cada rubro para el presupuesto a configurar. (Ver figura 26).
 
-![[VI-GU-18-figura-26.png]]
+![Figura 26](docs/assets/figuras/VI-GU-18/figura-26.png)
 *Figura 26 - Subpestaña presupuesto*
 
 1. Presione el botón **Agregar rubro**; el sistema abre una ventana emergente con la lista desplegable de rubros predefinidos. Seleccione el rubro y presione **Aceptar**. (Ver figuras 27 y 28).
 
-   ![[VI-GU-18-figura-27.png]]
+   ![Figura 27](docs/assets/figuras/VI-GU-18/figura-27.png)
    *Figura 27 - Lista de rubros*
 
-   ![[VI-GU-18-figura-28.png]]
+   ![Figura 28](docs/assets/figuras/VI-GU-18/figura-28.png)
    *Figura 28 - Lista de rubros desplegada*
 
 2. Ingrese una justificación si lo considera necesario y presione **AGREGAR RUBRO**. (Ver figura 29).
 
-   ![[VI-GU-18-figura-29.png]]
+   ![Figura 29](docs/assets/figuras/VI-GU-18/figura-29.png)
    *Figura 29 - Agregar rubros*
 
 > [!NOTE] Rubro Personal
@@ -299,7 +299,7 @@ Permite ingresar los valores por cada rubro para el presupuesto a configurar. (V
 
 3. Ingrese los valores monetarios correspondientes al financiador o cofinanciador seleccionado. Verifique la moneda (COP) y presione el botón **GUARDAR**. (Ver figura 30). Realice este procedimiento por cada rubro requerido.
 
-   ![[VI-GU-18-figura-30.png]]
+   ![Figura 30](docs/assets/figuras/VI-GU-18/figura-30.png)
    *Figura 30 - Insertar rubro*
 
 4. **Creación de Subrubros**: Los subrubros son extensiones de un rubro padre para discriminar de forma ordenada el presupuesto.
@@ -307,10 +307,10 @@ Permite ingresar los valores por cada rubro para el presupuesto a configurar. (V
    - Elija **+ Agregar subrubro**. (Ver figura 31).
    - Ingrese los valores y presione **Guardar** (mensaje: *Guardado exitosamente*). (Ver figura 32).
 
-![[VI-GU-18-figura-31.png]]
+![Figura 31](docs/assets/figuras/VI-GU-18/figura-31.png)
 *Figura 31 - Agregar subrubro*
 
-![[VI-GU-18-figura-32.png]]
+![Figura 32](docs/assets/figuras/VI-GU-18/figura-32.png)
 *Figura 32 - Definir valores subrubro*
 
 ---
@@ -322,18 +322,18 @@ En esta pestaña podrá agregar los participantes que harán parte del proyecto 
 > [!NOTE] Participantes Indeterminados
 > Los participantes indeterminados son aquellos que se matriculan en el proyecto para separar el cupo de una vacante, aunque aún no se tenga el dato exacto de quién la ocupará.
 
-![[VI-GU-18-figura-33.png]]
+![Figura 33](docs/assets/figuras/VI-GU-18/figura-33.png)
 *Figura 33 - Opción participantes*
 
 ##### Pasos para registrar participante:
 1. Presione **AGREGAR PARTICIPANTE**. El sistema presenta el formulario de usuario. (Ver figura 34).
 
-   ![[VI-GU-18-figura-34.png]]
+   ![Figura 34](docs/assets/figuras/VI-GU-18/figura-34.png)
    *Figura 34 - Agregar participante*
 
 2. Presione **Seleccionar participante**, digite el número de documento en el campo *Identificación* y presione **Buscar**. (Ver figura 35).
 
-   ![[VI-GU-18-figura-35.png]]
+   ![Figura 35](docs/assets/figuras/VI-GU-18/figura-35.png)
    *Figura 35 - Seleccionar participante*
 
    > [!IMPORTANT]
@@ -341,10 +341,10 @@ En esta pestaña podrá agregar los participantes que harán parte del proyecto 
 
 3. En el resultado de búsqueda, presione **Seleccionar**. (Ver figura 36). El sistema agregará al participante. (Ver figura 37).
 
-   ![[VI-GU-18-figura-36.png]]
+   ![Figura 36](docs/assets/figuras/VI-GU-18/figura-36.png)
    *Figura 36 - Participante a seleccionar*
 
-   ![[VI-GU-18-figura-37.png]]
+   ![Figura 37](docs/assets/figuras/VI-GU-18/figura-37.png)
    *Figura 37 - Agregar participante seleccionado*
 
 4. **Vincular institución**:
@@ -352,17 +352,17 @@ En esta pestaña podrá agregar los participantes que harán parte del proyecto 
    - Digite el NIT y presione **Buscar**.
    - Seleccione la institución y presione **Agregar**. (Ver figuras 38 y 39).
 
-   ![[VI-GU-18-figura-38.png]]
+   ![Figura 38](docs/assets/figuras/VI-GU-18/figura-38.png)
    *Figura 38 - Agregar institución*
 
-   ![[VI-GU-18-figura-39.png]]
+   ![Figura 39](docs/assets/figuras/VI-GU-18/figura-39.png)
    *Figura 39 - Institución adjunta*
 
 5. **Seleccionar grupo de investigación**:
    - Presione el botón **BUSCAR GRUPO**.
    - El sistema permite elegir el grupo al que pertenece el participante. Si no pertenece a ninguno, no muestra lista (solicitar previamente a la Vicerrectoría con soporte GrupLAC). (Ver figura 40).
 
-   ![[VI-GU-18-figura-40.png]]
+   ![Figura 40](docs/assets/figuras/VI-GU-18/figura-40.png)
    *Figura 40 - Seleccionar grupo*
 
 6. **Definir rol, dedicación y funciones**:
@@ -372,7 +372,7 @@ En esta pestaña podrá agregar los participantes que harán parte del proyecto 
    - Función en el proyecto y observaciones.
    - Presione **AGREGAR PARTICIPANTE**. (Ver figura 41).
 
-![[VI-GU-18-figura-41.png]]
+![Figura 41](docs/assets/figuras/VI-GU-18/figura-41.png)
 *Figura 41 - Vínculo, rol, dedicación horaria y funciones del participante*
 
 ---
@@ -381,12 +381,12 @@ En esta pestaña podrá agregar los participantes que harán parte del proyecto 
 
 Una vez completada la pestaña participante, continúe en la pestaña **Compromisos y condiciones**. (Ver figura 42).
 
-![[VI-GU-18-figura-42.png]]
+![Figura 42](docs/assets/figuras/VI-GU-18/figura-42.png)
 *Figura 42 - Pestaña de compromisos*
 
 1. Presione el botón **AGREGAR COMPROMISO**; el sistema despliega una ventana emergente para registrar el compromiso requerido. (Ver figura 43).
 
-   ![[VI-GU-18-figura-43.png]]
+   ![Figura 43](docs/assets/figuras/VI-GU-18/figura-43.png)
    *Figura 43 - Agregar compromiso*
 
 2. Una vez agregado el compromiso en la sección de compromisos opcionales, la columna acción presenta las opciones de **Editar** y **Eliminar**. (Ver figura 44).
@@ -395,7 +395,7 @@ Una vez completada la pestaña participante, continúe en la pestaña **Compromi
 > Recuerde registrar los compromisos establecidos en el proceso de proyectos inscritos, conforme al documento ubicado en el portal:  
 > `Inicio > Investigación > Gestión de la investigación > Procedimientos y formatos`.
 
-![[VI-GU-18-figura-44.png]]
+![Figura 44](docs/assets/figuras/VI-GU-18/figura-44.png)
 *Figura 44 - Compromisos opcionales*
 
 ---
@@ -406,18 +406,18 @@ En esta pestaña se adjuntan los documentos requeridos en la matrícula del proy
 
 1. Presione **Agregar documento soporte**.
 
-   ![[VI-GU-18-figura-45.png]]
+   ![Figura 45](docs/assets/figuras/VI-GU-18/figura-45.png)
    *Figura 45 - Pestaña Documento soporte*
 
 2. El sistema despliega la ventana para ingresar los campos obligatorios: Nombre del documento, Número, Emisor, Fecha de emisión, Tipo de documento y Descripción. (Ver figura 46).
 3. Presione el icono **+**, seleccione el archivo en su PC, presione el botón **Agregar documento soporte** y luego haga clic en **GUARDAR**. (Ver figura 46).
 
-   ![[VI-GU-18-figura-46.png]]
+   ![Figura 46](docs/assets/figuras/VI-GU-18/figura-46.png)
    *Figura 46 - Adjuntar documento*
 
 4. Una vez almacenado, el sistema permite visualizar y gestionar el documento adjunto. (Ver figura 47).
 
-   ![[VI-GU-18-figura-47.png]]
+   ![Figura 47](docs/assets/figuras/VI-GU-18/figura-47.png)
    *Figura 47 - Guardar documento soporte*
 
 ---
@@ -428,17 +428,17 @@ Esta pestaña le permitirá enviar el proyecto al Centro de Investigación para 
 
 1. Presione el botón **Enviar a centro**. (Ver figura 48).
 
-   ![[VI-GU-18-figura-48.png]]
+   ![Figura 48](docs/assets/figuras/VI-GU-18/figura-48.png)
    *Figura 48 - Enviar a centro*
 
 2. El sistema genera un mensaje de alerta: *"Recuerde que al enviar el proyecto el centro ya no podrá realizar cambios a menos de que se lo permitan en el momento de la revisión. ¿Realmente desea enviar el proyecto?"*. Si todo está correcto, presione el botón **ACEPTAR**. (Ver figura 49).
 
-   ![[VI-GU-18-figura-49.png]]
+   ![Figura 49](docs/assets/figuras/VI-GU-18/figura-49.png)
    *Figura 49 - Mensaje de alerta*
 
 3. El sistema emite el mensaje de confirmación oficial con el código de proyecto asignado y fecha/hora exacta de radicación, quedando el proyecto en estado **Matriculado**. Con este paso concluye la matrícula del proyecto. (Ver figura 50).
 
-   ![[VI-GU-18-figura-50.png]]
+   ![Figura 50](docs/assets/figuras/VI-GU-18/figura-50.png)
    *Figura 50 - Mensaje de confirmación*
 
 ---

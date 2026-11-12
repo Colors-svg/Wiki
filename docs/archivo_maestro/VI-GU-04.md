@@ -66,23 +66,23 @@ El usuario que se encuentra registrado como jefe de centro debe autenticarse en 
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión**.
 
-   ![[VI-GU-04-figura-01.png]]
+   ![Figura 1](../assets/figuras/VI-GU-04/figura-01.png)
    *Figura 1. Ingreso al portal de la Universidad de Antioquia.*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione **No soy un Robot** (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**.
 
-   ![[VI-GU-04-figura-02.png]]
+   ![Figura 2](../assets/figuras/VI-GU-04/figura-02.png)
    *Figura 2. Conectar al portal.*
 
 3. Presione clic en la opción **Enlaces de Interés**, seleccione **Mis aplicaciones**.  
    *Ruta*: `Enlaces de interés → Mis aplicaciones`.
 
-   ![[VI-GU-04-figura-03.png]]
+   ![Figura 3](../assets/figuras/VI-GU-04/figura-03.png)
    *Figura 3. Enlaces de interés.*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad, seleccione **SIIU**.
 
-   ![[VI-GU-04-figura-04.png]]
+   ![Figura 4](../assets/figuras/VI-GU-04/figura-04.png)
    *Figura 4. Seleccione SIIU.*
 
 5. Se abre una nueva ventana con la aplicación SIIU.  
@@ -100,12 +100,12 @@ Los compromisos del proyecto se dividen en dos conceptos:
 1. Ingrese por la opción:  
    `Trámites administrativos > Gestión de compromisos`.
 
-   ![[VI-GU-04-figura-05.png]]
+   ![Figura 5](../assets/figuras/VI-GU-04/figura-05.png)
    *Figura 5. Menú Gestión de compromisos.*
 
 2. El SIIU abre una ventana con filtros de búsqueda, en la que debe elegir el centro de investigación correspondiente, este campo es obligatorio. Podrá agregar a la búsqueda del proyecto, los diferentes filtros o campos que dispone el sistema. Presione el botón **Consultar**.
 
-   ![[VI-GU-04-figura-06.png]]
+   ![Figura 6](../assets/figuras/VI-GU-04/figura-06.png)
    *Figura 6. Filtros de consulta compromisos.*
 
    !!! info "> Si no utiliza otro filtro de consulta para especificar su proyecto, el sistema muestra por defecto, los compromisos pendientes de **TODOS** los proyectos de su centro."
@@ -113,7 +113,7 @@ Los compromisos del proyecto se dividen en dos conceptos:
 3. Una vez realice la consulta, el sistema presenta listado de los compromisos pendientes por cumplir, además de los campos: tipo, proyecto, estado del proyecto, fecha estimada, la fecha real (campo vacío).  
    Seleccione con el cursor el compromiso que desea cumplir, en la parte superior del listado el sistema mostrará las diferentes opciones que tiene para el compromiso. Seleccione el botón **Cumplimiento**.
 
-   ![[VI-GU-04-figura-07.png]]
+   ![Figura 7](../assets/figuras/VI-GU-04/figura-07.png)
    *Figura 7. Listado de compromisos, seleccione compromiso.*
 
    !!! note "> Solo podrá elegir un compromiso a la vez para gestionar su cumplimiento, por lo que deberá repetir el proceso tantas veces como compromisos tenga el proyecto."
@@ -123,12 +123,12 @@ Los compromisos del proyecto se dividen en dos conceptos:
    - **Fecha acta**
    - **Fecha real de cumplimiento** (es la fecha en la cual el investigador cumple con el compromiso).
 
-   ![[VI-GU-04-figura-08.png]]
+   ![Figura 8](../assets/figuras/VI-GU-04/figura-08.png)
    *Figura 8. Fecha real de cumplimiento.*
 
 5. Puede agregar un comentario del compromiso que acaba de colocar la fecha real de finalización; para esto presione el botón **Notas del compromiso** y finalice con el botón **Agregar nota**. Una vez termine de ingresar toda la información del compromiso, presione el botón **Guardar**.
 
-   ![[VI-GU-04-figura-09.png]]
+   ![Figura 9](../assets/figuras/VI-GU-04/figura-09.png)
    *Figura 9. Nota al compromiso.*
 
 6. El sistema muestra el mensaje *Actualizado exitosamente* y el compromiso desaparecerá de la lista del centro.
@@ -146,27 +146,27 @@ Cuando el proyecto se encuentra en estado **Finalizado**, se puede proceder con 
 1. El usuario que se encuentra registrado como Jefe de Centro debe ingresar al SIIU e ingresar al menú:  
    `Trámites administrativos > Seguimiento proyectos`.
 
-   ![[VI-GU-04-figura-10.png]]
+   ![Figura 10](../assets/figuras/VI-GU-04/figura-10.png)
    *Figura 10. Seguimiento a proyectos.*
 
 2. El SIIU abre una ventana en la que podrá realizar la búsqueda del proyecto que desea cerrar. Elija el centro de investigación correspondiente; para agilizar la búsqueda del proyecto, seleccione estado: **Finalizado** y presione botón **Consultar**.
 
-   ![[VI-GU-04-figura-11.png]]
+   ![Figura 11](../assets/figuras/VI-GU-04/figura-11.png)
    *Figura 11. Estado finalizado.*
 
 3. El sistema arroja el listado de los proyectos administrados por el centro que se encuentran en estado Finalizado.
 
-   ![[VI-GU-04-figura-12.png]]
+   ![Figura 12](../assets/figuras/VI-GU-04/figura-12.png)
    *Figura 12. Proyectos estado finalizado.*
 
 4. Seleccione mediante un clic, el proyecto que desee cerrar. El SIIU mostrará las diferentes opciones que tiene el proyecto en la parte superior de la lista y allí debe elegir el botón **Cerrar proyecto**.
 
-   ![[VI-GU-04-figura-13.png]]
+   ![Figura 13](../assets/figuras/VI-GU-04/figura-13.png)
    *Figura 13. Botón del Cerrar proyecto.*
 
 5. El sistema abre un formulario para registrar la evaluación de finalización del proyecto, presione el botón **Generar acta**.
 
-   ![[VI-GU-04-figura-14.png]]
+   ![Figura 14](../assets/figuras/VI-GU-04/figura-14.png)
    *Figura 14. Generar acta de finalización.*
 
 6. El sistema habilitará una ventana donde se debe ingresar la información en los siguientes campos:
@@ -179,24 +179,24 @@ Cuando el proyecto se encuentra en estado **Finalizado**, se puede proceder con 
 
    Finalice presionando el botón **Generar acta de finalización**.
 
-   ![[VI-GU-04-figura-15.png]]
+   ![Figura 15](../assets/figuras/VI-GU-04/figura-15.png)
    *Figura 15. Generar acta de finalización.*
 
 7. El sistema genera un documento PDF que deberá descargar e imprimir para agregar las firmas respectivas.
 
-   ![[VI-GU-04-figura-16.png]]
+   ![Figura 16](../assets/figuras/VI-GU-04/figura-16.png)
    *Figura 16. Acta de finalización PDF.*
 
    !!! info "> Una vez el acta de finalización se encuentre completamente firmada, debe escanearla en formato PDF y adjuntarla al SIIU para proceder con el cierre del proyecto."
 
 8. Para adjuntar el documento generado, debe volver a ingresar al SIIU, seleccionar el proyecto y buscar la opción **Cerrar proyecto**. El sistema abrirá la ventana de cierre y allí debe presionar la pestaña **Adjuntar documento**, ingresar la información requerida en pantalla, adjuntar el documento y presionar el botón **Guardar**.
 
-   ![[VI-GU-04-figura-17.png]]
+   ![Figura 17](../assets/figuras/VI-GU-04/figura-17.png)
    *Figura 17. Documento adjunto.*
 
 9. Valide que el documento se cargó exitosamente; observe que aparece en la lista de documentos adjuntos.
 
-   ![[VI-GU-04-figura-18.png]]
+   ![Figura 18](../assets/figuras/VI-GU-04/figura-18.png)
    *Figura 18. Valida documento adjunto.*
 
 ---

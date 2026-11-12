@@ -67,22 +67,22 @@ El usuario con rol de IP, centro de investigación o vicerrectoría debe autenti
 
 1. Ingresa al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (Ver Figura 1).
 
-   ![[VI-IN-02-figura-01.png]]
+   ![Figura 1](../assets/figuras/VI-IN-02/figura-01.png)
    *Figura 1- Ingreso al portal de la Universidad de Antioquia*
 
 2. Aparece pantalla para ingresar su usuario y contraseña, seleccione *No soy un Robot* (el sistema le puede pedir realizar validaciones) finalmente presione clic en el botón **CONECTAR**. (Ver figura 2).
 
-   ![[VI-IN-02-figura-02.png]]
+   ![Figura 2](../assets/figuras/VI-IN-02/figura-02.png)
    *Figura 2 - Conectar al portal*
 
 3. Presione clic en la opción **Enlaces de Interés** y seleccione **Mis aplicaciones**, así: `Enlaces de interés → Mis aplicaciones`. (Ver Figura 3).
 
-   ![[VI-IN-02-figura-03.png]]
+   ![Figura 3](../assets/figuras/VI-IN-02/figura-03.png)
    *Figura 3 - Enlaces de interés*
 
 4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU**. (Ver Figura 4).
 
-   ![[VI-IN-02-figura-04.png]]
+   ![Figura 4](../assets/figuras/VI-IN-02/figura-04.png)
    *Figura 4 - Seleccione SIIU*
 
 !!! note "> Se abre una nueva ventana con la aplicación SIIU (Ver Figura 5). Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU."
@@ -94,7 +94,7 @@ El usuario con rol de IP, centro de investigación o vicerrectoría debe autenti
 Una vez se encuentre en el SIIU:
 1. Ingrese al menú: `Convocatorias / Reportes / Historial de Proyecto` (o Información básica de proyectos). (Ver figura 5).
 
-![[VI-IN-02-figura-05.png]]
+![Figura 5](../assets/figuras/VI-IN-02/figura-05.png)
 *Figura 5 - Menú de acceso al reporte*
 
 2. El sistema despliega un formulario con los criterios de búsqueda para el reporte:
@@ -112,7 +112,7 @@ Una vez se encuentre en el SIIU:
 | **Convocatoria** | Seleccione la convocatoria específica. |
 | **Proceso de selección** | Seleccione el nombre del proceso de selección. |
 
-![[VI-IN-02-figura-06.png]]
+![Figura 6](../assets/figuras/VI-IN-02/figura-06.png)
 *Figura 6 - Criterios de búsqueda historial de proyectos*
 
 !!! tip "Optimización de consultas"
@@ -121,14 +121,14 @@ Una vez se encuentre en el SIIU:
 3. Presione el botón **Buscar**.
 4. Una vez realizada la consulta, el sistema presenta en pantalla los resultados coincidentes con información en columnas: *Código*, *Nombre del proyecto*, *Centro administrativo*, *Estado*, *Fecha de inicio*, *Fecha de finalización*, *Responsable / IP*. (Ver figura 7).
 
-![[VI-IN-02-figura-07.png]]
+![Figura 7](../assets/figuras/VI-IN-02/figura-07.png)
 *Figura 7 - Resultado de la consulta*
 
 5. En la parte superior de la tabla de resultados se habilitan los siguientes botones de acción: (Ver figura 8).
    - **Visualizar información**: Permite consultar en pantalla el detalle ampliado del proyecto seleccionado.
    - **Exportar a Excel**: Descarga la matriz de datos de proyectos consultados en una hoja de cálculo formato Microsoft Excel.
 
-![[VI-IN-02-figura-08.png]]
+![Figura 8](../assets/figuras/VI-IN-02/figura-08.png)
 *Figura 8 - Resultado de búsqueda nuevos botones*
 
 ---
