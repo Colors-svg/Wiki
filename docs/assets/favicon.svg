@@ -1,20 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="100%" height="100%">
-  <defs>
-    <style>
-      .udea-slab-primary {
-        font-family: 'Roboto Slab', 'Rockwell', 'Georgia', serif;
-        font-weight: 700;
-        fill: #026937;
-      }
-      .udea-reg {
-        font-family: 'Roboto', sans-serif;
-        font-size: 11px;
-        font-weight: bold;
-        fill: #026937;
-      }
-    </style>
-  </defs>
-  <!-- Símbolo Simplificado Oficial UdeA -->
-  <text x="10" y="62" class="udea-slab-primary" font-size="64" letter-spacing="-1.5px">U<tspan font-size="44" dy="-6">de</tspan><tspan font-size="64" dy="6">A</tspan></text>
-  <text x="180" y="24" class="udea-reg">®</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<title>UdeA</title>
+<defs>
+<style>
+.crest-stroke{stroke:#FFFFFF;stroke-width:4.5;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.text-year{font-family:"Times New Roman",Times,serif;font-size:17px;fill:#FFFFFF;letter-spacing:4px;}
+.band-text{font-family:"Times New Roman",Times,serif;font-size:16px;font-weight:bold;fill:#FFFFFF;text-anchor:middle;letter-spacing:2px;}
+</style>
+</defs>
+<rect width="64" height="64" rx="14" fill="#026937"/>
+<g transform="translate(16,3) scale(0.42)">
+<ellipse cx="48" cy="62" rx="34" ry="48" class="crest-stroke" />
+<ellipse cx="48" cy="62" rx="30" ry="44" class="crest-stroke" stroke-width="2" stroke-dasharray="4 4" />
+<path d="M 48,28 L 48,90 M 42,34 L 54,34 M 48,26 C 45,26 45,22 48,22 C 51,22 51,26 48,26 Z" class="crest-stroke" />
+<path d="M 30,78 Q 48,96 66,78 M 30,78 L 26,76 M 66,78 L 70,76" class="crest-stroke" />
+<rect x="25" y="55" width="46" height="14" rx="2" fill="#014725" stroke="#FFFFFF" stroke-width="2.5" />
+<text x="48" y="65.5" class="band-text">MEDELLÍN</text>
+<path d="M 28,42 L 28,52 M 25,42 L 31,42 M 28,40 Q 26,35 28,31 Q 30,35 28,40 Z" class="crest-stroke" />
+<path d="M 68,42 L 68,52 M 65,42 L 71,42 M 68,40 Q 66,35 68,31 Q 70,35 68,40 Z" class="crest-stroke" />
+<path d="M 16,50 Q 12,65 18,84 Q 24,98 38,105" class="crest-stroke" />
+<path d="M 80,50 Q 84,65 78,84 Q 72,98 58,105" class="crest-stroke" />
+<path d="M 18,45 Q 22,25 36,18 Q 48,14 60,18 Q 74,25 78,45" class="crest-stroke" />
+<text x="48" y="126" class="text-year" text-anchor="middle">1 8 0 3</text>
+</g>
 </svg>

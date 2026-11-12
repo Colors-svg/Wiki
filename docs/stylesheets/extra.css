@@ -26,6 +26,34 @@
   --md-code-fg-color: #7DD3FC;
   --border-color: #1E293B;
   --card-bg: #111722;
+
+  /* Mermaid: tinta institucional (nunca el azul de código) */
+  --md-mermaid-font-family: 'Inter', sans-serif;
+  --md-mermaid-label-fg-color: #EAF3EC;
+  --md-mermaid-label-bg-color: #172130;
+  --md-mermaid-node-fg-color: #FFFFFF;
+  --md-mermaid-node-bg-color: #123A21;
+  --md-mermaid-edge-color: #35944B;
+  --md-mermaid-sequence-actor-fg-color: #FFFFFF;
+  --md-mermaid-sequence-actor-bg-color: #123A21;
+  --md-mermaid-sequence-actor-border-color: #35944B;
+  --md-mermaid-sequence-actor-line-color: #35944B;
+  --md-mermaid-sequence-actorman-bg-color: #123A21;
+  --md-mermaid-sequence-actorman-line-color: #35944B;
+  --md-mermaid-sequence-box-fg-color: #FFFFFF;
+  --md-mermaid-sequence-box-bg-color: #123A21;
+  --md-mermaid-sequence-label-fg-color: #EAF3EC;
+  --md-mermaid-sequence-label-bg-color: #172130;
+  --md-mermaid-sequence-loop-fg-color: #EAF3EC;
+  --md-mermaid-sequence-loop-bg-color: #172130;
+  --md-mermaid-sequence-loop-border-color: #35944B;
+  --md-mermaid-sequence-message-fg-color: #EAF3EC;
+  --md-mermaid-sequence-message-line-color: #35944B;
+  --md-mermaid-sequence-note-fg-color: #0F2417;
+  --md-mermaid-sequence-note-bg-color: #E3F1CF;
+  --md-mermaid-sequence-note-border-color: #8DC63F;
+  --md-mermaid-sequence-number-fg-color: #FFFFFF;
+  --md-mermaid-sequence-number-bg-color: #026937;
 }
 
 [data-md-color-scheme="default"] {
@@ -46,6 +74,50 @@
   --md-code-fg-color: #026937;
   --border-color: #E2E8F0;
   --card-bg: #FFFFFF;
+
+  /* Mermaid: tinta institucional en modo claro */
+  --md-mermaid-font-family: 'Inter', sans-serif;
+  --md-mermaid-label-fg-color: #0F2417;
+  --md-mermaid-label-bg-color: #FFFFFF;
+  --md-mermaid-node-fg-color: #0F2417;
+  --md-mermaid-node-bg-color: #E7F3EA;
+  --md-mermaid-edge-color: #026937;
+  --md-mermaid-sequence-actor-fg-color: #0F2417;
+  --md-mermaid-sequence-actor-bg-color: #E7F3EA;
+  --md-mermaid-sequence-actor-border-color: #026937;
+  --md-mermaid-sequence-actor-line-color: #026937;
+  --md-mermaid-sequence-actorman-bg-color: #E7F3EA;
+  --md-mermaid-sequence-actorman-line-color: #026937;
+  --md-mermaid-sequence-box-fg-color: #0F2417;
+  --md-mermaid-sequence-box-bg-color: #E7F3EA;
+  --md-mermaid-sequence-label-fg-color: #0F2417;
+  --md-mermaid-sequence-label-bg-color: #FFFFFF;
+  --md-mermaid-sequence-loop-fg-color: #0F2417;
+  --md-mermaid-sequence-loop-bg-color: #FFFFFF;
+  --md-mermaid-sequence-loop-border-color: #026937;
+  --md-mermaid-sequence-message-fg-color: #0F2417;
+  --md-mermaid-sequence-message-line-color: #026937;
+  --md-mermaid-sequence-note-fg-color: #0F2417;
+  --md-mermaid-sequence-note-bg-color: #E3F1CF;
+  --md-mermaid-sequence-note-border-color: #8DC63F;
+  --md-mermaid-sequence-number-fg-color: #FFFFFF;
+  --md-mermaid-sequence-number-bg-color: #026937;
+}
+
+/* Paleta oficial UdeA (Paleta-Udea v1.0.0) — referencia para futuros usos */
+:root {
+  --udea-bosque: #026937;
+  --udea-follaje: #35944B;
+  --udea-pradera: #43B649;
+  --udea-lima: #8DC63F;
+  --udea-caribe: #3EBDAC;
+  --udea-esmeralda: #069A7E;
+  --udea-petroleo: #0E7774;
+  --udea-purpura: #70205B;
+  --udea-ambar: #F9A12C;
+  --udea-ceruleo: #137598;
+  --udea-rojo: #EF434D;
+  --udea-violeta: #532D87;
 }
 
 /* --------------------------------------------------------------------------
@@ -69,26 +141,41 @@
 }
 
 /* --------------------------------------------------------------------------
-   Cabecera Sutil, Moderna y Desacoplada
+   Cabecera institucional fija (verde bosque, formal en ambos modos)
+   Logo en blanco puro sobre fondo oscuro — regla de marca Paleta-Udea.
    -------------------------------------------------------------------------- */
 .md-header {
-  background-color: var(--md-default-bg-color--light) !important;
-  border-bottom: 1px solid var(--border-color) !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-}
-
-[data-md-color-scheme="slate"] .md-header {
-  background-color: #0B0F15 !important;
+  background: linear-gradient(120deg, #013B1F 0%, #026937 62%, #037A40 100%) !important;
+  border-bottom: 1px solid rgba(141, 198, 63, 0.4) !important;
+  box-shadow: 0 2px 14px rgba(1, 59, 31, 0.4) !important;
 }
 
 .md-header__title {
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: var(--md-default-fg-color) !important;
+  color: #FFFFFF !important;
+}
+
+.md-header__topic .md-ellipsis {
+  color: #FFFFFF !important;
+}
+
+.md-header__button {
+  color: #FFFFFF !important;
 }
 
 .md-header__button.md-logo {
-  padding: 0.2rem;
+  padding: 0.2rem 0.35rem 0.2rem 0.1rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.1rem !important;
+  width: auto !important;
+}
+
+.md-header [data-md-component="palette"] .md-icon {
+  color: #FFFFFF !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -150,19 +237,32 @@ body, .md-typeset {
 }
 
 /* --------------------------------------------------------------------------
-   Buscador con Efecto Glow Institucional Suave
+   Buscador sobre cabecera verde (pill translúcido, texto blanco)
    -------------------------------------------------------------------------- */
 .md-search__input {
-  border-radius: 8px !important;
-  background-color: var(--md-default-bg-color) !important;
-  border: 1px solid var(--border-color) !important;
-  color: var(--md-default-fg-color) !important;
-  transition: all 0.25s ease-in-out !important;
+  border-radius: 9999px !important;
+  background-color: rgba(0, 0, 0, 0.28) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #FFFFFF !important;
+  transition: border-color 180ms ease-in-out, box-shadow 180ms ease-in-out !important;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.md-search__input:hover {
+  border-color: rgba(141, 198, 63, 0.7) !important;
 }
 
 .md-search__input:focus {
-  border-color: #35944B !important;
-  box-shadow: 0 0 0 3px rgba(53, 148, 75, 0.25), 0 0 16px rgba(141, 198, 63, 0.2) !important;
+  border-color: #8DC63F !important;
+  box-shadow: 0 0 0 3px rgba(141, 198, 63, 0.3) !important;
+}
+
+.md-search__icon,
+.md-search__input ~ .md-search__icon {
+  color: rgba(255, 255, 255, 0.85) !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -277,20 +377,22 @@ body, .md-typeset {
 }
 
 /* --------------------------------------------------------------------------
-   Botón Back-To-Top (Volver Arriba) - Animación Limpia & Vertical
+   Botón Volver Arriba — moderno, SIN movimiento (el translateY causaba
+   tembleque: el botón huía del cursor en loop hover/unhover).
    -------------------------------------------------------------------------- */
 .md-top {
-  background-color: #026937 !important;
+  width: 2.8rem;
+  height: 2.8rem;
+  background: linear-gradient(135deg, #026937, #35944B) !important;
   color: #FFFFFF !important;
-  border-radius: 50% !important;
-  box-shadow: 0 4px 12px rgba(2, 105, 55, 0.35) !important;
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 6px 18px rgba(2, 105, 55, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+  transition: background-color 180ms ease-in-out, box-shadow 180ms ease-in-out !important;
 }
 
-/* Hover sin desplazamientos laterales */
 .md-top:hover {
-  background-color: #35944B !important;
-  transform: translateY(-5px) !important; /* Movimiento vertical limpio hacia arriba */
+  background: linear-gradient(135deg, #037A40, #43B649) !important;
+  box-shadow: 0 8px 26px rgba(67, 182, 73, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -466,8 +568,9 @@ body, .md-typeset {
   stroke-width: 1.5px !important;
 }
 
-/* Botón Ampliar en cada diagrama */
-.mermaid {
+/* Envoltorio del botón Ampliar (el diagrama vive en shadow DOM cerrado:
+   el botón debe ser hermano visible, no hijo del anfitrión) */
+.diagram-zoom-wrap {
   position: relative;
 }
 .diagram-zoom-btn {
@@ -482,13 +585,13 @@ body, .md-typeset {
   background: var(--md-default-bg-color--light);
   color: var(--md-primary-fg-color--light);
   cursor: pointer;
-  opacity: 0;
-  transition: opacity 180ms cubic-bezier(0.22, 1, 0.36, 1);
+  opacity: 1; /* siempre visible: el hover-only pasaba desapercibido */
+  transition: background-color 180ms ease-in-out, box-shadow 180ms ease-in-out;
   z-index: 2;
 }
 .mermaid:hover .diagram-zoom-btn,
 .mermaid:focus-within .diagram-zoom-btn {
-  opacity: 1;
+  box-shadow: 0 4px 14px rgba(2, 105, 55, 0.25);
 }
 .diagram-zoom-btn:hover {
   background: #026937;

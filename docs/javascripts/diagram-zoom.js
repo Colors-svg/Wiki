@@ -1,5 +1,9 @@
 /* Wiki SIIU — Botón "Ampliar" para diagramas Mermaid.
  * Sin dependencias. Compatible con navigation.instant de Material.
+ * Nota: Material renderiza Mermaid dentro de un Shadow DOM CERRADO
+ * (el <pre> se reemplaza por un div.mermaid anfitrión). Por eso el botón
+ * NO va dentro del diagrama (sería invisible sin <slot>), sino en un
+ * envoltorio hermano, y el modal MUEVE el nodo real (con su shadow).
  */
 (function () {
   'use strict';
@@ -8,12 +12,36 @@
   var MAX_ZOOM = 2.5;
   var STEP = 0.25;
 
+  function wrapOf(box) {
+    var p = box.parentNode;
+    return p && p.classList && p.classList.contains('diagram-zoom-wrap') ? p : null;
+  }
+
   function hasZoomButton(box) {
-    var kids = box.children;
-    for (var i = 0; i < kids.length; i++) {
-      if (kids[i].className === 'diagram-zoom-btn') return true;
+    var wrap = wrapOf(box);
+    return !!(wrap && wrap.querySelector(':scope > .diagram-zoom-btn'));
+  }
+
+  function initOne(box) {
+    if (box.closest && box.closest('dialog.diagram-lightbox')) return;
+    if (hasZoomButton(box)) return;
+    var wrap = wrapOf(box);
+    if (!wrap) {
+      wrap = document.createElement('div');
+      wrap.className = 'diagram-zoom-wrap';
+      box.parentNode.insertBefore(wrap, box);
+      wrap.appendChild(box);
     }
-    return false;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'diagram-zoom-btn';
+    btn.textContent = '⛶ Ampliar';
+    btn.setAttribute('aria-label', 'Ampliar diagrama en ventana grande');
+    btn.addEventListener('click', function (ev) {
+      ev.stopPropagation();
+      openLightbox(box);
+    });
+    wrap.appendChild(btn);
   }
 
   function initDiagramZoom(scope) {
@@ -21,21 +49,7 @@
     var boxes = root.querySelectorAll
       ? root.querySelectorAll('.mermaid')
       : [];
-    boxes.forEach(function (box) {
-      // Sin flags persistentes: el render de Mermaid reemplaza el
-      // innerHTML y puede borrar el botón; si falta, se repone.
-      if (hasZoomButton(box)) return;
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'diagram-zoom-btn';
-      btn.textContent = '⛶ Ampliar';
-      btn.setAttribute('aria-label', 'Ampliar diagrama en ventana grande');
-      btn.addEventListener('click', function (ev) {
-        ev.stopPropagation();
-        openLightbox(box);
-      });
-      box.appendChild(btn);
-    });
+    boxes.forEach(initOne);
   }
 
   function openLightbox(box) {
@@ -48,10 +62,8 @@
 
     var head = document.createElement('div');
     head.className = 'diagram-lightbox-head';
-
     var name = document.createElement('strong');
     name.textContent = title;
-
     var actions = document.createElement('div');
     actions.className = 'diagram-lightbox-actions';
 
@@ -63,7 +75,6 @@
     btnOut.type = 'button';
     btnOut.textContent = 'A−';
     btnOut.setAttribute('aria-label', 'Reducir zoom');
-
     var btnIn = document.createElement('button');
     btnIn.type = 'button';
     btnIn.textContent = 'A+';
@@ -95,24 +106,33 @@
     head.appendChild(name);
     head.appendChild(actions);
 
+    // Mover el nodo real (con su shadow) al modal y devolverlo al cerrar.
+    var placeholder = document.createComment('diagrama-ampliado');
+    box.parentNode.insertBefore(placeholder, box);
+    scaler.appendChild(box);
+
     var body = document.createElement('div');
     body.className = 'diagram-lightbox-body';
-    var clone = box.cloneNode(true);
-    clone.removeAttribute('id');
-    var oldBtn = clone.querySelector('.diagram-zoom-btn');
-    if (oldBtn) oldBtn.remove();
-    scaler.appendChild(clone);
     body.appendChild(scaler);
 
     dlg.appendChild(head);
     dlg.appendChild(body);
     document.body.appendChild(dlg);
 
+    function restore() {
+      if (placeholder.parentNode) {
+        placeholder.parentNode.insertBefore(box, placeholder);
+        placeholder.remove();
+      }
+    }
+
     dlg.addEventListener('click', function (ev) {
       if (ev.target === dlg) dlg.close();
     });
     dlg.addEventListener('close', function () {
+      restore();
       dlg.remove();
+      initDiagramZoom(document);
     });
 
     if (typeof dlg.showModal === 'function') {
@@ -124,9 +144,8 @@
 
   function boot() {
     initDiagramZoom(document);
-    // navigation.instant de Material reemplaza el <body> sin re-ejecutar
-    // este script: el observador cubre esos cambios sin depender de
-    // globales internos del bundle (document$ está minificado).
+    // navigation.instant reemplaza el <body> sin re-ejecutar este script:
+    // el observador cubre esos cambios y los re-renders de Mermaid.
     if (typeof MutationObserver !== 'undefined') {
       var scheduled = false;
       var obs = new MutationObserver(function () {
