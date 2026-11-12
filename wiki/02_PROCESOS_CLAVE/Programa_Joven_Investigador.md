@@ -10,7 +10,7 @@ tags:
   - siiu
 ---
 
-# 🎓 Proceso Clave: Programa Joven Investigador
+# Proceso Clave: Programa Joven Investigador
 
 El **Programa Joven Investigador (JI)** de la Universidad de Antioquia es una estrategia de fomento a la vocación científica mediante pasantías remuneradas con estímulo económico para estudiantes destacados de pregrado y recién graduados.
 
@@ -73,12 +73,12 @@ Una vez asignado el cupo, el tutor debe vincular formalmente al estudiante selec
 
 ---
 
-## ⚠️ Reglas Bancarias Inquebrantables para Jóvenes Investigadores
+## Reglas Bancarias Inquebrantables para Jóvenes Investigadores
 
 > [!CAUTION] PROHIBICIÓN ESTRICTA DE BILLETERAS DIGITALES
 > Por directriz de la División de Tesorería de la Universidad de Antioquia:
 > - ❌ **NO se permiten:** Cuentas Nequi, Daviplata, Bancolombia Ahorro a la Mano ni cuentas de Agroseguro.
-> - ✅ **SÍ se permiten:** Únicamente **cuentas de ahorros tradicionales** radicadas en entidades financieras legalmente vigiladas por la Superintendencia Financiera de Colombia.
+> - **SÍ se permiten:** Únicamente **cuentas de ahorros tradicionales** radicadas en entidades financieras legalmente vigiladas por la Superintendencia Financiera de Colombia.
 > - **Titularidad:** La cuenta bancaria debe estar **exclusivamente a nombre del Joven Investigador** (no se aceptan cuentas de padres, cónyuges, tutores ni terceros).
 
 > [!IMPORTANT] NO SE EMITEN CARTAS LABORALES PARA APERTURA DE CUENTA

@@ -1,4 +1,4 @@
----
+﻿---
 title: Reglas de Oro del Sistema SIIU
 description: Directrices técnicas transversales, restricciones de plataforma, nomenclatura de archivos, navegadores y buenas prácticas en SIIU
 tags:
@@ -9,7 +9,7 @@ tags:
   - siiu
 ---
 
-# 🛡️ Reglas de Oro del Sistema SIIU
+# Reglas de Oro del Sistema SIIU
 
 Para evitar caídas de sesión, pérdidas de datos, rechazos administrativos o bloqueos técnicos en el **SIIU**, ten en cuenta estas directrices obligatorias en todas tus operaciones.
 
@@ -21,7 +21,7 @@ El motor de archivos del SIIU es altamente sensible a la sintaxis de nombres de 
 
 ```
 +-----------------------------------+-----------------------------------+
-| ❌ LO QUE NUNCA DEBES HACER       | ✅ LO QUE SIEMPRE DEBES HACER     |
+| ❌ LO QUE NUNCA DEBES HACER       | LO QUE SIEMPRE DEBES HACER     |
 +-----------------------------------+-----------------------------------+
 | Nombres de más de 30 caracteres   | Nombres cortos: 10 a 25 caracteres|
 | Usar tildes (á, é, í, ó, ú)       | Solo letras estándar (a-z, A-Z)   |
@@ -69,7 +69,7 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 
 ---
 
-## 5. ⏱️ Gestión de Sesión y Guardado
+## 5. Gestión de Sesión y Guardado
 
 - El SIIU cuenta con un temporizador de seguridad de sesión.
 - Si estás redactando un texto largo en el **CKEditor**, redacta previamente en un procesador de texto local, luego copia y pega como **texto sin formato** (`Ctrl + Shift + V`), dale formato rápido y presiona **GUARDAR** de inmediato.

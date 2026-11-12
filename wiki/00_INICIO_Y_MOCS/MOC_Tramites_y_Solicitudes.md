@@ -9,17 +9,17 @@ tags:
   - presupuesto
 ---
 
-# 📋 Mapa de Contenido (MOC): Trámites y Modificaciones Administrativas
+# Mapa de Contenido (MOC): Trámites y Modificaciones Administrativas
 
 Durante la vida de un proyecto en el SIIU surgen eventualidades que exigen modificaciones contractuales, operativas o presupuestales. El sistema gestiona estas solicitudes mediante flujos parametrizables de aprobación entre el **Investigador Principal**, el **Centro de Investigación** y la **Vicerrectoría**.
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor IP as 🧑‍🔬 Investigador Principal
+    actor IP as Investigador Principal
     participant SIIU as 💻 Sistema SIIU
-    actor CEN as 🏢 Centro de Investigación
-    actor VIC as 🏛️ Vicerrectoría / CODI
+    actor CEN as Centro de Investigación
+    actor VIC as Vicerrectoría / CODI
 
     IP->>SIIU: Radica Trámite (Justificación + Adjunto PDF)
     Note over IP,SIIU: Estado: Pendiente de Aprobación
@@ -38,7 +38,7 @@ sequenceDiagram
 
 ---
 
-## ⚖️ Matriz Comparativa: Solicitud vs Novedad
+## Matriz Comparativa: Solicitud vs Novedad
 
 Una de las distinciones operativas más críticas en el SIIU es la fuente de financiación:
 
@@ -50,9 +50,9 @@ Una de las distinciones operativas más críticas en el SIIU es la fuente de fin
 
 ---
 
-## 📂 Catálogo de Trámites Disponibles
+## Catálogo de Trámites Disponibles
 
-### 1. ⏱️ Prórrogas de Tiempo del Proyecto
+### 1. Prórrogas de Tiempo del Proyecto
 - **Prórroga de Inicio:** Se solicita cuando el proyecto está en estado **Aprobado** pero no se han podido suscribir contratos o pólizas dentro del término reglamentario.
 - **Prórroga de Ejecución:** Se solicita cuando el proyecto está en estado **En ejecución** para extender el plazo de finalización y entrega de productos.
 - 📘 Guía oficial: [VI-GU-23](../../archivo_maestro/VI-GU-23.md) | Síntesis: [[Modificaciones_y_Tramites#prorroga-de-proyecto]]
@@ -62,22 +62,22 @@ Una de las distinciones operativas más críticas en el SIIU es la fuente de fin
 - **Condición Estricta:** El proyecto debe estar **En ejecución**. No es posible trasladar saldo desde un rubro padre cuyo saldo disponible sea \$0.
 - 📘 Guía oficial: [VI-GU-20](../../archivo_maestro/VI-GU-20.md) | Síntesis: [[Modificaciones_y_Tramites#cambio-de-rubro]]
 
-### 3. 👥 Cambio o Inclusión de Participantes
+### 3. Cambio o Inclusión de Participantes
 - Modificación del equipo humano (investigadores principales, coinvestigadores, asesores, personal técnico).
 - Requiere justificación, indicación de dedicación horaria semanal y soportes académicos.
 - 📘 Guía oficial: [VI-GU-19](../../archivo_maestro/VI-GU-19.md) | Síntesis: [[Modificaciones_y_Tramites#cambio-de-participante]]
 
-### 4. 🔄 Cambio del Responsable del Proyecto
+### 4. Cambio del Responsable del Proyecto
 - Relevo institucional del Investigador Principal ante la Universidad por razones de fuerza mayor, comisión académica, renuncia o retiro.
 - 📘 Guía oficial: [VI-GU-01](../../archivo_maestro/VI-GU-01.md) | Síntesis: [[Modificaciones_y_Tramites#cambio-de-responsable]]
 
-### 5. 📑 Solicitud de Plazo en Entrega de Compromisos
+### 5. Solicitud de Plazo en Entrega de Compromisos
 - Aplica para prórrogas específicas asociadas a un compromiso académico particular (informe de avance, informe final, artículo sometido) sin necesariamente extender el tiempo contractual general.
 - 📘 Guía oficial: [VI-GU-22](../../archivo_maestro/VI-GU-22.md) | Síntesis: [[Gestion_Compromisos#solicitud-de-plazo]]
 
 ---
 
-## ⚙️ Flujos de Gestión Administrativa en el Sistema
+## Flujos de Gestión Administrativa en el Sistema
 
 | Rol | Acción | Guía de Referencia | Procedimiento |
 | :--- | :--- | :---: | :--- |
@@ -85,4 +85,4 @@ Una de las distinciones operativas más críticas en el SIIU es la fuente de fin
 | **Vicerrectoría** | Avalar ante instancias institucionales y APLICAR en el sistema | [VI-GU-13](../../archivo_maestro/VI-GU-13.md) | [[Modificaciones_y_Tramites#aplicacion-en-vicerrectoria]] |
 | **Vicerrectoría** | Configurar y parametrizar los tipos de trámites y sus rutas de aprobación | [VI-GU-14](../../archivo_maestro/VI-GU-14.md) | [[Modificaciones_y_Tramites#configuracion-flujos]] |
 
-👉 Consulta la sección integral: **[[Modificaciones_y_Tramites]]**.
+Consulta la sección integral: **[[Modificaciones_y_Tramites]]**.

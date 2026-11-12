@@ -1,4 +1,4 @@
----
+﻿---
 title: Manual Operativo - Rol Vicerrectoría de Investigación
 description: Guía de parametrización, configuración de convocatorias, flujos de trámites, inicio formal y liquidación institucional para la Vicerrectoría de Investigación
 tags:
@@ -9,23 +9,23 @@ tags:
   - siiu
 ---
 
-# 🏛️ Manual Operativo: Rol Vicerrectoría de Investigación
+# Manual Operativo: Rol Vicerrectoría de Investigación
 
 La **Vicerrectoría de Investigación** (junto con la **Vicerrectoría de Extensión**) ejerce la administración global del **SIIU**, define las políticas operativas, parametriza convocatorias, avala las solicitudes que requieren decisión de instancias superiores (CODI) y formaliza tanto el inicio como la liquidación presupuestal de los proyectos.
 
 ```mermaid
 flowchart TD
     subgraph GOBIERNO_VICERRECTORIA["Nivel Central: Vicerrectoría"]
-        V1["⚙️ Parametrización y Convocatorias"] --> V2["📜 Inicio Formal de Proyectos"]
-        V2 --> V3["⚖️ Instancias Superiores (CODI)"]
-        V3 --> V4["🚀 Aplicación Definitiva de Novedades"]
-        V4 --> V5["🏁 Liquidación Presupuestal Institucional"]
+        V1["Parametrización y Convocatorias"] --> V2["Inicio Formal de Proyectos"]
+        V2 --> V3["Instancias Superiores (CODI)"]
+        V3 --> V4["Aplicación Definitiva de Novedades"]
+        V4 --> V5["Liquidación Presupuestal Institucional"]
     end
 ```
 
 ---
 
-## 📌 1. Responsabilidades Centrales
+## 1. Responsabilidades Centrales
 
 1. **Configuración de Convocatorias:** Parametrizar cronogramas, términos de referencia, montos máximos, rubros permitidos, formularios dinámicos y criterios de evaluación.
 2. **Configuración de Flujos de Trámites:** Establecer las rutas de aprobación por tipo de trámite (Centro -> Instancia -> Vicerrectoría) y los permisos asociados.
@@ -36,7 +36,7 @@ flowchart TD
 
 ---
 
-## 🗺️ 2. Rutas Rápidas en el Menú del SIIU
+## 2. Rutas Rápidas en el Menú del SIIU
 
 | Acción | Ruta en el Menú SIIU |
 | :--- | :--- |
@@ -51,7 +51,7 @@ flowchart TD
 
 ---
 
-## ⚖️ 3. El Paso Clave: Avalar vs Aplicar Solicitudes
+## 3. El Paso Clave: Avalar vs Aplicar Solicitudes
 
 En el SIIU, una solicitud puede estar **Aprobada** o **Avalada**, pero **NO se hace efectiva** hasta que la Vicerrectoría presiona **APLICAR**:
 

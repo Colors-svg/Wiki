@@ -10,17 +10,17 @@ tags:
   - siiu
 ---
 
-# 🔍 Proceso Clave: Evaluación Técnica, Aval y Subsanación
+# Proceso Clave: Evaluación Técnica, Aval y Subsanación
 
 Una vez que el Investigador Principal radica su propuesta en el SIIU, se inicia la fase de control de calidad institucional, compuesta por la **revisión técnica formal del Centro**, el ciclo de **subsanación de inconsistencias** y la **evaluación académica por pares**.
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor IP as 🧑‍🔬 Investigador
+    actor IP as Investigador
     participant SIIU as 💻 SIIU
-    actor CEN as 🏢 Centro de Investigación
-    actor PAR as 🎓 Evaluador Par
+    actor CEN as Centro de Investigación
+    actor PAR as Evaluador Par
 
     IP->>SIIU: Envía proyecto a Centro
     Note over IP,SIIU: Estado: Enviado a Centro
@@ -124,4 +124,4 @@ La Vicerrectoría de Investigación es la responsable de parametrizar las reglas
 
 ## 🔗 Próximo Paso en el Flujo
 Una vez aprobado el proyecto por el Comité o CODI:
-👉 Consulta **[[Inicio_Formal]]**.
+Consulta **[[Inicio_Formal]]**.

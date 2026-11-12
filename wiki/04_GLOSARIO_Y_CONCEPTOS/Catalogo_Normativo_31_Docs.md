@@ -9,7 +9,7 @@ tags:
   - siiu
 ---
 
-# 🗄️ Catálogo Normativo Indexado: 31 Documentos Oficiales
+# Catálogo Normativo Indexado: 31 Documentos Oficiales
 
 Este catálogo relaciona de forma exhaustiva los **31 documentos normativos y operativos** de la Vicerrectoría de Investigación y la Vicerrectoría de Extensión de la Universidad de Antioquia, vinculando la fuente fidedigna en `archivo_maestro/` con los módulos didácticos de la Wiki.
 

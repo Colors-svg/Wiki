@@ -1,4 +1,4 @@
----
+﻿---
 title: Ficha Rápida - Cheat Sheet del Investigador
 description: Referencia rápida de rutas, atajos, requisitos y preguntas frecuentes para Investigadores Principales en el Sistema SIIU
 tags:
@@ -9,13 +9,13 @@ tags:
   - siiu
 ---
 
-# ⚡ Ficha Rápida: Cheat Sheet del Investigador
+# Ficha Rápida: Cheat Sheet del Investigador
 
 Guía de consulta veloz para resolver las situaciones operativas más frecuentes en el SIIU en menos de 2 minutos.
 
 ---
 
-## 🚀 1. Rutas Express en el SIIU
+## 1. Rutas Express en el SIIU
 
 ```
 +------------------------------------+--------------------------------------------------------------------------------+
@@ -35,9 +35,9 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 
 ---
 
-## 📋 2. Checklists Rápidos
+## 2. Checklists Rápidos
 
-### ✅ Al postular una propuesta
+### Al postular una propuesta
 - [ ] Título claro y resumen formulado.
 - [ ] Grupo de investigación avalador seleccionado.
 - [ ] Textos copiados a CKEditor pegados como **texto plano** (sin basura de MS Word).
@@ -47,7 +47,7 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 - [ ] Adjuntos en formato **PDF**, con nombres cortos (menos de 30 letras) y sin tildes ni símbolos.
 - [ ] Presionado el botón **"Enviar a Centro"** (no dejarlo solo en borrador).
 
-### ✅ Si el Centro devolvió tu proyecto para ajustes
+### Si el Centro devolvió tu proyecto para ajustes
 - [ ] Entrar por `Convocatorias >> Proyectos en proceso >> Pendiente Actualización >> Editar`.
 - [ ] Verificar la **fecha límite** indicada en el mensaje azul.
 - [ ] Entrar a la pestaña **`Actualización`** y leer los comentarios del Centro.
@@ -55,7 +55,7 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 - [ ] Regresar a `Actualización >> Comentarios >> Editar` y describir qué se cambió.
 - [ ] Ir a la pestaña **`Enviar`** y presionar **"Enviar a Centro"**.
 
-### ✅ Al vincular un Joven Investigador
+### Al vincular un Joven Investigador
 - [ ] Verificar en MARES que los datos personales y académicos del estudiante estén al día.
 - [ ] Confirmar que la cuenta bancaria sea **cuenta de ahorros tradicional** a nombre exclusivo del estudiante.
 - [ ] ❌ **Cero Nequi, Daviplata o Ahorro a la Mano**.

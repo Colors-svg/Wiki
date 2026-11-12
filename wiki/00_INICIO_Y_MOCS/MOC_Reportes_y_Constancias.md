@@ -9,7 +9,7 @@ tags:
   - siiu
 ---
 
-# 📊 Mapa de Contenido (MOC): Reportes, Consultas y Constancias
+# Mapa de Contenido (MOC): Reportes, Consultas y Constancias
 
 El **Sistema SIIU** ofrece dos grandes tipos de salidas documentales:
 1. **Constancias Oficiales en PDF:** Documentos con validez institucional para acreditar participación de personas, de grupos o labores de evaluación de pares.
@@ -17,9 +17,9 @@ El **Sistema SIIU** ofrece dos grandes tipos de salidas documentales:
 
 ```mermaid
 graph LR
-    subgraph SALIDAS_SIIU["📄 Salidas Documentales del SIIU"]
+    subgraph SALIDAS_SIIU["Salidas Documentales del SIIU"]
         direction TB
-        subgraph CONST["📜 Constancias Oficiales (PDF)"]
+        subgraph CONST["Constancias Oficiales (PDF)"]
             C1["Constancia de Participación en Proyectos (Personas)"]
             C2["Constancia de Evaluador de Proyectos"]
             C3["Constancia de Proyectos por Grupo de Investigación"]
@@ -35,7 +35,7 @@ graph LR
 
 ---
 
-## 📜 1. Constancias Oficiales (Descarga en PDF)
+## 1. Constancias Oficiales (Descarga en PDF)
 
 Estas constancias se generan directamente desde el menú principal del sistema y cuentan con el encabezado y pie oficial de la Vicerrectoría de Investigación.
 

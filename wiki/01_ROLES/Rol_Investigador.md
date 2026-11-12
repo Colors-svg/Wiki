@@ -1,4 +1,4 @@
----
+﻿---
 title: Manual Operativo - Rol Investigador Principal y Tutor
 description: Guía integral de responsabilidades, flujos y tareas en el Sistema SIIU para Investigadores Principales y Tutores de Jóvenes Investigadores
 tags:
@@ -8,7 +8,7 @@ tags:
   - siiu
 ---
 
-# 🧑‍🔬 Manual Operativo: Rol Investigador Principal y Tutor
+# Manual Operativo: Rol Investigador Principal y Tutor
 
 El **Investigador Principal (IP)** o **Coordinador de Proyecto (CP)** es el líder académico y técnico del proyecto ante la Universidad de Antioquia y ante los entes financiadores. En el **SIIU**, el IP administra sus iniciativas desde la postulación hasta el cierre final.
 
@@ -25,7 +25,7 @@ flowchart TD
 
 ---
 
-## 📌 1. Responsabilidades Centrales
+## 1. Responsabilidades Centrales
 
 1. **Matrícula y Calidad de la Información:** Registrar adecuadamente la metodología, el cronograma, el presupuesto detallado y la caracterización complementaria (ODS, Misión de Sabios, G8).
 2. **Atención a Requerimientos del Centro:** Si la propuesta es devuelta para ajustes en la etapa técnica formal, responder dentro del plazo límite asignado.
@@ -35,7 +35,7 @@ flowchart TD
 
 ---
 
-## 🗺️ 2. Rutas Rápidas en el Menú del SIIU
+## 2. Rutas Rápidas en el Menú del SIIU
 
 | Acción | Ruta en el Menú SIIU |
 | :--- | :--- |
@@ -52,7 +52,7 @@ flowchart TD
 
 ---
 
-## ⚠️ 3. Puntos de Control Críticos para el Investigador
+## 3. Puntos de Control Críticos para el Investigador
 
 > [!WARNING] ALERTA DE ARCHIVOS ADJUNTOS
 > - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.

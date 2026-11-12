@@ -7,7 +7,7 @@ tags:
   - siiu
 ---
 
-# 👤 Mapa de Contenido (MOC): Navegación por Roles
+# Mapa de Contenido (MOC): Navegación por Roles
 
 En el **Sistema SIIU**, las acciones y permisos están segmentados según la responsabilidad administrativa y académica del usuario. Utiliza este mapa para localizar los procedimientos y guías pertinentes a tu perfil:
 
@@ -17,40 +17,40 @@ graph TD
     classDef centro fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
     classDef vice fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
 
-    subgraph ROL_INV["🧑‍🔬 Investigador Principal / Tutor"]
+    subgraph ROL_INV["Investigador Principal / Tutor"]
         direction TB
-        I1["📝 Matrícula de Propuestas"]:::inv
-        I2["🛠️ Ajuste de Proyecto Devuelto"]:::inv
-        I3["🎓 Registro Hoja de Vida JI"]:::inv
-        I4["📋 Solicitud de Trámites (Prórrogas/Rubros)"]:::inv
-        I5["📑 Cumplimiento de Compromisos"]:::inv
-        I6["📜 Descarga de Constancias"]:::inv
+        I1["Matrícula de Propuestas"]:::inv
+        I2["Ajuste de Proyecto Devuelto"]:::inv
+        I3["Registro Hoja de Vida JI"]:::inv
+        I4["Solicitud de Trámites (Prórrogas/Rubros)"]:::inv
+        I5["Cumplimiento de Compromisos"]:::inv
+        I6["Descarga de Constancias"]:::inv
     end
 
-    subgraph ROL_CEN["🏢 Centro de Investigación / Extensión"]
+    subgraph ROL_CEN["Centro de Investigación / Extensión"]
         direction TB
-        C1["🔍 Evaluación Técnica Formal"]:::centro
-        C2["↩️ Solicitar Actualización al IP"]:::centro
-        C3["👥 Asignación de Evaluadores Pares"]:::centro
-        C4["✅ Aval de Proyectos"]:::centro
-        C5["📑 Aprobación de Trámites Administrativos"]:::centro
-        C6["🏁 Gestión del Cierre del Proyecto"]:::centro
+        C1["Evaluación Técnica Formal"]:::centro
+        C2["Solicitar Actualización al IP"]:::centro
+        C3["Asignación de Evaluadores Pares"]:::centro
+        C4["Aval de Proyectos"]:::centro
+        C5["Aprobación de Trámites Administrativos"]:::centro
+        C6["Gestión del Cierre del Proyecto"]:::centro
     end
 
-    subgraph ROL_VIC["🏛️ Vicerrectoría de Investigación"]
+    subgraph ROL_VIC["Vicerrectoría de Investigación"]
         direction TB
-        V1["⚙️ Configuración Convocatorias"]:::vice
-        V2["⚙️ Configuración Flujos de Trámites"]:::vice
-        V3["🏛️ Inicio Formal de Proyectos"]:::vice
-        V4["⚖️ Aval CODI / Aplicación Solicitudes"]:::vice
-        V5["🎓 Aprobación Cupos Joven Investigador"]:::vice
-        V6["📊 Reportes Analíticos e Historial"]:::vice
+        V1["Configuración Convocatorias"]:::vice
+        V2["Configuración Flujos de Trámites"]:::vice
+        V3["Inicio Formal de Proyectos"]:::vice
+        V4["Aval CODI / Aplicación Solicitudes"]:::vice
+        V5["Aprobación Cupos Joven Investigador"]:::vice
+        V6["Reportes Analíticos e Historial"]:::vice
     end
 ```
 
 ---
 
-## 1. 🧑‍🔬 Investigador Principal / Tutor
+## 1. Investigador Principal / Tutor
 *Responsable de formular proyectos, ejecutar presupuesto, coordinar talento y rendir cuentas académicas.*
 
 | Operación | Guía / Instructivo Base | Procedimiento Sintetizado |
@@ -73,11 +73,11 @@ graph TD
 | **Generar Constancia como Evaluador** | [VI-IN-08](../../archivo_maestro/VI-IN-08.md) | [[Reportes_y_Certificaciones#constancias-evaluador]] |
 | **Consulta Histórica Personal de Proyectos** | [VI-IN-11](../../archivo_maestro/VI-IN-11.md) | [[Reportes_y_Certificaciones#reporte-por-persona]] |
 
-👉 Consulta la **[[Rol_Investigador|Guía Detallada del Investigador]]** y la **[[CheatSheet_Investigador|Ficha Rápida]]**.
+Consulta la **[[Rol_Investigador|Guía Detallada del Investigador]]** y la **[[CheatSheet_Investigador|Ficha Rápida]]**.
 
 ---
 
-## 2. 🏢 Centro de Investigación / Extensión
+## 2. Centro de Investigación / Extensión
 *Unidad académico-administrativa de Facultad, Escuela o Instituto que valida la viabilidad técnica, avala y supervisa los proyectos.*
 
 | Operación | Guía / Instructivo Base | Procedimiento Sintetizado |
@@ -92,11 +92,11 @@ graph TD
 | **Consulta de Reporte Historial de Proyectos** | [VI-IN-02](../../archivo_maestro/VI-IN-02.md) / [VI-IN-10](../../archivo_maestro/VI-IN-10.md) | [[Reportes_y_Certificaciones#reporte-historial]] |
 | **Reporte de Información Básica de Proyectos** | [VI-IN-09](../../archivo_maestro/VI-IN-09.md) | [[Reportes_y_Certificaciones#informacion-basica]] |
 
-👉 Consulta la **[[Rol_Centro_Investigacion|Guía Detallada del Centro]]** y la **[[CheatSheet_Centro|Ficha Rápida]]**.
+Consulta la **[[Rol_Centro_Investigacion|Guía Detallada del Centro]]** y la **[[CheatSheet_Centro|Ficha Rápida]]**.
 
 ---
 
-## 3. 🏛️ Vicerrectoría de Investigación / Administrador Central
+## 3. Vicerrectoría de Investigación / Administrador Central
 *Instancia central de gobierno institucional que parametriza el sistema, define convocatorias, avala ante CODI y ejecuta liquidaciones.*
 
 | Operación | Guía / Instructivo Base | Procedimiento Sintetizado |
@@ -109,4 +109,4 @@ graph TD
 | **Cierre y Liquidación Institucional del Proyecto** | [VI-GU-04](../../archivo_maestro/VI-GU-04.md) | [[Cierre_y_Liquidacion#liquidacion-en-vicerrectoria]] |
 | **Generación de Reportes Consolidados del Sistema** | [VI-IN-09](../../archivo_maestro/VI-IN-09.md) / [VI-IN-10](../../archivo_maestro/VI-IN-10.md) | [[Reportes_y_Certificaciones#reportes-analiticos]] |
 
-👉 Consulta la **[[Rol_Vicerrectoria|Guía Detallada de la Vicerrectoría]]**.
+Consulta la **[[Rol_Vicerrectoria|Guía Detallada de la Vicerrectoría]]**.

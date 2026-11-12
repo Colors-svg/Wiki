@@ -10,26 +10,26 @@ tags:
   - siiu
 ---
 
-# 📋 Proceso Clave: Modificaciones y Trámites Administrativos
+# Proceso Clave: Modificaciones y Trámites Administrativos
 
 Durante la ejecución de un proyecto es habitual requerir ajustes de calendario, variaciones presupuestales o cambios en la composición del equipo de trabajo. El SIIU canaliza estas modificaciones mediante **Trámites Administrativos** auditables.
 
 ```mermaid
 flowchart TD
     subgraph RADICACION["1. Radicación por Investigador"]
-        IP["🧑‍🔬 Investigador Principal"] -->|Selecciona Trámite| FORM["Diligencia Justificación + Adjunta PDF"]
+        IP["Investigador Principal"] -->|Selecciona Trámite| FORM["Diligencia Justificación + Adjunta PDF"]
         FORM --> RAD["Radicar en SIIU"]
     end
 
     subgraph REVISION_CENTRO["2. Revisión en Centro"]
-        RAD --> CEN["🏢 Centro de Investigación"]
+        RAD --> CEN["Centro de Investigación"]
         CEN --> DEC_CEN{"Concepto Centro"}
         DEC_CEN -->|Rechazar| RECH["Rechazado con Observaciones"]
         DEC_CEN -->|Aprobar| AP_CEN["Estado: Aprobado Centro"]
     end
 
     subgraph AVAL_APLICACION["3. Vicerrectoría / CODI"]
-        AP_CEN --> VIC["🏛️ Vicerrectoría de Investigación"]
+        AP_CEN --> VIC["Vicerrectoría de Investigación"]
         VIC --> INST{"Requiere Aval CODI?"}
         INST -->|SÍ| CODI["Sesión CODI / Comité"]
         CODI --> AVAL_VIC["Aval Institucional"]
@@ -110,4 +110,4 @@ Permite a la Vicerrectoría definir qué instancias deben intervenir para cada t
 
 ## 🔗 Próximo Paso en el Flujo
 Para coordinar el cumplimiento de compromisos y plazos de entrega:
-👉 Consulta **[[Gestion_Compromisos]]**.
+Consulta **[[Gestion_Compromisos]]**.

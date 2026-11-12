@@ -1,4 +1,4 @@
----
+﻿---
 title: Manual Operativo - Rol Centro de Investigación y Extensión
 description: Guía de procedimientos, validación técnica, asignación de evaluadores y aprobación de trámites para Jefes y Gestores de Centros de Investigación o Extensión en el SIIU
 tags:
@@ -9,7 +9,7 @@ tags:
   - siiu
 ---
 
-# 🏢 Manual Operativo: Rol Centro de Investigación y Extensión
+# Manual Operativo: Rol Centro de Investigación y Extensión
 
 Los **Centros de Investigación y de Extensión** de las Facultades, Escuelas e Institutos de la Universidad de Antioquia son los nodos de articulación técnico-académica. Tienen la potestad de validar formalmente las propuestas, interactuar con los pares evaluadores, avalar iniciativas ante el CODI o Comités de Extensión, y aprobar los trámites administrativos de los proyectos adscritos.
 
@@ -27,7 +27,7 @@ flowchart TD
 
 ---
 
-## 📌 1. Responsabilidades Centrales
+## 1. Responsabilidades Centrales
 
 1. **Evaluación Técnica Formal:** Comprobar si la propuesta cumple las condiciones habilitantes definidas en los Términos de Referencia de la convocatoria.
 2. **Autorización de Ajustes:** Devolver al IP las propuestas que requieran subsanación formal, delimitando con precisión las secciones abiertas y fijando una fecha límite improrrogable.
@@ -38,7 +38,7 @@ flowchart TD
 
 ---
 
-## 🗺️ 2. Rutas Rápidas en el Menú del SIIU
+## 2. Rutas Rápidas en el Menú del SIIU
 
 | Acción | Ruta en el Menú SIIU |
 | :--- | :--- |
@@ -54,7 +54,7 @@ flowchart TD
 
 ---
 
-## ⚙️ 3. Procedimiento Clave: Devolución para Actualización
+## 3. Procedimiento Clave: Devolución para Actualización
 
 Cuando un proyecto no cumple con todas las condiciones formales en la revisión inicial del Centro:
 

@@ -10,7 +10,7 @@ tags:
   - siiu
 ---
 
-# 🏁 Proceso Clave: Cierre y Liquidación de Proyectos
+# Proceso Clave: Cierre y Liquidación de Proyectos
 
 El proceso de **Cierre y Liquidación** es la culminación jurídica, presupuestal y académica del proyecto en la Universidad de Antioquia. Garantiza que todos los recursos asignados fueron debidamente legalizados y que los productos prometidos fueron recibidos a satisfacción.
 
@@ -72,7 +72,7 @@ Para que el SIIU permita iniciar el trámite de cierre, se deben cumplir cuatro 
 
 ---
 
-## ⚠️ Diferencia entre Estados de Terminación
+## Diferencia entre Estados de Terminación
 
 | Estado en SIIU | Significado Operativo |
 | :--- | :--- |
@@ -85,4 +85,4 @@ Para que el SIIU permita iniciar el trámite de cierre, se deben cumplir cuatro 
 
 ## 🔗 Próximo Paso en el Flujo
 Para expedir certificados de finalización o paz y salvos institucionales:
-👉 Consulta **[[Reportes_y_Certificaciones]]**.
+Consulta **[[Reportes_y_Certificaciones]]**.

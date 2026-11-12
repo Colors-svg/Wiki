@@ -9,7 +9,7 @@ tags:
   - siiu
 ---
 
-# 📝 Proceso Clave: Matrícula e Inscripción de Proyectos
+# Proceso Clave: Matrícula e Inscripción de Proyectos
 
 El proceso de matrícula en el **SIIU** es la puerta de entrada para todas las iniciativas científicas, tecnológicas, artísticas y de extensión en la Universidad de Antioquia.
 
@@ -138,4 +138,4 @@ graph LR
 
 ## 🔗 Próximo Paso en el Flujo
 Una vez enviado el proyecto, el Centro de Investigación realizará la revisión habilitante:
-👉 Consulta **[[Evaluacion_y_Aval]]**.
+Consulta **[[Evaluacion_y_Aval]]**.
