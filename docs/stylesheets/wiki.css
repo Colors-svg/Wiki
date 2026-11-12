@@ -171,11 +171,8 @@
   width: auto !important;
   max-width: 12rem !important;
 }
-.md-nav__title .md-nav__button.md-logo {
-  display: none !important;
-}
-/* En el drawer móvil solo va el título en texto: el logo grande vive
-   en la cabecera. Además evita que el logo estire el drawer. */
+/* En el drawer solo va el título en texto: el logo grande vive en la
+   cabecera. Además evita que el logo estire el panel del drawer. */
 .md-nav__title .md-nav__button.md-logo {
   display: none !important;
 }
