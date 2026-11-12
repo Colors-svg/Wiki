@@ -5,20 +5,22 @@ El **Sistema SIIU** ofrece dos grandes tipos de salidas documentales:
 2. **Reportes Analíticos y de Gestión (Excel / HTML / PDF):** Consultas gerenciales para el seguimiento de la ejecución académica y financiera por convocatoria, centro o facultad.
 
 ```mermaid
-graph LR
-    subgraph SALIDAS_SIIU["Salidas Documentales del SIIU"]
-        direction TB
-        subgraph CONST["Constancias Oficiales (PDF)"]
-            C1["Constancia de Participación en Proyectos (Personas)"]
-            C2["Constancia de Evaluador de Proyectos"]
-            C3["Constancia de Proyectos por Grupo de Investigación"]
-        end
+flowchart TD
+    classDef pdf fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef rep fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
 
-        subgraph REP["📈 Reportes de Consulta y Gestión"]
-            R1["Reporte por Persona (Histórico individual)"]
-            R2["Reporte Historial de Proyectos (Filtros amplios)"]
-            R3["Reporte de Información Básica (Criterios y Estados)"]
-        end
+    subgraph CONST ["Constancias Oficiales con Validez Jurídica (PDF)"]
+        direction TB
+        C1["Constancia de Participación en Proyectos<br><small>Acreditación individual de investigadores y coinvestigadores</small>"]:::pdf
+        C2["Constancia de Evaluador de Proyectos<br><small>Certificado oficial de evaluación académica para pares</small>"]:::pdf
+        C3["Constancia de Proyectos por Grupo<br><small>Historial consolidado por grupo ante Minciencias</small>"]:::pdf
+    end
+
+    subgraph REP ["Reportes Analíticos y de Seguimiento Operativo"]
+        direction TB
+        R1["Reporte por Persona<br><small>Trayectoria de dedicación y funciones por cédula</small>"]:::rep
+        R2["Reporte Historial de Proyectos<br><small>Auditoría de estados, vigencias y filtros avanzados</small>"]:::rep
+        R3["Información Básica de Proyectos<br><small>Matriz completa con presupuestos y puntajes de evaluación</small>"]:::rep
     end
 ```
 
@@ -37,7 +39,7 @@ Estas constancias se generan directamente desde el menú principal del sistema y
 
 ---
 
-## 📈 2. Reportes Analíticos y de Seguimiento
+## 2. Reportes Analíticos y de Seguimiento
 
 Herramientas para auditar la cartera de proyectos, verificar estados, vigencias y puntajes de evaluación.
 

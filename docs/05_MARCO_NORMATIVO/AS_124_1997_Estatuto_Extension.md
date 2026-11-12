@@ -1,4 +1,4 @@
-﻿# Acuerdo Superior 124 de 1997 — Estatuto Básico de Extensión
+# Acuerdo Superior 124 de 1997 — Estatuto Básico de Extensión
 
 > **Tipo de Norma:** Estatuto Básico de Extensión  
 > **Número:** Acuerdo Superior 124 (29 de septiembre de 1997, actualizado con reformas a junio de 2026)  
@@ -19,7 +19,6 @@ flowchart TD
     C & D --> E["Financiación de Convocatorias CODI y Fondos de I+D"]
     A --> F["Gestión Tecnológica (Art. 21)<br/>Patentes, Licenciamiento y Spin-offs"]
 ```
-
 
 ---
 

@@ -1,49 +1,68 @@
 ﻿# Mapa de Contenido (MOC): Ciclo de Vida del Proyecto
 
-El ciclo de vida de un proyecto en el **SIIU** es un proceso secuencial y gobernado por estados de control, desde la postulación en convocatoria o inscripción externa hasta el cierre presupuestal y académico.
+El ciclo de vida de un proyecto en el **SIIU** es un proceso secuencial y gobernado por estados de control institucional, desde la postulación inicial hasta el cierre presupuestal y académico formal.
 
 ```mermaid
-stateDiagram-v2
-    [*] --> Formulacion: Registro de Propuesta
-    
-    state Formulacion {
-        [*] --> EnFormulacion
-        EnFormulacion --> EnviadoCentro: Envío a Centro
-    }
+flowchart TD
+    %% Estilos cromáticos institucionales UdeA
+    classDef fase fill:#081810,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+    classDef estado fill:#0E2519,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef decision fill:#173322,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:5px,ry:5px;
+    classDef final fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:10px,ry:10px;
 
-    state Evaluacion {
-        EnviadoCentro --> RevisionTecnica
-        RevisionTecnica --> PendienteActualizacion: No cumple condiciones (Devolución)
-        PendienteActualizacion --> RevisionTecnica: IP actualiza y reenvía
-        RevisionTecnica --> AvaladoCentro: Cumple requisitos
-        AvaladoCentro --> EnEvaluacionPares: Asignación Evaluadores
-        EnEvaluacionPares --> Aprobado: Aprobación Comité / CODI
-    }
+    subgraph F1 ["ETAPA 1: Formulación y Registro"]
+        direction TB
+        E1["En Formulación<br><small>Investigador diligencia componentes del proyecto</small>"]:::estado
+    end
 
-    state Inicio {
-        Aprobado --> InicioFormal: Requisitos (Pólizas/Contratos/CC)
-        InicioFormal --> EnEjecucion: Acta de Inicio Aprobada
-    }
+    subgraph F2 ["ETAPA 2: Evaluación Técnica y Aval"]
+        direction TB
+        E2["Enviado al Centro<br><small>Revisión formal de condiciones</small>"]:::estado
+        D1{"¿Cumple requisitos?"}:::decision
+        E2_DEV["Pendiente Actualización<br><small>Devolución al IP para ajustes</small>"]:::estado
+        E3["Avalado por Centro<br><small>Aval institucional de Unidad Académica</small>"]:::estado
+        E4["En Evaluación Pares<br><small>Asignación y calificación de pares</small>"]:::estado
+    end
 
-    state Ejecucion {
-        EnEjecucion --> NovedadesTramites: Prórroga / Rubro / Participantes
-        NovedadesTramites --> EnEjecucion: Trámite Aplicado
-        EnEjecucion --> EntregaCompromisos: Cumplimiento Hitos
-    }
+    subgraph F3 ["ETAPA 3: Aprobación e Inicio Formal"]
+        direction TB
+        E5["Aprobado<br><small>Comité Técnico / CODI / Financiador</small>"]:::estado
+        E6["Inicio Formal<br><small>Radicación de pólizas, contratos y Centro de Costos</small>"]:::estado
+    end
 
-    state Finalizacion {
-        EnEjecucion --> FinalizadoPendienteCompromisos: Fin plazo sin todos los informes
-        EntregaCompromisos --> Finalizado: Todos los compromisos cumplidos
-        Finalizado --> Liquidado: Acta de Liquidación + Legalización 100%
-    }
+    subgraph F4 ["ETAPA 4: Ejecución, Novedades y Compromisos"]
+        direction TB
+        E7["En Ejecución<br><small>Desarrollo técnico y presupuestal activo</small>"]:::estado
+        NOV["Novedades y Trámites<br><small>Prórrogas, cambios de rubro o participantes</small>"]:::estado
+        COMP["Entrega de Compromisos<br><small>Informes de avance, finales y productos</small>"]:::estado
+    end
 
-    Liquidado --> [*]
+    subgraph F5 ["ETAPA 5: Cierre y Liquidación Institucional"]
+        direction TB
+        E8["Finalizado<br><small>Compromisos académicos aprobados por Centro</small>"]:::estado
+        E9["Liquidado<br><small>Paz y salvo contable, financiero y técnico</small>"]:::final
+    end
+
+    %% Transiciones de flujo
+    E1 -->|Radicación en SIIU| E2
+    E2 --> D1
+    D1 -->|Requiere subsanación| E2_DEV
+    E2_DEV -->|Reenvío de ajustes| E2
+    D1 -->|Cumple requisitos| E3
+    E3 -->|Asignación pares| E4
+    E4 -->|Concepto aprobatorio| E5
+    E5 -->|Gestión precontractual| E6
+    E6 -->|Acta de inicio aprobada| E7
+
+    E7 <-->|Solicitud y aplicación| NOV
+    E7 -->|Vencimiento de hitos| COMP
+    COMP -->|Revisión satisfactoria| E8
+    E8 -->|Acta de liquidación 100%| E9
 ```
-
 
 ---
 
-## 阶段 1: Formulación y Matrícula
+## Etapa 1: Formulación y Matrícula
 
 En esta fase, el Investigador Principal (IP) estructura la propuesta técnica, metodológica, financiera y el equipo de trabajo.
 

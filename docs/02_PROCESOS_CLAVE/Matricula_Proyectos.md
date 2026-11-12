@@ -4,29 +4,36 @@ El proceso de matrícula en el **SIIU** es la puerta de entrada para todas las i
 
 ```mermaid
 flowchart TD
-    START(["Inicio: Postulación de Proyecto"]) --> TIPO{"Tipo de Matrícula"}
-    
-    TIPO -->|Convocatoria UdeA / CODI| CONV["1. Proyectos en Convocatoria<br><i>(VI-GU-24)</i>"]
-    TIPO -->|Financiación Externa Minciencias/Empresa| INS["2. Proyectos Inscritos<br><i>(VI-GU-18)</i>"]
-    TIPO -->|Investigador Sin Historial en SIIU| PRIM["3. Primer Proyecto<br><i>(VI-GU-17)</i>"]
+    classDef inicio fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+    classDef decision fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef tipo fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef pestana fill:#091910,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef final fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
 
-    CONV --> PESTANAS["Diligenciamiento de 8 Pestañas Obligatorias"]
+    START(["Inicio: Postulación de Proyecto"]):::inicio --> TIPO{"Selección de Modalidad"}:::decision
+    
+    TIPO -->|Convocatoria Interna CODI| CONV["1. Proyectos en Convocatoria<br><small>Recursos ordinarios o especiales UdeA</small>"]:::tipo
+    TIPO -->|Financiación Externa Minciencias| INS["2. Proyectos Inscritos<br><small>Recursos externos aprobados con carta</small>"]:::tipo
+    TIPO -->|Docente sin Historial Previo| PRIM["3. Primer Proyecto<br><small>Creación de ficha y registro docente</small>"]:::tipo
+
+    subgraph PESTANAS ["Estructura de las 8 Pestañas Obligatorias"]
+        direction TB
+        P1["1. Información General<br><small>Título, grupo, centro, línea y resumen</small>"]:::pestana
+        P2["2. Descripción y Cronograma<br><small>Metodología, objetivos e hitos con CKEditor</small>"]:::pestana
+        P3["3. Presupuesto Detallado<br><small>Rubros financiables, contrapartida y entidades</small>"]:::pestana
+        P4["4. Participantes y Dedicación<br><small>IP, coinvestigadores y horas/semana</small>"]:::pestana
+        P5["5. Compromisos y Productos<br><small>Artículos, patentes, tesis y apropiación social</small>"]:::pestana
+        P6["6. Información Complementaria<br><small>ODS, Misión de Sabios y Agendas G8</small>"]:::pestana
+        P7["7. Documentos Soporte<br><small>Cartas de aval, comités éticos y cotizaciones</small>"]:::pestana
+        P8["8. Verificación y Envío<br><small>Validación de consistencia y radicación final</small>"]:::pestana
+    end
+
+    CONV --> PESTANAS
     INS --> PESTANAS
     PRIM --> PESTANAS
 
-    subgraph PESTANAS["Estructura del Formulario de Matrícula"]
-        P1["1. Información General"]
-        P2["2. Descripción y Cronograma (CKEditor)"]
-        P3["3. Presupuesto Detallado"]
-        P4["4. Participantes y Dedicación"]
-        P5["5. Compromisos y Productos"]
-        P6["6. Información Complementaria (ODS/Sabios/G8)"]
-        P7["7. Documentos Soporte (PDF)"]
-        P8["8. Verificación y Envío al Centro"]
-    end
-
-    PESTANAS --> ENVIO["Envío a Centro de Investigación"]
-    ENVIO --> FIN(["Estado: Enviado a Centro"])
+    PESTANAS --> ENVIO["Radicación en SIIU"]:::pestana
+    ENVIO --> FIN(["Estado: Enviado a Centro"]):::final
 ```
 
 
@@ -112,10 +119,13 @@ Obligatoria según las directrices institucionales de planeación:
 El editor integrado permite dar formato a la formulación metodológica. Para evitar errores de guardado o problemas de renderizado:
 
 ```mermaid
-graph LR
-    A["Texto en Word / Docs"] -->|Copiar| B["Pegar como Texto Plano (Ctrl+Shift+V)"]
-    B -->|Formatear en SIIU| C["Aplicar Negrita, Cursiva, Listas"]
-    C -->|Tablas| D["Insertar tabla desde la barra de CKEditor"]
+flowchart LR
+    classDef step fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef final fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+
+    A["1. Texto en Word o Docs"]:::step -->|Copiar texto| B["2. Pegar Texto Plano (Ctrl+Shift+V)"]:::step
+    B -->|Formato en barra SIIU| C["3. Aplicar Estilos Limpios"]:::step
+    C -->|Botón de tabla nativo| D["4. Insertar Tabla en CKEditor"]:::final
 ```
 
 

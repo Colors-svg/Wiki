@@ -1,4 +1,4 @@
-﻿# Acuerdo Superior 121 de 1997 — Estatuto Presupuestal de la Universidad
+# Acuerdo Superior 121 de 1997 — Estatuto Presupuestal de la Universidad
 
 > **Tipo de Norma:** Estatuto Presupuestal Universitario  
 > **Número:** Acuerdo Superior 121 (07 de julio de 1997, vigencia 1998, compilado a 2019)  
@@ -19,7 +19,6 @@ flowchart TD
     D --> E["Registro Presupuestal (RP)<br/>(Art. 43 Compromiso formal)"]
     E --> F["Ordenación del Gasto<br/>(Art. 47 Facultades delegadas)"]
 ```
-
 
 ---
 

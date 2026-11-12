@@ -3,37 +3,37 @@
 En el **Sistema SIIU**, las acciones y permisos están segmentados según la responsabilidad administrativa y académica del usuario. Utiliza este mapa para localizar los procedimientos y guías pertinentes a tu perfil:
 
 ```mermaid
-graph TD
-    classDef inv fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef centro fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
-    classDef vice fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+flowchart LR
+    classDef inv fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef centro fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef vice fill:#132E1F,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
 
-    subgraph ROL_INV["Investigador Principal / Tutor"]
+    subgraph ROL_INV ["1. Investigador Principal / Tutor"]
         direction TB
         I1["Matrícula de Propuestas"]:::inv
         I2["Ajuste de Proyecto Devuelto"]:::inv
         I3["Registro Hoja de Vida JI"]:::inv
-        I4["Solicitud de Trámites (Prórrogas/Rubros)"]:::inv
+        I4["Solicitud de Trámites"]:::inv
         I5["Cumplimiento de Compromisos"]:::inv
         I6["Descarga de Constancias"]:::inv
     end
 
-    subgraph ROL_CEN["Centro de Investigación / Extensión"]
+    subgraph ROL_CEN ["2. Centro de Investigación / Extensión"]
         direction TB
         C1["Evaluación Técnica Formal"]:::centro
-        C2["Solicitar Actualización al IP"]:::centro
+        C2["Solicitud de Actualización al IP"]:::centro
         C3["Asignación de Evaluadores Pares"]:::centro
-        C4["Aval de Proyectos"]:::centro
-        C5["Aprobación de Trámites Administrativos"]:::centro
-        C6["Gestión del Cierre del Proyecto"]:::centro
+        C4["Aval Institucional de Proyectos"]:::centro
+        C5["Aprobación de Trámites"]:::centro
+        C6["Gestión y Visto Bueno de Cierre"]:::centro
     end
 
-    subgraph ROL_VIC["Vicerrectoría de Investigación"]
+    subgraph ROL_VIC ["3. Vicerrectoría de Investigación"]
         direction TB
-        V1["Configuración Convocatorias"]:::vice
-        V2["Configuración Flujos de Trámites"]:::vice
-        V3["Inicio Formal de Proyectos"]:::vice
-        V4["Aval CODI / Aplicación Solicitudes"]:::vice
+        V1["Configuración de Convocatorias"]:::vice
+        V2["Parametrización de Trámites"]:::vice
+        V3["Formalización de Acta de Inicio"]:::vice
+        V4["Aval CODI y Aplicación Definitiva"]:::vice
         V5["Aprobación Cupos Joven Investigador"]:::vice
         V6["Reportes Analíticos e Historial"]:::vice
     end

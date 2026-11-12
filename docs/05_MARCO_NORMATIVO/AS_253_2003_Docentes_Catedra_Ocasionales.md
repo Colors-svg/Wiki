@@ -1,4 +1,4 @@
-﻿# Acuerdo Superior 253 de 2003 — Estatuto del Profesor de Cátedra y Ocasional
+# Acuerdo Superior 253 de 2003 — Estatuto del Profesor de Cátedra y Ocasional
 
 > **Tipo de Norma:** Estatuto del Profesor de Cátedra y Ocasional  
 > **Número:** Acuerdo Superior 253 (18 de febrero de 2003, compilado y actualizado a junio de 2026)  
@@ -19,7 +19,6 @@ flowchart LR
     C --> E["Asignación según Dec. 1279/2002"]
     B & C --> F["Derechos de PI y Comisiones de Servicio (Art. 34)"]
 ```
-
 
 ---
 

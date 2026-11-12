@@ -1,4 +1,4 @@
-﻿# Acuerdo Superior 083 de 1996 — Estatuto Profesoral
+# Acuerdo Superior 083 de 1996 — Estatuto Profesoral
 
 > **Tipo de Norma:** Estatuto Profesoral de la Universidad de Antioquia  
 > **Número:** Acuerdo Superior 083 (22 de julio de 1996, actualizado a junio de 2026)  
@@ -19,7 +19,6 @@ flowchart TD
     D --> E["Regla de Reemplazo en SIIU<br/>(Obligatorio tramitar cambio de responsable avalado por Centro y notificado a CODI)"]
     A --> F["Propiedad Intelectual<br/>(Art. 30 Num. 4: Derecho a beneficios de patentes y creaciones)"]
 ```
-
 
 ---
 

@@ -1,37 +1,52 @@
-site_name: Wiki SIIU - Universidad de Antioquia
-site_description: Base de Conocimiento y Wiki Operativa del Sistema de Información para la Investigación Universitaria
-site_author: Vicerrectoría de Investigación
+site_name: Wiki SIIU — Universidad de Antioquia
+site_description: Base de Conocimiento y Guía Operativa del Sistema de Información para la Investigación Universitaria
+site_author: Vicerrectoría de Investigación — Universidad de Antioquia
+
+repo_name: Colors-svg/Wiki
+repo_url: https://github.com/Colors-svg/Wiki
 
 theme:
   name: material
   language: es
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   palette:
-    # Scheme mode dark like Google / Code Wiki
+    # Modo Oscuro Institucional UdeA (Slate con tinte Bosque)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: sky
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-4
-        name: Cambiar a modo claro
+        icon: material/weather-night
+        name: Cambiar a modo diurno institucional
+    # Modo Claro Institucional UdeA
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-7
-        name: Cambiar a modo oscuro
+        icon: material/weather-sunny
+        name: Cambiar a modo nocturno institucional
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
     - navigation.expand
     - navigation.indexes
     - navigation.top
-    - toc.integrate
+    - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -43,6 +58,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - tables
@@ -68,6 +85,15 @@ nav:
       - Mapa por Roles: 00_INICIO_Y_MOCS/MOC_Por_Roles.md
       - Trámites y Solicitudes: 00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md
       - Reportes y Constancias: 00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md
+  - Marco Normativo:
+      - Estatuto Profesoral (AS 083/1996): 05_MARCO_NORMATIVO/AS_083_1996_Estatuto_Profesoral.md
+      - Profesores de Cátedra (AS 086/1996): 05_MARCO_NORMATIVO/AS_086_1996_Profesores_Catedra_Proyectos.md
+      - Estatuto Presupuestal (AS 121/1997): 05_MARCO_NORMATIVO/AS_121_1997_Estatuto_Presupuestal.md
+      - Estatuto de Extensión (AS 124/1997): 05_MARCO_NORMATIVO/AS_124_1997_Estatuto_Extension.md
+      - Sistema de Investigación (AS 204/2001): 05_MARCO_NORMATIVO/AS_204_2001_Sistema_Universitario_Investigacion.md
+      - Cátedra y Ocasionales (AS 253/2003): 05_MARCO_NORMATIVO/AS_253_2003_Docentes_Catedra_Ocasionales.md
+      - Gestión Tecnológica (AS 284/2004): 05_MARCO_NORMATIVO/AS_284_2004_Gestion_Tecnologica.md
+      - Ley de Spin-offs (Ley 1838/2017): 05_MARCO_NORMATIVO/Ley_1838_2017_Spinoffs.md
   - Referencia y Normativa:
       - Ficha Rápida Investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
       - Ficha Rápida Centro: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md

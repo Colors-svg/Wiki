@@ -1,4 +1,4 @@
-﻿# Acuerdo Superior 204 de 2001 — Sistema Universitario de Investigación (SUI)
+# Acuerdo Superior 204 de 2001 — Sistema Universitario de Investigación (SUI)
 
 > **Tipo de Norma:** Estatuto del Sistema Universitario de Investigación (SUI)  
 > **Número:** Acuerdo Superior 204 (06 de noviembre de 2001, con modificaciones de AS 317/2006, AS 386/2011, AS 477/2022)  
@@ -24,7 +24,6 @@ flowchart TD
     E --> I["SIIU: Programa Jóvenes Investigadores (Art. 30 / VI-GU-10)"]
     E --> J["SIIU: Control de Compromisos y Paz y Salvos (Art. 40 / VI-GU-09)"]
 ```
-
 
 ---
 

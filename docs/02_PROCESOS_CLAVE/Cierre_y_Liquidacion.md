@@ -4,21 +4,40 @@ El proceso de **Cierre y Liquidación** es la culminación jurídica, presupuest
 
 ```mermaid
 flowchart TD
-    EJEC["Proyecto 'En Ejecución' o 'Finalizado Pendiente Compromisos'"] --> VERIF["1. Verificación Académica y Financiera"]
-    
-    subgraph VERIF["Paz y Salvos Obligatorios"]
-        V1["100% Compromisos Aprobados en Centro"]
-        V2["Informe Final Técnico Aprobado"]
-        V3["Legalización Presupuestal 100% en Tesorería"]
-        V4["Reintegro de Remanentes no ejecutados"]
+    classDef estado fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef verif fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef acta fill:#112B1B,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef final fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+
+    EJEC["Proyecto 'En Ejecución' o 'Finalizado Pendiente Compromisos'<br><small>Finalización de vigencia técnica o presupuestal</small>"]:::estado --> VERIF
+
+    subgraph VERIF ["1. Verificación Académica y Financiera Rigurosa"]
+        direction TB
+        V1["100% Compromisos Aprobados<br><small>Verificación en bandeja del Centro</small>"]:::verif
+        V2["Informe Final Aprobado<br><small>Concepto técnico favorable de pares y Centro</small>"]:::verif
+        V3["Legalización Presupuestal Completa<br><small>Paz y salvo de Tesorería y Contabilidad</small>"]:::verif
+        V4["Reintegro de Remanentes<br><small>Comprobante bancario de devolución si hubo saldos</small>"]:::verif
     end
 
-    VERIF --> CIERRE_CEN["2. Cierre Técnico en Centro de Investigación<br><i>(VI-GU-04)</i>"]
-    CIERRE_CEN --> ACTA_CIERRE["Emisión de Acta de Cierre Técnico"]
-    
-    ACTA_CIERRE --> LIQ_VIC["3. Liquidación Institucional en Vicerrectoría"]
-    LIQ_VIC --> ACTA_LIQ["Acta de Liquidación Final"]
-    ACTA_LIQ --> ESTADO_LIQ["Estado Definitivo: LIQUIDADO"]
+    VERIF --> CIERRE_CEN
+
+    subgraph CIERRE_CEN ["2. Cierre Técnico en Centro de Investigación"]
+        direction TB
+        C1["Validación Sistémica de Requisitos<br><small>Bloqueo automático si existen pendientes</small>"]:::acta
+        C2["Diligenciamiento de Evaluación Global<br><small>Calificación cualitativa de resultados</small>"]:::acta
+        C3["Acta de Comité del Centro en PDF<br><small>Cargue del acta de aprobación del Consejo</small>"]:::acta
+        C4["Emisión de Acta de Cierre Técnico<br><small>Paso al estado 'Finalizado'</small>"]:::acta
+    end
+
+    CIERRE_CEN --> LIQ_VIC
+
+    subgraph LIQ_VIC ["3. Liquidación Institucional en Vicerrectoría"]
+        direction TB
+        L1["Revisión de Paz y Salvo de Bienes Devolutivos<br><small>Inventario oficial en almacén de la Facultad</small>"]:::verif
+        L2["Acta de Liquidación y Cierre Financiero Definitivo<br><small>Firmas institucionales CODI / Vicerrectoría</small>"]:::verif
+    end
+
+    LIQ_VIC --> ESTADO_LIQ["Estado Definitivo: LIQUIDADO<br><small>Culminación jurídica total del proyecto</small>"]:::final
 ```
 
 

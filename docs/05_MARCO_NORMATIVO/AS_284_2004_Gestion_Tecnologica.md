@@ -1,4 +1,4 @@
-﻿# Acuerdo Superior 284 de 2004 — Programa de Gestión Tecnológica y Transferencia
+# Acuerdo Superior 284 de 2004 — Programa de Gestión Tecnológica y Transferencia
 
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  
 > **Número:** 284 (14 de diciembre de 2004)  
@@ -19,7 +19,6 @@ flowchart TD
     C --> E["Unidad Emprendimiento Empresarial (UEE)<br/>Preincubación y Spin-offs"]
     D & E --> F["Comercialización y Retorno de Regalías<br/>(Estímulos a Docentes Investigadores - Art. 19)"]
 ```
-
 
 ---
 

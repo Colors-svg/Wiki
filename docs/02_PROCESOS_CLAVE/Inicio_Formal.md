@@ -4,26 +4,32 @@ La aprobación de un proyecto en una convocatoria no autoriza de manera automát
 
 ```mermaid
 flowchart TD
-    APROB["Proyecto en Estado Aprobado"] --> REQ["Verificación de Requisitos Previos"]
-    
-    subgraph REQ["Requisitos Administrativos"]
-        R1["1. Creación de Centro de Costos"]
-        R2["2. Expedición y Aprobación de Pólizas"]
-        R3["3. Contrato o Convenio de Cofinanciación"]
-        R4["4. Aval Definitivo del Comité de Ética"]
+    classDef aprobado fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef req fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef reg fill:#112B1B,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef ejec fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+
+    APROB["Proyecto en Estado Aprobado<br><small>Asignación presupuestal oficial de la convocatoria</small>"]:::aprobado --> REQ
+
+    subgraph REQ ["1. Verificación y Aporte de Requisitos Previos"]
+        direction TB
+        R1["Centro de Costos Institucional<br><small>Código contable expedido por Presupuesto</small>"]:::req
+        R2["Pólizas de Garantía y Amparos<br><small>Buen manejo, cumplimiento y calidad</small>"]:::req
+        R3["Contrato o Convenio Legalizado<br><small>Minuta suscrita con el ente financiador</small>"]:::req
+        R4["Aval Ético y Permisos Ambientales<br><small>Concepto definitivo comités de ética</small>"]:::req
     end
 
-    REQ --> REG_SIIU["Registro en SIIU por Vicerrectoría<br><i>(VI-GU-15)</i>"]
-    
-    subgraph REG_SIIU["Diligenciamiento de Inicio Formal"]
-        S1["Vinculación de Pólizas y Amparos"]
-        S2["Asignación de Centro de Costo"]
-        S3["Fijación de Fechas Oficiales de Inicio y Fin"]
-        S4["Firma y Emisión del Acta de Inicio"]
+    REQ --> REG_SIIU
+
+    subgraph REG_SIIU ["2. Diligenciamiento en SIIU (Vicerrectoría)"]
+        direction TB
+        S1["Vinculación de Amparos de Pólizas<br><small>Vigencias, valores asegurados y compañías</small>"]:::reg
+        S2["Asignación de Centro de Costos<br><small>Articulación contable en SIIU</small>"]:::reg
+        S3["Fijación de Cronograma Oficial<br><small>Fechas exactas de inicio y terminación</small>"]:::reg
+        S4["Firma y Publicación de Acta de Inicio<br><small>Acto administrativo formal de apertura</small>"]:::reg
     end
 
-    REG_SIIU --> EJEC["Estado: EN EJECUCIÓN"]
-    EJEC --> GASTO["Habilitación de Gastos y Novedades"]
+    REG_SIIU --> EJEC["Estado: EN EJECUCIÓN<br><small>Habilitación de rubros presupuestales y novedades</small>"]:::ejec
 ```
 
 

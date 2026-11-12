@@ -4,18 +4,34 @@ Los **Compromisos** representan las obligaciones científicas, tecnológicas y d
 
 ```mermaid
 flowchart TD
-    subgraph GESTION_COMPROMISOS["Ciclo del Compromiso en SIIU"]
-        A["Compromiso Pendiente<br><i>(Fecha límite fijada)</i>"] --> B{"¿A tiempo para entregar?"}
+    classDef estado fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef decision fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef accion fill:#112B1B,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef final fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+
+    subgraph GESTION_COMPROMISOS ["Ciclo de Vida de los Compromisos Académicos"]
+        direction TB
+        A["Compromiso Pendiente<br><small>Fecha límite y término fijado</small>"]:::estado
+        D1{"¿Está a tiempo para entregar?"}:::decision
         
-        B -->|SÍ: Entrega oportuna| C["Carga de Informe / Evidencia en PDF<br><i>(VI-GU-09)</i>"]
-        B -->|NO: Requiere más plazo| D["Radicación: Solicitud de Plazo<br><i>(VI-GU-22)</i>"]
+        C["Carga de Informe o Soporte en PDF<br><small>Subsanación de evidencias y productos</small>"]:::accion
+        SOL_PLAZO["Radicación de Solicitud de Plazo<br><small>Trámite especial de prórroga puntual</small>"]:::accion
         
-        D --> E["Evaluación Centro / Vicerrectoría"]
-        E -->|Plazo Concedido| A
+        EVAL_CEN["Evaluación por Centro de Investigación<br><small>Revisión técnica de la justificación</small>"]:::accion
         
-        C --> F["Revisión y Aprobación en Centro"]
-        F --> G["Compromiso: APROBADO / CUMPLIDO"]
+        REV["Revisión Técnico-Académica del Centro<br><small>Verificación de la calidad del producto</small>"]:::accion
+        CUMP["Compromiso Cumplido y Aprobado<br><small>Hito acreditado en el proyecto</small>"]:::final
     end
+
+    A --> D1
+    D1 -->|Dentro del término| C
+    D1 -->|Requiere extensión| SOL_PLAZO
+    
+    SOL_PLAZO --> EVAL_CEN
+    EVAL_CEN -->|Plazo concedido por Centro| A
+    
+    C --> REV
+    REV -->|Visto bueno del Centro| CUMP
 ```
 
 

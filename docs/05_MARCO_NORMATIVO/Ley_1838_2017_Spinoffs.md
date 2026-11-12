@@ -1,4 +1,4 @@
-﻿# Ley 1838 de 2017 — Creación y Fomento de Spin-offs Universitarias
+# Ley 1838 de 2017 — Creación y Fomento de Spin-offs Universitarias
 
 > **Tipo de Norma:** Ley de la República de Colombia  
 > **Número:** 1838 de 2017 (06 de Julio de 2017)  
@@ -21,7 +21,6 @@ flowchart LR
     C --> D["Docentes / Investigadores<br/>Participan como socios"]
     C --> E["Retorno a la Universidad<br/>(Fondo de CTeI / Regalías)"]
 ```
-
 
 ---
 
