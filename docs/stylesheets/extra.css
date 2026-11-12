@@ -401,3 +401,150 @@ body, .md-typeset {
   .md-search__input { transition: none !important; }
   .md-top:hover { transform: none !important; }
 }
+
+/* ==========================================================================
+   MEJORA 2026-11 (2): color institucional de etiquetas Mermaid + zoom
+   Mermaid v10+ dibuja las etiquetas como HTML (foreignObject): el color se
+   fija con `color`, no con `fill`. Sin esto, los diagramas sin classDef
+   heredan el azul del tema por defecto.
+   ========================================================================== */
+
+/* Texto de nodos y aristas: tinta institucional, nunca azul de defecto */
+.mermaid .nodeLabel,
+.mermaid span.nodeLabel,
+.mermaid div.nodeLabel,
+.mermaid .edgeLabel,
+.mermaid .label,
+.mermaid .cluster-label,
+.mermaid .cluster-label span,
+.mermaid text {
+  font-family: 'Inter', sans-serif !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .nodeLabel,
+[data-md-color-scheme="slate"] .mermaid span.nodeLabel,
+[data-md-color-scheme="slate"] .mermaid div.nodeLabel,
+[data-md-color-scheme="slate"] .mermaid .label,
+[data-md-color-scheme="slate"] .mermaid .cluster-label,
+[data-md-color-scheme="slate"] .mermaid .cluster-label span {
+  color: #EAF3EC !important;
+}
+
+[data-md-color-scheme="default"] .mermaid .nodeLabel,
+[data-md-color-scheme="default"] .mermaid span.nodeLabel,
+[data-md-color-scheme="default"] .mermaid div.nodeLabel,
+[data-md-color-scheme="default"] .mermaid .label,
+[data-md-color-scheme="default"] .mermaid .cluster-label,
+[data-md-color-scheme="default"] .mermaid .cluster-label span {
+  color: #0F2417 !important;
+}
+
+/* Etiquetas de flechas: fondo de tarjeta para legibilidad */
+[data-md-color-scheme="slate"] .mermaid .edgeLabel {
+  color: #C9D8CE !important;
+  background-color: #111722 !important;
+}
+[data-md-color-scheme="default"] .mermaid .edgeLabel {
+  color: #0F2417 !important;
+  background-color: #FFFFFF !important;
+}
+
+/* Flechas y conectores en verde institucional */
+.mermaid .flowchart-link {
+  stroke: #35944B !important;
+  stroke-width: 2px !important;
+}
+.mermaid marker path,
+.mermaid defs marker path {
+  fill: #35944B !important;
+  stroke: #35944B !important;
+}
+
+/* Caja de subgraph con borde institucional */
+.mermaid .cluster rect {
+  stroke: #35944B !important;
+  stroke-width: 1.5px !important;
+}
+
+/* Botón Ampliar en cada diagrama */
+.mermaid {
+  position: relative;
+}
+.diagram-zoom-btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.3rem 0.7rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border-color);
+  background: var(--md-default-bg-color--light);
+  color: var(--md-primary-fg-color--light);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 180ms cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 2;
+}
+.mermaid:hover .diagram-zoom-btn,
+.mermaid:focus-within .diagram-zoom-btn {
+  opacity: 1;
+}
+.diagram-zoom-btn:hover {
+  background: #026937;
+  color: #FFFFFF;
+  border-color: #026937;
+}
+
+/* Modal de diagrama ampliado */
+dialog.diagram-lightbox {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0;
+  max-width: min(1100px, 94vw);
+  width: max-content;
+  max-height: 88vh;
+  background: var(--card-bg);
+  color: var(--md-default-fg-color);
+}
+dialog.diagram-lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+.diagram-lightbox-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 1.1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+.diagram-lightbox-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.diagram-lightbox-actions button {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35rem 0.8rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border-color);
+  background: var(--md-default-bg-color--light);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
+.diagram-lightbox-actions button:hover {
+  background: #026937;
+  color: #FFFFFF;
+  border-color: #026937;
+}
+.diagram-lightbox-body {
+  overflow: auto;
+  padding: 2rem;
+  max-height: calc(88vh - 70px);
+}
+.diagram-lightbox-scaler {
+  transform-origin: top center;
+  margin: 0 auto;
+  width: max-content;
+  max-width: 100%;
+}

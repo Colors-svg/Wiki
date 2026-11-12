@@ -4,7 +4,7 @@
 > **Número:** 1838 de 2017 (06 de Julio de 2017)  
 > **Publicación:** Diario Oficial No. 50286  
 > **Alcance:** Nacional para Instituciones de Educación Superior (IES)  
-> **Documento Fuente Fidedigno:** [LEG-LEY-1838-2017.md](../../archivo_maestro/legalidad/LEG-LEY-1838-2017.md)
+> **Documento Fuente Fidedigno:** [LEG-LEY-1838-2017.md](../archivo_maestro/legalidad/LEG-LEY-1838-2017.md)
 
 ---
 

@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto Presupuestal Universitario  
 > **Número:** Acuerdo Superior 121 (07 de julio de 1997, vigencia 1998, compilado a 2019)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-121-1997.md](../../archivo_maestro/legalidad/LEG-AS-121-1997.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-121-1997.md](../archivo_maestro/legalidad/LEG-AS-121-1997.md)
 
 ---
 

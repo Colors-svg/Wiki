@@ -55,18 +55,18 @@ flowchart TD
 - **Aplica para:** Convocatorias programáticas, de menor cuantía, apoyo a grupos o fondos especiales financiados con recursos de la Universidad (CODI, BUP).
 - **Ruta SIIU:** `Convocatorias >> Inscripción >> Proyectos en convocatoria`
 - **Requisito previo:** La convocatoria debe encontrarse en estado **Vigente** y dentro de las fechas fijadas en el cronograma.
-- 📘 Guía oficial: [VI-GU-24](../../archivo_maestro/VI-GU-24.md)
+- 📘 Guía oficial: [VI-GU-24](../archivo_maestro/VI-GU-24.md)
 
 ### Proyectos Inscritos (Financiación Externa)
 - **Aplica para:** Proyectos aprobados por entidades externas (Ministerio de Ciencia, Tecnología e Innovación - Minciencias, Sistema General de Regalías - SGR, agencias internacionales, contratos de I+D con empresas) que requieren administración y aval de la UdeA.
 - **Ruta SIIU:** `Convocatorias >> Inscripción >> Proyectos inscritos`
 - **Particularidad:** Requiere adjuntar la carta formal de asignación de recursos o contrato del ente financiador externo.
-- 📘 Guía oficial: [VI-GU-18](../../archivo_maestro/VI-GU-18.md)
+- 📘 Guía oficial: [VI-GU-18](../archivo_maestro/VI-GU-18.md)
 
 ### Primer Proyecto
 - **Aplica para:** Profesores o investigadores que postulan su primera propuesta en el sistema SIIU y no cuentan con registro histórico previo.
 - **Ruta SIIU:** `Convocatorias >> Inscripción >> Primer proyecto`
-- 📘 Guía oficial: [VI-GU-17](../../archivo_maestro/VI-GU-17.md)
+- 📘 Guía oficial: [VI-GU-17](../archivo_maestro/VI-GU-17.md)
 
 ---
 
@@ -110,7 +110,7 @@ Obligatoria según las directrices institucionales de planeación:
 - **Focos de la Misión de Sabios:** Clasificar la propuesta en uno de los 8 focos estratégicos del país.
 - **Agendas Regionales G8:** Identificar áreas temáticas de impacto en el departamento.
 - **Caracterización Socioeconómica:** Población beneficiaria directa e indirecta.
-- 📘 Guía oficial: [VI-GU-16](../../archivo_maestro/VI-GU-16.md)
+- 📘 Guía oficial: [VI-GU-16](../archivo_maestro/VI-GU-16.md)
 
 ### Pestaña 7: Documentos Soporte
 - Carta de aval del grupo de investigación firmada por el coordinador.
@@ -139,7 +139,7 @@ flowchart LR
 ```
 
 
-!!! tip "REGLAS PARA EL CKEDITOR ([VI-GU-25](../../archivo_maestro/VI-GU-25.md))"
+!!! tip "REGLAS PARA EL CKEDITOR ([VI-GU-25](../archivo_maestro/VI-GU-25.md)"
     1. **No copiar directamente estilos complejos de Word:** Los metadatos ocultos de MS Word (`mso-*`) pueden corromper el campo HTML y bloquear el guardado. Pega el texto plano y da formato en el SIIU.
     2. **Tablas:** Usa el botón de tabla propio del editor, define bordes sencillos y evita combinar celdas complejas.
     3. **Ecuaciones y fórmulas:** Insértalas como texto matemático plano o imágenes debidamente referenciadas.

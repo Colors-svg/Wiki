@@ -3,7 +3,7 @@
 > **Código:** DJ-MA-02 (Versión 01 / 19 de mayo de 2020)  
 > **Emisor:** Dirección Jurídica — Universidad de Antioquia  
 > **Marco Legal:** Acuerdo Superior 419 de 2014, Resolución Rectoral 39475 de 2014, Ley 1474 de 2011  
-> **Documento Fuente Fidedigno:** [LEG-DJ-MA-02.md](../../archivo_maestro/legalidad/LEG-DJ-MA-02.md)
+> **Documento Fuente Fidedigno:** [LEG-DJ-MA-02.md](../archivo_maestro/legalidad/LEG-DJ-MA-02.md)
 
 ---
 

@@ -6,7 +6,7 @@
 | **Fecha de Expedición** | 25 de julio de 2024 |
 | **Órgano Emisor** | Rectoría — Universidad de Antioquia |
 | **Deroga Expresamente** | Resolución Rectoral 25750 del 27 de marzo de 2008 |
-| **Documento Fidedigno** | [LEG-RR-51525-2024.md](../../archivo_maestro/legalidad/LEG-RR-51525-2024.md) |
+| **Documento Fidedigno** | [LEG-RR-51525-2024.md](../archivo_maestro/legalidad/LEG-RR-51525-2024.md) |
 | **Estado Jurídico** | **VIGENTE** |
 
 ---
@@ -65,7 +65,7 @@ Antes de someter una solicitud de desembolso o compra en el SIIU:
 
 ## 5. Enlaces y Navegación Cruzada
 
-- **Documento Fidedigno:** [LEG-RR-51525-2024.md](../../archivo_maestro/legalidad/LEG-RR-51525-2024.md)
+- **Documento Fidedigno:** [LEG-RR-51525-2024.md](../archivo_maestro/legalidad/LEG-RR-51525-2024.md)
 - **Estatuto Financiero Vigente:** [Acuerdo Superior 466 de 2020](AS_466_2020_Estatuto_Financiero_Vigente.md)
 - **Reglamento Contractual:** [Resolución Rectoral 39475 de 2014](RR_39475_2014_Reglamento_Contratacion.md)
 - **Manual de Interventoría:** [DJ-MA-02](DJ_MA_02_Manual_Interventoria.md)

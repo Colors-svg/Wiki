@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  
 > **Número:** 086 (05 de agosto de 1996)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-086-1996.md](../../archivo_maestro/legalidad/LEG-AS-086-1996.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-086-1996.md](../archivo_maestro/legalidad/LEG-AS-086-1996.md)
 
 ---
 

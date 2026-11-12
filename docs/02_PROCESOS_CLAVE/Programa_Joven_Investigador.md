@@ -55,7 +55,7 @@ Una vez publicados los resultados de la convocatoria institucional de Jóvenes I
   2. Diligenciar la información del plan de trabajo asociado al proyecto marco.
   3. Indicar el objetivo de formación, metodología de acompañamiento del tutor y productos esperados (informe final y artículo/ponencia).
   4. Radicar la matrícula del cupo para validación de la Vicerrectoría.
-- 📘 Guía oficial: [VI-GU-10](../../archivo_maestro/VI-GU-10.md)
+- 📘 Guía oficial: [VI-GU-10](../archivo_maestro/VI-GU-10.md)
 
 ---
 
@@ -64,7 +64,7 @@ Una vez publicados los resultados de la convocatoria institucional de Jóvenes I
 Una vez asignado el cupo, el tutor debe vincular formalmente al estudiante seleccionado:
 
 - **Ruta SIIU:** `Trámites administrativos >> Seguimiento mis proyectos >> Centro: TODOS >> Código de cupo >> Consultar >> Botón: Hoja de vida JI`
-- 📘 Instructivo oficial: [VI-IN-06](../../archivo_maestro/VI-IN-06.md)
+- 📘 Instructivo oficial: [VI-IN-06](../archivo_maestro/VI-IN-06.md)
 
 ### Secciones de la Hoja de Vida:
 1. **Datos Personales:** Al ingresar la cédula del estudiante, el SIIU se comunica con el sistema central **MARES** y precarga nombres, apellidos, lugar de nacimiento y fecha de nacimiento.
@@ -100,4 +100,4 @@ Si por razones justificadas en el plan de investigación se requiere extender el
   - El cupo debe encontrarse activo y en ejecución.
   - Presentar balance de actividades ejecutadas y justificación de los meses adicionales requeridos.
   - Aval del tutor del proyecto.
-- 📘 Guía oficial: [VI-GU-11](../../archivo_maestro/VI-GU-11.md)
+- 📘 Guía oficial: [VI-GU-11](../archivo_maestro/VI-GU-11.md)

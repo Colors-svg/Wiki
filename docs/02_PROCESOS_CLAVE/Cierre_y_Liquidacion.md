@@ -68,7 +68,7 @@ Para que el SIIU permita iniciar el trámite de cierre, se deben cumplir cuatro 
   3. Registrar la evaluación general del proyecto (calificación de pertinencia y cumplimiento de objetivos).
   4. Adjuntar en formato **PDF** el Acta de Reunión del Comité Técnico del Centro donde se aprueba el cierre del proyecto.
   5. Presionar **CONFIRMAR CIERRE**. El proyecto adquiere el estado **Finalizado** o **Evaluado finalización**.
-- 📘 Guía oficial: [VI-GU-04](../../archivo_maestro/VI-GU-04.md)
+- 📘 Guía oficial: [VI-GU-04](../archivo_maestro/VI-GU-04.md)
 
 ---
 

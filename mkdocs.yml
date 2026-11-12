@@ -43,6 +43,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/diagram-zoom.js
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -62,6 +65,7 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
+  - Empieza aquí (5 min): inicio-rapido.md
   - Roles Operativos:
       - Investigador Principal y Tutor: 01_ROLES/Rol_Investigador.md
       - Centro de Investigación / Extensión: 01_ROLES/Rol_Centro_Investigacion.md
@@ -103,6 +107,9 @@ nav:
       - Estatuto de Propiedad Intelectual (RR 49544/2022): 05_MARCO_NORMATIVO/RR_49544_2022_Nuevo_Estatuto_PI.md
       - Ajustes Operativos SIIU (RR 51525/2024): 05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md
       - Modernización Universitaria (RR 00968/2026): 05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md
+  - Archivo Maestro Fidedigno:
+      - Índice de Guías e Instructivos: archivo_maestro/index.md
+      - Índice de Normas (LEG): archivo_maestro/legalidad/index.md
   - Referencia Rápida:
       - Preguntas Frecuentes (FAQ): faq.md
       - Ficha Rápida Investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
