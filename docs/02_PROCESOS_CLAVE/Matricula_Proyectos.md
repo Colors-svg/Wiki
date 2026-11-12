@@ -1,5 +1,15 @@
 ﻿# Proceso Clave: Matrícula e Inscripción de Proyectos
 
+!!! tip "En simple: ¿qué es matricular?"
+    Es **inscribir tu propuesta en el SIIU** para que la Universidad la reconozca. Tienes 3 caminos: **convocatoria interna** (plata UdeA), **proyecto inscrito** (plata externa ya ganada) o **primer proyecto** (primera vez en el sistema). Llena 8 pestañas y presiona **Enviar a Centro**. Tiempo típico: 30-60 min si ya tienes el texto y el PDF listos.
+
+    | Palabra técnica | En simple |
+    |---|---|
+    | Convocatoria vigente | Concurso abierto con fechas activas |
+    | Recursos frescos / efectivo | Plata en dinero |
+    | Contrapartida / especie | Lo que la UdeA pone sin dinero (horas, laboratorios) |
+    | Radicación | Enviar formalmente y obtener código ej. `2024-XXXXX` |
+
 El proceso de matrícula en el **SIIU** es la puerta de entrada para todas las iniciativas científicas, tecnológicas, artísticas y de extensión en la Universidad de Antioquia.
 
 ```mermaid

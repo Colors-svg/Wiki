@@ -320,3 +320,84 @@ body, .md-typeset {
   padding: 0.95rem 1.1rem;
   border-top: 1px solid var(--border-color);
 }
+
+/* ==========================================================================
+   MEJORA 2026-11: micro-interacciones, figuras PDF y legibilidad
+   - Solo CSS, sin JS. Respeta prefers-reduced-motion.
+   ========================================================================== */
+
+/* Intro suave de página (0.72s, institucional) */
+.md-content__inner {
+  animation: wikiFadeUp 0.72s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes wikiFadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Hover funcional en cards/tarjetas (180ms) */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .admonition {
+  transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 180ms ease-in-out;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(2, 105, 55, 0.14);
+  border-color: #35944B;
+}
+
+/* Figuras extraídas de PDF: centradas, nítidas, máx 1200px, con pie */
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.2rem auto 0.4rem auto;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+  background: #FFFFFF;
+}
+.md-typeset img + em,
+.md-typeset p > em:only-child {
+  display: block;
+  text-align: center;
+  font-size: 0.76rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1.6rem;
+}
+
+/* Enlaces con foco visible (teclado) */
+.md-typeset a:focus-visible,
+.md-nav__link:focus-visible {
+  outline: 3px solid rgba(53, 148, 75, 0.45);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Details/summary con transición suave */
+.md-typeset details {
+  transition: border-color 180ms ease-in-out, box-shadow 180ms ease-in-out;
+}
+.md-typeset details[open] {
+  border-color: #35944B;
+  box-shadow: 0 8px 24px rgba(2, 105, 55, 0.12);
+}
+
+/* Tablas con scroll horizontal en móvil */
+.md-typeset__table {
+  overflow-x: auto;
+}
+
+/* Movimiento reducido: desactivar animaciones */
+@media (prefers-reduced-motion: reduce) {
+  .md-content__inner { animation: none; }
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .admonition,
+  .md-typeset details,
+  .md-top,
+  .md-nav__link,
+  .md-search__input { transition: none !important; }
+  .md-top:hover { transform: none !important; }
+}

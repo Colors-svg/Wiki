@@ -1,5 +1,14 @@
 # Acuerdo Superior 466 de 2020 — Estatuto Financiero Vigente de la Universidad
 
+!!! tip "En simple: ¿qué me exige esta norma?"
+    Es la regla de plata vigente. Antes de comprar o contratar necesitas **CDP (reserva previa) y CRP (compromiso definitivo)**. **Prohibido gastar primero y legalizar después** (hechos cumplidos). El presupuesto vence el **31 de diciembre**: lo no comprometido con CRP se pierde. Si tu convenio exige cuenta exclusiva, la abre Gestión Financiera.
+
+    | Palabra técnica | En simple | Ejemplo |
+    |---|---|---|
+    | CDP / CRP | Apartar plata / comprometerla de verdad | Sin CRP no firmes ni compres |
+    | Hechos cumplidos | Gastar sin respaldo previo | Nulo e investigable |
+    | Reservas / cuentas por pagar | Pasar un compromiso con CRP al año siguiente | Pide prórroga a tiempo |
+
 > **Tipo de Norma:** Estatuto Financiero Universitario Vigente  
 > **Número:** Acuerdo Superior 466 (28 de julio de 2020, actualizado a junio de 2026)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  

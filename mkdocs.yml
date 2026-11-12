@@ -104,8 +104,15 @@ nav:
       - Ajustes Operativos SIIU (RR 51525/2024): 05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md
       - Modernización Universitaria (RR 00968/2026): 05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md
   - Referencia Rápida:
+      - Preguntas Frecuentes (FAQ): faq.md
       - Ficha Rápida Investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
       - Ficha Rápida Centro: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md
       - Reglas de Oro SIIU: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md
       - Glosario de Términos: 04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md
       - Catálogo Oficial (31 Documentos): 04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md
+  - Módulo Legal:
+      - Resumen Legal Simple: legal/index.md
+      - Términos de Uso: legal/terminos.md
+      - Privacidad y Datos: legal/privacidad.md
+      - Cookies y Sesión: legal/cookies.md
+      - Licencias y Reuso: legal/licencias.md

@@ -1,5 +1,8 @@
 ﻿# Proceso Clave: Evaluación Técnica, Aval y Subsanación
 
+!!! tip "En simple: ¿qué pasa después de enviar?"
+    Tu Centro revisa que todo esté completo. Si algo falla, te lo **devuelve con instrucciones** (estado **Pendiente Actualización**): corriges solo lo indicado y reenvías. Si todo está bien, te da el **aval** y asigna evaluadores pares que califican. No es un rechazo definitivo: es un ciclo de corrección.
+
 Una vez que el Investigador Principal radica su propuesta en el SIIU, se inicia la fase de control de calidad institucional, compuesta por la **revisión técnica formal del Centro**, el ciclo de **subsanación de inconsistencias** y la **evaluación académica por pares**.
 
 ```mermaid

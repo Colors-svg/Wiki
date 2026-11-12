@@ -39,6 +39,8 @@ flowchart TD
 - **Obtener certificados o constancias:** [Reportes y Certificaciones](02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md) *(Participación en proyectos, constancia de evaluador, historial)*.
 
 ### 3. Herramientas y Apoyo Operativo
+- **[Preguntas Frecuentes (FAQ)](faq.md):** Respuestas en 2 minutos por tema: acceso, errores y legal.
+- **[Módulo Legal Simple](legal/index.md):** Términos, privacidad, cookies y licencias sin jerga, con enlace al texto fiel.
 - **[Ficha Rápida del Investigador](03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md):** Pasos clave y rutas directas.
 - **[Ficha Rápida para Centros](03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md):** Criterios de validación y control.
 - **[Reglas de Oro del SIIU](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md):** Requisitos de adjuntos, ventanas emergentes, navegadores y limitaciones de cuentas bancarias.
