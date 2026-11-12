@@ -1,0 +1,266 @@
+/* ==========================================================================
+   SISTEMA DE DISEÑO INSTITUCIONAL UDEA - WIKI SIIU
+   Paleta extraída de: https://github.com/Colors-svg/Paleta-Udea
+   - Verde Bosque Institucional (Pantone 349 C): #026937
+   - Verde Follaje Vivo (Pantone 7740 C):       #35944B
+   - Verde Pradera Radiante (Pantone 361 C):    #43B649
+   - Verde Lima Institucional (Pantone 375 C):  #8DC63F
+   - Turquesa Caribe / Menta (Pantone 7465 C):  #3EBDAC
+   - Verde Esmeralda (Pantone 334 C):           #069A7E
+   - Púrpura Imperial (Pantone 7650 C):         #70205B
+   - Azul Cerúleo (Pantone 633 C):              #137598
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Variables de Tema & Modos (Dark / Slate y Light)
+   -------------------------------------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #026937;
+  --md-primary-fg-color--light: #35944B;
+  --md-primary-fg-color--dark: #014725;
+  --md-accent-fg-color: #8DC63F;
+  --md-accent-fg-color--transparent: rgba(141, 198, 63, 0.15);
+
+  /* Fondos oscuros con tinte sutil grafito-bosque */
+  --md-default-bg-color: #08100C;
+  --md-default-bg-color--light: #0D1813;
+  --md-default-bg-color--lighter: #13241C;
+  --md-default-fg-color: #E2ECE5;
+  --md-default-fg-color--light: #9CB2A4;
+  --md-default-fg-color--lighter: #637B6C;
+
+  /* Superficies y bordes */
+  --md-code-bg-color: #0B1711;
+  --md-code-fg-color: #A3E7BD;
+  --sidebar-border: #152E22;
+  --card-bg: #0D1C15;
+  --card-border: #1C3B2D;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #026937;
+  --md-primary-fg-color--light: #35944B;
+  --md-primary-fg-color--dark: #014725;
+  --md-accent-fg-color: #026937;
+  --md-accent-fg-color--transparent: rgba(2, 105, 55, 0.1);
+
+  --md-default-bg-color: #FFFFFF;
+  --md-default-bg-color--light: #F4F8F5;
+  --md-default-bg-color--lighter: #E6EFE9;
+  --md-default-fg-color: #17241C;
+  --md-default-fg-color--light: #486151;
+  --md-default-fg-color--lighter: #768F7F;
+
+  --md-code-bg-color: #F1F6F3;
+  --md-code-fg-color: #026937;
+  --sidebar-border: #DCE8E0;
+  --card-bg: #F8FAF9;
+  --card-border: #D4E2D8;
+}
+
+/* --------------------------------------------------------------------------
+   Tipografía y Jerarquía Visual Confortable
+   -------------------------------------------------------------------------- */
+body, .md-typeset {
+  font-size: 0.82rem; /* 16px en base rem */
+  line-height: 1.78;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  color: var(--md-primary-fg-color--light);
+  margin-bottom: 1.4rem;
+  font-size: 1.95rem;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #EBF8F0;
+  border-bottom: 2px solid #163625;
+  padding-bottom: 0.6rem;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.md-typeset h3 {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.12rem;
+}
+
+.md-typeset p, .md-typeset ul, .md-typeset ol {
+  margin-bottom: 1.25rem;
+}
+
+.md-typeset li {
+  margin-bottom: 0.45rem;
+}
+
+/* --------------------------------------------------------------------------
+   Buscador con Efecto Glow Institucional UdeA
+   -------------------------------------------------------------------------- */
+.md-search__input {
+  border-radius: 8px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border: 1px solid transparent !important;
+}
+
+.md-search__input:focus {
+  background: var(--md-default-bg-color) !important;
+  color: var(--md-default-fg-color) !important;
+  border-color: #35944B !important;
+  box-shadow: 0 0 0 3px rgba(53, 148, 75, 0.3), 0 0 20px rgba(141, 198, 63, 0.25) !important;
+}
+
+@keyframes udeaPulseGlow {
+  0% { box-shadow: 0 0 0 2px rgba(53, 148, 75, 0.3), 0 0 12px rgba(141, 198, 63, 0.2); }
+  50% { box-shadow: 0 0 0 3px rgba(67, 182, 73, 0.5), 0 0 22px rgba(62, 189, 172, 0.35); }
+  100% { box-shadow: 0 0 0 2px rgba(53, 148, 75, 0.3), 0 0 12px rgba(141, 198, 63, 0.2); }
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__input {
+  animation: udeaPulseGlow 3s infinite ease-in-out;
+}
+
+/* --------------------------------------------------------------------------
+   Barra Lateral (Sidebar & Scroll-Spy Activo)
+   -------------------------------------------------------------------------- */
+.md-sidebar--primary {
+  border-right: 1px solid var(--sidebar-border);
+}
+
+.md-nav__link {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem !important;
+  font-size: 0.8rem;
+}
+
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color--light) !important;
+  background-color: rgba(53, 148, 75, 0.1);
+  transform: translateX(3px);
+}
+
+/* Enlace activo resaltado con barra institucional */
+.md-nav__item--active > .md-nav__link {
+  color: #8DC63F !important;
+  font-weight: 700;
+  background: rgba(53, 148, 75, 0.18);
+  border-left: 3px solid #8DC63F;
+}
+
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
+  color: #026937 !important;
+  border-left: 3px solid #026937;
+  background: rgba(2, 105, 55, 0.08);
+}
+
+/* --------------------------------------------------------------------------
+   Tablas Estilizadas y Confortables
+   -------------------------------------------------------------------------- */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  margin: 1.8rem 0;
+  font-size: 0.84rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: #026937;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.73rem;
+  letter-spacing: 0.06em;
+  padding: 0.75rem 1rem;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.85rem 1rem;
+  border-top: 1px solid var(--sidebar-border);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+[data-md-color-scheme="default"] .md-typeset table:not([class]) tr:nth-child(even) {
+  background: rgba(2, 105, 55, 0.025);
+}
+
+/* --------------------------------------------------------------------------
+   Admonitions / Callouts con Acentos UdeA
+   -------------------------------------------------------------------------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  border-left-width: 4px !important;
+  margin: 1.5rem 0;
+  font-size: 0.82rem;
+}
+
+.md-typeset .admonition.note,
+.md-typeset .admonition.info {
+  border-left-color: #35944B !important;
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: #8DC63F !important;
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #FFB300 !important;
+}
+
+.md-typeset .admonition.danger,
+.md-typeset .admonition.caution {
+  border-left-color: #E53935 !important;
+}
+
+/* --------------------------------------------------------------------------
+   Diagramas Mermaid - Estilos Institucionales & Cajas Claras
+   -------------------------------------------------------------------------- */
+.mermaid {
+  background: #09140E !important;
+  padding: 1.5rem !important;
+  border-radius: 12px !important;
+  border: 1px solid #1A3828 !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+  margin: 2rem 0 !important;
+  overflow-x: auto;
+}
+
+[data-md-color-scheme="default"] .mermaid {
+  background: #F5FAF7 !important;
+  border: 1px solid #CDE0D4 !important;
+  box-shadow: 0 4px 14px rgba(2, 105, 55, 0.08) !important;
+}
+
+/* Botón flotante suave hacia arriba */
+.md-top {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s;
+  background-color: #026937 !important;
+  color: #FFFFFF !important;
+  border-radius: 50%;
+}
+
+.md-top:hover {
+  background-color: #35944B !important;
+  transform: translateY(-4px);
+}
