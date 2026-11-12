@@ -1,0 +1,76 @@
+site_name: Wiki SIIU - Universidad de Antioquia
+site_description: Base de Conocimiento y Wiki Operativa del Sistema de Información para la Investigación Universitaria
+site_author: Vicerrectoría de Investigación
+
+theme:
+  name: material
+  language: es
+  palette:
+    # Scheme mode dark like Google / Code Wiki
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: sky
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+
+nav:
+  - Inicio: index.md
+  - Roles Operativos:
+      - Investigador Principal y Tutor: 01_ROLES/Rol_Investigador.md
+      - Centro de Investigación / Extensión: 01_ROLES/Rol_Centro_Investigacion.md
+      - Vicerrectoría de Investigación: 01_ROLES/Rol_Vicerrectoria.md
+  - Procesos Clave:
+      - Matrícula de Proyectos: 02_PROCESOS_CLAVE/Matricula_Proyectos.md
+      - Evaluación Técnica y Aval: 02_PROCESOS_CLAVE/Evaluacion_y_Aval.md
+      - Inicio Formal: 02_PROCESOS_CLAVE/Inicio_Formal.md
+      - Modificaciones y Trámites: 02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md
+      - Gestión de Compromisos: 02_PROCESOS_CLAVE/Gestion_Compromisos.md
+      - Programa Joven Investigador: 02_PROCESOS_CLAVE/Programa_Joven_Investigador.md
+      - Cierre y Liquidación: 02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md
+      - Reportes y Certificaciones: 02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md
+  - Ciclos y Trámites (MOC):
+      - Ciclo de Vida de Proyectos: 00_INICIO_Y_MOCS/MOC_Ciclo_de_Vida_Proyectos.md
+      - Mapa por Roles: 00_INICIO_Y_MOCS/MOC_Por_Roles.md
+      - Trámites y Solicitudes: 00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md
+      - Reportes y Constancias: 00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md
+  - Referencia y Normativa:
+      - Ficha Rápida Investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
+      - Ficha Rápida Centro: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md
+      - Reglas de Oro SIIU: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md
+      - Glosario de Términos: 04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md
+      - Catálogo Oficial (31 Documentos): 04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md
