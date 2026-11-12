@@ -1,16 +1,4 @@
-﻿---
-title: Proceso Clave - Evaluación Técnica, Aval y Subsanación en SIIU
-description: Procedimiento de evaluación formal por parte de los Centros, devolución para subsanación, reenvío del investigador y asignación de evaluadores pares
-tags:
-  - procesos
-  - evaluacion
-  - aval
-  - pares
-  - subsanacion
-  - siiu
----
-
-# Proceso Clave: Evaluación Técnica, Aval y Subsanación
+﻿# Proceso Clave: Evaluación Técnica, Aval y Subsanación
 
 Una vez que el Investigador Principal radica su propuesta en el SIIU, se inicia la fase de control de calidad institucional, compuesta por la **revisión técnica formal del Centro**, el ciclo de **subsanación de inconsistencias** y la **evaluación académica por pares**.
 
@@ -124,4 +112,4 @@ La Vicerrectoría de Investigación es la responsable de parametrizar las reglas
 
 ## 🔗 Próximo Paso en el Flujo
 Una vez aprobado el proyecto por el Comité o CODI:
-Consulta **[[Inicio_Formal]]**.
+Consulta **[Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md)**.

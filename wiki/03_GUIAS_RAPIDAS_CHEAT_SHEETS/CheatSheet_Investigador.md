@@ -1,15 +1,4 @@
-﻿---
-title: Ficha Rápida - Cheat Sheet del Investigador
-description: Referencia rápida de rutas, atajos, requisitos y preguntas frecuentes para Investigadores Principales en el Sistema SIIU
-tags:
-  - cheatsheet
-  - investigador
-  - atajos
-  - rutas
-  - siiu
----
-
-# Ficha Rápida: Cheat Sheet del Investigador
+﻿# Ficha Rápida: Cheat Sheet del Investigador
 
 Guía de consulta veloz para resolver las situaciones operativas más frecuentes en el SIIU en menos de 2 minutos.
 
@@ -72,4 +61,4 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 > El navegador web tiene bloqueadas las **ventanas emergentes (pop-ups)**. Haz clic en el icono de ventana bloqueada en la barra de direcciones y selecciona *"Permitir siempre ventanas emergentes en este sitio"*.
 
 ### ¿Puedo cambiar el Investigador Principal yo mismo en el sistema?
-> No. El cambio de responsable institucional es una solicitud administrativa especial que debe ser autorizada por el Centro de Investigación y aplicada formalmente por la **Vicerrectoría de Investigación**. Consulta [[Modificaciones_y_Tramites#cambio-de-responsable]].
+> No. El cambio de responsable institucional es una solicitud administrativa especial que debe ser autorizada por el Centro de Investigación y aplicada formalmente por la **Vicerrectoría de Investigación**. Consulta [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-responsable).

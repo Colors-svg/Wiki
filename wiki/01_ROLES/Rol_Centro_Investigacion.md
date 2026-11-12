@@ -1,15 +1,4 @@
-﻿---
-title: Manual Operativo - Rol Centro de Investigación y Extensión
-description: Guía de procedimientos, validación técnica, asignación de evaluadores y aprobación de trámites para Jefes y Gestores de Centros de Investigación o Extensión en el SIIU
-tags:
-  - roles
-  - centro-investigacion
-  - extension
-  - evaluacion
-  - siiu
----
-
-# Manual Operativo: Rol Centro de Investigación y Extensión
+﻿# Manual Operativo: Rol Centro de Investigación y Extensión
 
 Los **Centros de Investigación y de Extensión** de las Facultades, Escuelas e Institutos de la Universidad de Antioquia son los nodos de articulación técnico-académica. Tienen la potestad de validar formalmente las propuestas, interactuar con los pares evaluadores, avalar iniciativas ante el CODI o Comités de Extensión, y aprobar los trámites administrativos de los proyectos adscritos.
 
@@ -71,7 +60,7 @@ Cuando un proyecto no cumple con todas las condiciones formales en la revisión 
 ---
 
 ## 🔗 Guías Detalladas de Interés
-- [[Evaluacion_y_Aval]]: Protocolo completo de evaluación técnica, devolución y asignación de pares.
-- [[Modificaciones_y_Tramites#aprobacion-en-centro]]: Cómo gestionar y aprobar solicitudes administrativas en el Centro.
-- [[Cierre_y_Liquidacion]]: Protocolo de verificación de compromisos y trámite de cierre.
-- [[CheatSheet_Centro]]: Ficha de referencia rápida y criterios de control.
+- [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md): Protocolo completo de evaluación técnica, devolución y asignación de pares.
+- [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aprobacion-en-centro): Cómo gestionar y aprobar solicitudes administrativas en el Centro.
+- [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md): Protocolo de verificación de compromisos y trámite de cierre.
+- [CheatSheet Centro](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md): Ficha de referencia rápida y criterios de control.

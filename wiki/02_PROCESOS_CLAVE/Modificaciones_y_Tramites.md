@@ -1,16 +1,4 @@
-﻿---
-title: Proceso Clave - Modificaciones y Trámites Administrativos en SIIU
-description: Protocolo exhaustivo para radicación, aprobación y aplicación de solicitudes de prórroga, cambio de rubro presupuestal, relevo de responsables y cambio de participantes
-tags:
-  - procesos
-  - tramites
-  - modificaciones
-  - prorrogas
-  - cambio-de-rubro
-  - siiu
----
-
-# Proceso Clave: Modificaciones y Trámites Administrativos
+﻿# Proceso Clave: Modificaciones y Trámites Administrativos
 
 Durante la ejecución de un proyecto es habitual requerir ajustes de calendario, variaciones presupuestales o cambios en la composición del equipo de trabajo. El SIIU canaliza estas modificaciones mediante **Trámites Administrativos** auditables.
 
@@ -110,4 +98,4 @@ Permite a la Vicerrectoría definir qué instancias deben intervenir para cada t
 
 ## 🔗 Próximo Paso en el Flujo
 Para coordinar el cumplimiento de compromisos y plazos de entrega:
-Consulta **[[Gestion_Compromisos]]**.
+Consulta **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.

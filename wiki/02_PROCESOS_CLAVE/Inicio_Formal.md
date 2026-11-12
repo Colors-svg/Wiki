@@ -1,16 +1,4 @@
-﻿---
-title: Proceso Clave - Inicio Formal de Proyectos en SIIU
-description: Requisitos contractuales, pólizas, asignación de centros de costo y generación del Acta de Inicio Formal en el Sistema SIIU
-tags:
-  - procesos
-  - inicio-formal
-  - acta-de-inicio
-  - polizas
-  - centro-de-costos
-  - siiu
----
-
-# Proceso Clave: Inicio Formal de Proyectos
+﻿# Proceso Clave: Inicio Formal de Proyectos
 
 La aprobación de un proyecto en una convocatoria no autoriza de manera automática el gasto de los recursos ni el reconocimiento oficial de tiempos. Para ello se requiere el **Inicio Formal**, un hito administrativo y legal que marca el paso del estado **Aprobado** al estado **En ejecución**.
 
@@ -79,13 +67,13 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 
 ## 3. ¿Qué ocurre si se vence el plazo sin iniciar?
 
-> [!CAUTION] VENCIMIENTO DEL PLAZO DE INICIO
+> **PRECAUCIÓN:** VENCIMIENTO DEL PLAZO DE INICIO
 > Si los trámites de pólizas o contratos toman más tiempo del reglamentario, el proyecto puede caer en estado **No iniciado** o ser **Cancelado**.  
 > Para evitar esto, el Investigador Principal debe solicitar oportunamente una **Prórroga de Inicio** mediante el menú de trámites administrativos mientras el proyecto aún figure en estado **Aprobado**.  
-> Consulta: [[Modificaciones_y_Tramites#prorroga-de-proyecto]].
+> Consulta: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto).
 
 ---
 
 ## 🔗 Próximo Paso en el Flujo
 Con el proyecto **En ejecución**, se habilitan las compras, contrataciones, solicitudes de cambio de presupuesto y adición de tiempo:
-Consulta **[[Modificaciones_y_Tramites]]** y **[[Gestion_Compromisos]]**.
+Consulta **[Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)** y **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.

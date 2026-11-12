@@ -1,3 +1,0 @@
-- [Inicio](/)
-- [Universidad de Antioquia](https://www.udea.edu.co)
-- [Repositorio GitHub](https://github.com/Colors-svg/Wiki)

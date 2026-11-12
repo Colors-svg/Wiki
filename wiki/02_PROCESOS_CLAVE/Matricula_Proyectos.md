@@ -1,15 +1,4 @@
-﻿---
-title: Proceso Clave - Matrícula e Inscripción de Proyectos en SIIU
-description: Guía paso a paso para la formulación, registro y postulación de proyectos en convocatorias internas, proyectos inscritos con financiación externa y primer proyecto
-tags:
-  - procesos
-  - matricula
-  - inscripcion
-  - proyectos
-  - siiu
----
-
-# Proceso Clave: Matrícula e Inscripción de Proyectos
+﻿# Proceso Clave: Matrícula e Inscripción de Proyectos
 
 El proceso de matrícula en el **SIIU** es la puerta de entrada para todas las iniciativas científicas, tecnológicas, artísticas y de extensión en la Universidad de Antioquia.
 
@@ -74,7 +63,7 @@ flowchart TD
 
 ### Pestaña 2: Descripción y Cronograma
 - Resumen ejecutivo, planteamiento del problema, justificación, marco teórico, objetivos generales y específicos, metodología y resultados esperados.
-- Uso del editor de texto enriquecido: consultar [[#editor-ckeditor]].
+- Uso del editor de texto enriquecido: consultar [#editor-ckeditor](#editor-ckeditor).
 - Cronograma de actividades distribuido por bimestres o semestres.
 
 ### Pestaña 3: Presupuesto Detallado
@@ -128,7 +117,7 @@ graph LR
     C -->|Tablas| D["Insertar tabla desde la barra de CKEditor"]
 ```
 
-> [!TIP] REGLAS PARA EL CKEDITOR ([VI-GU-25](../../archivo_maestro/VI-GU-25.md))
+> **CONSEJO:** REGLAS PARA EL CKEDITOR ([VI-GU-25](../../archivo_maestro/VI-GU-25.md))
 > 1. **No copiar directamente estilos complejos de Word:** Los metadatos ocultos de MS Word (`mso-*`) pueden corromper el campo HTML y bloquear el guardado. Pega el texto plano y da formato en el SIIU.
 > 2. **Tablas:** Usa el botón de tabla propio del editor, define bordes sencillos y evita combinar celdas complejas.
 > 3. **Ecuaciones y fórmulas:** Insértalas como texto matemático plano o imágenes debidamente referenciadas.
@@ -138,4 +127,4 @@ graph LR
 
 ## 🔗 Próximo Paso en el Flujo
 Una vez enviado el proyecto, el Centro de Investigación realizará la revisión habilitante:
-Consulta **[[Evaluacion_y_Aval]]**.
+Consulta **[Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md)**.

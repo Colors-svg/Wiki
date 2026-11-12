@@ -1,14 +1,4 @@
-﻿---
-title: Manual Operativo - Rol Investigador Principal y Tutor
-description: Guía integral de responsabilidades, flujos y tareas en el Sistema SIIU para Investigadores Principales y Tutores de Jóvenes Investigadores
-tags:
-  - roles
-  - investigador
-  - tutor
-  - siiu
----
-
-# Manual Operativo: Rol Investigador Principal y Tutor
+﻿# Manual Operativo: Rol Investigador Principal y Tutor
 
 El **Investigador Principal (IP)** o **Coordinador de Proyecto (CP)** es el líder académico y técnico del proyecto ante la Universidad de Antioquia y ante los entes financiadores. En el **SIIU**, el IP administra sus iniciativas desde la postulación hasta el cierre final.
 
@@ -54,25 +44,25 @@ flowchart TD
 
 ## 3. Puntos de Control Críticos para el Investigador
 
-> [!WARNING] ALERTA DE ARCHIVOS ADJUNTOS
+> **ADVERTENCIA:** ALERTA DE ARCHIVOS ADJUNTOS
 > - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.
 > - **Formato:** Exclusivamente **PDF**.
 > - **Error común:** Nombrar archivos largos como *"INFORME_FINAL_PROYECTO_DE_INVESTIGACION_2024_APROBADO_VERSION_FINAL.pdf"*. El sistema truncará el archivo y generará error de guardado. Usa: *"InformeFinal_2024.pdf"*.
 
-> [!CAUTION] JÓVENES INVESTIGADORES: CUENTAS BANCARIAS
+> **PRECAUCIÓN:** JÓVENES INVESTIGADORES: CUENTAS BANCARIAS
 > - **Cuentas NO permitidas:** Nequi, Daviplata, Ahorro a la Mano, Bancolombia Agroseguro.
 > - **Cuentas permitidas:** Cuenta de ahorros tradicional a nombre del estudiante.
 > - **Nota:** La Universidad **no emite cartas para apertura de cuentas bancarias** para Jóvenes Investigadores porque no se trata de un contrato laboral, sino de un estímulo económico.
 
-> [!NOTE] CAMBIO DE RUBRO PRESUPUESTAL
+> **NOTA:** CAMBIO DE RUBRO PRESUPUESTAL
 > - No intentes trasladar presupuesto desde un rubro cuyo saldo actual sea \$0.
 > - El proyecto debe encontrarse en estado **En ejecución**.
 
 ---
 
 ## 🔗 Guías Detalladas de Interés
-- [[Matricula_Proyectos]]: Paso a paso de inscripción en convocatorias y proyectos inscritos.
-- [[Evaluacion_y_Aval#subsanacion-y-ajustes-de-proyectos-devueltos]]: Cómo responder al Centro si devuelven tu proyecto.
-- [[Programa_Joven_Investigador]]: Guía completa de cupos, hojas de vida y prórrogas de JI.
-- [[Modificaciones_y_Tramites]]: Cómo tramitar prórrogas y cambios de presupuesto.
-- [[CheatSheet_Investigador]]: Ficha de referencia rápida y rutas express.
+- [Matricula Proyectos](../02_PROCESOS_CLAVE/Matricula_Proyectos.md): Paso a paso de inscripción en convocatorias y proyectos inscritos.
+- [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#subsanacion-y-ajustes-de-proyectos-devueltos): Cómo responder al Centro si devuelven tu proyecto.
+- [Programa Joven Investigador](../02_PROCESOS_CLAVE/Programa_Joven_Investigador.md): Guía completa de cupos, hojas de vida y prórrogas de JI.
+- [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md): Cómo tramitar prórrogas y cambios de presupuesto.
+- [CheatSheet Investigador](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md): Ficha de referencia rápida y rutas express.

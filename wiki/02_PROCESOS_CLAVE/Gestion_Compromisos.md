@@ -1,16 +1,4 @@
-﻿---
-title: Proceso Clave - Gestión de Compromisos Académicos y Solicitud de Plazo
-description: Guía de seguimiento, entrega de informes de avance, productos científicos y solicitudes de prórroga para compromisos en el SIIU
-tags:
-  - procesos
-  - compromisos
-  - informes
-  - productos
-  - plazo
-  - siiu
----
-
-# Proceso Clave: Gestión de Compromisos Académicos
+﻿# Proceso Clave: Gestión de Compromisos Académicos
 
 Los **Compromisos** representan las obligaciones científicas, tecnológicas y de formación pactadas por el Investigador Principal en la formulación de la propuesta (informes de avance, informe final, artículos, ponencias, tesis dirigidas, patentes o prototipos).
 
@@ -83,4 +71,4 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
 
 ## 🔗 Próximo Paso en el Flujo
 Una vez aprobados el 100% de los compromisos e informes, el proyecto queda habilitado para el cierre definitivo:
-Consulta **[[Cierre_y_Liquidacion]]**.
+Consulta **[Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**.

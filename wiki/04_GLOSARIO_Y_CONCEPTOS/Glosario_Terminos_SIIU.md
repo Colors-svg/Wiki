@@ -1,15 +1,4 @@
-﻿---
-title: Glosario de Términos y Conceptos del Sistema SIIU
-description: Definiciones canónicas de estados de proyectos, tipos de trámites, conceptos presupuestales e instancias del Sistema SIIU
-tags:
-  - glosario
-  - conceptos
-  - definiciones
-  - estados
-  - siiu
----
-
-# Glosario de Términos y Conceptos del SIIU
+﻿# Glosario de Términos y Conceptos del SIIU
 
 Compendio de definiciones oficiales y canónicas utilizadas en las guías, instructivos y formularios del **Sistema de Información para la Investigación Universitaria (SIIU)** de la Universidad de Antioquia.
 

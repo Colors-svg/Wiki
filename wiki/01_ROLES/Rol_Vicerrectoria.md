@@ -1,15 +1,4 @@
-﻿---
-title: Manual Operativo - Rol Vicerrectoría de Investigación
-description: Guía de parametrización, configuración de convocatorias, flujos de trámites, inicio formal y liquidación institucional para la Vicerrectoría de Investigación
-tags:
-  - roles
-  - vicerrectoria
-  - codi
-  - administracion
-  - siiu
----
-
-# Manual Operativo: Rol Vicerrectoría de Investigación
+﻿# Manual Operativo: Rol Vicerrectoría de Investigación
 
 La **Vicerrectoría de Investigación** (junto con la **Vicerrectoría de Extensión**) ejerce la administración global del **SIIU**, define las políticas operativas, parametriza convocatorias, avala las solicitudes que requieren decisión de instancias superiores (CODI) y formaliza tanto el inicio como la liquidación presupuestal de los proyectos.
 
@@ -63,13 +52,13 @@ flowchart LR
     C -->|SÍ| E["Estado: APLICADO<br><i>Se actualiza presupuesto, fecha fin o participante</i>"]
 ```
 
-> [!IMPORTANT] REGLA DE APLICACIÓN
+> **IMPORTANTE:** REGLA DE APLICACIÓN
 > Mientras una solicitud no esté en estado **APLICADO**, el presupuesto del proyecto no se moverá, la fecha de terminación no se extenderá y el nuevo participante no aparecerá en las constancias.
 
 ---
 
 ## 🔗 Guías Detalladas de Interés
-- [[Inicio_Formal]]: Protocolo de inicio, validación de pólizas y emisión de acta.
-- [[Modificaciones_y_Tramites#aplicacion-en-vicerrectoria]]: Aval y aplicación de trámites administrativos.
-- [[Cierre_y_Liquidacion#liquidacion-en-vicerrectoria]]: Liquidación institucional.
-- [[Catalogo_Normativo_31_Docs]]: Relación completa con los 31 documentos fuente.
+- [Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md): Protocolo de inicio, validación de pólizas y emisión de acta.
+- [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aplicacion-en-vicerrectoria): Aval y aplicación de trámites administrativos.
+- [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md#liquidacion-en-vicerrectoria): Liquidación institucional.
+- [Catalogo Normativo 31 Docs](../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md): Relación completa con los 31 documentos fuente.

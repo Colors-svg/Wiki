@@ -1,15 +1,4 @@
-﻿---
-title: Proceso Clave - Generación de Reportes, Constancias y Certificaciones
-description: Procedimientos detallados para emitir constancias oficiales en PDF y generar reportes analíticos de gestión en el Sistema SIIU
-tags:
-  - procesos
-  - reportes
-  - constancias
-  - certificados
-  - siiu
----
-
-# Proceso Clave: Reportes y Certificaciones Oficiales
+﻿# Proceso Clave: Reportes y Certificaciones Oficiales
 
 El **SIIU** genera documentos oficiales para acreditar la trayectoria académica y científica de profesores, investigadores y evaluadores, así como reportes de control directivo para centros y vicerrectorías.
 
@@ -106,7 +95,7 @@ El reporte más completo y exhaustivo del sistema SIIU:
 
 ## Regla de Navegadores y Ventanas Emergentes (Pop-ups)
 
-> [!WARNING] PERMISOS DE VENTANAS EMERGENTES (POP-UPS)
+> **ADVERTENCIA:** PERMISOS DE VENTANAS EMERGENTES (POP-UPS)
 > Tanto las constancias oficiales en PDF como las fichas técnicas en HTML se abren en **ventanas emergentes nuevas**.  
 > Si al presionar "Ver constancia" o "Visualizar" no se abre ninguna ventana:
 > 1. Verifique la barra de direcciones en la parte superior derecha de su navegador (Chrome, Edge, Firefox).
