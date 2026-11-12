@@ -5,7 +5,7 @@ site_author: Vicerrectoría de Investigación — Universidad de Antioquia
 theme:
   name: material
   language: es
-  logo: assets/logo.svg
+  logo: assets/logo-udea.svg
   favicon: assets/favicon.svg
   palette:
     # Modo Nocturno (Dark Slate & Verde Institucional UdeA)
@@ -41,10 +41,11 @@ theme:
     - content.code.copy
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/wiki.css
 
 extra_javascript:
   - javascripts/diagram-zoom.js
+  - javascripts/theme-logo.js
 
 markdown_extensions:
   - admonition

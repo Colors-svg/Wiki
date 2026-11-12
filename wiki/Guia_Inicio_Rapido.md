@@ -40,7 +40,7 @@ flowchart LR
 ```
 
 !!! note "Amplía cualquier diagrama"
-    Cada diagrama trae un botón **⛶ Ampliar** arriba a la derecha para verlo en grande (con botones A+ / A−).
+    Pasa el cursor sobre un diagrama y presiona **⛶ Ampliar** para verlo en grande (con botones A+ / A−).
 
 ---
 

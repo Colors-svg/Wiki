@@ -141,41 +141,43 @@
 }
 
 /* --------------------------------------------------------------------------
-   Cabecera institucional fija (verde bosque, formal en ambos modos)
-   Logo en blanco puro sobre fondo oscuro — regla de marca Paleta-Udea.
+   Cabecera temática (clara/oscura según esquema; sin verde impuesto)
    -------------------------------------------------------------------------- */
 .md-header {
-  background: linear-gradient(120deg, #013B1F 0%, #026937 62%, #037A40 100%) !important;
-  border-bottom: 1px solid rgba(141, 198, 63, 0.4) !important;
-  box-shadow: 0 2px 14px rgba(1, 59, 31, 0.4) !important;
+  background-color: var(--md-default-bg-color--light) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0B0F15 !important;
 }
 
 .md-header__title {
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: #FFFFFF !important;
-}
-
-.md-header__topic .md-ellipsis {
-  color: #FFFFFF !important;
-}
-
-.md-header__button {
-  color: #FFFFFF !important;
+  color: var(--md-default-fg-color) !important;
 }
 
 .md-header__button.md-logo {
   padding: 0.2rem 0.35rem 0.2rem 0.1rem;
 }
 
+/* Logos: el header lleva el UdeA (2rem); en el drawer basta el título
+   en texto para no duplicar marca ni estirar el panel. */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 2.1rem !important;
+  height: 2rem !important;
   width: auto !important;
+  max-width: 12rem !important;
 }
-
-.md-header [data-md-component="palette"] .md-icon {
-  color: #FFFFFF !important;
+.md-nav__title .md-nav__button.md-logo {
+  display: none !important;
+}
+/* En el drawer móvil solo va el título en texto: el logo grande vive
+   en la cabecera. Además evita que el logo estire el drawer. */
+.md-nav__title .md-nav__button.md-logo {
+  display: none !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -237,39 +239,30 @@ body, .md-typeset {
 }
 
 /* --------------------------------------------------------------------------
-   Buscador sobre cabecera verde (pill translúcido, texto blanco)
+   Buscador con Efecto Glow Institucional Suave
    -------------------------------------------------------------------------- */
 .md-search__input {
-  border-radius: 9999px !important;
-  background-color: rgba(0, 0, 0, 0.28) !important;
-  border: 1px solid rgba(255, 255, 255, 0.3) !important;
-  color: #FFFFFF !important;
-  transition: border-color 180ms ease-in-out, box-shadow 180ms ease-in-out !important;
-}
-
-.md-search__input::placeholder {
-  color: rgba(255, 255, 255, 0.65) !important;
-}
-
-.md-search__input:hover {
-  border-color: rgba(141, 198, 63, 0.7) !important;
+  border-radius: 8px !important;
+  background-color: var(--md-default-bg-color) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--md-default-fg-color) !important;
+  transition: all 0.25s ease-in-out !important;
 }
 
 .md-search__input:focus {
-  border-color: #8DC63F !important;
-  box-shadow: 0 0 0 3px rgba(141, 198, 63, 0.3) !important;
-}
-
-.md-search__icon,
-.md-search__input ~ .md-search__icon {
-  color: rgba(255, 255, 255, 0.85) !important;
+  border-color: #35944B !important;
+  box-shadow: 0 0 0 3px rgba(53, 148, 75, 0.25), 0 0 16px rgba(141, 198, 63, 0.2) !important;
 }
 
 /* --------------------------------------------------------------------------
    Barra Lateral Izquierda (Navegación Fija y Dinámica)
+   Ancho amplio SOLO en escritorio: en móvil el drawer usa 12.1rem
+   fijos y alterarlo rompe su ocultamiento (translateX calculado).
    -------------------------------------------------------------------------- */
-.md-sidebar--primary {
-  width: 14.5rem !important;
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 14.5rem !important;
+  }
 }
 
 .md-sidebar--primary .md-sidebar__inner {
