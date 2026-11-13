@@ -6,7 +6,7 @@
 | **Fecha de Expedición** | 5 de marzo de 1994 (Vigente desde 14 de marzo de 1994) |
 | **Versión Actualizada** | Compilación oficial de Secretaría General con concordancias a 30 de junio de 2026 |
 | **Órgano Emisor** | Consejo Superior Universitario (CSU) |
-| **Documento Fidedigno** | [LEG-AS-01-1994.md](../../archivo_maestro/legalidad/LEG-AS-01-1994.md) |
+| **Documento Fidedigno** | [LEG-AS-01-1994](../archivo_maestro/legalidad/LEG-AS-01-1994.md) |
 | **Estatus Legal** | **Vigente** (Deroga el Acuerdo Superior 13 de 1980) |
 
 ---
@@ -102,6 +102,6 @@ El Estatuto General es la matriz de habilitación de todas las normas reglamenta
 
 ## 6. Navegación y Enlaces
 
-- **Transcripción Fidedigna:** [LEG-AS-01-1994.md](../../archivo_maestro/legalidad/LEG-AS-01-1994.md)
+- **Transcripción Fidedigna:** [LEG-AS-01-1994](../archivo_maestro/legalidad/LEG-AS-01-1994.md)
 - **Mapa de Contenido:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 - **Estructura de Roles:** [Roles en el SIIU](../01_ROLES/Investigador_Principal.md)

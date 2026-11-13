@@ -53,7 +53,7 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 ## 2. Diligenciamiento del Inicio Formal en el SIIU (Rol Vicerrectoría)
 
 - **Ruta SIIU:** `Trámites administrativos >> Inicio formal de proyectos`
-- 📘 Guía oficial: [VI-GU-15](../archivo_maestro/VI-GU-15.md)
+- :material-book: Guía oficial: [VI-GU-15](../archivo_maestro/VI-GU-15.md)
 
 ### Pasos Operativos:
 1. **Búsqueda del Proyecto:** Localizar el proyecto en estado **Aprobado**.
@@ -81,6 +81,6 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 
 ---
 
-## 🔗 Próximo Paso en el Flujo
+## :material-link: Próximo Paso en el Flujo
 Con el proyecto **En ejecución**, se habilitan las compras, contrataciones, solicitudes de cambio de presupuesto y adición de tiempo:
 Consulta **[Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)** y **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.

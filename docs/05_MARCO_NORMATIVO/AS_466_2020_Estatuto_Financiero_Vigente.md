@@ -13,7 +13,7 @@
 > **Número:** Acuerdo Superior 466 (28 de julio de 2020, actualizado a junio de 2026)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
 > **Estado:** Vigente (Sustituyó y derogó expresamente al AS 350 de 2007 y al AS 121 de 1997)  
-> **Documento Fuente Fidedigno:** [LEG-AS-466-2020.md](../archivo_maestro/legalidad/LEG-AS-466-2020.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-466-2020](../archivo_maestro/legalidad/LEG-AS-466-2020.md)
 
 ---
 

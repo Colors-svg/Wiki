@@ -1,4 +1,4 @@
-﻿# Manual Operativo: Rol Investigador Principal y Tutor
+# Manual Operativo: Rol Investigador Principal y Tutor
 
 El **Investigador Principal (IP)** o **Coordinador de Proyecto (CP)** es el líder académico y técnico del proyecto ante la Universidad de Antioquia y ante los entes financiadores. En el **SIIU**, el IP administra sus iniciativas desde la postulación hasta el cierre final.
 
@@ -12,6 +12,7 @@ flowchart TD
         E --> F["6. Rendir Cuentas y Cerrar"]
     end
 ```
+
 
 ---
 
@@ -44,23 +45,23 @@ flowchart TD
 
 ## 3. Puntos de Control Críticos para el Investigador
 
-> **ADVERTENCIA:** ALERTA DE ARCHIVOS ADJUNTOS
-> - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.
-> - **Formato:** Exclusivamente **PDF**.
-> - **Error común:** Nombrar archivos largos como *"INFORME_FINAL_PROYECTO_DE_INVESTIGACION_2024_APROBADO_VERSION_FINAL.pdf"*. El sistema truncará el archivo y generará error de guardado. Usa: *"InformeFinal_2024.pdf"*.
+!!! warning "Alerta de archivos adjuntos"
+    - **Nombre del archivo:** Máximo 30 caracteres, sin tildes, sin eñes (`ñ`), sin caracteres especiales (`#`, `$`, `%`, `&`, `/`) y sin espacios excesivos.
+    - **Formato:** Exclusivamente **PDF**.
+    - **Error común:** Nombrar archivos largos como *"INFORME_FINAL_PROYECTO_DE_INVESTIGACION_2024_APROBADO_VERSION_FINAL.pdf"*. El sistema truncará el archivo y generará error de guardado. Usa: *"InformeFinal_2024.pdf"*.
 
-> **PRECAUCIÓN:** JÓVENES INVESTIGADORES: CUENTAS BANCARIAS
-> - **Cuentas NO permitidas:** Nequi, Daviplata, Ahorro a la Mano, Bancolombia Agroseguro.
-> - **Cuentas permitidas:** Cuenta de ahorros tradicional a nombre del estudiante.
-> - **Nota:** La Universidad **no emite cartas para apertura de cuentas bancarias** para Jóvenes Investigadores porque no se trata de un contrato laboral, sino de un estímulo económico.
+!!! danger "Jóvenes investigadores: cuentas bancarias"
+    - **Cuentas NO permitidas:** Nequi, Daviplata, Ahorro a la Mano, Bancolombia Agroseguro.
+    - **Cuentas permitidas:** Cuenta de ahorros tradicional a nombre del estudiante.
+    - **Nota:** La Universidad **no emite cartas para apertura de cuentas bancarias** para Jóvenes Investigadores porque no se trata de un contrato laboral, sino de un estímulo económico.
 
-> **NOTA:** CAMBIO DE RUBRO PRESUPUESTAL
-> - No intentes trasladar presupuesto desde un rubro cuyo saldo actual sea \$0.
-> - El proyecto debe encontrarse en estado **En ejecución**.
+!!! note "Cambio de rubro presupuestal"
+    - No intentes trasladar presupuesto desde un rubro cuyo saldo actual sea \$0.
+    - El proyecto debe encontrarse en estado **En ejecución**.
 
 ---
 
-## 🔗 Guías Detalladas de Interés
+## :material-link: Guías Detalladas de Interés
 - [Matricula Proyectos](../02_PROCESOS_CLAVE/Matricula_Proyectos.md): Paso a paso de inscripción en convocatorias y proyectos inscritos.
 - [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#subsanacion-y-ajustes-de-proyectos-devueltos): Cómo responder al Centro si devuelven tu proyecto.
 - [Programa Joven Investigador](../02_PROCESOS_CLAVE/Programa_Joven_Investigador.md): Guía completa de cupos, hojas de vida y prórrogas de JI.

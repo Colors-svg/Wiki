@@ -1,4 +1,4 @@
-﻿# Manual Operativo: Rol Centro de Investigación y Extensión
+# Manual Operativo: Rol Centro de Investigación y Extensión
 
 Los **Centros de Investigación y de Extensión** de las Facultades, Escuelas e Institutos de la Universidad de Antioquia son los nodos de articulación técnico-académica. Tienen la potestad de validar formalmente las propuestas, interactuar con los pares evaluadores, avalar iniciativas ante el CODI o Comités de Extensión, y aprobar los trámites administrativos de los proyectos adscritos.
 
@@ -13,6 +13,7 @@ flowchart TD
         E --> F["6. Cierre Técnico y Académico"]
     end
 ```
+
 
 ---
 
@@ -59,7 +60,7 @@ Cuando un proyecto no cumple con todas las condiciones formales en la revisión 
 
 ---
 
-## 🔗 Guías Detalladas de Interés
+## :material-link: Guías Detalladas de Interés
 - [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md): Protocolo completo de evaluación técnica, devolución y asignación de pares.
 - [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aprobacion-en-centro): Cómo gestionar y aprobar solicitudes administrativas en el Centro.
 - [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md): Protocolo de verificación de compromisos y trámite de cierre.

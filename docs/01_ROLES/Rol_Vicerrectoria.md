@@ -59,7 +59,7 @@ flowchart LR
 
 ---
 
-## 🔗 Guías Detalladas de Interés
+## :material-link: Guías Detalladas de Interés
 - [Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md): Protocolo de inicio, validación de pólizas y emisión de acta.
 - [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aplicacion-en-vicerrectoria): Aval y aplicación de trámites administrativos.
 - [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md#liquidacion-en-vicerrectoria): Liquidación institucional.

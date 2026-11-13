@@ -55,7 +55,7 @@ Una vez publicados los resultados de la convocatoria institucional de Jóvenes I
   2. Diligenciar la información del plan de trabajo asociado al proyecto marco.
   3. Indicar el objetivo de formación, metodología de acompañamiento del tutor y productos esperados (informe final y artículo/ponencia).
   4. Radicar la matrícula del cupo para validación de la Vicerrectoría.
-- 📘 Guía oficial: [VI-GU-10](../archivo_maestro/VI-GU-10.md)
+- :material-book: Guía oficial: [VI-GU-10](../archivo_maestro/VI-GU-10.md)
 
 ---
 
@@ -64,7 +64,7 @@ Una vez publicados los resultados de la convocatoria institucional de Jóvenes I
 Una vez asignado el cupo, el tutor debe vincular formalmente al estudiante seleccionado:
 
 - **Ruta SIIU:** `Trámites administrativos >> Seguimiento mis proyectos >> Centro: TODOS >> Código de cupo >> Consultar >> Botón: Hoja de vida JI`
-- 📘 Instructivo oficial: [VI-IN-06](../archivo_maestro/VI-IN-06.md)
+- :material-book: Instructivo oficial: [VI-IN-06](../archivo_maestro/VI-IN-06.md)
 
 ### Secciones de la Hoja de Vida:
 1. **Datos Personales:** Al ingresar la cédula del estudiante, el SIIU se comunica con el sistema central **MARES** y precarga nombres, apellidos, lugar de nacimiento y fecha de nacimiento.
@@ -82,7 +82,7 @@ Una vez asignado el cupo, el tutor debe vincular formalmente al estudiante selec
 
 !!! danger "Prohibición estricta de billeteras digitales"
     Por directriz de la División de Tesorería de la Universidad de Antioquia:
-    - ❌ **NO se permiten:** Cuentas Nequi, Daviplata, Bancolombia Ahorro a la Mano ni cuentas de Agroseguro.
+    - :material-close-circle: **NO se permiten:** Cuentas Nequi, Daviplata, Bancolombia Ahorro a la Mano ni cuentas de Agroseguro.
     - **SÍ se permiten:** Únicamente **cuentas de ahorros tradicionales** radicadas en entidades financieras legalmente vigiladas por la Superintendencia Financiera de Colombia.
     - **Titularidad:** La cuenta bancaria debe estar **exclusivamente a nombre del Joven Investigador** (no se aceptan cuentas de padres, cónyuges, tutores ni terceros).
 
@@ -100,4 +100,4 @@ Si por razones justificadas en el plan de investigación se requiere extender el
   - El cupo debe encontrarse activo y en ejecución.
   - Presentar balance de actividades ejecutadas y justificación de los meses adicionales requeridos.
   - Aval del tutor del proyecto.
-- 📘 Guía oficial: [VI-GU-11](../archivo_maestro/VI-GU-11.md)
+- :material-book: Guía oficial: [VI-GU-11](../archivo_maestro/VI-GU-11.md)

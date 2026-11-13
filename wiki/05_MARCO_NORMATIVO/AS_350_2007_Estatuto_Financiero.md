@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto Financiero Universitario  
 > **Número:** Acuerdo Superior 350 (27 de noviembre de 2007, vigencia 2008, actualizado a 2019)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-350-2007.md](../../archivo_maestro/legalidad/LEG-AS-350-2007.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-350-2007](../archivo_maestro/legalidad/LEG-AS-350-2007.md)
 
 ---
 

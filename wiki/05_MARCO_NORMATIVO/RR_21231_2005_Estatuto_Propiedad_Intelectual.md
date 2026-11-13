@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Resolución Rectoral  
 > **Número:** 21231 (05 de agosto de 2005)  
 > **Emisor:** Rectoría — Universidad de Antioquia (por delegación del Consejo Superior Universitario AS 073/1996)  
-> **Documento Fuente Fidedigno:** [LEG-RR-21231-2005.md](../../archivo_maestro/legalidad/LEG-RR-21231-2005.md)
+> **Documento Fuente Fidedigno:** [LEG-RR-21231-2005](../archivo_maestro/legalidad/LEG-RR-21231-2005.md)
 
 ---
 
@@ -29,7 +29,7 @@ flowchart TD
 
 | Aspecto Regulado | Disposición Legal | Impacto Operativo en el SIIU |
 |---|---|---|
-| **Acta de Acuerdo Previa (Art. 37)** | Es obligatoria para todo proyecto antes de su ejecución. Debe incluir roles, quiénes NO son titulares de PI, reparto de beneficios y confidencialidad. | En la [Guía VI-GU-15 (Inicio Formal)](../../archivo_maestro/VI-GU-15.md), el cargue del acta de acuerdo firmada es requisito indispensable. |
+| **Acta de Acuerdo Previa (Art. 37)** | Es obligatoria para todo proyecto antes de su ejecución. Debe incluir roles, quiénes NO son titulares de PI, reparto de beneficios y confidencialidad. | En la [Guía VI-GU-15 (Inicio Formal)](../archivo_maestro/VI-GU-15.md), el cargue del acta de acuerdo firmada es requisito indispensable. |
 | **Titularidad Institucional (Arts. 23-24)** | Las patentes y derechos patrimoniales sobre creaciones de docentes en cumplimiento de sus funciones pertenecen a la Universidad. | Los contratos de proyectos cofinanciados en SIIU deben estipular con claridad las reglas de titularidad compartida. |
 | **Participación en Regalías (Art. 32)** | Los inventores y autores tienen derecho a participar en los beneficios económicos netos que reciba la Universidad por licenciamiento. | Habilita incentivos económicos directos al equipo de investigación. |
 | **Cuaderno de Laboratorio (Art. 38)** | Toda investigación experimental debe llevar un cuaderno foliado y cronológico que no puede ser retirado del laboratorio. | Garantiza la trazabilidad y la fecha cierta para la solicitud de patentes nacionales e internacionales. |

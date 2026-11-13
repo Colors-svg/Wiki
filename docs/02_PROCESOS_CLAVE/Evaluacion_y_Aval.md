@@ -9,7 +9,7 @@ Una vez que el Investigador Principal radica su propuesta en el SIIU, se inicia 
 sequenceDiagram
     autonumber
     actor IP as Investigador
-    participant SIIU as 💻 SIIU
+    participant SIIU as SIIU
     actor CEN as Centro de Investigación
     actor EVAL as Evaluador Par
 
@@ -52,7 +52,7 @@ El Centro de Investigación o Extensión revisa el cumplimiento de los Términos
   - `Cumple`
   - `No cumple`
   - `No aplica`
-- 📘 Guía oficial: [VI-GU-08](../archivo_maestro/VI-GU-08.md)
+- :material-book: Guía oficial: [VI-GU-08](../archivo_maestro/VI-GU-08.md)
 
 ---
 
@@ -68,7 +68,7 @@ Si una o más condiciones son marcadas como **"No cumple"**, el Centro no debe r
    - **Cambios solicitados:** Texto explicativo detallado con las observaciones técnicas (hasta 400 caracteres).
 3. Presione **AUTORIZAR ACTUALIZACIÓN** y confirme la alerta.
 4. El proyecto queda en estado **Pendiente de actualización**.
-- 📘 Instructivo oficial: [VI-IN-12](../archivo_maestro/VI-IN-12.md)
+- :material-book: Instructivo oficial: [VI-IN-12](../archivo_maestro/VI-IN-12.md)
 
 ---
 
@@ -82,7 +82,7 @@ Cuando el IP recibe notificación de devolución:
 4. **Registro de Respuestas:** Regrese a la pestaña **`Actualización`**, despliegue las opciones de *Comentarios*, haga clic en **Editar**, describa los cambios realizados y guarde.
 5. **Reenvío:** Vaya a la pestaña final **`Enviar`**, presione **"Enviar a Centro"** y confirme.
 6. El proyecto pasa a estado **Actualizado** para que el Centro proceda con la aprobación final.
-- 📘 Instructivo oficial: [VI-IN-05](../archivo_maestro/VI-IN-05.md)
+- :material-book: Instructivo oficial: [VI-IN-05](../archivo_maestro/VI-IN-05.md)
 
 ---
 
@@ -96,7 +96,7 @@ Una vez subsanadas las observaciones y emitido el aval del Centro:
   - Evaluador Externo (investigador nacional o internacional registrado en el banco de evaluadores).
   - Definición del número de evaluadores (habitualmente 2 evaluadores titulares y 1 de desempate).
 - **Consolidación de Calificaciones:** El sistema calcula automáticamente el promedio ponderado de las evaluaciones registradas.
-- 📘 Guía oficial: [VI-GU-06](../archivo_maestro/VI-GU-06.md)
+- :material-book: Guía oficial: [VI-GU-06](../archivo_maestro/VI-GU-06.md)
 
 ---
 
@@ -110,10 +110,10 @@ La Vicerrectoría de Investigación es la responsable de parametrizar las reglas
   - Rubros presupuestales financiables y porcentajes máximos por rubro.
   - Criterios de evaluación y ponderaciones de la rúbrica de calificación.
   - Formatos y documentos soporte obligatorios.
-- 📘 Guía oficial: [VI-GU-07](../archivo_maestro/VI-GU-07.md)
+- :material-book: Guía oficial: [VI-GU-07](../archivo_maestro/VI-GU-07.md)
 
 ---
 
-## 🔗 Próximo Paso en el Flujo
+## :material-link: Próximo Paso en el Flujo
 Una vez aprobado el proyecto por el Comité o CODI:
 Consulta **[Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md)**.

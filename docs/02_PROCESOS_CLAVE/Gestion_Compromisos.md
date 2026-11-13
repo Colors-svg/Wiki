@@ -57,7 +57,7 @@ flowchart TD
   3. Diligencie el resumen del avance o descripción del producto.
   4. Adjunte el soporte documental en formato **PDF** (ej. artículo en PDF, certificado de aceptación editorial, acta de sustentación, informe final firmado).
   5. Presione **CONFIRMAR ENTREGA**. El compromiso pasa a estado **Enviado para revisión** del Centro de Investigación.
-- 📘 Guía oficial: [VI-GU-09](../archivo_maestro/VI-GU-09.md)
+- :material-book: Guía oficial: [VI-GU-09](../archivo_maestro/VI-GU-09.md)
 
 ---
 
@@ -72,7 +72,7 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
   3. Ingresar la nueva fecha propuesta de entrega.
   4. Justificar detalladamente los motivos del retraso y adjuntar el soporte en PDF.
   5. Radicar para revisión del Centro de Investigación y posterior aval de la Vicerrectoría.
-- 📘 Guía oficial: [VI-GU-22](../archivo_maestro/VI-GU-22.md)
+- :material-book: Guía oficial: [VI-GU-22](../archivo_maestro/VI-GU-22.md)
 
 ---
 
@@ -85,10 +85,10 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
   3. Seleccionar la acción:
      - **Aprobar Compromiso:** Marca el hito como cumplido al 100%.
      - **Rechazar / Devolver:** Si el documento no cumple con los estándares de rigor técnico o no corresponde a lo comprometido. Se registra la observación para que el investigador vuelva a cargar la versión corregida.
-- 📘 Guía oficial: [VI-GU-09](../archivo_maestro/VI-GU-09.md)
+- :material-book: Guía oficial: [VI-GU-09](../archivo_maestro/VI-GU-09.md)
 
 ---
 
-## 🔗 Próximo Paso en el Flujo
+## :material-link: Próximo Paso en el Flujo
 Una vez aprobados el 100% de los compromisos e informes, el proyecto queda habilitado para el cierre definitivo:
 Consulta **[Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**.

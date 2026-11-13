@@ -133,10 +133,10 @@ Una vez el Investigador principal ha realizado la solicitud administrativa, la e
    *Figura 7 - Resultado de consulta*
 
    Iconos de acceso en la columna **Acciones**:
-   - 🚫 **Solicitud de cancelación**: Actualmente no está disponible.
-   - 🟡/🟢 **Avalar solicitud**: Permite habilitar el proceso de aval.
+   - :material-cancel: **Solicitud de cancelación**: Actualmente no está disponible.
+   - (amarillo/verde) **Avalar solicitud**: Permite habilitar el proceso de aval.
    - **Ver solicitud**: Permite ver el detalle de la solicitud.
-   - 📈 **Historial de estados**: Permite visualizar los estados de la solicitud.
+   - :material-history: **Historial de estados**: Permite visualizar los estados de la solicitud.
 
 4. Para avalar la solicitud, garantice que está en la fila requerida y presione clic en el icono **Avalar solicitud**.
 

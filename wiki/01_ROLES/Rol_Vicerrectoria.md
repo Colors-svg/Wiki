@@ -1,4 +1,4 @@
-﻿# Manual Operativo: Rol Vicerrectoría de Investigación
+# Manual Operativo: Rol Vicerrectoría de Investigación
 
 La **Vicerrectoría de Investigación** (junto con la **Vicerrectoría de Extensión**) ejerce la administración global del **SIIU**, define las políticas operativas, parametriza convocatorias, avala las solicitudes que requieren decisión de instancias superiores (CODI) y formaliza tanto el inicio como la liquidación presupuestal de los proyectos.
 
@@ -11,6 +11,7 @@ flowchart TD
         V4 --> V5["Liquidación Presupuestal Institucional"]
     end
 ```
+
 
 ---
 
@@ -52,12 +53,13 @@ flowchart LR
     C -->|SÍ| E["Estado: APLICADO<br><i>Se actualiza presupuesto, fecha fin o participante</i>"]
 ```
 
-> **IMPORTANTE:** REGLA DE APLICACIÓN
-> Mientras una solicitud no esté en estado **APLICADO**, el presupuesto del proyecto no se moverá, la fecha de terminación no se extenderá y el nuevo participante no aparecerá en las constancias.
+
+!!! info "Regla de aplicación"
+    Mientras una solicitud no esté en estado **APLICADO**, el presupuesto del proyecto no se moverá, la fecha de terminación no se extenderá y el nuevo participante no aparecerá en las constancias.
 
 ---
 
-## 🔗 Guías Detalladas de Interés
+## :material-link: Guías Detalladas de Interés
 - [Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md): Protocolo de inicio, validación de pólizas y emisión de acta.
 - [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aplicacion-en-vicerrectoria): Aval y aplicación de trámites administrativos.
 - [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md#liquidacion-en-vicerrectoria): Liquidación institucional.

@@ -110,7 +110,7 @@ El investigador principal o responsable del proyecto debe autenticarse en el por
    ![Figura 8](../assets/figuras/VI-GU-01/figura-08.png)
    *Figura 8 - Nuevo responsable*
 
-5. Agregue el número del documento del nuevo responsable y presione el botón **Consultar**. El sistema trae la información del nuevo responsable; seleccione el registro presionando el icono check (✔️).
+5. Agregue el número del documento del nuevo responsable y presione el botón **Consultar**. El sistema trae la información del nuevo responsable; seleccione el registro presionando el icono check (:material-check:).
 
    ![Figura 9](../assets/figuras/VI-GU-01/figura-09.png)
    *Figura 9 - Consulta nuevo participante*

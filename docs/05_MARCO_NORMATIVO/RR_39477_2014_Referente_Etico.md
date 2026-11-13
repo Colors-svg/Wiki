@@ -6,7 +6,7 @@
 | **Fecha de Expedición** | 13 de noviembre de 2014 |
 | **Órgano Emisor** | Rectoría — Universidad de Antioquia |
 | **Marco Nacional** | Ley 87 de 1993, Decreto 943 de 2014 (MECI / Protocolos Éticos) |
-| **Documento Fidedigno** | [LEG-RR-39477-2014.md](../archivo_maestro/legalidad/LEG-RR-39477-2014.md) |
+| **Documento Fidedigno** | [LEG-RR-39477-2014](../archivo_maestro/legalidad/LEG-RR-39477-2014.md) |
 | **Estado Jurídico** | **Vigente** |
 
 ---
@@ -92,7 +92,7 @@ En consonancia con el **Acuerdo Superior 395 de 2011** y la **RR 39477 de 2014**
 
 ## 5. Enlaces y Navegación Cruzada
 
-- **Documento Fidedigno:** [LEG-RR-39477-2014.md](../archivo_maestro/legalidad/LEG-RR-39477-2014.md)
+- **Documento Fidedigno:** [LEG-RR-39477-2014](../archivo_maestro/legalidad/LEG-RR-39477-2014.md)
 - **Estatuto Superior:** [Acuerdo Superior 01 de 1994 — Estatuto General](AS_01_1994_Estatuto_General.md)
 - **Sistema de Investigación:** [Acuerdo Superior 204 de 2001 — SUI](AS_204_2001_Sistema_Universitario_Investigacion.md)
 - **Propiedad Intelectual:** [Resolución Rectoral 21231 de 2005](RR_21231_2005_Estatuto_Propiedad_Intelectual.md)

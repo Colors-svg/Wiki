@@ -39,7 +39,7 @@ Acredita la participación formal de un docente, investigador, estudiante o téc
   4. *(Opcional)* Defina un rango de fechas de participación. Si lo deja vacío, el sistema traerá el **histórico completo** de todos los proyectos en que ha participado.
   5. Presione **Buscar**. El sistema listará los proyectos.
   6. Presione el botón **Ver constancia**: Se abrirá una ventana con el documento oficial en **PDF**, listo para descargar o imprimir.
-- 📘 Instructivo oficial: [VI-IN-07](../archivo_maestro/VI-IN-07.md)
+- :material-book: Instructivo oficial: [VI-IN-07](../archivo_maestro/VI-IN-07.md)
 
 ### Constancias como Evaluador de Proyectos
 Certifica la labor como par evaluador en convocatorias del CODI o de centros de investigación.
@@ -49,7 +49,7 @@ Certifica la labor como par evaluador en convocatorias del CODI o de centros de 
   2. Presione **Seleccionar**, busque la cédula del evaluador y márquelo con check.
   3. Indique el rango de fechas de evaluación y presione **Buscar**.
   4. Presione **Ver constancia** para descargar el certificado oficial en formato **PDF**.
-- 📘 Instructivo oficial: [VI-IN-08](../archivo_maestro/VI-IN-08.md)
+- :material-book: Instructivo oficial: [VI-IN-08](../archivo_maestro/VI-IN-08.md)
 
 ### Constancias de Proyectos por Grupo de Investigación
 Certifica el portafolio de proyectos gestionados por un grupo de investigación avalado ante la Universidad.
@@ -59,7 +59,7 @@ Certifica el portafolio de proyectos gestionados por un grupo de investigación 
   2. Seleccionar el Grupo de Investigación en la lista desplegable.
   3. Filtrar por estado de los proyectos (*Todos*, *En ejecución*, *Finalizados*).
   4. Generar el reporte oficial en **PDF**.
-- 📘 Instructivo oficial: [VI-IN-01](../archivo_maestro/VI-IN-01.md)
+- :material-book: Instructivo oficial: [VI-IN-01](../archivo_maestro/VI-IN-01.md)
 
 ---
 
@@ -73,13 +73,13 @@ Certifica el portafolio de proyectos gestionados por un grupo de investigación 
 - **Información entregada:** Código del proyecto, título, grupo de investigación, rol asumido (IP, coinvestigador, asesor), horas de dedicación semanal, función específica, fechas de vinculación y retiro, y vínculo institucional.
 - **Ficha Técnica HTML:** Al final de cada fila, haciendo clic en el icono de visualización, se despliega en una ventana emergente la ficha técnica completa del proyecto formulado originalmente.
 - **Exportación:** Permite exportar el listado completo a **PDF**.
-- 📘 Instructivo oficial: [VI-IN-11](../archivo_maestro/VI-IN-11.md)
+- :material-book: Instructivo oficial: [VI-IN-11](../archivo_maestro/VI-IN-11.md)
 
 ### Reporte Historial de Proyectos
 - **Ruta SIIU:** `Reportes >> Historial de Proyecto` *(o `Convocatorias >> Reportes >> Información básica de proyectos >> Historial`)*
 - **Filtros avanzados:** Código, palabras clave, tipo de proyecto, estado, centro administrativo, año/mes de finalización, convocatoria y proceso de selección.
 - **Exportación:** Permite visualizar en pantalla o descargar la matriz completa en archivo **Excel**.
-- 📘 Instructivos oficiales: [VI-IN-02](../archivo_maestro/VI-IN-02.md) y [VI-IN-10](../archivo_maestro/VI-IN-10.md)
+- :material-book: Instructivos oficiales: [VI-IN-02](../archivo_maestro/VI-IN-02.md) y [VI-IN-10](../archivo_maestro/VI-IN-10.md)
 
 ### Reporte de Información Básica de Proyectos
 El reporte más completo y exhaustivo del sistema SIIU:
@@ -90,7 +90,7 @@ El reporte más completo y exhaustivo del sistema SIIU:
   - Botón **Exportar a Excel**: Descarga la base de datos completa.
   - Botón **Exportar a PDF**: Genera informe consolidado.
   - Botón **DESCARGAR PROYECTO**: Descarga en formato HTML la formulación completa del proyecto tal como fue matriculada.
-- 📘 Instructivo oficial: [VI-IN-09](../archivo_maestro/VI-IN-09.md)
+- :material-book: Instructivo oficial: [VI-IN-09](../archivo_maestro/VI-IN-09.md)
 
 ---
 

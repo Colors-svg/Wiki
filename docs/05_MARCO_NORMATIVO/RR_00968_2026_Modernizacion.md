@@ -7,7 +7,7 @@
 | **Órgano Emisor** | Rectoría — Universidad de Antioquia (aprobado tras sesión CODI 00012/2026) |
 | **Instancia Aprobatoria** | Comité para el Desarrollo de la Investigación (CODI) y Centros de Investigación |
 | **Plataforma Tecnológica** | **Sistema Integrado de Información Universitaria — SIIU** |
-| **Documento Fidedigno** | [LEG-RR-00968-2026.md](../archivo_maestro/legalidad/LEG-RR-00968-2026.md) |
+| **Documento Fidedigno** | [LEG-RR-00968-2026](../archivo_maestro/legalidad/LEG-RR-00968-2026.md) |
 | **Estado Jurídico** | **VIGENTE** |
 
 ---
@@ -91,7 +91,7 @@ Antes de someter una prórroga o plazo en el SIIU:
 
 ## 6. Enlaces y Navegación Cruzada
 
-- **Documento Fidedigno:** [LEG-RR-00968-2026.md](../archivo_maestro/legalidad/LEG-RR-00968-2026.md)
+- **Documento Fidedigno:** [LEG-RR-00968-2026](../archivo_maestro/legalidad/LEG-RR-00968-2026.md)
 - **Sistema Universitario de Investigación:** [Acuerdo Superior 204 de 2001](AS_204_2001_Sistema_Universitario_Investigacion.md)
 - **Estatuto General:** [Acuerdo Superior 01 de 1994](AS_01_1994_Estatuto_General.md)
 - **Estatuto Profesoral:** [Acuerdo Superior 083 de 1996](AS_083_1996_Estatuto_Profesoral.md)

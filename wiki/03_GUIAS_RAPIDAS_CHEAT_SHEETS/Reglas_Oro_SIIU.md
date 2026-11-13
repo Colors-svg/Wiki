@@ -1,25 +1,22 @@
-﻿# Reglas de Oro del Sistema SIIU
+# Reglas de Oro del Sistema SIIU
 
 Para evitar caídas de sesión, pérdidas de datos, rechazos administrativos o bloqueos técnicos en el **SIIU**, ten en cuenta estas directrices obligatorias en todas tus operaciones.
 
 ---
 
-## 1. 📎 Nomenclatura y Formato de Archivos Adjuntos
+## 1. :material-paperclip: Nomenclatura y Formato de Archivos Adjuntos
 
 El motor de archivos del SIIU es altamente sensible a la sintaxis de nombres de archivo:
 
-```
-+-----------------------------------+-----------------------------------+
-| ❌ LO QUE NUNCA DEBES HACER       | LO QUE SIEMPRE DEBES HACER     |
-+-----------------------------------+-----------------------------------+
-| Nombres de más de 30 caracteres   | Nombres cortos: 10 a 25 caracteres|
-| Usar tildes (á, é, í, ó, ú)       | Solo letras estándar (a-z, A-Z)   |
-| Usar la letra eñe (ñ, Ñ)          | Reemplazar por "n" o "ni"         |
-| Usar símbolos: #, $, %, &, /, \   | Solo letras, números y guiones    |
-| Espacios múltiples o puntos extras| Usar guion bajo (_) o CamelCase   |
-| Archivos .docx, .zip, .rar, .jpg  | Exclusivamente archivos .PDF      |
-+-----------------------------------+-----------------------------------+
-```
+| :material-close-circle: Lo que nunca debes hacer | Lo que siempre debes hacer |
+| --- | --- |
+| Nombres de más de 30 caracteres | Nombres cortos: 10 a 25 caracteres |
+| Usar tildes (á, é, í, ó, ú) | Solo letras estándar (a-z, A-Z) |
+| Usar la letra eñe (ñ, Ñ) | Reemplazar por "n" o "ni" |
+| Usar símbolos: #, $, %, &, /, \ | Solo letras, números y guiones |
+| Espacios múltiples o puntos extras | Usar guion bajo (_) o CamelCase |
+| Archivos .docx, .zip, .rar, .jpg | Exclusivamente archivos .PDF |
+
 
 > **Ejemplo Incorrecto:**  
 > `Informe_Final_Investigación_Año_2024_Convocatoria#5_Versión(Aprobada).pdf` *(Falla de guardado)*  
@@ -28,7 +25,7 @@ El motor de archivos del SIIU es altamente sensible a la sintaxis de nombres de 
 
 ---
 
-## 2. 🌐 Configuración de Navegadores y Pop-ups
+## 2. :material-web: Configuración de Navegadores y Pop-ups
 
 El SIIU interactúa intensamente con ventanas modales y descargas automáticas de documentos.
 
@@ -41,16 +38,16 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 
 ---
 
-## 3. 💳 Cuentas Bancarias para Jóvenes Investigadores
+## 3. :material-credit-card: Cuentas Bancarias para Jóvenes Investigadores
 
-> **PRECAUCIÓN:** RESTRICCIÓN DE TESORERÍA INSTITUCIONAL
-> 1. **Billeteras electrónicas terminantemente prohibidas:** No se aceptan Nequi, Daviplata, Bancolombia Ahorro a la Mano ni Agroseguro.
-> 2. **Cuenta de Ahorros Tradicional:** Solo cuentas bancarias ordinarias a nombre del estudiante titular de la pasantía.
-> 3. **Sin cartas para el banco:** La Universidad **no emite cartas laborales** para abrir cuentas a pasantes de Jóvenes Investigadores, al tratarse de un auxilio o estímulo económico.
+!!! danger "Restricción de tesorería institucional"
+    1. **Billeteras electrónicas terminantemente prohibidas:** No se aceptan Nequi, Daviplata, Bancolombia Ahorro a la Mano ni Agroseguro.
+    2. **Cuenta de Ahorros Tradicional:** Solo cuentas bancarias ordinarias a nombre del estudiante titular de la pasantía.
+    3. **Sin cartas para el banco:** La Universidad **no emite cartas laborales** para abrir cuentas a pasantes de Jóvenes Investigadores, al tratarse de un auxilio o estímulo económico.
 
 ---
 
-## 4. 💰 Manejo Presupuestal y Saldos
+## 4. :material-cash: Manejo Presupuestal y Saldos
 
 1. **Estado "En ejecución":** Ninguna modificación presupuestal ni cambio de rubro puede solicitarse mientras el proyecto esté en formulación, evaluación o aprobado. Debe estar formalmente **En ejecución**.
 2. **Saldo mayor a \$0:** No intentes trasladar dinero desde un rubro en cero. El rubro padre debe tener fondos disponibles suficientes.

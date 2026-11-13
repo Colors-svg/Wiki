@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto Básico de Extensión  
 > **Número:** Acuerdo Superior 124 (29 de septiembre de 1997, actualizado con reformas a junio de 2026)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-124-1997.md](../archivo_maestro/legalidad/LEG-AS-124-1997.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-124-1997](../archivo_maestro/legalidad/LEG-AS-124-1997.md)
 
 ---
 

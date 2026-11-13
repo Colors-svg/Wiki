@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto del Profesor de Cátedra y Ocasional  
 > **Número:** Acuerdo Superior 253 (18 de febrero de 2003, compilado y actualizado a junio de 2026)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-253-2003.md](../archivo_maestro/legalidad/LEG-AS-253-2003.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-253-2003](../archivo_maestro/legalidad/LEG-AS-253-2003.md)
 
 ---
 

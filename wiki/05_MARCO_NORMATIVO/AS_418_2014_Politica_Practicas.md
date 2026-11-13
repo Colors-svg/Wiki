@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  
 > **Número:** 418 (29 de abril de 2014)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-418-2014.md](../../archivo_maestro/legalidad/LEG-AS-418-2014.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-418-2014](../archivo_maestro/legalidad/LEG-AS-418-2014.md)
 
 ---
 

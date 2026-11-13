@@ -1,22 +1,42 @@
-﻿# Proceso Clave: Gestión de Compromisos Académicos
+# Proceso Clave: Gestión de Compromisos Académicos
+
+!!! tip "En simple: ¿qué son los compromisos?"
+    Son **lo que prometiste entregar** (informes, artículos, tesis, patentes). Cada uno tiene fecha y estado: **Pendiente → En revisión → Aprobado**. Subes el PDF, presionas **Confirmar entrega** y el Centro lo aprueba o lo devuelve. Si solo necesitas más días para UN entregable, pide **plazo en compromisos** (no prórroga de todo el proyecto).
 
 Los **Compromisos** representan las obligaciones científicas, tecnológicas y de formación pactadas por el Investigador Principal en la formulación de la propuesta (informes de avance, informe final, artículos, ponencias, tesis dirigidas, patentes o prototipos).
 
 ```mermaid
 flowchart TD
-    subgraph GESTION_COMPROMISOS["Ciclo del Compromiso en SIIU"]
-        A["Compromiso Pendiente<br><i>(Fecha límite fijada)</i>"] --> B{"¿A tiempo para entregar?"}
+    classDef estado fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef decision fill:#0D2115,stroke:#026937,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef accion fill:#112B1B,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef final fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+
+    subgraph GESTION_COMPROMISOS ["Ciclo de Vida de los Compromisos Académicos"]
+        direction TB
+        A["Compromiso Pendiente<br><small>Fecha límite y término fijado</small>"]:::estado
+        D1{"¿Está a tiempo para entregar?"}:::decision
         
-        B -->|SÍ: Entrega oportuna| C["Carga de Informe / Evidencia en PDF<br><i>(VI-GU-09)</i>"]
-        B -->|NO: Requiere más plazo| D["Radicación: Solicitud de Plazo<br><i>(VI-GU-22)</i>"]
+        C["Carga de Informe o Soporte en PDF<br><small>Subsanación de evidencias y productos</small>"]:::accion
+        SOL_PLAZO["Radicación de Solicitud de Plazo<br><small>Trámite especial de prórroga puntual</small>"]:::accion
         
-        D --> E["Evaluación Centro / Vicerrectoría"]
-        E -->|Plazo Concedido| A
+        EVAL_CEN["Evaluación por Centro de Investigación<br><small>Revisión técnica de la justificación</small>"]:::accion
         
-        C --> F["Revisión y Aprobación en Centro"]
-        F --> G["Compromiso: APROBADO / CUMPLIDO"]
+        REV["Revisión Técnico-Académica del Centro<br><small>Verificación de la calidad del producto</small>"]:::accion
+        CUMP["Compromiso Cumplido y Aprobado<br><small>Hito acreditado en el proyecto</small>"]:::final
     end
+
+    A --> D1
+    D1 -->|Dentro del término| C
+    D1 -->|Requiere extensión| SOL_PLAZO
+    
+    SOL_PLAZO --> EVAL_CEN
+    EVAL_CEN -->|Plazo concedido por Centro| A
+    
+    C --> REV
+    REV -->|Visto bueno del Centro| CUMP
 ```
+
 
 ---
 
@@ -37,7 +57,7 @@ flowchart TD
   3. Diligencie el resumen del avance o descripción del producto.
   4. Adjunte el soporte documental en formato **PDF** (ej. artículo en PDF, certificado de aceptación editorial, acta de sustentación, informe final firmado).
   5. Presione **CONFIRMAR ENTREGA**. El compromiso pasa a estado **Enviado para revisión** del Centro de Investigación.
-- 📘 Guía oficial: [VI-GU-09](../../archivo_maestro/VI-GU-09.md)
+- :material-book: Guía oficial: [VI-GU-09](../archivo_maestro/VI-GU-09.md)
 
 ---
 
@@ -52,7 +72,7 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
   3. Ingresar la nueva fecha propuesta de entrega.
   4. Justificar detalladamente los motivos del retraso y adjuntar el soporte en PDF.
   5. Radicar para revisión del Centro de Investigación y posterior aval de la Vicerrectoría.
-- 📘 Guía oficial: [VI-GU-22](../../archivo_maestro/VI-GU-22.md)
+- :material-book: Guía oficial: [VI-GU-22](../archivo_maestro/VI-GU-22.md)
 
 ---
 
@@ -65,10 +85,10 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
   3. Seleccionar la acción:
      - **Aprobar Compromiso:** Marca el hito como cumplido al 100%.
      - **Rechazar / Devolver:** Si el documento no cumple con los estándares de rigor técnico o no corresponde a lo comprometido. Se registra la observación para que el investigador vuelva a cargar la versión corregida.
-- 📘 Guía oficial: [VI-GU-09](../../archivo_maestro/VI-GU-09.md)
+- :material-book: Guía oficial: [VI-GU-09](../archivo_maestro/VI-GU-09.md)
 
 ---
 
-## 🔗 Próximo Paso en el Flujo
+## :material-link: Próximo Paso en el Flujo
 Una vez aprobados el 100% de los compromisos e informes, el proyecto queda habilitado para el cierre definitivo:
 Consulta **[Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**.

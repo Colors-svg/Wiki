@@ -6,21 +6,18 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 
 ## 1. Rutas Express en el SIIU
 
-```
-+------------------------------------+--------------------------------------------------------------------------------+
-| TAREA                              | RUTA EN EL MENÚ SIIU                                                           |
-+------------------------------------+--------------------------------------------------------------------------------+
-| Inscribir proyecto nuevo           | Convocatorias >> Inscripción >> Proyectos en convocatoria                     |
-| Proyecto con entidad externa       | Convocatorias >> Inscripción >> Proyectos inscritos                            |
-| Ver propuesta que me devolvieron   | Convocatorias >> Proyectos en proceso >> Estado: Pendiente Actualización       |
-| Inscribir cupo Joven Investigador  | Convocatorias >> Inscripción >> Cupos joven investigador                       |
-| Registrar hoja de vida de mi JI    | Trámites administrativos >> Seguimiento mis proyectos >> Botón: Hoja de vida JI|
-| Pedir más tiempo (Prórroga)        | Trámites administrativos >> Nueva solicitud o Novedad >> Solicitud             |
-| Mover plata de un rubro a otro     | Trámites administrativos >> Nueva solicitud o Novedad >> Solicitud             |
-| Subir informe de avance o final    | Trámites administrativos >> Seguimiento mis proyectos >> Botón: Compromisos   |
-| Descargar certificado de mi rol    | Constancias >> Participación en proyectos                                      |
-+------------------------------------+--------------------------------------------------------------------------------+
-```
+| Tarea | Ruta en el menú SIIU |
+| --- | --- |
+| Inscribir proyecto nuevo | Convocatorias >> Inscripción >> Proyectos en convocatoria |
+| Proyecto con entidad externa | Convocatorias >> Inscripción >> Proyectos inscritos |
+| Ver propuesta que me devolvieron | Convocatorias >> Proyectos en proceso >> Estado: Pendiente Actualización |
+| Inscribir cupo Joven Investigador | Convocatorias >> Inscripción >> Cupos joven investigador |
+| Registrar hoja de vida de mi JI | Trámites administrativos >> Seguimiento mis proyectos >> Botón: Hoja de vida JI |
+| Pedir más tiempo (Prórroga) | Trámites administrativos >> Nueva solicitud o Novedad >> Solicitud |
+| Mover plata de un rubro a otro | Trámites administrativos >> Nueva solicitud o Novedad >> Solicitud |
+| Subir informe de avance o final | Trámites administrativos >> Seguimiento mis proyectos >> Botón: Compromisos |
+| Descargar certificado de mi rol | Constancias >> Participación en proyectos |
+
 
 ---
 
@@ -47,12 +44,12 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 ### Al vincular un Joven Investigador
 - [ ] Verificar en MARES que los datos personales y académicos del estudiante estén al día.
 - [ ] Confirmar que la cuenta bancaria sea **cuenta de ahorros tradicional** a nombre exclusivo del estudiante.
-- [ ] ❌ **Cero Nequi, Daviplata o Ahorro a la Mano**.
+- [ ] :material-close-circle: **Cero Nequi, Daviplata o Ahorro a la Mano**.
 - [ ] Confirmar la actualización de la hoja de vida para emitir el convenio de pasantía.
 
 ---
 
-## ❓ Preguntas Frecuentes (FAQ)
+## :material-help-circle: Preguntas Frecuentes (FAQ)
 
 ### ¿Por qué el sistema no me deja guardar los cambios en el presupuesto?
 > El proyecto debe encontrarse en estado **En ejecución**. Si estás intentando hacer un cambio de rubro, verifica que el rubro desde el cual quieres restar dinero tenga un saldo mayor a \$0. No se pueden hacer traslados desde rubros en cero.

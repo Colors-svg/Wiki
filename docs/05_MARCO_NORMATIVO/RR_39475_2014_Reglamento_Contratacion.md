@@ -6,7 +6,7 @@
 | **Fecha de Expedición** | 14 de noviembre de 2014 |
 | **Órgano Emisor** | Rectoría — Universidad de Antioquia |
 | **Régimen Legal** | Derecho Privado (Art. 93 Ley 30/1992, Ley 647/2001) con Excepciones de CTeI |
-| **Documento Fidedigno** | [LEG-RR-39475-2014.md](../archivo_maestro/legalidad/LEG-RR-39475-2014.md) |
+| **Documento Fidedigno** | [LEG-RR-39475-2014](../archivo_maestro/legalidad/LEG-RR-39475-2014.md) |
 | **Estado Jurídico** | **Vigente** (Deroga RR 16263/2002, 17887/2003, 13843/2000, 17115/2003, 21176/2005) |
 
 ---

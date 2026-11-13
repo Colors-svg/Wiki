@@ -16,7 +16,7 @@ flowchart TD
     HOME(["HOME: Wiki SIIU"])
     
     HOME --> MOC_ROLES["MOC por Roles<br><i>(Investigador, Centro, Vicerrectoría)</i>"]
-    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula ➔ Evaluación ➔ Inicio ➔ Cierre)</i>"]
+    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula → Evaluación → Inicio → Cierre)</i>"]
     HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
     HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
     HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
@@ -26,7 +26,7 @@ flowchart TD
 
 ---
 
-## 🧭 Vías de Acceso Rápido
+## :material-compass: Vías de Acceso Rápido
 
 ### 1. ¿Quién eres? (Navegación por Perfil)
 - **[Investigador Principal / Tutor](../01_ROLES/Rol_Investigador.md):** Matrícula de propuestas, cupos de Joven Investigador, solicitudes de prórroga, cambios de rubro y reporte de compromisos.

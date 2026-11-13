@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  
 > **Número:** 284 (14 de diciembre de 2004)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-284-2004.md](../../archivo_maestro/legalidad/LEG-AS-284-2004.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-284-2004](../archivo_maestro/legalidad/LEG-AS-284-2004.md)
 
 ---
 

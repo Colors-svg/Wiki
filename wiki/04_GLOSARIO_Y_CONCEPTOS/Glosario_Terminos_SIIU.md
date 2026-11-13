@@ -1,4 +1,4 @@
-﻿# Glosario de Términos y Conceptos del SIIU
+# Glosario de Términos y Conceptos del SIIU
 
 Compendio de definiciones oficiales y canónicas utilizadas en las guías, instructivos y formularios del **Sistema de Información para la Investigación Universitaria (SIIU)** de la Universidad de Antioquia.
 

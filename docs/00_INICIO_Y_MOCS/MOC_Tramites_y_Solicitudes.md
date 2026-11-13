@@ -6,7 +6,7 @@ Durante la vida de un proyecto en el SIIU surgen eventualidades que exigen modif
 sequenceDiagram
     autonumber
     actor IP as Investigador Principal
-    participant SIIU as 💻 Sistema SIIU
+    participant SIIU as Sistema SIIU
     actor CEN as Centro de Investigación
     actor VIC as Vicerrectoría / CODI
 
@@ -45,25 +45,25 @@ Una de las distinciones operativas más críticas en el SIIU es la fuente de fin
 ### 1. Prórrogas de Tiempo del Proyecto
 - **Prórroga de Inicio:** Se solicita cuando el proyecto está en estado **Aprobado** pero no se han podido suscribir contratos o pólizas dentro del término reglamentario.
 - **Prórroga de Ejecución:** Se solicita cuando el proyecto está en estado **En ejecución** para extender el plazo de finalización y entrega de productos.
-- 📘 Guía oficial: [VI-GU-23](../archivo_maestro/VI-GU-23.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto)
+- :material-book: Guía oficial: [VI-GU-23](../archivo_maestro/VI-GU-23.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto)
 
-### 2. 💰 Cambio de Rubro / Modificación Presupuestal
+### 2. :material-cash: Cambio de Rubro / Modificación Presupuestal
 - Permite traslados entre rubros aprobados o la creación de subrubros dentro de rubros habilitados.
 - **Condición Estricta:** El proyecto debe estar **En ejecución**. No es posible trasladar saldo desde un rubro padre cuyo saldo disponible sea \$0.
-- 📘 Guía oficial: [VI-GU-20](../archivo_maestro/VI-GU-20.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-rubro)
+- :material-book: Guía oficial: [VI-GU-20](../archivo_maestro/VI-GU-20.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-rubro)
 
 ### 3. Cambio o Inclusión de Participantes
 - Modificación del equipo humano (investigadores principales, coinvestigadores, asesores, personal técnico).
 - Requiere justificación, indicación de dedicación horaria semanal y soportes académicos.
-- 📘 Guía oficial: [VI-GU-19](../archivo_maestro/VI-GU-19.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-participante)
+- :material-book: Guía oficial: [VI-GU-19](../archivo_maestro/VI-GU-19.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-participante)
 
 ### 4. Cambio del Responsable del Proyecto
 - Relevo institucional del Investigador Principal ante la Universidad por razones de fuerza mayor, comisión académica, renuncia o retiro.
-- 📘 Guía oficial: [VI-GU-01](../archivo_maestro/VI-GU-01.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-responsable)
+- :material-book: Guía oficial: [VI-GU-01](../archivo_maestro/VI-GU-01.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-responsable)
 
 ### 5. Solicitud de Plazo en Entrega de Compromisos
 - Aplica para prórrogas específicas asociadas a un compromiso académico particular (informe de avance, informe final, artículo sometido) sin necesariamente extender el tiempo contractual general.
-- 📘 Guía oficial: [VI-GU-22](../archivo_maestro/VI-GU-22.md) | Síntesis: [Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md#solicitud-de-plazo)
+- :material-book: Guía oficial: [VI-GU-22](../archivo_maestro/VI-GU-22.md) | Síntesis: [Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md#solicitud-de-plazo)
 
 ---
 

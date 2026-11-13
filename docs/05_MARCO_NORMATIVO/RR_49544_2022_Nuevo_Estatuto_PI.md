@@ -6,7 +6,7 @@
 | **Fecha de Expedición** | 25 de noviembre de 2022 (Compilado a junio de 2026) |
 | **Órgano Emisor** | Rectoría — Universidad de Antioquia |
 | **Derogatorias Expresas** | **Deroga íntegramente la [Resolución Rectoral 21231 de 2005](RR_21231_2005_Estatuto_Propiedad_Intelectual.md) y la RR 33944 de 2012** |
-| **Documento Fidedigno** | [LEG-RR-49544-2022.md](../archivo_maestro/legalidad/LEG-RR-49544-2022.md) |
+| **Documento Fidedigno** | [LEG-RR-49544-2022](../archivo_maestro/legalidad/LEG-RR-49544-2022.md) |
 | **Estado Jurídico** | **VIGENTE — Estatuto Rector de Propiedad Intelectual UdeA** |
 
 ---
@@ -115,7 +115,7 @@ sequenceDiagram
 
 ## 6. Enlaces y Navegación Cruzada
 
-- **Documento Fidedigno:** [LEG-RR-49544-2022.md](../archivo_maestro/legalidad/LEG-RR-49544-2022.md)
+- **Documento Fidedigno:** [LEG-RR-49544-2022](../archivo_maestro/legalidad/LEG-RR-49544-2022.md)
 - **Régimen Histórico Derogado:** [Resolución Rectoral 21231 de 2005](RR_21231_2005_Estatuto_Propiedad_Intelectual.md)
 - **Ley Habilitante de Spin-offs:** [Ley 1838 de 2017](Ley_1838_2017_Spinoffs.md)
 - **Política de Acceso Abierto:** [Acuerdo Superior 451 de 2018](AS_451_2018_Politica_Acceso_Abierto.md)

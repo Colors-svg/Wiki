@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto Profesoral de la Universidad de Antioquia  
 > **Número:** Acuerdo Superior 083 (22 de julio de 1996, actualizado a junio de 2026)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-083-1996.md](../archivo_maestro/legalidad/LEG-AS-083-1996.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-083-1996](../archivo_maestro/legalidad/LEG-AS-083-1996.md)
 
 ---
 

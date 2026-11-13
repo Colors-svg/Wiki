@@ -16,7 +16,7 @@ Esta Wiki sintetiza de forma didáctica, estructurada y modular los **31 procedi
 flowchart TD
     HOME(["HOME: Wiki SIIU"])
     HOME --> MOC_ROLES["MOC por Roles<br><i>(Investigador, Centro, Vicerrectoría)</i>"]
-    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula ➔ Evaluación ➔ Inicio ➔ Cierre)</i>"]
+    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula → Evaluación → Inicio → Cierre)</i>"]
     HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
     HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
     HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]

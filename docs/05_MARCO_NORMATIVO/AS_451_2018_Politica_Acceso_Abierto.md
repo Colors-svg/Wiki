@@ -4,7 +4,7 @@
 > **Número:** Acuerdo Superior 451 (24 de abril de 2018)  
 > **Adhesión:** Declaración de Berlín sobre Acceso Abierto  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-451-2018.md](../archivo_maestro/legalidad/LEG-AS-451-2018.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-451-2018](../archivo_maestro/legalidad/LEG-AS-451-2018.md)
 
 ---
 

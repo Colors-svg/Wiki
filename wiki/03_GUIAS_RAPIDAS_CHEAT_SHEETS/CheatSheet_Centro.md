@@ -1,4 +1,4 @@
-﻿# Ficha Rápida: Cheat Sheet del Centro de Investigación
+# Ficha Rápida: Cheat Sheet del Centro de Investigación
 
 Guía de consulta ágil para Jefes de Centro, Coordinadores y Analistas de Procesos en Unidades Académicas.
 
@@ -6,20 +6,17 @@ Guía de consulta ágil para Jefes de Centro, Coordinadores y Analistas de Proce
 
 ## 1. Rutas Express en el SIIU
 
-```
-+------------------------------------+--------------------------------------------------------------------------------+
-| TAREA                              | RUTA EN EL MENÚ SIIU                                                           |
-+------------------------------------+--------------------------------------------------------------------------------+
-| Evaluar técnicamente propuesta     | Convocatorias >> Proyectos en evaluación >> Acciones >> Realizar eval. técnica |
-| Devolver propuesta al IP           | En Eval. Técnica: Marcar "No cumple" >> Guardar >> Autorizar actualización     |
-| Asignar evaluadores pares          | Convocatorias >> Aval de proyectos >> Seleccionar proyecto >> Asignar evaluador|
-| Aprobar trámites (prórrogas, etc.) | Trámites administrativos >> Flujo de procesos y novedades >> Consulta          |
-| Revisar compromisos cargados       | Trámites administrativos >> Seguimiento proyectos >> Botón: Compromisos        |
-| Cierre técnico de proyecto         | Trámites administrativos >> Seguimiento proyectos >> Botón: Cierre de proyecto |
-| Constancia de proyectos por grupo  | Constancias >> Proyectos por Grupo de Investigación                            |
-| Historial de proyectos del centro  | Reportes >> Historial de Proyecto                                              |
-+------------------------------------+--------------------------------------------------------------------------------+
-```
+| Tarea | Ruta en el menú SIIU |
+| --- | --- |
+| Evaluar técnicamente propuesta | Convocatorias >> Proyectos en evaluación >> Acciones >> Realizar eval. técnica |
+| Devolver propuesta al IP | En Eval. Técnica: Marcar "No cumple" >> Guardar >> Autorizar actualización |
+| Asignar evaluadores pares | Convocatorias >> Aval de proyectos >> Seleccionar proyecto >> Asignar evaluador |
+| Aprobar trámites (prórrogas, etc.) | Trámites administrativos >> Flujo de procesos y novedades >> Consulta |
+| Revisar compromisos cargados | Trámites administrativos >> Seguimiento proyectos >> Botón: Compromisos |
+| Cierre técnico de proyecto | Trámites administrativos >> Seguimiento proyectos >> Botón: Cierre de proyecto |
+| Constancia de proyectos por grupo | Constancias >> Proyectos por Grupo de Investigación |
+| Historial de proyectos del centro | Reportes >> Historial de Proyecto |
+
 
 ---
 

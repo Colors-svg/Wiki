@@ -122,16 +122,16 @@ El usuario con rol Vicerrectoría debe autenticarse en el portal de la Universid
    ![Figura 6](../assets/figuras/VI-GU-12/figura-06.png)
    *Figura 6 - Filtro de búsqueda*
 
-3. El sistema trae como resultado las solicitudes en estado Avalada. Observe que aparece un icono check de color azul (✔️), el cual indica que es el proceso para Aprobar la solicitud.
+3. El sistema trae como resultado las solicitudes en estado Avalada. Observe que aparece un icono check de color azul (:material-check:), el cual indica que es el proceso para Aprobar la solicitud.
 
    ![Figura 7](../assets/figuras/VI-GU-12/figura-07.png)
    *Figura 7 - Resultado de consulta*
 
    Iconos de acceso en la columna **Acciones**:
-   - 🚫 **Solicitud de cancelación**: Actualmente no está disponible.
-   - 🔵 **Aprobar solicitud**: Permite habilitar el proceso de aprobación.
+   - :material-cancel: **Solicitud de cancelación**: Actualmente no está disponible.
+   - :material-check-circle: **Aprobar solicitud**: Permite habilitar el proceso de aprobación.
    - **Ver solicitud**: Permite ver el detalle de la solicitud.
-   - 📈 **Historial de estados**: Permite visualizar los estados de la solicitud.
+   - :material-history: **Historial de estados**: Permite visualizar los estados de la solicitud.
 
 4. Para aprobar la solicitud, garantice que está en la solicitud requerida; luego ubíquese en la columna acciones y presione clic en el icono azul de **Aprobar solicitud**.
 

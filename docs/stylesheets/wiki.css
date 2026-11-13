@@ -23,7 +23,8 @@
   --md-default-fg-color--lighter: #64748B;
 
   --md-code-bg-color: #080D14;
-  --md-code-fg-color: #7DD3FC;
+  --md-code-fg-color: #AAD46F;
+  --md-typeset-a-color: #8DC63F;
   --border-color: #1E293B;
   --card-bg: #111722;
 
@@ -72,6 +73,7 @@
 
   --md-code-bg-color: #F1F5F9;
   --md-code-fg-color: #026937;
+  --md-typeset-a-color: #026937;
   --border-color: #E2E8F0;
   --card-bg: #FFFFFF;
 
@@ -316,23 +318,49 @@ body, .md-typeset {
   letter-spacing: -0.01em;
 }
 
-/* Colores institucionales de callouts */
-.md-typeset .admonition.warning {
-  border-left-color: #EAB308 !important;
+/* Colores institucionales de callouts (borde completo + título, sin azules) */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #EAB308 !important;
+}
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  background-color: rgba(234, 179, 8, 0.12) !important;
 }
 
 .md-typeset .admonition.danger,
-.md-typeset .admonition.caution {
-  border-left-color: #EF4444 !important;
+.md-typeset .admonition.caution,
+.md-typeset details.danger,
+.md-typeset details.caution {
+  border-color: #EF4444 !important;
+}
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.caution > .admonition-title,
+.md-typeset details.danger > summary,
+.md-typeset details.caution > summary {
+  background-color: rgba(239, 68, 68, 0.1) !important;
 }
 
 .md-typeset .admonition.note,
-.md-typeset .admonition.info {
-  border-left-color: #35944B !important;
+.md-typeset .admonition.info,
+.md-typeset details.note,
+.md-typeset details.info {
+  border-color: #35944B !important;
+}
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.note > summary,
+.md-typeset details.info > summary {
+  background-color: rgba(53, 148, 75, 0.12) !important;
 }
 
-.md-typeset .admonition.tip {
-  border-left-color: #8DC63F !important;
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #8DC63F !important;
+}
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+  background-color: rgba(141, 198, 63, 0.14) !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -367,17 +395,17 @@ body, .md-typeset {
 }
 
 /* --------------------------------------------------------------------------
-   Botón Volver Arriba — moderno, SIN movimiento (el translateY causaba
-   tembleque: el botón huía del cursor en loop hover/unhover).
+   Botón Volver Arriba — pill moderno con texto (diseño nativo de Material:
+   el botón LLEVA texto "Volver al principio"; fijar width/height lo
+   rompía y el texto se salía de la caja). Sin translateY en hover
+   (causaba tembleque: el botón huía del cursor en loop hover/unhover).
    -------------------------------------------------------------------------- */
 .md-top {
-  width: 2.8rem;
-  height: 2.8rem;
   background: linear-gradient(135deg, #026937, #35944B) !important;
   color: #FFFFFF !important;
-  border-radius: 1rem !important;
+  border-radius: 9999px !important;
   box-shadow: 0 6px 18px rgba(2, 105, 55, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
-  transition: background-color 180ms ease-in-out, box-shadow 180ms ease-in-out !important;
+  transition: background-color 180ms ease-in-out, box-shadow 180ms ease-in-out, opacity 180ms ease-in-out !important;
 }
 
 .md-top:hover {

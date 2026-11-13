@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto General de Contratación Universitaria  
 > **Número:** Acuerdo Superior 419 (29 de abril de 2014, compilado y actualizado a junio de 2026)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-419-2014.md](../archivo_maestro/legalidad/LEG-AS-419-2014.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-419-2014](../archivo_maestro/legalidad/LEG-AS-419-2014.md)
 
 ---
 

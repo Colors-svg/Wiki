@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Resolución Rectoral  
 > **Número:** 21231 (05 de agosto de 2005)  
 > **Emisor:** Rectoría — Universidad de Antioquia (por delegación del Consejo Superior Universitario AS 073/1996)  
-> **Documento Fuente Fidedigno:** [LEG-RR-21231-2005.md](../archivo_maestro/legalidad/LEG-RR-21231-2005.md)
+> **Documento Fuente Fidedigno:** [LEG-RR-21231-2005](../archivo_maestro/legalidad/LEG-RR-21231-2005.md)
 
 ---
 

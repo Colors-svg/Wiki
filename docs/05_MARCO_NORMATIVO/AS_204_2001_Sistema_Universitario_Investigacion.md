@@ -3,7 +3,7 @@
 > **Tipo de Norma:** Estatuto del Sistema Universitario de Investigación (SUI)  
 > **Número:** Acuerdo Superior 204 (06 de noviembre de 2001, con modificaciones de AS 317/2006, AS 386/2011, AS 477/2022)  
 > **Órgano Emisor:** Consejo Superior Universitario — Universidad de Antioquia  
-> **Documento Fuente Fidedigno:** [LEG-AS-204-2001.md](../archivo_maestro/legalidad/LEG-AS-204-2001.md)
+> **Documento Fuente Fidedigno:** [LEG-AS-204-2001](../archivo_maestro/legalidad/LEG-AS-204-2001.md)
 
 ---
 
