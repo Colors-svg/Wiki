@@ -51,7 +51,7 @@ flowchart TD
 Conforme a las facultades excepcionales del **Decreto Ley 393 de 1991, Decreto Ley 591 de 1991 y Ley 1286 de 2009**, la Universidad exonera de convocatoria pública las contrataciones amparadas en las **19 actividades del conocimiento**:
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph Adquisiciones CTeI Exoneradas
         A[Reactivos y Químicos Especializados]
         B[Equipos Científicos de Laboratorio]
