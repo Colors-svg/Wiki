@@ -106,7 +106,11 @@
   --md-mermaid-sequence-number-bg-color: #026937;
 }
 
-/* Paleta oficial UdeA (Paleta-Udea v1.0.0) — referencia para futuros usos */
+/* Paleta oficial UdeA (Paleta-Udea v1.0.0) — 12 tonos + tintas.
+   Principal: bosque/follaje/pradera/lima/caribe/esmeralda/petróleo.
+   Secundaria: púrpura(protocolo) · cerúleo(servicios) · rojo(alertas) ·
+   ámbar(convocatorias) · violeta(ciencia/TIC). Roles de uso:
+   info=cerúleo, tip=esmeralda, warning=ámbar, danger=rojo. */
 :root {
   --udea-bosque: #026937;
   --udea-follaje: #35944B;
@@ -116,10 +120,17 @@
   --udea-esmeralda: #069A7E;
   --udea-petroleo: #0E7774;
   --udea-purpura: #70205B;
-  --udea-ambar: #F9A12C;
   --udea-ceruleo: #137598;
   --udea-rojo: #EF434D;
+  --udea-ambar: #F9A12C;
   --udea-violeta: #532D87;
+  /* Tintas claras oficiales (fondos de callouts en modo claro) */
+  --udea-bosque-25: #BFD9CD;
+  --udea-ceruleo-25: #C4DDE5;
+  --udea-esmeralda-25: #C1E6DF;
+  --udea-ambar-25: #FEE7CA;
+  --udea-rojo-25: #FBD0D2;
+  --udea-lima-25: #E3F1CF;
 }
 
 /* --------------------------------------------------------------------------
@@ -222,11 +233,28 @@ body, .md-typeset {
   letter-spacing: -0.015em;
   margin-top: 1.9rem;
   margin-bottom: 0.8rem;
-  color: var(--md-primary-fg-color--light) !important;
+  color: #026937 !important;
 }
 
 [data-md-color-scheme="slate"] .md-typeset h3 {
   color: #8DC63F !important;
+}
+
+/* Contraste de cabecera en ambos esquemas: título e iconos heredan
+   tinta de alto contraste (el fondo del header no se toca). */
+.md-header__title,
+.md-header__topic {
+  color: var(--md-default-fg-color) !important;
+}
+.md-header__button,
+.md-header .md-search__icon,
+.md-header .md-icon {
+  color: var(--md-default-fg-color) !important;
+}
+[data-md-color-scheme="default"] .md-header__button.md-logo img,
+[data-md-color-scheme="default"] .md-header__button.md-logo svg {
+  filter: none !important;
+  opacity: 1 !important;
 }
 
 .md-typeset p, .md-typeset ul, .md-typeset ol {
@@ -318,49 +346,81 @@ body, .md-typeset {
   letter-spacing: -0.01em;
 }
 
-/* Colores institucionales de callouts (borde completo + título, sin azules) */
+/* Colores institucionales de callouts (roles oficiales Paleta-Udea:
+   warning=ámbar convocatorias · danger=rojo alertas · note/info=cerúleo
+   servicios · tip=esmeralda. Borde completo + título, sin azules.) */
 .md-typeset .admonition.warning,
 .md-typeset details.warning {
-  border-color: #EAB308 !important;
+  border-color: #F9A12C !important;
 }
 .md-typeset .admonition.warning > .admonition-title,
 .md-typeset details.warning > summary {
-  background-color: rgba(234, 179, 8, 0.12) !important;
+  background-color: rgba(249, 161, 44, 0.14) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.warning > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.warning > summary {
+  background-color: #FEE7CA !important;
+  color: #0F172A !important;
 }
 
 .md-typeset .admonition.danger,
 .md-typeset .admonition.caution,
 .md-typeset details.danger,
 .md-typeset details.caution {
-  border-color: #EF4444 !important;
+  border-color: #EF434D !important;
 }
 .md-typeset .admonition.danger > .admonition-title,
 .md-typeset .admonition.caution > .admonition-title,
 .md-typeset details.danger > summary,
 .md-typeset details.caution > summary {
-  background-color: rgba(239, 68, 68, 0.1) !important;
+  background-color: rgba(239, 67, 77, 0.12) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.danger > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .admonition.caution > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.danger > summary,
+[data-md-color-scheme="default"] .md-typeset details.caution > summary {
+  background-color: #FBD0D2 !important;
+  color: #0F172A !important;
 }
 
 .md-typeset .admonition.note,
 .md-typeset .admonition.info,
 .md-typeset details.note,
 .md-typeset details.info {
-  border-color: #35944B !important;
+  border-color: #137598 !important;
 }
 .md-typeset .admonition.note > .admonition-title,
 .md-typeset .admonition.info > .admonition-title,
 .md-typeset details.note > summary,
 .md-typeset details.info > summary {
-  background-color: rgba(53, 148, 75, 0.12) !important;
+  background-color: rgba(19, 117, 152, 0.14) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.note > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .admonition.info > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.note > summary,
+[data-md-color-scheme="default"] .md-typeset details.info > summary {
+  background-color: #C4DDE5 !important;
+  color: #0F172A !important;
 }
 
 .md-typeset .admonition.tip,
-.md-typeset details.tip {
-  border-color: #8DC63F !important;
+.md-typeset .admonition.success,
+.md-typeset details.tip,
+.md-typeset details.success {
+  border-color: #069A7E !important;
 }
 .md-typeset .admonition.tip > .admonition-title,
-.md-typeset details.tip > summary {
-  background-color: rgba(141, 198, 63, 0.14) !important;
+.md-typeset .admonition.success > .admonition-title,
+.md-typeset details.tip > summary,
+.md-typeset details.success > summary {
+  background-color: rgba(6, 154, 126, 0.14) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.tip > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .admonition.success > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.tip > summary,
+[data-md-color-scheme="default"] .md-typeset details.success > summary {
+  background-color: #C1E6DF !important;
+  color: #0F172A !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -619,19 +679,24 @@ body, .md-typeset {
   border-color: #026937;
 }
 
-/* Modal de diagrama ampliado */
+/* Modal de diagrama ampliado: ocupa casi toda la ventana para que el
+   diagrama se vea LITERALMENTE grande (no reducido). El nodo .mermaid
+   real se mueve aquí dentro; se fuerza a ancho completo y su SVG a
+   filling width (sin el max-width:100% que lo encogía). A-/A+ escalan
+   desde ese tamaño base con transform. */
 dialog.diagram-lightbox {
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 0;
-  max-width: min(1100px, 94vw);
-  width: max-content;
-  max-height: 88vh;
+  width: min(1400px, 96vw);
+  max-width: 96vw;
+  height: min(88vh, 900px);
+  max-height: 92vh;
   background: var(--card-bg);
   color: var(--md-default-fg-color);
 }
 dialog.diagram-lightbox::backdrop {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.7);
 }
 .diagram-lightbox-head {
   display: flex;
@@ -640,10 +705,19 @@ dialog.diagram-lightbox::backdrop {
   gap: 1rem;
   padding: 0.8rem 1.1rem;
   border-bottom: 1px solid var(--border-color);
+  background: var(--md-default-bg-color--light);
+}
+.diagram-lightbox-head strong {
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .diagram-lightbox-actions {
   display: flex;
   gap: 0.5rem;
+  flex-shrink: 0;
 }
 .diagram-lightbox-actions button {
   font-size: 0.78rem;
@@ -651,7 +725,7 @@ dialog.diagram-lightbox::backdrop {
   padding: 0.35rem 0.8rem;
   border-radius: 9999px;
   border: 1px solid var(--border-color);
-  background: var(--md-default-bg-color--light);
+  background: var(--md-default-bg-color);
   color: var(--md-default-fg-color);
   cursor: pointer;
 }
@@ -662,12 +736,34 @@ dialog.diagram-lightbox::backdrop {
 }
 .diagram-lightbox-body {
   overflow: auto;
-  padding: 2rem;
-  max-height: calc(88vh - 70px);
+  padding: 1.5rem;
+  height: calc(100% - 58px);
+  max-height: calc(92vh - 58px);
+  display: block;
 }
 .diagram-lightbox-scaler {
   transform-origin: top center;
   margin: 0 auto;
-  width: max-content;
+  width: 100%;
   max-width: 100%;
+}
+/* El diagrama dentro del modal: ancho completo real, sin márgenes que
+   lo encojan. El SVG interno llena el cuerpo del modal. */
+dialog.diagram-lightbox .diagram-zoom-wrap {
+  position: static;
+}
+dialog.diagram-lightbox .mermaid {
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 1.5rem !important;
+}
+dialog.diagram-lightbox .mermaid svg {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+}
+/* El botón flotante "Ampliar" no tiene sentido dentro del modal */
+dialog.diagram-lightbox .diagram-zoom-btn {
+  display: none !important;
 }

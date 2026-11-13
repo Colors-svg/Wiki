@@ -100,7 +100,17 @@
       dlg.close();
     });
 
+    var btnReset = document.createElement('button');
+    btnReset.type = 'button';
+    btnReset.textContent = '1:1';
+    btnReset.setAttribute('aria-label', 'Restablecer zoom al 100%');
+    btnReset.addEventListener('click', function () {
+      zoom = 1;
+      applyZoom();
+    });
+
     actions.appendChild(btnOut);
+    actions.appendChild(btnReset);
     actions.appendChild(btnIn);
     actions.appendChild(btnClose);
     head.appendChild(name);
