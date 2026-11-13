@@ -1,0 +1,769 @@
+/* ==========================================================================
+   SISTEMA DE DISEÑO MODERNO Y ELEGANTE — WIKI SIIU
+   Inspirado en Google Code Wiki y Stripe Documentation
+   Paleta Institucional Oficial UdeA (Tokens: #026937, #35944B, #8DC63F, #3EBDAC)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Variables de Tema (Dark Slate & Light Clean)
+   -------------------------------------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #026937;
+  --md-primary-fg-color--light: #35944B;
+  --md-primary-fg-color--dark: #014725;
+  --md-accent-fg-color: #8DC63F;
+  --md-accent-fg-color--transparent: rgba(141, 198, 63, 0.15);
+
+  /* Fondos oscuros modernos (estilo Code Wiki) */
+  --md-default-bg-color: #0B0F15;
+  --md-default-bg-color--light: #111722;
+  --md-default-bg-color--lighter: #172130;
+  --md-default-fg-color: #E2E8F0;
+  --md-default-fg-color--light: #94A3B8;
+  --md-default-fg-color--lighter: #64748B;
+
+  --md-code-bg-color: #080D14;
+  --md-code-fg-color: #AAD46F;
+  --md-typeset-a-color: #8DC63F;
+  --border-color: #1E293B;
+  --card-bg: #111722;
+
+  /* Mermaid: tinta institucional (nunca el azul de código) */
+  --md-mermaid-font-family: 'Inter', sans-serif;
+  --md-mermaid-label-fg-color: #EAF3EC;
+  --md-mermaid-label-bg-color: #172130;
+  --md-mermaid-node-fg-color: #FFFFFF;
+  --md-mermaid-node-bg-color: #123A21;
+  --md-mermaid-edge-color: #35944B;
+  --md-mermaid-sequence-actor-fg-color: #FFFFFF;
+  --md-mermaid-sequence-actor-bg-color: #123A21;
+  --md-mermaid-sequence-actor-border-color: #35944B;
+  --md-mermaid-sequence-actor-line-color: #35944B;
+  --md-mermaid-sequence-actorman-bg-color: #123A21;
+  --md-mermaid-sequence-actorman-line-color: #35944B;
+  --md-mermaid-sequence-box-fg-color: #FFFFFF;
+  --md-mermaid-sequence-box-bg-color: #123A21;
+  --md-mermaid-sequence-label-fg-color: #EAF3EC;
+  --md-mermaid-sequence-label-bg-color: #172130;
+  --md-mermaid-sequence-loop-fg-color: #EAF3EC;
+  --md-mermaid-sequence-loop-bg-color: #172130;
+  --md-mermaid-sequence-loop-border-color: #35944B;
+  --md-mermaid-sequence-message-fg-color: #EAF3EC;
+  --md-mermaid-sequence-message-line-color: #35944B;
+  --md-mermaid-sequence-note-fg-color: #0F2417;
+  --md-mermaid-sequence-note-bg-color: #E3F1CF;
+  --md-mermaid-sequence-note-border-color: #8DC63F;
+  --md-mermaid-sequence-number-fg-color: #FFFFFF;
+  --md-mermaid-sequence-number-bg-color: #026937;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #026937;
+  --md-primary-fg-color--light: #35944B;
+  --md-primary-fg-color--dark: #014725;
+  --md-accent-fg-color: #026937;
+  --md-accent-fg-color--transparent: rgba(2, 105, 55, 0.1);
+
+  --md-default-bg-color: #FAFCFB;
+  --md-default-bg-color--light: #F0F5F2;
+  --md-default-bg-color--lighter: #E2ECE5;
+  --md-default-fg-color: #0F172A;
+  --md-default-fg-color--light: #475569;
+  --md-default-fg-color--lighter: #94A3B8;
+
+  --md-code-bg-color: #F1F5F9;
+  --md-code-fg-color: #026937;
+  --md-typeset-a-color: #026937;
+  --border-color: #E2E8F0;
+  --card-bg: #FFFFFF;
+
+  /* Mermaid: tinta institucional en modo claro */
+  --md-mermaid-font-family: 'Inter', sans-serif;
+  --md-mermaid-label-fg-color: #0F2417;
+  --md-mermaid-label-bg-color: #FFFFFF;
+  --md-mermaid-node-fg-color: #0F2417;
+  --md-mermaid-node-bg-color: #E7F3EA;
+  --md-mermaid-edge-color: #026937;
+  --md-mermaid-sequence-actor-fg-color: #0F2417;
+  --md-mermaid-sequence-actor-bg-color: #E7F3EA;
+  --md-mermaid-sequence-actor-border-color: #026937;
+  --md-mermaid-sequence-actor-line-color: #026937;
+  --md-mermaid-sequence-actorman-bg-color: #E7F3EA;
+  --md-mermaid-sequence-actorman-line-color: #026937;
+  --md-mermaid-sequence-box-fg-color: #0F2417;
+  --md-mermaid-sequence-box-bg-color: #E7F3EA;
+  --md-mermaid-sequence-label-fg-color: #0F2417;
+  --md-mermaid-sequence-label-bg-color: #FFFFFF;
+  --md-mermaid-sequence-loop-fg-color: #0F2417;
+  --md-mermaid-sequence-loop-bg-color: #FFFFFF;
+  --md-mermaid-sequence-loop-border-color: #026937;
+  --md-mermaid-sequence-message-fg-color: #0F2417;
+  --md-mermaid-sequence-message-line-color: #026937;
+  --md-mermaid-sequence-note-fg-color: #0F2417;
+  --md-mermaid-sequence-note-bg-color: #E3F1CF;
+  --md-mermaid-sequence-note-border-color: #8DC63F;
+  --md-mermaid-sequence-number-fg-color: #FFFFFF;
+  --md-mermaid-sequence-number-bg-color: #026937;
+}
+
+/* Paleta oficial UdeA (Paleta-Udea v1.0.0) — 12 tonos + tintas.
+   Principal: bosque/follaje/pradera/lima/caribe/esmeralda/petróleo.
+   Secundaria: púrpura(protocolo) · cerúleo(servicios) · rojo(alertas) ·
+   ámbar(convocatorias) · violeta(ciencia/TIC). Roles de uso:
+   info=cerúleo, tip=esmeralda, warning=ámbar, danger=rojo. */
+:root {
+  --udea-bosque: #026937;
+  --udea-follaje: #35944B;
+  --udea-pradera: #43B649;
+  --udea-lima: #8DC63F;
+  --udea-caribe: #3EBDAC;
+  --udea-esmeralda: #069A7E;
+  --udea-petroleo: #0E7774;
+  --udea-purpura: #70205B;
+  --udea-ceruleo: #137598;
+  --udea-rojo: #EF434D;
+  --udea-ambar: #F9A12C;
+  --udea-violeta: #532D87;
+  /* Tintas claras oficiales (fondos de callouts en modo claro) */
+  --udea-bosque-25: #BFD9CD;
+  --udea-ceruleo-25: #C4DDE5;
+  --udea-esmeralda-25: #C1E6DF;
+  --udea-ambar-25: #FEE7CA;
+  --udea-rojo-25: #FBD0D2;
+  --udea-lima-25: #E3F1CF;
+}
+
+/* --------------------------------------------------------------------------
+   Layout Amplio & Espacioso (Full-Width Modern Wiki Style)
+   -------------------------------------------------------------------------- */
+.md-grid {
+  max-width: 1650px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.md-main__inner {
+  margin-top: 1.5rem;
+}
+
+/* Ancho del contenedor de contenido principal */
+.md-content {
+  max-width: 1060px !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   Cabecera temática (clara/oscura según esquema; sin verde impuesto)
+   -------------------------------------------------------------------------- */
+.md-header {
+  background-color: var(--md-default-bg-color--light) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0B0F15 !important;
+}
+
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color) !important;
+}
+
+.md-header__button.md-logo {
+  padding: 0.2rem 0.35rem 0.2rem 0.1rem;
+}
+
+/* Logos: el header lleva el UdeA (2rem); en el drawer basta el título
+   en texto para no duplicar marca ni estirar el panel. */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2rem !important;
+  width: auto !important;
+  max-width: 12rem !important;
+}
+/* En el drawer solo va el título en texto: el logo grande vive en la
+   cabecera. Además evita que el logo estire el panel del drawer. */
+.md-nav__title .md-nav__button.md-logo {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   Tipografía de Alta Legibilidad y Amplitud
+   -------------------------------------------------------------------------- */
+body, .md-typeset {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem; /* ~16.5px */
+  line-height: 1.82;
+  letter-spacing: -0.011em;
+}
+
+.md-typeset h1 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--md-default-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  background: linear-gradient(135deg, #FFFFFF 60%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.md-typeset h2 {
+  font-size: 1.4rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  margin-top: 2.5rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--md-default-fg-color) !important;
+}
+
+.md-typeset h3 {
+  font-size: 1.15rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  margin-top: 1.9rem;
+  margin-bottom: 0.8rem;
+  color: #026937 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: #8DC63F !important;
+}
+
+/* Contraste de cabecera en ambos esquemas: título e iconos heredan
+   tinta de alto contraste (el fondo del header no se toca). */
+.md-header__title,
+.md-header__topic {
+  color: var(--md-default-fg-color) !important;
+}
+.md-header__button,
+.md-header .md-search__icon,
+.md-header .md-icon {
+  color: var(--md-default-fg-color) !important;
+}
+[data-md-color-scheme="default"] .md-header__button.md-logo img,
+[data-md-color-scheme="default"] .md-header__button.md-logo svg {
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+.md-typeset p, .md-typeset ul, .md-typeset ol {
+  margin-bottom: 1.4rem;
+}
+
+.md-typeset li {
+  margin-bottom: 0.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Buscador con Efecto Glow Institucional Suave
+   -------------------------------------------------------------------------- */
+.md-search__input {
+  border-radius: 8px !important;
+  background-color: var(--md-default-bg-color) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--md-default-fg-color) !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.md-search__input:focus {
+  border-color: #35944B !important;
+  box-shadow: 0 0 0 3px rgba(53, 148, 75, 0.25), 0 0 16px rgba(141, 198, 63, 0.2) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Barra Lateral Izquierda (Navegación Fija y Dinámica)
+   Ancho amplio SOLO en escritorio: en móvil el drawer usa 12.1rem
+   fijos y alterarlo rompe su ocultamiento (translateX calculado).
+   -------------------------------------------------------------------------- */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 14.5rem !important;
+  }
+}
+
+.md-sidebar--primary .md-sidebar__inner {
+  border-right: 1px solid var(--border-color);
+  padding-right: 0.5rem;
+}
+
+.md-nav__link {
+  border-radius: 6px;
+  padding: 0.4rem 0.65rem !important;
+  font-size: 0.8rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.md-nav__link:hover {
+  background-color: rgba(53, 148, 75, 0.08);
+  color: #35944B !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  background-color: rgba(53, 148, 75, 0.14);
+  color: #8DC63F !important;
+}
+
+.md-nav__item--active > .md-nav__link {
+  font-weight: 700;
+  border-left: 3px solid #35944B !important;
+  background-color: rgba(53, 148, 75, 0.12);
+  color: #35944B !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
+  border-left: 3px solid #8DC63F !important;
+  color: #8DC63F !important;
+  background-color: rgba(141, 198, 63, 0.1);
+}
+
+/* --------------------------------------------------------------------------
+   Admonitions / Callouts (Material Admonition Stying)
+   -------------------------------------------------------------------------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-left-width: 4px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin: 1.8rem 0;
+  font-size: 0.83rem;
+  background-color: var(--md-default-bg-color--light) !important;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-weight: 700 !important;
+  letter-spacing: -0.01em;
+}
+
+/* Colores institucionales de callouts (roles oficiales Paleta-Udea:
+   warning=ámbar convocatorias · danger=rojo alertas · note/info=cerúleo
+   servicios · tip=esmeralda. Borde completo + título, sin azules.) */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #F9A12C !important;
+}
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  background-color: rgba(249, 161, 44, 0.14) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.warning > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.warning > summary {
+  background-color: #FEE7CA !important;
+  color: #0F172A !important;
+}
+
+.md-typeset .admonition.danger,
+.md-typeset .admonition.caution,
+.md-typeset details.danger,
+.md-typeset details.caution {
+  border-color: #EF434D !important;
+}
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.caution > .admonition-title,
+.md-typeset details.danger > summary,
+.md-typeset details.caution > summary {
+  background-color: rgba(239, 67, 77, 0.12) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.danger > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .admonition.caution > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.danger > summary,
+[data-md-color-scheme="default"] .md-typeset details.caution > summary {
+  background-color: #FBD0D2 !important;
+  color: #0F172A !important;
+}
+
+.md-typeset .admonition.note,
+.md-typeset .admonition.info,
+.md-typeset details.note,
+.md-typeset details.info {
+  border-color: #137598 !important;
+}
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.note > summary,
+.md-typeset details.info > summary {
+  background-color: rgba(19, 117, 152, 0.14) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.note > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .admonition.info > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.note > summary,
+[data-md-color-scheme="default"] .md-typeset details.info > summary {
+  background-color: #C4DDE5 !important;
+  color: #0F172A !important;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset .admonition.success,
+.md-typeset details.tip,
+.md-typeset details.success {
+  border-color: #069A7E !important;
+}
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset .admonition.success > .admonition-title,
+.md-typeset details.tip > summary,
+.md-typeset details.success > summary {
+  background-color: rgba(6, 154, 126, 0.14) !important;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.tip > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .admonition.success > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset details.tip > summary,
+[data-md-color-scheme="default"] .md-typeset details.success > summary {
+  background-color: #C1E6DF !important;
+  color: #0F172A !important;
+}
+
+/* --------------------------------------------------------------------------
+   Diagramas Mermaid Amplios, Nítidos y con Texto Contenido
+   -------------------------------------------------------------------------- */
+.mermaid {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 10px !important;
+  padding: 2rem 1.5rem !important;
+  margin: 2.5rem 0 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+  overflow-x: auto !important;
+  text-align: center;
+}
+
+/* Asegurar que las fuentes internas de Mermaid no se desborden */
+.mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.mermaid .node text {
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  fill: #FFFFFF !important;
+}
+
+[data-md-color-scheme="default"] .mermaid .node text {
+  fill: #17241C !important;
+}
+
+/* --------------------------------------------------------------------------
+   Botón Volver Arriba — pill moderno con texto (diseño nativo de Material:
+   el botón LLEVA texto "Volver al principio"; fijar width/height lo
+   rompía y el texto se salía de la caja). Sin translateY en hover
+   (causaba tembleque: el botón huía del cursor en loop hover/unhover).
+   -------------------------------------------------------------------------- */
+.md-top {
+  background: linear-gradient(135deg, #026937, #35944B) !important;
+  color: #FFFFFF !important;
+  border-radius: 9999px !important;
+  box-shadow: 0 6px 18px rgba(2, 105, 55, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+  transition: background-color 180ms ease-in-out, box-shadow 180ms ease-in-out, opacity 180ms ease-in-out !important;
+}
+
+.md-top:hover {
+  background: linear-gradient(135deg, #037A40, #43B649) !important;
+  box-shadow: 0 8px 26px rgba(67, 182, 73, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Tablas Modernas y Espaciosas
+   -------------------------------------------------------------------------- */
+.md-typeset table:not([class]) {
+  width: 100%;
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--border-color);
+  margin: 2rem 0;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-default-bg-color--lighter);
+  color: var(--md-default-fg-color) !important;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.95rem 1.1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* ==========================================================================
+   MEJORA 2026-11: micro-interacciones, figuras PDF y legibilidad
+   - Solo CSS, sin JS. Respeta prefers-reduced-motion.
+   ========================================================================== */
+
+/* Intro suave de página (0.72s, institucional) */
+.md-content__inner {
+  animation: wikiFadeUp 0.72s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes wikiFadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Hover funcional en cards/tarjetas (180ms) */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .admonition {
+  transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 180ms ease-in-out;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(2, 105, 55, 0.14);
+  border-color: #35944B;
+}
+
+/* Figuras extraídas de PDF: centradas, nítidas, máx 1200px, con pie */
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.2rem auto 0.4rem auto;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+  background: #FFFFFF;
+}
+.md-typeset img + em,
+.md-typeset p > em:only-child {
+  display: block;
+  text-align: center;
+  font-size: 0.76rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1.6rem;
+}
+
+/* Enlaces con foco visible (teclado) */
+.md-typeset a:focus-visible,
+.md-nav__link:focus-visible {
+  outline: 3px solid rgba(53, 148, 75, 0.45);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Details/summary con transición suave */
+.md-typeset details {
+  transition: border-color 180ms ease-in-out, box-shadow 180ms ease-in-out;
+}
+.md-typeset details[open] {
+  border-color: #35944B;
+  box-shadow: 0 8px 24px rgba(2, 105, 55, 0.12);
+}
+
+/* Tablas con scroll horizontal en móvil */
+.md-typeset__table {
+  overflow-x: auto;
+}
+
+/* Movimiento reducido: desactivar animaciones */
+@media (prefers-reduced-motion: reduce) {
+  .md-content__inner { animation: none; }
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .admonition,
+  .md-typeset details,
+  .md-top,
+  .md-nav__link,
+  .md-search__input { transition: none !important; }
+  .md-top:hover { transform: none !important; }
+}
+
+/* ==========================================================================
+   MEJORA 2026-11 (2): color institucional de etiquetas Mermaid + zoom
+   Mermaid v10+ dibuja las etiquetas como HTML (foreignObject): el color se
+   fija con `color`, no con `fill`. Sin esto, los diagramas sin classDef
+   heredan el azul del tema por defecto.
+   ========================================================================== */
+
+/* Texto de nodos y aristas: tinta institucional, nunca azul de defecto */
+.mermaid .nodeLabel,
+.mermaid span.nodeLabel,
+.mermaid div.nodeLabel,
+.mermaid .edgeLabel,
+.mermaid .label,
+.mermaid .cluster-label,
+.mermaid .cluster-label span,
+.mermaid text {
+  font-family: 'Inter', sans-serif !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .nodeLabel,
+[data-md-color-scheme="slate"] .mermaid span.nodeLabel,
+[data-md-color-scheme="slate"] .mermaid div.nodeLabel,
+[data-md-color-scheme="slate"] .mermaid .label,
+[data-md-color-scheme="slate"] .mermaid .cluster-label,
+[data-md-color-scheme="slate"] .mermaid .cluster-label span {
+  color: #EAF3EC !important;
+}
+
+[data-md-color-scheme="default"] .mermaid .nodeLabel,
+[data-md-color-scheme="default"] .mermaid span.nodeLabel,
+[data-md-color-scheme="default"] .mermaid div.nodeLabel,
+[data-md-color-scheme="default"] .mermaid .label,
+[data-md-color-scheme="default"] .mermaid .cluster-label,
+[data-md-color-scheme="default"] .mermaid .cluster-label span {
+  color: #0F2417 !important;
+}
+
+/* Etiquetas de flechas: fondo de tarjeta para legibilidad */
+[data-md-color-scheme="slate"] .mermaid .edgeLabel {
+  color: #C9D8CE !important;
+  background-color: #111722 !important;
+}
+[data-md-color-scheme="default"] .mermaid .edgeLabel {
+  color: #0F2417 !important;
+  background-color: #FFFFFF !important;
+}
+
+/* Flechas y conectores en verde institucional */
+.mermaid .flowchart-link {
+  stroke: #35944B !important;
+  stroke-width: 2px !important;
+}
+.mermaid marker path,
+.mermaid defs marker path {
+  fill: #35944B !important;
+  stroke: #35944B !important;
+}
+
+/* Caja de subgraph con borde institucional */
+.mermaid .cluster rect {
+  stroke: #35944B !important;
+  stroke-width: 1.5px !important;
+}
+
+/* Envoltorio del botón Ampliar (el diagrama vive en shadow DOM cerrado:
+   el botón debe ser hermano visible, no hijo del anfitrión) */
+.diagram-zoom-wrap {
+  position: relative;
+}
+.diagram-zoom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.3rem 0.7rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border-color);
+  background: var(--md-default-bg-color--light);
+  color: var(--md-primary-fg-color--light);
+  cursor: pointer;
+  opacity: 1; /* siempre visible: el hover-only pasaba desapercibido */
+  transition: background-color 180ms ease-in-out, box-shadow 180ms ease-in-out;
+  z-index: 2;
+}
+.mermaid:hover .diagram-zoom-btn,
+.mermaid:focus-within .diagram-zoom-btn {
+  box-shadow: 0 4px 14px rgba(2, 105, 55, 0.25);
+}
+.diagram-zoom-btn:hover {
+  background: #026937;
+  color: #FFFFFF;
+  border-color: #026937;
+}
+
+/* Modal de diagrama ampliado: ocupa casi toda la ventana para que el
+   diagrama se vea LITERALMENTE grande (no reducido). El nodo .mermaid
+   real se mueve aquí dentro; se fuerza a ancho completo y su SVG a
+   filling width (sin el max-width:100% que lo encogía). A-/A+ escalan
+   desde ese tamaño base con transform. */
+dialog.diagram-lightbox {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0;
+  width: min(1400px, 96vw);
+  max-width: 96vw;
+  height: min(88vh, 900px);
+  max-height: 92vh;
+  background: var(--card-bg);
+  color: var(--md-default-fg-color);
+}
+dialog.diagram-lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+.diagram-lightbox-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 1.1rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--md-default-bg-color--light);
+}
+.diagram-lightbox-head strong {
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.diagram-lightbox-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+.diagram-lightbox-actions button {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35rem 0.8rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border-color);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
+.diagram-lightbox-actions button:hover {
+  background: #026937;
+  color: #FFFFFF;
+  border-color: #026937;
+}
+.diagram-lightbox-body {
+  overflow: auto;
+  padding: 1.5rem;
+  height: calc(100% - 58px);
+  max-height: calc(92vh - 58px);
+  display: block;
+}
+.diagram-lightbox-scaler {
+  transform-origin: top center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+}
+/* El diagrama dentro del modal: ancho completo real, sin márgenes que
+   lo encojan. El SVG interno llena el cuerpo del modal. */
+dialog.diagram-lightbox .diagram-zoom-wrap {
+  position: static;
+}
+dialog.diagram-lightbox .mermaid {
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 1.5rem !important;
+}
+dialog.diagram-lightbox .mermaid svg {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+}
+/* El botón flotante "Ampliar" no tiene sentido dentro del modal */
+dialog.diagram-lightbox .diagram-zoom-btn {
+  display: none !important;
+}
