@@ -40,7 +40,7 @@ flowchart LR
 
 1. **Gestión de Compromisos Académicos y Tecnológicos ([Gestión de Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)):**
    - Cuando un proyecto en SIIU reporta productos tecnológicos (prototipos, patentes, software registrado), estos pueden postularse ante la Vicerrectoría de Extensión / Innovación para ruta de transferencia.
-2. **Propiedad Intelectual ([Acuerdo Superior 086 de 1996](AS_086_1996.md)):**
+2. **Propiedad Intelectual ([Acuerdo Superior 086 de 1996](AS_086_1996_Profesores_Catedra_Proyectos.md)):**
    - La titularidad institucional de las patentes y derechos patrimoniales se articula con la opción de licenciamiento hacia la Spin-off creada por el equipo investigador.
 3. **Rol del Investigador ([Rol Investigador](../01_ROLES/Rol_Investigador.md)):**
    - Permite al docente universitario transitar de la investigación pura al emprendimiento de base científica con total blindaje jurídico.

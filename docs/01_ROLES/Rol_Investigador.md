@@ -62,6 +62,7 @@ flowchart TD
 ---
 
 ## :material-link: Guías Detalladas de Interés
+- [Ecosistema de Comités y Gobernanza](Ecosistema_Comites_Gobernanza.md): Interacción con Comité de Departamento, Comité Técnico y Consejo de Facultad.
 - [Matricula Proyectos](../02_PROCESOS_CLAVE/Matricula_Proyectos.md): Paso a paso de inscripción en convocatorias y proyectos inscritos.
 - [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#subsanacion-y-ajustes-de-proyectos-devueltos): Cómo responder al Centro si devuelven tu proyecto.
 - [Programa Joven Investigador](../02_PROCESOS_CLAVE/Programa_Joven_Investigador.md): Guía completa de cupos, hojas de vida y prórrogas de JI.

@@ -70,10 +70,11 @@ markdown_extensions:
 nav:
   - Inicio: index.md
   - Empieza aquí (5 min): inicio-rapido.md
-  - Roles Operativos:
+  - Roles y Gobernanza:
       - Investigador Principal y Tutor: 01_ROLES/Rol_Investigador.md
       - Centro de Investigación / Extensión: 01_ROLES/Rol_Centro_Investigacion.md
       - Vicerrectoría de Investigación: 01_ROLES/Rol_Vicerrectoria.md
+      - Ecosistema de Comités y Gobernanza: 01_ROLES/Ecosistema_Comites_Gobernanza.md
   - Procesos Clave:
       - Matrícula de Proyectos: 02_PROCESOS_CLAVE/Matricula_Proyectos.md
       - Evaluación Técnica y Aval: 02_PROCESOS_CLAVE/Evaluacion_y_Aval.md
@@ -90,27 +91,27 @@ nav:
       - Reportes y Constancias: 00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md
   - Marco Normativo Institucional:
       - Índice General Normativo: 00_INICIO_Y_MOCS/MOC_Marco_Normativo.md
-      - Estatuto General (AS 01/1994): 05_MARCO_NORMATIVO/AS_01_1994_Estatuto_General.md
-      - Estatuto Profesoral (AS 083/1996): 05_MARCO_NORMATIVO/AS_083_1996_Estatuto_Profesoral.md
-      - Profesores de Cátedra (AS 086/1996): 05_MARCO_NORMATIVO/AS_086_1996_Profesores_Catedra_Proyectos.md
-      - Estatuto Presupuestal (AS 121/1997): 05_MARCO_NORMATIVO/AS_121_1997_Estatuto_Presupuestal.md
-      - Estatuto de Extensión (AS 124/1997): 05_MARCO_NORMATIVO/AS_124_1997_Estatuto_Extension.md
-      - Sistema de Investigación (AS 204/2001): 05_MARCO_NORMATIVO/AS_204_2001_Sistema_Universitario_Investigacion.md
-      - Cátedra y Ocasionales (AS 253/2003): 05_MARCO_NORMATIVO/AS_253_2003_Docentes_Catedra_Ocasionales.md
-      - Gestión Tecnológica (AS 284/2004): 05_MARCO_NORMATIVO/AS_284_2004_Gestion_Tecnologica.md
-      - Propiedad Intelectual 2005 (RR 21231/2005): 05_MARCO_NORMATIVO/RR_21231_2005_Estatuto_Propiedad_Intelectual.md
-      - Estatuto Financiero Histórico (AS 350/2007): 05_MARCO_NORMATIVO/AS_350_2007_Estatuto_Financiero.md
-      - Política de Prácticas (AS 418/2014): 05_MARCO_NORMATIVO/AS_418_2014_Politica_Practicas.md
-      - Estatuto de Contratación (AS 419/2014): 05_MARCO_NORMATIVO/AS_419_2014_Estatuto_Contratacion.md
-      - Reglamento de Contratación (RR 39475/2014): 05_MARCO_NORMATIVO/RR_39475_2014_Reglamento_Contratacion.md
-      - Referente Ético (RR 39477/2014): 05_MARCO_NORMATIVO/RR_39477_2014_Referente_Etico.md
-      - Manual de Interventoría (DJ-MA-02): 05_MARCO_NORMATIVO/DJ_MA_02_Manual_Interventoria.md
-      - Ley de Spin-offs (Ley 1838/2017): 05_MARCO_NORMATIVO/Ley_1838_2017_Spinoffs.md
-      - Política de Acceso Abierto (AS 451/2018): 05_MARCO_NORMATIVO/AS_451_2018_Politica_Acceso_Abierto.md
-      - Estatuto Financiero Vigente (AS 466/2020): 05_MARCO_NORMATIVO/AS_466_2020_Estatuto_Financiero_Vigente.md
-      - Estatuto de Propiedad Intelectual (RR 49544/2022): 05_MARCO_NORMATIVO/RR_49544_2022_Nuevo_Estatuto_PI.md
-      - Ajustes Operativos SIIU (RR 51525/2024): 05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md
-      - Modernización Universitaria (RR 00968/2026): 05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md
+      - Acuerdo Superior 01 de 1994 — Estatuto General: 05_MARCO_NORMATIVO/AS_01_1994_Estatuto_General.md
+      - Acuerdo Superior 083 de 1996 — Estatuto Profesoral: 05_MARCO_NORMATIVO/AS_083_1996_Estatuto_Profesoral.md
+      - Acuerdo Superior 086 de 1996 — Profesores de Cátedra en Proyectos: 05_MARCO_NORMATIVO/AS_086_1996_Profesores_Catedra_Proyectos.md
+      - Acuerdo Superior 121 de 1997 — Estatuto Presupuestal: 05_MARCO_NORMATIVO/AS_121_1997_Estatuto_Presupuestal.md
+      - Acuerdo Superior 124 de 1997 — Estatuto de Extensión: 05_MARCO_NORMATIVO/AS_124_1997_Estatuto_Extension.md
+      - Acuerdo Superior 204 de 2001 — Sistema Universitario de Investigación: 05_MARCO_NORMATIVO/AS_204_2001_Sistema_Universitario_Investigacion.md
+      - Acuerdo Superior 253 de 2003 — Docentes de Cátedra y Ocasionales: 05_MARCO_NORMATIVO/AS_253_2003_Docentes_Catedra_Ocasionales.md
+      - Acuerdo Superior 284 de 2004 — Gestión Tecnológica e Innovación: 05_MARCO_NORMATIVO/AS_284_2004_Gestion_Tecnologica.md
+      - Resolución Rectoral 21231 de 2005 — Estatuto de Propiedad Intelectual: 05_MARCO_NORMATIVO/RR_21231_2005_Estatuto_Propiedad_Intelectual.md
+      - Acuerdo Superior 350 de 2007 — Estatuto Financiero Histórico: 05_MARCO_NORMATIVO/AS_350_2007_Estatuto_Financiero.md
+      - Acuerdo Superior 418 de 2014 — Política de Prácticas Académicas: 05_MARCO_NORMATIVO/AS_418_2014_Politica_Practicas.md
+      - Acuerdo Superior 419 de 2014 — Estatuto General de Contratación: 05_MARCO_NORMATIVO/AS_419_2014_Estatuto_Contratacion.md
+      - Resolución Rectoral 39475 de 2014 — Reglamento de Contratación: 05_MARCO_NORMATIVO/RR_39475_2014_Reglamento_Contratacion.md
+      - Resolución Rectoral 39477 de 2014 — Referente Ético e Integridad: 05_MARCO_NORMATIVO/RR_39477_2014_Referente_Etico.md
+      - Manual DJ-MA-02 — Manual de Interventoría y Supervisión: 05_MARCO_NORMATIVO/DJ_MA_02_Manual_Interventoria.md
+      - Ley 1838 de 2017 — Creación de Spin-offs Universitarias: 05_MARCO_NORMATIVO/Ley_1838_2017_Spinoffs.md
+      - Acuerdo Superior 451 de 2018 — Política de Acceso Abierto: 05_MARCO_NORMATIVO/AS_451_2018_Politica_Acceso_Abierto.md
+      - Acuerdo Superior 466 de 2020 — Estatuto Financiero Vigente: 05_MARCO_NORMATIVO/AS_466_2020_Estatuto_Financiero_Vigente.md
+      - Resolución Rectoral 49544 de 2022 — Nuevo Estatuto de Propiedad Intelectual: 05_MARCO_NORMATIVO/RR_49544_2022_Nuevo_Estatuto_PI.md
+      - Resolución Rectoral 51525 de 2024 — Ajustes Operativos al SIIU: 05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md
+      - Resolución Rectoral 00968 de 2026 — Modernización Universitaria: 05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md
   - Archivo Maestro Fidedigno:
       - Índice de Guías e Instructivos: archivo_maestro/index.md
       - Índice de Normas (LEG): archivo_maestro/legalidad/index.md

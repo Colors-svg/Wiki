@@ -106,5 +106,5 @@ Cuando el contrato o la orden de servicio supera los 50 SMMLV o involucra antici
 - **Norma Superior:** [Acuerdo Superior 419 de 2014 — Estatuto de Contratación](AS_419_2014_Estatuto_Contratacion.md)
 - **Manual Operativo Vinculado:** [DJ-MA-02 — Manual de Interventoría](DJ_MA_02_Manual_Interventoria.md)
 - **Norma Financiera:** [Acuerdo Superior 466 de 2020 — Estatuto Financiero Vigente](AS_466_2020_Estatuto_Financiero_Vigente.md)
-- **Procedimientos SIIU:** [Gestión de Compras e Insumos en Proyectos](../02_PROCESOS_CLAVE/Gestion_Compras_SIIU.md)
+- **Procedimientos SIIU:** [Modificaciones y Trámites Administrativos](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)
 - **Mapa Normativo Central:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
