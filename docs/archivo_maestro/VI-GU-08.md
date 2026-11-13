@@ -30,16 +30,16 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
-2. [Políticas](#2-políticas)
+1. [Definición](#1-definicion)
+2. [Políticas](#2-politicas)
 3. [Contenido](#3-contenido)
    - 3.1. [Usuarios que intervienen en el proceso](#31-usuarios-que-intervienen-en-el-proceso)
    - 3.2. [Ingreso al SIIU](#32-ingreso-al-siiu)
-   - 3.3. [Proceso de evaluación técnica de proyectos](#33-proceso-de-evaluación-técnica-de-proyectos)
-     - 3.3.1. [Autorización de actualización de proyecto](#331-autorización-de-actualización-de-proyecto)
-       - 3.3.1.1. [Ampliar el plazo de la actualización del proyecto](#3311-ampliar-el-plazo-de-la-actualización-del-proyecto)
+   - 3.3. [Proceso de evaluación técnica de proyectos](#33-proceso-de-evaluacion-tecnica-de-proyectos)
+     - 3.3.1. [Autorización de actualización de proyecto](#331-autorizacion-de-actualizacion-de-proyecto)
+       - 3.3.1.1. [Ampliar el plazo de la actualización del proyecto](#3311-ampliar-el-plazo-de-la-actualizacion-del-proyecto)
    - 3.4. [Revisar proyecto actualizado](#34-revisar-proyecto-actualizado)
-   - 3.5. [Asignar Evaluación científica](#35-asignar-evaluación-científica)
+   - 3.5. [Asignar Evaluación científica](#35-asignar-evaluacion-cientifica)
      - 3.5.1.1. [Asignar Evaluadores](#3511-asignar-evaluadores)
      - 3.5.1.2. [Agregar evaluador existente](#3512-agregar-evaluador-existente)
    - 3.6. [Dar Aval al proyecto por parte del centro](#36-dar-aval-al-proyecto-por-parte-del-centro)

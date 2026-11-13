@@ -34,16 +34,16 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
-   - 2.1. [Requisitos para crear solicitud Prórroga](#21-requisitos-para-crear-solicitud-prórroga)
+   - 2.1. [Requisitos para crear solicitud Prórroga](#21-requisitos-para-crear-solicitud-prorroga)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
-   - 2.4. [Trámites administrativos](#24-trámites-administrativos)
-   - 2.5. [Solicitud de prórroga para proyectos](#25-solicitud-de-prórroga-para-proyectos)
-     - 2.5.1. [Pestaña Actividades de prórroga](#251-pestaña-actividades-de-prórroga)
-     - 2.5.2. [Pestaña Condiciones formales](#252-pestaña-condiciones-formales)
-     - 2.5.3. [Pestaña Documento Soporte](#253-pestaña-documento-soporte)
+   - 2.4. [Trámites administrativos](#24-tramites-administrativos)
+   - 2.5. [Solicitud de prórroga para proyectos](#25-solicitud-de-prorroga-para-proyectos)
+     - 2.5.1. [Pestaña Actividades de prórroga](#251-pestana-actividades-de-prorroga)
+     - 2.5.2. [Pestaña Condiciones formales](#252-pestana-condiciones-formales)
+     - 2.5.3. [Pestaña Documento Soporte](#253-pestana-documento-soporte)
      - 2.5.4. [Enviar solicitud](#254-enviar-solicitud)
      - 2.5.5. [Editar Solicitud](#255-editar-solicitud)
 3. [Nota de cambio](#3-nota-de-cambio)

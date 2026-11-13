@@ -30,17 +30,17 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para Asignar evaluadores al SIIU](#21-requisitos-para-asignar-evaluadores-al-siiu)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingresar al SIIU](#23-ingresar-al-siiu)
-   - 2.4. [Asignar Evaluación científica](#24-asignar-evaluación-científica)
+   - 2.4. [Asignar Evaluación científica](#24-asignar-evaluacion-cientifica)
    - 2.5. [Asignar Evaluadores](#25-asignar-evaluadores)
-     - 2.5.1. [Opción Editar](#251-opción-editar)
-     - 2.5.2. [Opción Eliminar](#252-opción-eliminar)
-     - 2.5.3. [Opción Actualizar información de evaluador](#253-opción-actualizar-información-de-evaluador)
-     - 2.5.4. [Opción Enviar correo con manual](#254-opción-enviar-correo-con-manual)
+     - 2.5.1. [Opción Editar](#251-opcion-editar)
+     - 2.5.2. [Opción Eliminar](#252-opcion-eliminar)
+     - 2.5.3. [Opción Actualizar información de evaluador](#253-opcion-actualizar-informacion-de-evaluador)
+     - 2.5.4. [Opción Enviar correo con manual](#254-opcion-enviar-correo-con-manual)
    - 2.6. [Agregar Evaluador](#26-agregar-evaluador)
      - 2.6.1. [Evaluador no registrado en SIIU](#261-evaluador-no-registrado-en-siiu)
      - 2.6.2. [Agregar evaluador existente](#262-agregar-evaluador-existente)

@@ -35,20 +35,20 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para crear solicitud cambio de participante](#21-requisitos-para-crear-solicitud-cambio-de-participante)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
-   - 2.3. [Trámites administrativos](#23-trámites-administrativos)
+   - 2.3. [Trámites administrativos](#23-tramites-administrativos)
      - 2.3.1. [Ingreso al SIIU](#231-ingreso-al-siiu)
      - 2.3.2. [Conceptos de Solicitud vs. Novedad](#232-conceptos-de-solicitud-vs-novedad)
-     - 2.3.3. [Filtros de búsqueda y opciones de trámite](#233-filtros-de-búsqueda-y-opciones-de-trámite)
+     - 2.3.3. [Filtros de búsqueda y opciones de trámite](#233-filtros-de-busqueda-y-opciones-de-tramite)
    - 2.4. [Solicitud Cambio de Participante](#24-solicitud-cambio-de-participante)
      - 2.4.1. [Retirar participante](#241-retirar-participante)
      - 2.4.2. [Ingresar participante](#242-ingresar-participante)
-     - 2.4.3. [Cambio de %P&B (porcentaje participación y beneficio)](#243-cambio-de-pb-porcentaje-participación-y-beneficio)
+     - 2.4.3. [Cambio de %P&B (porcentaje participación y beneficio)](#243-cambio-de-pb-porcentaje-participacion-y-beneficio)
      - 2.4.4. [Cambio de funciones del participante](#244-cambio-de-funciones-del-participante)
-     - 2.4.5. [Pestaña Condiciones formales y generación de respaldo](#245-pestaña-condiciones-formales-y-generación-de-respaldo)
+     - 2.4.5. [Pestaña Condiciones formales y generación de respaldo](#245-pestana-condiciones-formales-y-generacion-de-respaldo)
 3. [Nota de cambio](#3-nota-de-cambio)
 4. [Registro de Control y Firmas](#registro-de-control-y-firmas)
 

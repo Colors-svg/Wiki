@@ -29,13 +29,13 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para cambiar el responsable del proyecto](#21-requisitos-para-cambiar-el-responsable-del-proyecto)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingresar al SIIU](#23-ingresar-al-siiu)
    - 2.4. [Cambiar responsable de proyecto](#24-cambiar-responsable-de-proyecto)
-   - 2.5. [Ver histórico de cambios de responsable aplicados](#25-ver-histórico-de-cambios-de-responsable-aplicados)
+   - 2.5. [Ver histórico de cambios de responsable aplicados](#25-ver-historico-de-cambios-de-responsable-aplicados)
 3. [Nota de cambio](#3-nota-de-cambio)
 
 ---
