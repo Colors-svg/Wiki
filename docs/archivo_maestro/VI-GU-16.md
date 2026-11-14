@@ -32,17 +32,17 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
-   - 2.1. [Requisitos para la matrícula de la información complementaria en los proyectos](#21-requisitos-para-la-matrícula-de-la-información-complementaria-en-los-proyectos)
+   - 2.1. [Requisitos para la matrícula de la información complementaria en los proyectos](#21-requisitos-para-la-matricula-de-la-informacion-complementaria-en-los-proyectos)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
-   - 2.4. [Matrícula de información complementaria para los proyectos](#24-matrícula-de-información-complementaria-para-los-proyectos)
-     - 2.4.1. [Agregar los objetivos de desarrollo sostenible (ODS)](#agregar-los-objetivos-de-desarrollo-sostenible--ods)
-     - 2.4.2. [Agregar focos de la Misión de Sabios](#agregar-focos-de-la-misión-de-sabios)
+   - 2.4. [Matrícula de información complementaria para los proyectos](#24-matricula-de-informacion-complementaria-para-los-proyectos)
+     - 2.4.1. [Agregar los objetivos de desarrollo sostenible (ODS)](#agregar-los-objetivos-de-desarrollo-sostenible-ods)
+     - 2.4.2. [Agregar focos de la Misión de Sabios](#agregar-focos-de-la-mision-de-sabios)
      - 2.4.3. [Agregar Agenda G8](#agregar-agenda-g8)
-     - 2.4.4. [Agregar objetivo socioeconómico](#agregar-objetivo-socioeconómico)
-     - 2.4.5. [Guardar y continuar con la matrícula](#guardar-y-continuar-con-la-matrícula)
+     - 2.4.4. [Agregar objetivo socioeconómico](#agregar-objetivo-socioeconomico)
+     - 2.4.5. [Guardar y continuar con la matrícula](#guardar-y-continuar-con-la-matricula)
 3. [Nota de cambio](#3-nota-de-cambio)
 4. [Registro de Control y Firmas](#registro-de-control-y-firmas)
 

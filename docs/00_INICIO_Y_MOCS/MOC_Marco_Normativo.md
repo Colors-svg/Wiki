@@ -15,7 +15,7 @@
 Toda actuación técnica, presupuestal, administrativa o contractual adelantada en el **SIIU** por investigadores, evaluadores, centros o vicerrectorías se fundamenta en la siguiente jerarquía piramidal:
 
 ```mermaid
-graph TD
+flowchart TD
     N1["<b>NIVEL 1: Leyes de la República</b><br/>Ley 1838 de 2017 (Spin-offs Universitarias)"]
     
     N2["<b>NIVEL 2: Estatutos y Políticas del Consejo Superior Universitario (CSU)</b><br/>• AS 01/1994 (Estatuto General) • AS 083/1996 (Estatuto Profesoral)<br/>• AS 204/2001 (Sistema SUI y CODI) • AS 419/2014 (Estatuto de Contratación)<br/>• AS 451/2018 (Política de Acceso Abierto) • AS 466/2020 (Estatuto Financiero Vigente)"]
@@ -66,7 +66,7 @@ A continuación se relacionan los 21 actos normativos compilados, con acceso dir
 A continuación se detalla qué norma habilita, regula o restringe cada paso del ciclo operativo de un proyecto de investigación en el SIIU:
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph Tramites_SIIU[Módulos y Trámites en SIIU]
         T1[Matrícula de Proyecto y Aval]
         T2[Acta de Inicio y Registro PI]

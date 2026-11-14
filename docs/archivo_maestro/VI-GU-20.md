@@ -35,20 +35,20 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para crear solicitud cambio de rubro](#21-requisitos-para-crear-solicitud-cambio-de-rubro)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
-   - 2.4. [Trámites administrativos](#24-trámites-administrativos)
+   - 2.4. [Trámites administrativos](#24-tramites-administrativos)
    - 2.5. [Solicitud Cambio de Rubro](#25-solicitud-cambio-de-rubro)
-     - 2.5.1. [Opción Ver disponibilidad por período](#251-opción-ver-disponibilidad-por-período)
-     - 2.5.2. [Opción Rubro origen](#252-opción-rubro-origen)
-     - 2.5.3. [Opción Rubro destino](#253-opción-rubro-destino)
-     - 2.5.4. [Opción Agregar rubro ++](#254-opción-agregar-rubro-)
-     - 2.5.5. [Opción Agregar subrubro ++](#255-opción-agregar-subrubro-)
-     - 2.5.6. [Pestaña Condiciones Formales](#256-pestaña-condiciones-formales)
-     - 2.5.7. [Pestaña Adjuntar Documento](#257-pestaña-adjuntar-documento)
+     - 2.5.1. [Opción Ver disponibilidad por período](#251-opcion-ver-disponibilidad-por-periodo)
+     - 2.5.2. [Opción Rubro origen](#252-opcion-rubro-origen)
+     - 2.5.3. [Opción Rubro destino](#253-opcion-rubro-destino)
+     - 2.5.4. [Opción Agregar rubro](#254-opcion-agregar-rubro)
+     - 2.5.5. [Opción Agregar subrubro](#255-opcion-agregar-subrubro)
+     - 2.5.6. [Pestaña Condiciones Formales](#256-pestana-condiciones-formales)
+     - 2.5.7. [Pestaña Adjuntar Documento](#257-pestana-adjuntar-documento)
    - 2.6. [Enviar solicitud](#26-enviar-solicitud)
    - 2.7. [Editar Solicitud](#27-editar-solicitud)
 3. [Nota de cambio](#3-nota-de-cambio)
@@ -286,7 +286,7 @@ Una vez presionado el botón *Guardar*, el sistema muestra el mensaje *"Creado e
 
 ---
 
-#### 2.5.4 Opción Agregar rubro ++
+#### 2.5.4. Opción Agregar rubro
 
 Esta opción permite agregar un **nuevo rubro padre** al proyecto.
 - Tenga en cuenta que el nuevo rubro debe estar contemplado en el marco de la convocatoria a la cual pertenece el proyecto, o ser un rubro financiable para el caso de proyectos inscritos.
@@ -309,7 +309,7 @@ Esta opción permite agregar un **nuevo rubro padre** al proyecto.
 
 ---
 
-#### 2.5.5 Opción Agregar subrubro ++
+#### 2.5.5. Opción Agregar subrubro
 
 Esta opción permite crear **rubros hijos (subrubros)** para discriminar gastos detallados:
 - **Condición**: El rubro padre debe existir y tener disponibilidad presupuestal mayor a \$0.

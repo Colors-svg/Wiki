@@ -26,20 +26,20 @@ El **Estatuto General (Acuerdo Superior 01 de 1994)** define a la Universidad de
 ## 2. Mapa de Gobernanza y Órganos de Dirección
 
 ```mermaid
-graph TD
-    CSU["Consejo Superior Universitario (CSU)\n- Máximo Órgano de Gobierno y Dirección (Art. 29)\n- Aprueba Estatutos, Presupuesto y Crea Unidades"]
+flowchart TD
+    CSU["Consejo Superior Universitario (CSU)<br/>• Máximo Órgano de Gobierno y Dirección (Art. 29)<br/>• Aprueba Estatutos, Presupuesto y Crea Unidades"]
     
-    Rector["Rectoría\n- Primera Autoridad Ejecutiva y Representante Legal (Art. 40)\n- Ordenación General del Gasto y Contratación"]
+    Rector["Rectoría<br/>• Primera Autoridad Ejecutiva y Representante Legal (Art. 40)<br/>• Ordenación General del Gasto y Contratación"]
     
-    Acad["Consejo Académico\n- Máxima Autoridad Académica (Art. 34)\n- Aprueba Planes Curriculares, I+D y Posgrados"]
+    Acad["Consejo Académico<br/>• Máxima Autoridad Académica (Art. 34)<br/>• Aprueba Planes Curriculares, I+D y Posgrados"]
     
-    CODI["Comité para el Desarrollo de la Investigación (CODI)\n(Comité Asesor del Consejo Académico - Art. 38)"]
+    CODI["Comité para el Desarrollo de la Investigación (CODI)<br/>(Comité Asesor del Consejo Académico - Art. 38)"]
     
-    Decanos["Decanos de Facultad\n- Representantes del Rector (Art. 51)\n- Ordenadores del Gasto Delegados (Art. 53)"]
+    Decanos["Decanos de Facultad<br/>• Representantes del Rector (Art. 51)<br/>• Ordenadores del Gasto Delegados (Art. 53)"]
     
-    CF["Consejos de Facultad\n- Autoridad Académica Seccional (Art. 57)\n- Aprueba Planes de I+D y avala Proyectos"]
+    CF["Consejos de Facultad<br/>• Autoridad Académica Seccional (Art. 57)<br/>• Aprueba Planes de I+D y avala Proyectos"]
     
-    Centros["Centros de Investigación y Extensión (Art. 74)\n- Administran proyectos y recursos en SIIU"]
+    Centros["Centros de Investigación y Extensión (Art. 74)<br/>• Administran proyectos y recursos en SIIU"]
 
     CSU --> Rector
     CSU --> Acad
@@ -104,4 +104,4 @@ El Estatuto General es la matriz de habilitación de todas las normas reglamenta
 
 - **Transcripción Fidedigna:** [LEG-AS-01-1994](../archivo_maestro/legalidad/LEG-AS-01-1994.md)
 - **Mapa de Contenido:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
-- **Estructura de Roles:** [Roles en el SIIU](../01_ROLES/Investigador_Principal.md)
+- **Estructura de Roles:** [Rol del Investigador Principal](../01_ROLES/Rol_Investigador.md) | [Rol del Centro de Investigación](../01_ROLES/Rol_Centro_Investigacion.md) | [Rol de la Vicerrectoría](../01_ROLES/Rol_Vicerrectoria.md)

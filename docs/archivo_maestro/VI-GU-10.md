@@ -31,18 +31,18 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
-2. [Políticas](#2-políticas)
+1. [Definición](#1-definicion)
+2. [Políticas](#2-politicas)
 3. [Contenido](#3-contenido)
    - 3.1. [Usuarios que Intervienen](#31-usuarios-que-intervienen)
-   - 3.2. [Proceso de ejecución del trámite](#32-proceso-de-ejecución-del-trámite)
-     - 3.2.1. [Ingresar a la aplicación SIIU](#321-ingresar-a-la-aplicación-siiu)
-     - 3.2.2. [Ingreso al registro del cupo y el Plan de trabajo Joven Investigador – JI -](#322-ingreso-al-registro-del-cupo-y-el-plan-de-trabajo-joven-investigador--ji-)
-     - 3.2.3. [Pestaña Información General](#323-pestaña-información-general)
-     - 3.2.4. [Pestaña Descripción / Cronograma](#324-pestaña-descripción--cronograma)
-     - 3.2.5. [Pestaña Presupuesto](#325-pestaña-presupuesto)
-     - 3.2.6. [Pestaña Plan de trabajo](#326-pestaña-plan-de-trabajo)
-     - 3.2.7. [Pestaña Participantes](#327-pestaña-participantes)
+   - 3.2. [Proceso de ejecución del trámite](#32-proceso-de-ejecucion-del-tramite)
+     - 3.2.1. [Ingresar a la aplicación SIIU](#321-ingresar-a-la-aplicacion-siiu)
+     - 3.2.2. [Ingreso al registro del cupo y el Plan de trabajo Joven Investigador – JI -](#322-ingreso-al-registro-del-cupo-y-el-plan-de-trabajo-joven-investigador-ji-)
+     - 3.2.3. [Pestaña Información General](#323-pestana-informacion-general)
+     - 3.2.4. [Pestaña Descripción / Cronograma](#324-pestana-descripcion-cronograma)
+     - 3.2.5. [Pestaña Presupuesto](#325-pestana-presupuesto)
+     - 3.2.6. [Pestaña Plan de trabajo](#326-pestana-plan-de-trabajo)
+     - 3.2.7. [Pestaña Participantes](#327-pestana-participantes)
      - 3.2.8. [Compromisos y Condiciones](#328-compromisos-y-condiciones)
 4. [Nota de cambio](#4-nota-de-cambio)
 

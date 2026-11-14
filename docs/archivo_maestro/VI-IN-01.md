@@ -33,10 +33,10 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Ingresar al SIIU](#21-ingresar-al-siiu)
-   - 2.2. [Constancias de proyectos por grupos de investigación](#22-constancias-de-proyectos-por-grupos-de-investigación)
+   - 2.2. [Constancias de proyectos por grupos de investigación](#22-constancias-de-proyectos-por-grupos-de-investigacion)
 3. [Nota de cambio](#3-nota-de-cambio)
 4. [Registro de Control y Firmas](#registro-de-control-y-firmas)
 

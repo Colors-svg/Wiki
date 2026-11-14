@@ -31,20 +31,20 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para Avalar Solicitudes Administrativas](#21-requisitos-para-avalar-solicitudes-administrativas)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
    - 2.4. [Avalar Solicitudes administrativas](#24-avalar-solicitudes-administrativas)
      - 2.4.1. [Ver recomendaciones](#241-ver-recomendaciones)
-     - 2.4.2. [Pestaña Historial](#242-pestaña-historial)
-     - 2.4.3. [Pestaña Condiciones Formales](#243-pestaña-condiciones-formales)
-     - 2.4.4. [Pestaña Adjuntar documento](#244-pestaña-adjuntar-documento)
+     - 2.4.2. [Pestaña Historial](#242-pestana-historial)
+     - 2.4.3. [Pestaña Condiciones Formales](#243-pestana-condiciones-formales)
+     - 2.4.4. [Pestaña Adjuntar documento](#244-pestana-adjuntar-documento)
      - 2.4.5. [Enviar solicitud](#245-enviar-solicitud)
-   - 2.5. [Aplicar Solicitud Administrativa: Centros de Investigación](#25-aplicar-solicitud-administrativa-centros-de-investigación)
+   - 2.5. [Aplicar Solicitud Administrativa: Centros de Investigación](#25-aplicar-solicitud-administrativa-centros-de-investigacion)
      - 2.5.1. [Aplicar solicitud cambio de rubro](#251-aplicar-solicitud-cambio-de-rubro)
-     - 2.5.2. [Aplicar Solicitud de prórroga](#252-aplicar-solicitud-de-prórroga)
+     - 2.5.2. [Aplicar Solicitud de prórroga](#252-aplicar-solicitud-de-prorroga)
      - 2.5.3. [Ver Solicitud Aplicada: Investigador Principal o responsable](#253-ver-solicitud-aplicada-investigador-principal-o-responsable)
 3. [Nota de cambio](#3-nota-de-cambio)
 

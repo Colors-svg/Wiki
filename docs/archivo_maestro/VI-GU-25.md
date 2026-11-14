@@ -33,18 +33,18 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para el uso del CKEditor](#21-requisitos-para-el-uso-del-ckeditor)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
-   - 2.3. [Menú de Opciones del Editor](#23-menú-de-opciones-del-editor)
-   - 2.4. [¿Cómo insertar una ecuación?](#24-cómo-insertar-una-ecuación)
-   - 2.5. [Insertar fórmula](#25-insertar-fórmula)
-   - 2.6. [Agregar color a una fórmula](#26-agregar-color-a-una-fórmula)
-   - 2.7. [Agregar espacio a una fórmula](#27-agregar-espacio-a-una-fórmula)
+   - 2.3. [Menú de Opciones del Editor](#23-menu-de-opciones-del-editor)
+   - 2.4. [¿Cómo insertar una ecuación?](#24-como-insertar-una-ecuacion)
+   - 2.5. [Insertar fórmula](#25-insertar-formula)
+   - 2.6. [Agregar color a una fórmula](#26-agregar-color-a-una-formula)
+   - 2.7. [Agregar espacio a una fórmula](#27-agregar-espacio-a-una-formula)
    - 2.8. [Agregar matrices](#28-agregar-matrices)
-   - 2.9. [Editar una ecuación](#29-editar-una-ecuación)
-   - 2.10. [Agregar imágenes](#210-agregar-imágenes)
+   - 2.9. [Editar una ecuación](#29-editar-una-ecuacion)
+   - 2.10. [Agregar imágenes](#210-agregar-imagenes)
 3. [Nota de cambio](#3-nota-de-cambio)
 4. [Registro de Control y Firmas](#registro-de-control-y-firmas)
 

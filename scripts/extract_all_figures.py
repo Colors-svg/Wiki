@@ -1,43 +1,10 @@
 import os
 import re
-import hashlib
 import pymupdf
-
-try:
-    import numpy as np
-    from PIL import Image
-    import io as _io
-    _HAS_IMG = True
-except Exception:
-    _HAS_IMG = False
+from PIL import Image
 
 PDF_DIR = "fuentes_pdf"
 OUTPUT_BASE = "docs/assets/figuras"
-
-# Fondos de respaldo de las guias (rectangulos verdes detras de las capturas)
-# y cajas negras/blancas: se descartan para no desplazar la numeracion.
-_BACKING_GREEN = (146, 208, 80)
-
-
-def _es_respaldo(img_bytes):
-    """True si la imagen es un rectangulo casi-solido (fondo, no captura)."""
-    if not _HAS_IMG:
-        return False
-    try:
-        im = Image.open(_io.BytesIO(img_bytes)).convert("RGB")
-    except Exception:
-        return False
-    a = np.asarray(im).reshape(-1, 3)
-    if len(a) > 80000:
-        a = a[np.linspace(0, len(a) - 1, 80000).astype(int)]
-    colors, counts = np.unique(a.reshape(-1, 3), axis=0, return_counts=True)
-    top = counts.max() / counts.sum()
-    dom = tuple(int(x) for x in colors[counts.argmax()])
-    if top >= 0.90 and all(abs(d - b) < 50 for d, b in zip(dom, _BACKING_GREEN)):
-        return True
-    if top >= 0.97 and dom in ((0, 0, 0), (255, 255, 255)):
-        return True
-    return False
 
 os.makedirs(OUTPUT_BASE, exist_ok=True)
 
@@ -46,6 +13,18 @@ pdf_files = sorted([f for f in os.listdir(PDF_DIR) if f.startswith("VI-") and f.
 print(f"Total PDFs a procesar: {len(pdf_files)}")
 
 global_extracted = 0
+
+def rects_overlap(r1, r2):
+    # Intersection check
+    intersect = r1 & r2
+    if intersect.is_empty:
+        return False
+    # If intersection area is > 40% of smaller rect, they are overlapping layers
+    area_int = intersect.width * intersect.height
+    area_r1 = r1.width * r1.height
+    area_r2 = r2.width * r2.height
+    min_area = min(area_r1, area_r2)
+    return (area_int / min_area) > 0.4 if min_area > 0 else False
 
 for pdf_name in pdf_files:
     doc_code = os.path.splitext(pdf_name)[0]
@@ -59,7 +38,7 @@ for pdf_name in pdf_files:
         print(f"Error abriendo {pdf_name}: {e}")
         continue
 
-    # First pass: find all header/logo images that repeat across multiple pages
+    # First pass: identify repetitive header/footer/logo images across pages
     image_usage_count = {}
     for page in doc:
         seen_on_page = set()
@@ -69,18 +48,18 @@ for pdf_name in pdf_files:
                 seen_on_page.add(xref)
                 image_usage_count[xref] = image_usage_count.get(xref, 0) + 1
 
-    # Any image appearing on more than 2 pages is likely header/footer/logo
     repetitive_xrefs = {xref for xref, count in image_usage_count.items() if count > 2}
 
     fig_idx = 1
     extracted_doc_count = 0
 
     for page_idx, page in enumerate(doc):
-        image_list = page.get_images(full=True)
-        for img_info in image_list:
-            xref = img_info[0]
+        # We find meaningful images on this page
+        page_imgs = page.get_images(full=True)
+        valid_rects = []
 
-            # Skip header/footer/logos
+        for img in page_imgs:
+            xref = img[0]
             if xref in repetitive_xrefs:
                 continue
 
@@ -91,31 +70,55 @@ for pdf_name in pdf_files:
 
             w = base_img["width"]
             h = base_img["height"]
-            img_bytes = base_img["image"]
-
-            # Filter tiny icons, bullets, or separators (less than 80px or tiny size)
-            if w < 100 or h < 60 or len(img_bytes) < 1200:
+            if w < 100 or h < 50:
                 continue
 
-            # Aspect ratio sanity check: skip very thin divider lines
+            # Skip extreme aspect ratios
             if w / h > 18 or h / w > 18:
                 continue
 
-            # Skip backing rectangles (solid green/black/white boxes behind
-            # screenshots). They are not figures and shift the numbering.
-            if _es_respaldo(img_bytes):
+            rects = page.get_image_rects(xref)
+            for r in rects:
+                # Skip header/footer positions (e.g. y < 80 or y > 720 on standard letter)
+                if r.y1 < 75 or r.y0 > 710:
+                    continue
+                valid_rects.append(r)
+
+        if not valid_rects:
+            continue
+
+        # Group overlapping rects into composite clusters (merging background + green highlight layer)
+        clusters = []
+        for r in valid_rects:
+            merged = False
+            for c in clusters:
+                if rects_overlap(c, r):
+                    c |= r  # union bounding box
+                    merged = True
+                    break
+            if not merged:
+                clusters.append(pymupdf.Rect(r))
+
+        # Sort clusters by vertical position on the page (top to bottom)
+        clusters.sort(key=lambda r: (round(r.y0 / 20) * 20, r.x0))
+
+        for cluster_rect in clusters:
+            # Check cluster size
+            if cluster_rect.width < 80 or cluster_rect.height < 40:
                 continue
+
+            # Render the composite area directly from the page at 200 DPI
+            # This captures the base UI + any highlight boxes or green overlays merged with 100% fidelity
+            pix = page.get_pixmap(clip=cluster_rect, dpi=200)
 
             fig_filename = f"figura-{fig_idx:02d}.png"
             fig_path = os.path.join(doc_out_dir, fig_filename)
-
-            with open(fig_path, "wb") as f_out:
-                f_out.write(img_bytes)
+            pix.save(fig_path)
 
             fig_idx += 1
             extracted_doc_count += 1
             global_extracted += 1
 
-    print(f"[{doc_code}] Extraídas {extracted_doc_count} figuras.")
+    print(f"[{doc_code}] Extraídas y renderizadas {extracted_doc_count} figuras nítidas.")
 
-print(f"\nPROCESO COMPLETADO: {global_extracted} figuras extraídas en total.")
+print(f"\nPROCESO COMPLETADO: {global_extracted} figuras extraídas y compuestas correctamente.")

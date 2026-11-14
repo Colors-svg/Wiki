@@ -61,6 +61,7 @@ Cuando un proyecto no cumple con todas las condiciones formales en la revisión 
 ---
 
 ## :material-link: Guías Detalladas de Interés
+- [Ecosistema de Comités y Gobernanza](Ecosistema_Comites_Gobernanza.md): Competencias del Comité Técnico y articulación con Consejos y CODI.
 - [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md): Protocolo completo de evaluación técnica, devolución y asignación de pares.
 - [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aprobacion-en-centro): Cómo gestionar y aprobar solicitudes administrativas en el Centro.
 - [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md): Protocolo de verificación de compromisos y trámite de cierre.

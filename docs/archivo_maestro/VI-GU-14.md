@@ -31,18 +31,18 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
-   - 2.1. [Requisitos para la configuración de permisos de usuarios](#21-requisitos-para-la-configuración-de-permisos-de-usuarios)
+   - 2.1. [Requisitos para la configuración de permisos de usuarios](#21-requisitos-para-la-configuracion-de-permisos-de-usuarios)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
-   - 2.4. [Configuración trámites administrativos](#24-configuración-trámites-administrativos)
-     - 2.4.1. [Filtros de búsqueda y selección de convocatoria/proceso](#filtros-de-búsqueda-y-selección-de-convocatoriaproceso)
-     - 2.4.2. [Agregar y parametrizar tipos de trámite administrativo](#agregar-y-parametrizar-tipos-de-trámite-administrativo)
-     - 2.4.3. [Configuración de Niveles Administrativos (Avalar y Aprobar)](#configuración-de-niveles-administrativos-avalar-y-aprobar)
-     - 2.4.4. [Asociación de Centros de Gestión](#asociación-de-centros-de-gestión)
-     - 2.4.5. [Activación y Resumen del Trámite](#activación-y-resumen-del-trámite)
-     - 2.4.6. [Inactivación de la Configuración del Trámite](#inactivación-de-la-configuración-del-trámite)
+   - 2.4. [Configuración trámites administrativos](#24-configuracion-tramites-administrativos)
+     - 2.4.1. [Filtros de búsqueda y selección de convocatoria/proceso](#filtros-de-busqueda-y-seleccion-de-convocatoriaproceso)
+     - 2.4.2. [Agregar y parametrizar tipos de trámite administrativo](#agregar-y-parametrizar-tipos-de-tramite-administrativo)
+     - 2.4.3. [Configuración de Niveles Administrativos (Avalar y Aprobar)](#configuracion-de-niveles-administrativos-avalar-y-aprobar)
+     - 2.4.4. [Asociación de Centros de Gestión](#asociacion-de-centros-de-gestion)
+     - 2.4.5. [Activación y Resumen del Trámite](#activacion-y-resumen-del-tramite)
+     - 2.4.6. [Inactivación de la Configuración del Trámite](#inactivacion-de-la-configuracion-del-tramite)
 3. [Nota de cambio](#3-nota-de-cambio)
 4. [Registro de Control y Firmas](#registro-de-control-y-firmas)
 

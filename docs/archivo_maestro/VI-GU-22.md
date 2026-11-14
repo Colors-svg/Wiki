@@ -33,15 +33,15 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para crear solicitud](#21-requisitos-para-crear-solicitud)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
-   - 2.4. [Trámites administrativos](#24-trámites-administrativos)
+   - 2.4. [Trámites administrativos](#24-tramites-administrativos)
    - 2.5. [Solicitud plazo para entrega de compromisos](#25-solicitud-plazo-para-entrega-de-compromisos)
-     - 2.5.1. [Pestaña Condiciones formales](#251-pestaña-condiciones-formales)
-     - 2.5.2. [Pestaña Documento Soporte](#252-pestaña-documento-soporte)
+     - 2.5.1. [Pestaña Condiciones formales](#251-pestana-condiciones-formales)
+     - 2.5.2. [Pestaña Documento Soporte](#252-pestana-documento-soporte)
      - 2.5.3. [Enviar solicitud](#253-enviar-solicitud)
      - 2.5.4. [Editar Solicitud](#254-editar-solicitud)
 3. [Nota de cambio](#3-nota-de-cambio)

@@ -32,16 +32,16 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para Aprobar Solicitudes Administrativas](#21-requisitos-para-aprobar-solicitudes-administrativas)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
    - 2.4. [Aprobar Solicitudes administrativas](#24-aprobar-solicitudes-administrativas)
      - 2.4.1. [Ver recomendaciones](#241-ver-recomendaciones)
-     - 2.4.2. [Pestaña Historial](#242-pestaña-historial)
-     - 2.4.3. [Pestaña Condiciones Formales](#243-pestaña-condiciones-formales)
-     - 2.4.4. [Pestaña Adjuntar documento](#244-pestaña-adjuntar-documento)
+     - 2.4.2. [Pestaña Historial](#242-pestana-historial)
+     - 2.4.3. [Pestaña Condiciones Formales](#243-pestana-condiciones-formales)
+     - 2.4.4. [Pestaña Adjuntar documento](#244-pestana-adjuntar-documento)
      - 2.4.5. [Enviar solicitud](#245-enviar-solicitud)
 3. [Nota de cambio](#3-nota-de-cambio)
 
