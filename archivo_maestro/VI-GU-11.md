@@ -162,13 +162,13 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    ![Figura 12](docs/assets/figuras/VI-GU-11/figura-12.png)
    *Figura 12- Documento soporte _Seleccionar archivo*
 
-   ![[VI-GU-11-figura-13a.png]]
+   ![Figura 13a](docs/assets/figuras/VI-GU-11/figura-13a.png)
    *Figura 13 (en doc ref. Figura 3)- Búsqueda de archivo para adjuntar*
 
    - Seleccione el botón **Cargar Archivo** y verifique que la barra de carga esté en azul y con el nombre correcto.  
    - Clic en **Guardar**.
 
-   ![[VI-GU-11-figura-13b.png]]
+   ![Figura 13b](docs/assets/figuras/VI-GU-11/figura-13b.png)
    *Figura 13 / 14 - Cargar archivo*
 
    - Valide en la lista que el documento de soporte quedó correctamente adjunto.
@@ -182,7 +182,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
 
 1. Presione el botón **ENVIAR** para que la Vicerrectoría de Investigación pueda revisar y gestionar la solicitud.
 
-   ![[VI-GU-11-figura-14b.png]]
+   ![Figura 14b](docs/assets/figuras/VI-GU-11/figura-14b.png)
    *Figura 14 (en doc ref. Figura 14b)- Enviar solicitud*
 
 2. El sistema genera un mensaje de confirmación de envío.  

@@ -191,12 +191,12 @@ Cuando se acepte la confirmación:
 2. Busque por palabra clave (código del proyecto) y presione **Consultar**.
 3. En la columna **Acciones** dé clic a los tres puntos y seleccione **Autorizar actualización**.
 
-   ![[VI-GU-08-figura-12a.png]]
+   ![Figura 12a](docs/assets/figuras/VI-GU-08/figura-12a.png)
    *Figura 12 a – Autorizar actualización*
 
 4. El sistema solo habilita el campo **Fecha límite** (la hora límite por defecto trae 11:59:59 pm). Presione el icono de calendario para modificar la fecha límite y presione **Autorizar actualización**.
 
-   ![[VI-GU-08-figura-12b.png]]
+   ![Figura 12b](docs/assets/figuras/VI-GU-08/figura-12b.png)
    *Figura 12 b – Cambiar fecha límite*
 
 ---

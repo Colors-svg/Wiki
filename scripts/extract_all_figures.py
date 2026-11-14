@@ -3,8 +3,41 @@ import re
 import hashlib
 import pymupdf
 
+try:
+    import numpy as np
+    from PIL import Image
+    import io as _io
+    _HAS_IMG = True
+except Exception:
+    _HAS_IMG = False
+
 PDF_DIR = "fuentes_pdf"
 OUTPUT_BASE = "docs/assets/figuras"
+
+# Fondos de respaldo de las guias (rectangulos verdes detras de las capturas)
+# y cajas negras/blancas: se descartan para no desplazar la numeracion.
+_BACKING_GREEN = (146, 208, 80)
+
+
+def _es_respaldo(img_bytes):
+    """True si la imagen es un rectangulo casi-solido (fondo, no captura)."""
+    if not _HAS_IMG:
+        return False
+    try:
+        im = Image.open(_io.BytesIO(img_bytes)).convert("RGB")
+    except Exception:
+        return False
+    a = np.asarray(im).reshape(-1, 3)
+    if len(a) > 80000:
+        a = a[np.linspace(0, len(a) - 1, 80000).astype(int)]
+    colors, counts = np.unique(a.reshape(-1, 3), axis=0, return_counts=True)
+    top = counts.max() / counts.sum()
+    dom = tuple(int(x) for x in colors[counts.argmax()])
+    if top >= 0.90 and all(abs(d - b) < 50 for d, b in zip(dom, _BACKING_GREEN)):
+        return True
+    if top >= 0.97 and dom in ((0, 0, 0), (255, 255, 255)):
+        return True
+    return False
 
 os.makedirs(OUTPUT_BASE, exist_ok=True)
 
@@ -66,6 +99,11 @@ for pdf_name in pdf_files:
 
             # Aspect ratio sanity check: skip very thin divider lines
             if w / h > 18 or h / w > 18:
+                continue
+
+            # Skip backing rectangles (solid green/black/white boxes behind
+            # screenshots). They are not figures and shift the numbering.
+            if _es_respaldo(img_bytes):
                 continue
 
             fig_filename = f"figura-{fig_idx:02d}.png"
