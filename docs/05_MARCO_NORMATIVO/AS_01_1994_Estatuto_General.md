@@ -27,19 +27,19 @@ El **Estatuto General (Acuerdo Superior 01 de 1994)** define a la Universidad de
 
 ```mermaid
 flowchart TD
-    CSU["Consejo Superior Universitario (CSU)<br/>• Máximo Órgano de Gobierno y Dirección (Art. 29)<br/>• Aprueba Estatutos, Presupuesto y Crea Unidades"]
+    CSU["<b>Consejo Superior Universitario (CSU)</b><br/>Máximo Órgano de Gobierno y Dirección (Art. 29)<br/>Aprueba Estatutos, Presupuesto y Unidades"]
     
-    Rector["Rectoría<br/>• Primera Autoridad Ejecutiva y Representante Legal (Art. 40)<br/>• Ordenación General del Gasto y Contratación"]
+    Rector["<b>Rectoría</b><br/>Primera Autoridad Ejecutiva y Legal (Art. 40)<br/>Ordenación General del Gasto y Contratos"]
     
-    Acad["Consejo Académico<br/>• Máxima Autoridad Académica (Art. 34)<br/>• Aprueba Planes Curriculares, I+D y Posgrados"]
+    Acad["<b>Consejo Académico</b><br/>Máxima Autoridad Académica (Art. 34)<br/>Aprueba Planes de I+D, Posgrados y Currículos"]
     
-    CODI["Comité para el Desarrollo de la Investigación (CODI)<br/>(Comité Asesor del Consejo Académico - Art. 38)"]
+    CODI["<b>CODI</b><br/>Comité Asesor de I+D del CA (Art. 38)"]
     
-    Decanos["Decanos de Facultad<br/>• Representantes del Rector (Art. 51)<br/>• Ordenadores del Gasto Delegados (Art. 53)"]
+    Decanos["<b>Decanos de Facultad</b><br/>Representantes del Rector (Art. 51)<br/>Ordenadores de Gasto Delegados (Art. 53)"]
     
-    CF["Consejos de Facultad<br/>• Autoridad Académica Seccional (Art. 57)<br/>• Aprueba Planes de I+D y avala Proyectos"]
+    CF["<b>Consejos de Facultad</b><br/>Autoridad Académica Seccional (Art. 57)<br/>Aprueba Planes de I+D y Avala Proyectos"]
     
-    Centros["Centros de Investigación y Extensión (Art. 74)<br/>• Administran proyectos y recursos en SIIU"]
+    Centros["<b>Centros de Investigación (CI/CIE)</b><br/>Administran proyectos y recursos en SIIU (Art. 74)"]
 
     CSU --> Rector
     CSU --> Acad

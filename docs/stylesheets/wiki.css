@@ -454,20 +454,14 @@ body, .md-typeset {
 /* Permitir ajuste y empaquetado de texto dentro de los contenedores de nodos HTML (foreignObject) */
 .mermaid .node .label {
   line-height: 1.45 !important;
-  word-break: normal !important;
-  overflow-wrap: break-word !important;
-  white-space: normal !important;
-  padding: 0.25rem 0.5rem !important;
   text-align: center !important;
+  padding: 0.35rem 0.65rem !important;
 }
 
 .mermaid .nodeLabel,
 .mermaid span.nodeLabel,
 .mermaid div.nodeLabel {
   display: inline-block !important;
-  max-width: 320px !important;
-  word-wrap: break-word !important;
-  white-space: normal !important;
   line-height: 1.45 !important;
 }
 
