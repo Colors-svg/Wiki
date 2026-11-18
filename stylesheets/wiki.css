@@ -154,35 +154,43 @@
 }
 
 /* --------------------------------------------------------------------------
-   Cabecera temática (clara/oscura según esquema; sin verde impuesto)
+   Cabecera Institucional UdeA (Paleta-Udea: Verde Bosque + Petróleo + Lima)
    -------------------------------------------------------------------------- */
 .md-header {
-  background-color: var(--md-default-bg-color--light) !important;
-  border-bottom: 1px solid var(--border-color) !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  background: linear-gradient(90deg, #026937 0%, #0E7774 100%) !important;
+  border-bottom: 3px solid #8DC63F !important;
+  box-shadow: 0 2px 10px rgba(2, 105, 55, 0.25) !important;
+  color: #FFFFFF !important;
 }
 
 [data-md-color-scheme="slate"] .md-header {
-  background-color: #0B0F15 !important;
+  background: linear-gradient(90deg, #0B0F15 0%, #0D2115 100%) !important;
+  border-bottom: 2px solid #35944B !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45) !important;
 }
 
 .md-header__title {
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: var(--md-default-fg-color) !important;
+  color: #FFFFFF !important;
 }
 
 .md-header__button.md-logo {
-  padding: 0.2rem 0.35rem 0.2rem 0.1rem;
+  padding: 0.2rem 0.65rem 0.2rem 0.25rem !important;
+  margin-right: 0.35rem !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.22);
+  display: inline-flex;
+  align-items: center;
 }
 
-/* Logos: el header lleva el UdeA (2rem); en el drawer basta el título
-   en texto para no duplicar marca ni estirar el panel. */
+/* Logos: el header lleva el UdeA recortado (2rem limpio); en el drawer
+   basta el título en texto para no duplicar marca ni estirar el panel. */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 2rem !important;
+  height: 1.85rem !important;
   width: auto !important;
-  max-width: 12rem !important;
+  max-width: 11rem !important;
+  object-fit: contain;
 }
 /* En el drawer solo va el título en texto: el logo grande vive en la
    cabecera. Además evita que el logo estire el panel del drawer. */
@@ -240,19 +248,19 @@ body, .md-typeset {
   color: #8DC63F !important;
 }
 
-/* Contraste de cabecera en ambos esquemas: título e iconos heredan
-   tinta de alto contraste (el fondo del header no se toca). */
+/* Contraste de cabecera en ambos esquemas: título e iconos en blanco puro
+   sobre la barra institucional UdeA. */
 .md-header__title,
 .md-header__topic {
-  color: var(--md-default-fg-color) !important;
+  color: #FFFFFF !important;
 }
 .md-header__button,
 .md-header .md-search__icon,
 .md-header .md-icon {
-  color: var(--md-default-fg-color) !important;
+  color: #FFFFFF !important;
 }
-[data-md-color-scheme="default"] .md-header__button.md-logo img,
-[data-md-color-scheme="default"] .md-header__button.md-logo svg {
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
   filter: none !important;
   opacity: 1 !important;
 }
@@ -630,17 +638,49 @@ body, .md-typeset {
 [data-md-color-scheme="default"] .mermaid .label,
 [data-md-color-scheme="default"] .mermaid .cluster-label,
 [data-md-color-scheme="default"] .mermaid .cluster-label span {
-  color: #0F2417 !important;
+  color: #0F2417;
 }
 
-/* Etiquetas de flechas: fondo de tarjeta para legibilidad */
+/* Proteger contraste de texto blanco en nodos con classDef oscuros o institucionales */
+.mermaid .node.central .nodeLabel,
+.mermaid .node.fondo .nodeLabel,
+.mermaid .node.accion .nodeLabel,
+.mermaid .node.inst .nodeLabel,
+.mermaid .node.comite .nodeLabel,
+.mermaid .node.unidad .nodeLabel,
+.mermaid .node.prod .nodeLabel,
+.mermaid .node.centro .nodeLabel,
+.mermaid .node.paso .nodeLabel,
+.mermaid .node.fin .nodeLabel,
+.mermaid .node.central span.nodeLabel,
+.mermaid .node.fondo span.nodeLabel,
+.mermaid .node.accion span.nodeLabel,
+.mermaid .node.inst span.nodeLabel,
+.mermaid .node.comite span.nodeLabel,
+.mermaid .node.unidad span.nodeLabel,
+.mermaid .node.prod span.nodeLabel,
+.mermaid .node.centro span.nodeLabel,
+.mermaid .node.paso span.nodeLabel,
+.mermaid .node.fin span.nodeLabel,
+.mermaid .node[style*="color:#FFFFFF"] .nodeLabel,
+.mermaid .node[style*="color:#fff"] .nodeLabel,
+.mermaid .node[style*="color: #FFFFFF"] .nodeLabel {
+  color: #FFFFFF !important;
+}
+
+/* Etiquetas de flechas: pastilla limpia para legibilidad */
 [data-md-color-scheme="slate"] .mermaid .edgeLabel {
   color: #C9D8CE !important;
   background-color: #111722 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
 }
 [data-md-color-scheme="default"] .mermaid .edgeLabel {
-  color: #0F2417 !important;
+  color: #026937 !important;
   background-color: #FFFFFF !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  border: 1px solid #BFD9CD !important;
 }
 
 /* Flechas y conectores en verde institucional */
@@ -920,6 +960,7 @@ dialog.diagram-lightbox .diagram-zoom-btn {
   justify-content: space-between;
   background: var(--card-bg);
   border: 1px solid var(--border-color);
+  border-top: 3px solid var(--udea-follaje);
   border-radius: 10px;
   padding: 1.15rem 1.25rem;
   text-decoration: none !important;
@@ -930,7 +971,8 @@ dialog.diagram-lightbox .diagram-zoom-btn {
 
 .wiki-card:hover {
   transform: translateY(-2px);
-  border-color: #35944B;
+  border-color: var(--udea-bosque);
+  border-top-color: var(--udea-lima);
   box-shadow: 0 6px 18px rgba(2, 105, 55, 0.16);
 }
 
