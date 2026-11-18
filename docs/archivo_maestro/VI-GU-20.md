@@ -22,6 +22,8 @@ tags:
   - "rubro_destino"
   - "subrubros"
   - "disponibilidad_presupuestal"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA SOLICITUD DE CAMBIO DE RUBRO EN EL SIIU

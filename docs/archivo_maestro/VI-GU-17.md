@@ -21,6 +21,8 @@ tags:
   - "evaluadores_recomendados"
   - "compromisos"
   - "condiciones_formales"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA MATRÍCULA DE PRIMER PROYECTO EN EL SIIU

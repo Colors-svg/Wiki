@@ -17,6 +17,8 @@ tags:
   - "configuracion"
   - "presupuesto"
   - "cronograma"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA CONFIGURACIÓN DE LA CONVOCATORIA

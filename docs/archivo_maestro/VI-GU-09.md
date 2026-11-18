@@ -16,6 +16,8 @@ tags:
   - "compromisos"
   - "proyectos"
   - "gestion"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA GESTIÓN DE COMPROMISOS EN SIIU

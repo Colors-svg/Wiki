@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.8
+---
+
 # Mapa de Contenido (MOC): Reportes, Consultas y Constancias
 
 El **Sistema SIIU** ofrece dos grandes tipos de salidas documentales:

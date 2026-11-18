@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Resolución Rectoral 51525 de 2024 — Política de Austeridad y Eficiencia en el Gasto Público
 
 | Metadato | Detalle Institucional |

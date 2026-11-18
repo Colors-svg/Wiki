@@ -20,6 +20,8 @@ tags:
   - "cronograma"
   - "participantes"
   - "compromisos"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA MATRÍCULA DE PROYECTOS INSCRITOS AL SIIU

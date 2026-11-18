@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.5
+---
+
 # Proceso Clave: Programa Joven Investigador
 
 El **Programa Joven Investigador (JI)** de la Universidad de Antioquia es una estrategia de fomento a la vocación científica mediante pasantías remuneradas con estímulo económico para estudiantes destacados de pregrado y recién graduados.

@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.5
+---
+
 # Proceso Clave: Evaluación Técnica, Aval y Subsanación
 
 !!! tip "En simple: ¿qué pasa después de enviar?"

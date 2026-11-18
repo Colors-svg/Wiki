@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 01 de 1994 — Estatuto General de la Universidad de Antioquia
 
 | Metadato | Detalle Institucional |

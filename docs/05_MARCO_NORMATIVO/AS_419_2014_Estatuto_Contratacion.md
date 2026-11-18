@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 419 de 2014 — Estatuto General de Contratación
 
 > **Tipo de Norma:** Estatuto General de Contratación Universitaria  

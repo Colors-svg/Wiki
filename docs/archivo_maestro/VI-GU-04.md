@@ -16,6 +16,8 @@ tags:
   - "proyectos"
   - "cierre"
   - "compromisos"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA EL CIERRE DE PROYECTOS EN SIIU

@@ -66,6 +66,12 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
   - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
 nav:
   - Inicio: index.md

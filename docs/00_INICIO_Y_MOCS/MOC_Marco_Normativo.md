@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.8
+---
+
 # MOC: Marco Normativo e Institucional de la Investigación
 
 | Metadato | Detalle Institucional |

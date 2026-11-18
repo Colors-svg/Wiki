@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Manual de Interventoría de Bienes, Servicios y Obras (DJ-MA-02)
 
 > **Código:** DJ-MA-02 (Versión 01 / 19 de mayo de 2020)  

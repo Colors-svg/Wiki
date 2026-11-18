@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.8
+---
+
 # Mapa de Contenido (MOC): Ciclo de Vida del Proyecto
 
 El ciclo de vida de un proyecto en el **SIIU** es un proceso secuencial y gobernado por estados de control institucional, desde la postulación inicial hasta el cierre presupuestal y académico formal.

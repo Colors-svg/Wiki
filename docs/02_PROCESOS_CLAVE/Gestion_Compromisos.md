@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.5
+---
+
 # Proceso Clave: Gestión de Compromisos Académicos
 
 !!! tip "En simple: ¿qué son los compromisos?"

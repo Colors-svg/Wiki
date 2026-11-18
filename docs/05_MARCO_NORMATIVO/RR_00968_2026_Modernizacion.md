@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Resolución Rectoral 00968 de 2026 — Trámite de Prórrogas y Plazos en Proyectos SIIU
 
 | Metadato | Detalle Institucional |

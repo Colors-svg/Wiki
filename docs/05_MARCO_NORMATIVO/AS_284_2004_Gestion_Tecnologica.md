@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 284 de 2004 — Programa de Gestión Tecnológica y Transferencia
 
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  

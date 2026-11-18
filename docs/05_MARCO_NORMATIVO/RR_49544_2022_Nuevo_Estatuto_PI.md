@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Resolución Rectoral 49544 de 2022 — Estatuto de Propiedad Intelectual Vigente
 
 | Metadato | Detalle Institucional |

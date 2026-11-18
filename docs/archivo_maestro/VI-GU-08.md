@@ -17,6 +17,8 @@ tags:
   - "aval"
   - "proyectos"
   - "evaluadores"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA EVALUACIÓN TÉCNICA Y AVAL DEL PROYECTO

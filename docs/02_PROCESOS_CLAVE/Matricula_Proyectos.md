@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.5
+---
+
 # Proceso Clave: Matrícula e Inscripción de Proyectos
 
 !!! tip "En simple: ¿qué es matricular?"

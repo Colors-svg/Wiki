@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 350 de 2007 — Estatuto Financiero de la Universidad
 
 > **Tipo de Norma:** Estatuto Financiero Universitario  

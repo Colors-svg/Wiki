@@ -1,3 +1,8 @@
+---
+search:
+  boost: 3.2
+---
+
 # Catálogo Maestro de Formatos Oficiales Descargables
 
 Esta ficha consolida los enlaces institucionales directos hacia los **manuales de procedimiento, minutas, actas y plantillas oficiales** publicados por la **Vicerrectoría de Investigación (VRI)** en el portal de la Universidad de Antioquia, organizados por etapa del ciclo de vida del proyecto en el **SIIU**.

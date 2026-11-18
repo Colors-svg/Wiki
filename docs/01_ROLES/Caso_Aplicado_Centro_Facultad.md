@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.0
+---
+
 # Caso Aplicado de Unidad Académica: Centro de Investigaciones y Consultorías (CIC – FCE)
 
 Para ilustrar cómo opera en la práctica un Centro de Investigación dentro del ecosistema **SIIU** y bajo el marco del **Acuerdo Superior 204 de 2001**, se presenta el modelo operativo del **Centro de Investigaciones y Consultorías (CIC)** de la **Facultad de Ciencias Económicas (FCE)** de la Universidad de Antioquia.

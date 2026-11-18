@@ -1,3 +1,8 @@
+---
+search:
+  boost: 3.2
+---
+
 # Ficha Rápida: Cheat Sheet del Centro de Investigación
 
 Guía de consulta ágil para Jefes de Centro, Coordinadores y Analistas de Procesos en Unidades Académicas.

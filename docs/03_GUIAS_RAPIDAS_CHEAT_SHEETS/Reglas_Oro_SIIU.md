@@ -1,3 +1,8 @@
+---
+search:
+  boost: 3.2
+---
+
 # Reglas de Oro del Sistema SIIU
 
 Para evitar caídas de sesión, pérdidas de datos, rechazos administrativos o bloqueos técnicos en el **SIIU**, ten en cuenta estas directrices obligatorias en todas tus operaciones.

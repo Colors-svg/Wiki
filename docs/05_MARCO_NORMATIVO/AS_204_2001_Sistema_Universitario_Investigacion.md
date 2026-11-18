@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 204 de 2001 — Sistema Universitario de Investigación (SUI)
 
 > **Tipo de Norma:** Estatuto del Sistema Universitario de Investigación (SUI)  

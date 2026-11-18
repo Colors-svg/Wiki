@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 253 de 2003 — Estatuto del Profesor de Cátedra y Ocasional
 
 > **Tipo de Norma:** Estatuto del Profesor de Cátedra y Ocasional  

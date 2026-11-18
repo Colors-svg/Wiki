@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 466 de 2020 — Estatuto Financiero Vigente de la Universidad
 
 !!! tip "En simple: ¿qué me exige esta norma?"

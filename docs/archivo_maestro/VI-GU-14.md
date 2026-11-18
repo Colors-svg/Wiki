@@ -18,6 +18,8 @@ tags:
   - "flujo_procesos"
   - "niveles_administrativos"
   - "avales_y_aprobaciones"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA CONFIGURAR TRÁMITES ADMINISTRATIVOS EN EL SIIU

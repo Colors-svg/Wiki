@@ -21,6 +21,8 @@ tags:
   - "prorroga_de_ejecucion"
   - "actividades_de_prorroga"
   - "adenda"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA SOLICITUD DE PRÓRROGA DE PROYECTOS EN EL SIIU

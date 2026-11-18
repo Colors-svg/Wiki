@@ -18,6 +18,8 @@ tags:
   - "convocatorias"
   - "matricula"
   - "plan_de_trabajo"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA MATRÍCULA DE CUPOS EN EL PROGRAMA JOVEN INVESTIGADOR

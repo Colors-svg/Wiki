@@ -22,6 +22,8 @@ tags:
   - "porcentaje_participacion_y_beneficio"
   - "funciones_participante"
   - "adenda"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA SOLICITUD DE CAMBIO DE PARTICIPANTE EN EL SIIU

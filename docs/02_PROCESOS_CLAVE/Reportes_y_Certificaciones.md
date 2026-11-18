@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.5
+---
+
 # Proceso Clave: Reportes y Certificaciones Oficiales
 
 El **SIIU** genera documentos oficiales para acreditar la trayectoria académica y científica de profesores, investigadores y evaluadores, así como reportes de control directivo para centros y vicerrectorías.

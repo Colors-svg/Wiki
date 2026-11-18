@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.8
+---
+
 # Base de Conocimiento y Wiki Operativa del SIIU
 ### Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 

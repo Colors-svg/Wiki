@@ -20,6 +20,8 @@ tags:
   - "compromisos_pendientes"
   - "aplazamiento"
   - "adenda"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA SOLICITUD DE PLAZO EN LA ENTREGA DE COMPROMISOS EN EL SIIU

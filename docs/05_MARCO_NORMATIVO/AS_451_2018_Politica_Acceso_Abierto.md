@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 451 de 2018 — Política Institucional de Acceso Abierto
 
 > **Tipo de Norma:** Política Institucional del Consejo Superior Universitario  

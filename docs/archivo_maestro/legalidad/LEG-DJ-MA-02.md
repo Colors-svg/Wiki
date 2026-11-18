@@ -1,3 +1,8 @@
+---
+search:
+  boost: 0.35
+---
+
 # Manual de Interventoría de Bienes, Servicios y Obras (DJ-MA-02)
 
 **Código:** DJ-MA-02  

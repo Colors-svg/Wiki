@@ -19,6 +19,8 @@ tags:
   - "novedades"
   - "aprobacion"
   - "adenda"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA APROBAR SOLICITUDES ADMINISTRATIVAS EN EL SIIU

@@ -19,6 +19,8 @@ tags:
   - "historial_de_proyectos"
   - "consulta"
   - "exportar_excel"
+search:
+  boost: 0.35
 ---
 
 # INSTRUCTIVO PARA GENERAR REPORTE HISTORIAL DE PROYECTOS

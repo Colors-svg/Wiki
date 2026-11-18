@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.0
+---
+
 # Manual Operativo: Rol Investigador Principal y Tutor
 
 El **Investigador Principal (IP)** o **Coordinador de Proyecto (CP)** es el líder académico y técnico del proyecto ante la Universidad de Antioquia y ante los entes financiadores. En el **SIIU**, el IP administra sus iniciativas desde la postulación hasta el cierre final.

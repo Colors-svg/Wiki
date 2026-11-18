@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Resolución Rectoral 39477 de 2014 — Referente Ético Institucional
 
 | Metadato | Detalle Institucional |

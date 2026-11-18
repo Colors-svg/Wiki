@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.0
+---
+
 # Ecosistema de Comités y Gobernanza de la Investigación
 
 El desarrollo de las actividades de investigación y extensión en la Universidad de Antioquia no opera de manera aislada dentro del sistema informático; el **SIIU** es el reflejo digital de un entramado de decisiones colegiadas y normativas amparadas en el **Acuerdo Superior 204 de 2001** (Sistema Universitario de Investigación) y el **Estatuto General (Acuerdo Superior 01 de 1994)**.

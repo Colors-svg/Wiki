@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 121 de 1997 — Estatuto Presupuestal de la Universidad
 
 > **Tipo de Norma:** Estatuto Presupuestal Universitario  

@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 083 de 1996 — Estatuto Profesoral
 
 > **Tipo de Norma:** Estatuto Profesoral de la Universidad de Antioquia  

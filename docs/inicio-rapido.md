@@ -1,3 +1,8 @@
+---
+search:
+  boost: 3.8
+---
+
 # Empieza aquí en 5 minutos
 
 > Esta página es el atajo. Léela una vez y sabrás por dónde seguir según tu caso.

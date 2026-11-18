@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 418 de 2014 — Política Integral de Prácticas Académicas
 
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  

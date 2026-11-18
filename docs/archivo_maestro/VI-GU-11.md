@@ -17,6 +17,8 @@ tags:
   - "joven_investigador"
   - "prorroga"
   - "tramites_administrativos"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA SOLICITUD DE PRÓRROGA DE CUPOS EN EL PROGRAMA JOVEN INVESTIGADOR

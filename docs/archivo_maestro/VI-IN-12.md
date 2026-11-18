@@ -10,6 +10,8 @@ estado: Vigente
 tipo_documento: Instructivo
 sistema: SIIU
 entidad: Universidad de Antioquia - Vicerrectoría de Investigación / Vicerrectoría de Extensión
+search:
+  boost: 0.35
 ---
 
 # INSTRUCTIVO PARA SOLICITAR ACTUALIZACIÓN DE PROYECTOS EN EL SISTEMA SIIU

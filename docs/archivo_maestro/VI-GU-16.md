@@ -19,6 +19,8 @@ tags:
   - "agenda_g8"
   - "objetivo_socioeconomico"
   - "matricula_proyectos"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA INFORMACIÓN COMPLEMENTARIA DE LOS PROYECTOS EN EL SIIU

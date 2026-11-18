@@ -1,3 +1,8 @@
+---
+search:
+  boost: 2.5
+---
+
 # Proceso Clave: Cierre y Liquidación de Proyectos
 
 !!! tip "En simple: ¿cómo cierro mi proyecto?"

@@ -16,6 +16,8 @@ tags:
   - "siiu"
   - "proyectos"
   - "responsable"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA CAMBIAR EL RESPONSABLE DEL PROYECTO

@@ -1,7 +1,14 @@
+---
+search:
+  boost: 4.0
+---
+
 # Preguntas Frecuentes (FAQ)
 
-> ¿Primera vez en el SIIU? Empieza aquí. Respuestas en menos de 2 minutos, sin jerga.
-> Si tu duda es legal, ve directo a [Módulo Legal](legal/index.md).
+<div class="wiki-hero" markdown="1">
+¿Primera vez en el SIIU o te salió un error? Aquí encuentras respuestas directas en menos de 2 minutos, sin jerga técnica.
+Si buscas el texto legal literal, ve directo al **[Módulo Legal](legal/index.md)**.
+</div>
 
 ---
 
@@ -88,5 +95,25 @@
 
 ---
 
+## 4. Fondos CODI, Formatos, Ética y Permisos
+
+### ¿Dónde descargo las minutas, actas y plantillas oficiales (Excel/Word)?
+1. Todas las plantillas vigentes están centralizadas en el **[Catálogo Maestro de Formatos Oficiales](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md)**.
+2. Allí encuentras enlaces directos del portal UdeA para prórrogas, cambios de rubro, listas de chequeo, actas de inicio/finalización y convenios de Jóvenes Investigadores.
+
+### ¿El CODI sigue financiando revisión de estilo, traducción o pago de APC?
+1. **No.** Mediante la Circular Informativa 02 de 2023 se eliminó el Fondo de apoyo para revisión de estilo, edición o traducción, y la modalidad de pago de APC del Fondo de Democratización.
+2. Consulta las líneas activas en **[Convocatorias y Fondos CODI](02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md)**.
+
+### ¿Qué hago si mi proyecto recolecta especímenes biológicos silvestres?
+1. Si eres docente regular y no estás incluido en el **Permiso Marco de Recolección de Especímenes**, debes solicitar tu incorporación a la Vicerrectoría de Investigación (`viceinvestigacionpa@udea.edu.co`) antes de iniciar actividades de campo.
+2. Revisa los requisitos exactos en **[Ecosistema de Comités y Gobernanza](01_ROLES/Ecosistema_Comites_Gobernanza.md)**.
+
+### ¿Cuándo debo llenar el formato de Conflicto de Intereses Financieros (FCOI)?
+1. En proyectos con financiación externa nacional o internacional (especialmente agencias de EE. UU. bajo 42 CFR Parte 50, Subparte F) regulados por la Resolución Rectoral 49547.
+2. Descarga el formato Word en el **[Catálogo Maestro de Formatos Oficiales](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md)** y cárgalo como soporte en el expediente del proyecto.
+
+---
+
 !!! tip "¿No encontraste tu duda?"
-    Usa el buscador arriba (lupa) con una palabra clave: `prórroga`, `pop-up`, `Nequi`, `spin-off`, `hechos cumplidos`. Si vienes de un error del sistema, copia el mensaje exacto del error en el buscador.
+    Usa el buscador arriba (lupa) con una palabra clave: `prórroga`, `pop-up`, `Nequi`, `spin-off`, `hechos cumplidos`, `formato`, `APC`, `permiso marco`. Si vienes de un error del sistema, copia el mensaje exacto del error en el buscador.

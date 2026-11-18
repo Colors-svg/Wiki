@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Resolución Rectoral 21231 de 2005 — Estatuto de Propiedad Intelectual
 
 > **Tipo de Norma:** Resolución Rectoral  

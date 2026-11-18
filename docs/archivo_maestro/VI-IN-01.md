@@ -20,6 +20,8 @@ tags:
   - "grupos_de_investigacion"
   - "reportes"
   - "certificados"
+search:
+  boost: 0.35
 ---
 
 # INSTRUCTIVO PARA GENERAR CONSTANCIAS DE PROYECTOS POR GRUPOS DE INVESTIGACIÓN

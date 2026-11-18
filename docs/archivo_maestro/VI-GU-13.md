@@ -18,6 +18,8 @@ tags:
   - "adenda"
   - "prorroga"
   - "cambio_de_rubro"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA AVALAR Y APLICAR SOLICITUDES ADMINISTRATIVAS EN EL SIIU

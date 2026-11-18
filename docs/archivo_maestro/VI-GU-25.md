@@ -20,6 +20,8 @@ tags:
   - "formulas_matematicas"
   - "matrices"
   - "imagenes"
+search:
+  boost: 0.35
 ---
 
 # GUÍA CKEditor PARA LA MATRÍCULA DE PROYECTOS EN EL SIIU

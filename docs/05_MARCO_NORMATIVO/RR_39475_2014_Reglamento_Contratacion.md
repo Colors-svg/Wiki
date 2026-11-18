@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Resolución Rectoral 39475 de 2014 — Reglamento del Estatuto General de Contratación
 
 | Metadato | Detalle Institucional |

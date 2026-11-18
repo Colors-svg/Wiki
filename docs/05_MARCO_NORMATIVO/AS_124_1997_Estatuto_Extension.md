@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 124 de 1997 — Estatuto Básico de Extensión
 
 > **Tipo de Norma:** Estatuto Básico de Extensión  

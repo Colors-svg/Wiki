@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.3
+---
+
 # Acuerdo Superior 086 de 1996 — Remuneración y Horas de Profesores de Cátedra en Proyectos
 
 > **Tipo de Norma:** Acuerdo del Consejo Superior Universitario  

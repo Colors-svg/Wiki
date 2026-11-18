@@ -21,6 +21,8 @@ tags:
   - "compromisos"
   - "condiciones_formales"
   - "ckeditor"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA MATRÍCULA DE PROYECTOS EN CONVOCATORIA EN EL SIIU

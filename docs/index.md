@@ -1,16 +1,116 @@
-# Base de Conocimiento y Wiki Operativa del SIIU
-### Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
+---
+search:
+  boost: 3.0
+---
 
-Bienvenido al centro de navegación y documentación del **Sistema de Información para la Investigación Universitaria (SIIU)**, administrado por la **Vicerrectoría de Investigación** y la **Vicerrectoría de Extensión** de la Universidad de Antioquia.
+# Wiki Operativa del SIIU — Universidad de Antioquia
 
-Esta Wiki sintetiza de forma didáctica, estructurada y modular los **31 procedimientos oficiales** (21 Guías operativas y 10 Instructivos técnicos) contenidos íntegramente en el [Catálogo Normativo Oficial](04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md).
+<div class="wiki-hero" markdown="1">
+**¡Bienvenido!** Esta guía reúne de forma clara, práctica y paso a paso todo lo que necesitas saber para gestionar tus proyectos en el **Sistema de Información para la Investigación Universitaria (SIIU)** de la Universidad de Antioquia.
 
-!!! tip "¿Primera vez aquí? Empieza en 5 minutos"
-    Ve a **[Empieza aquí en 5 minutos](inicio-rapido.md)**: elige tu perfil, sigue la ruta en 6 pasos y resuelve tu duda en 60 segundos. Los diagramas traen botón **Ampliar** arriba a la derecha.
+¿Es tu primera vez en la plataforma o tienes una duda puntual? Empieza por **[Empieza aquí en 5 minutos](inicio-rapido.md)** o consulta las **[Preguntas Frecuentes (FAQ)](faq.md)**.
+</div>
 
 ---
 
-## Mapas de Contenido
+## ¿Qué necesitas hacer hoy?
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Matricula_Proyectos/">
+    <div class="wiki-card__title">1. Inscribir un proyecto</div>
+    <p class="wiki-card__desc">Cómo formular y radicar propuestas en convocatorias internas, financiación externa o Primer Proyecto.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Evaluacion_y_Aval/">
+    <div class="wiki-card__title">2. Evaluación y subsanación</div>
+    <p class="wiki-card__desc">Qué hacer cuando el Centro devuelve tu proyecto ("Pendiente Actualización") y cómo obtener el aval.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI/">
+    <div class="wiki-card__title">3. Fondos y convocatorias CODI</div>
+    <p class="wiki-card__desc">Estrategia de Sostenibilidad 2026, Primer Proyecto, fondos CPC/ASC y circulares vigentes de la VRI.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Inicio_Formal/">
+    <div class="wiki-card__title">4. Iniciar formalmente</div>
+    <p class="wiki-card__desc">Pólizas, actas de inicio, centro de costos y requisitos antes de ejecutar el primer peso.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Modificaciones_y_Tramites/">
+    <div class="wiki-card__title">5. Prórrogas y cambios de rubro</div>
+    <p class="wiki-card__desc">Cómo solicitar más tiempo, trasladar presupuesto entre rubros o cambiar participantes.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Gestion_Compromisos/">
+    <div class="wiki-card__title">6. Entregar compromisos</div>
+    <p class="wiki-card__desc">Cargue de productos académicos, informes y solicitud de plazo adicional para compromisos.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Programa_Joven_Investigador/">
+    <div class="wiki-card__title">7. Jóvenes Investigadores</div>
+    <p class="wiki-card__desc">Matrícula de cupos, vinculación de hoja de vida, cuentas bancarias válidas y prórrogas.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Cierre_y_Liquidacion/">
+    <div class="wiki-card__title">8. Cerrar y liquidar</div>
+    <p class="wiki-card__desc">Paz y salvo presupuestal, acta de cierre y liquidación financiera definitiva del proyecto.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Reportes_y_Certificaciones/">
+    <div class="wiki-card__title">9. Descargar certificados</div>
+    <p class="wiki-card__desc">Constancias de participación, evaluador, grupo e historial (recuerda habilitar pop-ups).</p>
+  </a>
+</div>
+
+---
+
+## Elige tu perfil en el SIIU
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="01_ROLES/Rol_Investigador/">
+    <div class="wiki-card__title">Investigador Principal / Tutor</div>
+    <p class="wiki-card__desc">Formula propuestas, radica novedades, vincula jóvenes investigadores y reporta compromisos.</p>
+  </a>
+  <a class="wiki-card" href="01_ROLES/Rol_Centro_Investigacion/">
+    <div class="wiki-card__title">Centro de Investigación / Extensión</div>
+    <p class="wiki-card__desc">Revisa requisitos, asigna evaluadores pares, emite aval técnico y aprueba trámites.</p>
+  </a>
+  <a class="wiki-card" href="01_ROLES/Rol_Vicerrectoria/">
+    <div class="wiki-card__title">Vicerrectoría de Investigación</div>
+    <p class="wiki-card__desc">Configura convocatorias, avala instancias CODI y aplica novedades mayores o liquidaciones.</p>
+  </a>
+  <a class="wiki-card" href="01_ROLES/Ecosistema_Comites_Gobernanza/">
+    <div class="wiki-card__title">Comités, Ética y Permisos</div>
+    <p class="wiki-card__desc">CODI, Consejos de Facultad, Comité Central de Ética, CICUA, colecta biológica y FCOI.</p>
+  </a>
+</div>
+
+---
+
+## Herramientas y Atajos de Consulta
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="faq/">
+    <div class="wiki-card__title">Preguntas Frecuentes (FAQ)</div>
+    <p class="wiki-card__desc">Respuestas directas en 2 minutos para los errores y dudas más comunes del sistema.</p>
+  </a>
+  <a class="wiki-card" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/">
+    <div class="wiki-card__title">Formatos Descargables</div>
+    <p class="wiki-card__desc">Enlaces directos a minutas, actas, listas de chequeo y plantillas oficiales de la UdeA.</p>
+  </a>
+  <a class="wiki-card" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU/">
+    <div class="wiki-card__title">Reglas de Oro del SIIU</div>
+    <p class="wiki-card__desc">PDFs válidos, uso de CKEditor (Ctrl+Shift+V), pop-ups y cuentas bancarias aceptadas.</p>
+  </a>
+  <a class="wiki-card" href="04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU/">
+    <div class="wiki-card__title">Glosario y Estados</div>
+    <p class="wiki-card__desc">Qué significa cada estado del proyecto y la diferencia entre Solicitud y Novedad.</p>
+  </a>
+  <a class="wiki-card" href="00_INICIO_Y_MOCS/MOC_Marco_Normativo/">
+    <div class="wiki-card__title">Marco Normativo (21 Normas)</div>
+    <p class="wiki-card__desc">Síntesis didáctica de estatutos financieros, contratación, propiedad intelectual y ética.</p>
+  </a>
+  <a class="wiki-card" href="legal/">
+    <div class="wiki-card__title">Módulo Legal Simple</div>
+    <p class="wiki-card__desc">Términos de uso, privacidad, cookies y licencias explicados sin jerga jurídica.</p>
+  </a>
+</div>
+
+---
+
+## Mapa General de Navegación
 
 ```mermaid
 flowchart TD
@@ -20,33 +120,5 @@ flowchart TD
     HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
     HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
     HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
-    HOME --> CHEAT["Guías Rápidas & Cheat Sheets<br><i>(Rutas express y reglas de oro)</i>"]
+    HOME --> CHEAT["Guías Rápidas & Formatos<br><i>(Rutas express, plantillas y reglas de oro)</i>"]
 ```
-
----
-
-## Vías de Acceso Rápido
-
-### 1. Navegación por Perfil Operativo
-- **[Investigador Principal / Tutor](01_ROLES/Rol_Investigador.md):** Matrícula de propuestas, cupos de Joven Investigador, solicitudes de prórroga, cambios de rubro y reporte de compromisos.
-- **[Centro de Investigación / Extensión](01_ROLES/Rol_Centro_Investigacion.md):** Evaluación técnica formal, devolución para ajustes, aval institucional, aprobación de trámites y asignación de evaluadores.
-- **[Vicerrectoría de Investigación](01_ROLES/Rol_Vicerrectoria.md):** Configuración de convocatorias, flujos de trámites, aval de instancias superiores (CODI) y aplicación definitiva de novedades.
-
-### 2. Procesos Clave
-- **Inscribir un proyecto:** [Matrícula de Proyectos](02_PROCESOS_CLAVE/Matricula_Proyectos.md) *(Convocatoria interna, Inscrito con financiación externa o Primer Proyecto)*.
-- **Atender observaciones del Centro:** [Subsanación de proyectos devueltos](02_PROCESOS_CLAVE/Evaluacion_y_Aval.md).
-- **Iniciar formalmente un proyecto:** [Inicio Formal](02_PROCESOS_CLAVE/Inicio_Formal.md) *(Pólizas, contratos, compromisos y centro de costos)*.
-- **Solicitar más tiempo o recursos:** [Modificaciones y Trámites](02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md) *(Prórroga de inicio, prórroga de ejecución y cambio de rubro)*.
-- **Gestionar Jóvenes Investigadores:** [Programa Joven Investigador](02_PROCESOS_CLAVE/Programa_Joven_Investigador.md) *(Matrícula de cupos, vinculación de hoja de vida y prórroga)*.
-- **Finalizar y liquidar proyecto:** [Cierre y Liquidación](02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md) *(Compromisos, acta de cierre y paz y salvo presupuestal)*.
-- **Obtener certificados o constancias:** [Reportes y Certificaciones](02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md) *(Participación en proyectos, constancia de evaluador, historial)*.
-
-### 3. Herramientas y Apoyo Operativo
-- **[Preguntas Frecuentes (FAQ)](faq.md):** Respuestas en 2 minutos por tema: acceso, errores y legal.
-- **[Módulo Legal Simple](legal/index.md):** Términos, privacidad, cookies y licencias sin jerga, con enlace al texto fiel.
-- **[Ficha Rápida del Investigador](03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md):** Pasos clave y rutas directas.
-- **[Ficha Rápida para Centros](03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md):** Criterios de validación y control.
-- **[Reglas de Oro del SIIU](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md):** Requisitos de adjuntos, ventanas emergentes, navegadores y limitaciones de cuentas bancarias.
-- **[Glosario de Términos del SIIU](04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md):** Conceptos clave (*Solicitud vs Novedad*, estados de proyectos, rubros).
-- **[Catálogo Normativo (31 Documentos)](04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md):** Índice oficial con vínculos a guías e instructivos.
-- **[Marco Normativo e Institucional (21 Documentos)](00_INICIO_Y_MOCS/MOC_Marco_Normativo.md):** Matriz integral y fichas operativas de las 21 leyes, acuerdos superiores y resoluciones rectorales que rigen la investigación universitaria.

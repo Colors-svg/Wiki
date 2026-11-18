@@ -21,6 +21,8 @@ tags:
   - "etapas"
   - "acta_de_inicio"
   - "propiedad_intelectual"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA EL INICIO FORMAL DE PROYECTOS EN EL SIIU

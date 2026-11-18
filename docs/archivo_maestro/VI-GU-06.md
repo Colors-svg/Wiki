@@ -17,6 +17,8 @@ tags:
   - "convocatorias"
   - "evaluadores"
   - "evaluacion_cientifica"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA ASIGNACIÓN DE EVALUADORES EN SIIU
