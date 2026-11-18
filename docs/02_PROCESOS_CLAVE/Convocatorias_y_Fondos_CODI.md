@@ -9,9 +9,9 @@ El financiamiento interno de la investigación en la Universidad de Antioquia es
 
 ```mermaid
 flowchart TD
-    classDef central fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef fondo fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef accion fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef central fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef fondo fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef accion fill:#137598,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
 
     CODI["<b>CODI / Vicerrectoría de Investigación</b><br/>Financiamiento Interno y Fondos Especiales"]:::central
 

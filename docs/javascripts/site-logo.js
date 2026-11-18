@@ -19,7 +19,9 @@
   }
 
   function syncLogo() {
-    var want = currentScheme() === 'slate' ? WHITE : GREEN;
+    /* La cabecera usa fondo oscuro (#026937 en modo claro, #0B0F15 en modo oscuro),
+     * por lo que el logotipo institucional blanco garantiza el máximo contraste. */
+    var want = WHITE;
     var imgs = document.querySelectorAll('.md-header__button.md-logo img');
     for (var k = 0; k < imgs.length; k++) {
       var cur = imgs[k].getAttribute('src') || '';

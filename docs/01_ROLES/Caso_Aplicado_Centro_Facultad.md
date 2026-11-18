@@ -9,9 +9,9 @@ Para ilustrar cómo opera en la práctica un Centro de Investigación dentro del
 
 ```mermaid
 flowchart TD
-    classDef centro fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef unidad fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef prod fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef centro fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef unidad fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef prod fill:#137598,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
 
     CIC["<b>Centro de Investigaciones y Consultorías (CIC)</b><br/>Acuerdo de Facultad 86 de 2006 — Bloque 13"]:::centro
 

@@ -11,9 +11,9 @@ Cada estado, aval, novedad o liquidación dentro del SIIU responde a competencia
 
 ```mermaid
 flowchart TD
-    classDef inst fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef comite fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef accion fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef inst fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef comite fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef accion fill:#137598,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
 
     CSU["Consejo Superior Universitario<br><i>(Máxima Autoridad Normativa)</i>"]:::inst
     CODI["CODI — Comité para el Desarrollo de la Investigación<br><i>(Políticas, Fondos Centrales y Convocatorias)</i>"]:::inst
