@@ -75,9 +75,11 @@ nav:
       - Centro de Investigación / Extensión: 01_ROLES/Rol_Centro_Investigacion.md
       - Vicerrectoría de Investigación: 01_ROLES/Rol_Vicerrectoria.md
       - Ecosistema de Comités y Gobernanza: 01_ROLES/Ecosistema_Comites_Gobernanza.md
+      - Caso Práctico Unidad Académica (CIC): 01_ROLES/Caso_Aplicado_Centro_Facultad.md
   - Procesos Clave:
       - Matrícula de Proyectos: 02_PROCESOS_CLAVE/Matricula_Proyectos.md
       - Evaluación Técnica y Aval: 02_PROCESOS_CLAVE/Evaluacion_y_Aval.md
+      - Convocatorias y Fondos CODI: 02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md
       - Inicio Formal: 02_PROCESOS_CLAVE/Inicio_Formal.md
       - Modificaciones y Trámites: 02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md
       - Gestión de Compromisos: 02_PROCESOS_CLAVE/Gestion_Compromisos.md
@@ -120,6 +122,7 @@ nav:
       - Ficha Rápida Investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
       - Ficha Rápida Centro: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md
       - Reglas de Oro SIIU: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md
+      - Catálogo de Formatos Descargables: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md
       - Glosario de Términos: 04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md
       - Catálogo Oficial (31 Documentos): 04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md
   - Módulo Legal:

@@ -84,6 +84,37 @@ En proyectos con componentes de riesgo ético, social o ambiental, el **SIIU** e
 
 ---
 
+### A. Comité Central de Ética en Investigación (CCEI)
+
+El **Comité Central de Ética en Investigación (CCEI)** es un organismo adscrito a la Vicerrectoría de Investigación que actúa con autonomía para velar por que los aspectos éticos de la investigación se reflejen en las normas y prácticas investigativas de la Universidad.
+
+- **Marco Normativo:** Reglamentado mediante la [:material-file-pdf-box: Resolución Rectoral 47765 del 15 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/04543468-66ad-4015-8850-ee4b36c0d86c/Resolucio%CC%81n+Rectora+47765.pdf?MOD=AJPERES&CVID=nK7Qn4c).
+- **Manual Operativo:** Consulta los procedimientos operativos del CCEI y de los distintos Comités de Ética y Bioética de la Universidad en el [:material-file-pdf-box: Manual para el funcionamiento de los Comités de Ética (2.ª versión ajustada)](https://www.udea.edu.co/wps/wcm/connect/udea/8598ab50-c33d-45cf-be1c-b105a884743b/Manual+operativo_Segundaversi%C3%B3n.Ajustada.pdf?MOD=AJPERES&CVID=oUqU4v2).
+- **Directrices Temáticas:** Revisa la [:material-file-pdf-box: Circular Única — Tópicos de Interés Ético-Bioético](https://www.udea.edu.co/wps/wcm/connect/udea/52644c75-4996-42c2-8572-c14c2e321ccc/Circular+%C3%9Anica+CCEI+-+FINAL.+Sept29.pdf?MOD=AJPERES&CVID=oeesmid).
+- **Contacto:** `direccionsiu@udea.edu.co`.
+
+### B. Permisos Ambientales, Colecta Biológica y Recursos Genéticos
+
+Cuando un proyecto involucra trabajo de campo con diversidad biológica o comunidades étnicas, el SIIU y la normativa nacional exigen tramitar los permisos correspondientes **antes de iniciar la recolección**:
+
+1. **Permiso Marco de Recolección de Especímenes de Especies Silvestres de la Diversidad Biológica con Fines de Investigación Científica No Comercial:**
+   Los docentes regulares que aún no estén incorporados al Permiso Marco y requieran realizar actividades de colecta deben solicitar su inclusión ante la Vicerrectoría de Investigación (`viceinvestigacionpa@udea.edu.co`), enviando:
+   - Nombre del grupo de investigación.
+   - Descripción de las actividades de recolección de especies que realiza el grupo.
+   - Nombre completo y número de cédula del investigador.
+   - Programa(s) académico(s) que el grupo apoya.
+2. **Contrato de Acceso a Recursos Genéticos y Productos Derivados:** Requerido cuando las actividades implican bioprospección o acceso a material genético (Circular 03 de 2019 y Circular 02 de 2016 de la VRI).
+3. **Consulta Previa:** Obligatoria cuando los proyectos se desarrollen en territorios o con participación directa de comunidades étnicas reconocidas.
+
+### C. Política de Conflicto de Intereses Financieros (FCOI)
+
+En proyectos financiados por entes externos nacionales o internacionales (incluyendo agencias sujetas al Código de Regulaciones Federales de EE. UU. — **42 CFR Parte 50, Subparte F**), la Universidad aplica la **Política de Gestión de Conflictos de Intereses Financieros** para identificar, eliminar o controlar amenazas a la integridad científica y a la protección de sujetos de investigación:
+
+- **Normativa:** [:material-file-pdf-box: Resolución Rectoral 49547 (Español)](https://www.udea.edu.co/wps/wcm/connect/udea/c6478f87-824e-479e-818a-2f365020e9b9/Resoluci%C3%B3n+Rectoral+49547+-+firmado.pdf?MOD=AJPERES&CVID=ojd.O8p) y [:material-file-pdf-box: Reglamentación FCOI UdeA](https://www.udea.edu.co/wps/wcm/connect/udea/3eacbb03-1660-42b2-a412-f16257bbf588/Reglamentaci%C3%B3n+Pol%C3%ADtica+de+Conflictos+de+Interes+Financieros+VF.pdf?MOD=AJPERES&CVID=ojd.7aW).
+- **Declaración Obligatoria:** Diligenciar el [:material-file-word-box: Formato de Declaración de Situaciones de Conflicto de Intereses](https://www.udea.edu.co/wps/wcm/connect/udea/3a7e9c6f-94a3-4661-beed-e6bccbd7d52b/Formato+DECLARACIO%CC%81N+DE+SITUACIONES+DE+CONFLICTO+DE+INTERESES+VerDic20.docx?MOD=AJPERES&CVID=okQM-1u) y cargarlo como soporte en el expediente del proyecto.
+
+---
+
 ## 3. Matriz de Trazabilidad: Estado del SIIU vs. Instancia Responsable
 
 | Estado en el SIIU | Instancia Responsable | Documento o Acto Asociado |
