@@ -528,12 +528,12 @@ body, .md-typeset {
    - Solo CSS, sin JS. Respeta prefers-reduced-motion.
    ========================================================================== */
 
-/* Intro suave de página (0.72s, institucional) */
+/* Intro suave y estable de página (260ms, sin saltos en navigation.instant) */
 .md-content__inner {
-  animation: wikiFadeUp 0.72s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: wikiFadeUp 0.26s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 @keyframes wikiFadeUp {
-  from { opacity: 0; transform: translateY(10px); }
+  from { opacity: 0; transform: translateY(4px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -931,16 +931,92 @@ dialog.diagram-lightbox .diagram-zoom-btn {
    Componentes Visuales Wiki Moderna (Hero, Grid de Tarjetas, Tablas, Buscador)
    -------------------------------------------------------------------------- */
 .wiki-hero {
-  background: linear-gradient(135deg, rgba(2, 105, 55, 0.14) 0%, rgba(19, 117, 152, 0.08) 100%);
+  background: linear-gradient(135deg, rgba(2, 105, 55, 0.16) 0%, rgba(14, 119, 116, 0.14) 55%, rgba(19, 117, 152, 0.10) 100%);
   border: 1px solid rgba(53, 148, 75, 0.35);
-  border-left: 4px solid #35944B;
-  border-radius: 12px;
-  padding: 1.5rem 1.75rem;
+  border-left: 5px solid #8DC63F;
+  border-radius: 14px;
+  padding: 1.75rem 2rem;
   margin: 1.25rem 0 2rem;
+  box-shadow: 0 8px 24px rgba(2, 105, 55, 0.08);
 }
 
 [data-md-color-scheme="default"] .wiki-hero {
-  background: linear-gradient(135deg, rgba(2, 105, 55, 0.07) 0%, rgba(19, 117, 152, 0.04) 100%);
+  background: linear-gradient(135deg, rgba(2, 105, 55, 0.08) 0%, rgba(14, 119, 116, 0.06) 55%, rgba(141, 198, 63, 0.08) 100%);
+  border-left-color: #026937;
+}
+
+.wiki-hero h2 {
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.75rem !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  font-size: 1.45rem !important;
+}
+
+.wiki-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(2, 105, 55, 0.14);
+  color: #026937;
+  border: 1px solid rgba(2, 105, 55, 0.28);
+}
+
+[data-md-color-scheme="slate"] .wiki-badge {
+  background: rgba(141, 198, 63, 0.16);
+  color: #8DC63F;
+  border-color: rgba(141, 198, 63, 0.35);
+}
+
+.wiki-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+}
+
+.wiki-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1.15rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+}
+
+.wiki-btn:hover {
+  transform: translateY(-1px);
+}
+
+.wiki-btn--primary {
+  background: linear-gradient(135deg, #026937 0%, #35944B 100%);
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 12px rgba(2, 105, 55, 0.25);
+}
+
+.wiki-btn--primary:hover {
+  box-shadow: 0 6px 16px rgba(2, 105, 55, 0.35);
+}
+
+.wiki-btn--secondary {
+  background: var(--card-bg);
+  color: #026937 !important;
+  border: 1px solid rgba(2, 105, 55, 0.35);
+}
+
+[data-md-color-scheme="slate"] .wiki-btn--secondary {
+  color: #8DC63F !important;
+  border-color: rgba(141, 198, 63, 0.35);
+}
+
+.wiki-btn--secondary:hover {
+  border-color: #35944B;
 }
 
 .wiki-hero p:last-child {
@@ -1171,4 +1247,86 @@ dialog.diagram-lightbox .diagram-zoom-btn {
   color: #AAD46F;
   border: 1px solid #1E293B;
   border-radius: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   Banner Inferior Institucional (Footer Multi-Columna Wiki SIIU)
+   -------------------------------------------------------------------------- */
+.wiki-footer-banner {
+  background: linear-gradient(180deg, rgba(1, 71, 37, 0.96) 0%, #01381D 100%);
+  border-top: 1px solid rgba(141, 198, 63, 0.25);
+  padding: 2.2rem 1.5rem;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+[data-md-color-scheme="slate"] .wiki-footer-banner {
+  background: linear-gradient(180deg, #0E1520 0%, #090D14 100%);
+  border-top: 1px solid #1E293B;
+}
+
+.wiki-footer-banner__grid {
+  display: grid;
+  grid-template-columns: 1.35fr repeat(3, 1fr);
+  gap: 1.8rem;
+  align-items: start;
+}
+
+@media screen and (max-width: 60em) {
+  .wiki-footer-banner__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 36em) {
+  .wiki-footer-banner__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wiki-footer-banner__title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.wiki-footer-banner__desc {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0;
+}
+
+.wiki-footer-banner__heading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8DC63F;
+  margin-bottom: 0.65rem;
+}
+
+.wiki-footer-banner__col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wiki-footer-banner__col li {
+  margin-bottom: 0.35rem;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.wiki-footer-banner__col a {
+  color: rgba(255, 255, 255, 0.88) !important;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.wiki-footer-banner__col a:hover {
+  color: #8DC63F !important;
+  text-decoration: underline;
 }
