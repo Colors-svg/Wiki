@@ -202,6 +202,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Circular 06 de 2012"
     url: "http://sikuani.udea.edu.co/webmaster/circulares-investigacion/circular06-2012.pdf"
+search:
+  boost: 1.6
 ---
 
 # Circulares

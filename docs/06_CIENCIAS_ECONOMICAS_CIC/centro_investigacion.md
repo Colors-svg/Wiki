@@ -10,6 +10,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Guía investigación"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/e9ee9d70-5409-4611-94a7-4691d1c9a99e/guia-investigacion.pdf?MOD=AJPERES&CVID=lQufRjO"
+search:
+  boost: 1.1
 ---
 
 # Centro de Investigaciones y Consultorías -CIC-

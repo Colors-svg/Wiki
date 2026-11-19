@@ -5,6 +5,8 @@ titulo: "GICCO - Semillero de Investigación en Lectura y Escritura - SILES"
 fecha_extraccion: "2026-11-11"
 recursos_asociados:
   []
+search:
+  boost: 0.7
 ---
 
 # GICCO - Semillero de Investigación en Lectura y Escritura - SILES

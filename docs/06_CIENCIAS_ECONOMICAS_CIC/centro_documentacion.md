@@ -64,6 +64,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Boletín No 2024-1"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/919a7b22-9436-46ed-8153-760c1021c7fa/Bolet%C3%ADn+No+2024-1.pdf?MOD=AJPERES&CVID=o.JVQ83"
+search:
+  boost: 1.1
 ---
 
 # Centro de Documentación

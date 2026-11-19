@@ -5,6 +5,8 @@ titulo: "Comités de programas de posgrados de los departamentos académicos"
 fecha_extraccion: "2026-11-12"
 recursos_asociados:
   []
+search:
+  boost: 0.7
 ---
 
 # Comités de programas de posgrados de los departamentos académicos

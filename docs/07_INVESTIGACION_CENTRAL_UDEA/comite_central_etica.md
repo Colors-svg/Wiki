@@ -13,6 +13,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Descargar Circular"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/52644c75-4996-42c2-8572-c14c2e321ccc/Circular+%C3%9Anica+CCEI+-+FINAL.+Sept29.pdf?MOD=AJPERES&CVID=oeesmid"
+search:
+  boost: 1.6
 ---
 
 # Comité Central de Ética en Investigación

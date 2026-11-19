@@ -5,6 +5,8 @@ titulo: "Comité de Egresados"
 fecha_extraccion: "2026-11-12"
 recursos_asociados:
   []
+search:
+  boost: 0.7
 ---
 
 # Comité de Egresados

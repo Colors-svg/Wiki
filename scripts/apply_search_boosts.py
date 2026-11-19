@@ -10,6 +10,11 @@ RULES = [
     ("docs/00_INICIO_Y_MOCS/*.md", 1.8),
     ("docs/04_GLOSARIO_Y_CONCEPTOS/*.md", 1.8),
     ("docs/05_MARCO_NORMATIVO/*.md", 1.3),
+    ("docs/07_INVESTIGACION_CENTRAL_UDEA/*.md", 1.6),
+    ("docs/06_CIENCIAS_ECONOMICAS_CIC/*.md", 1.1),
+    ("docs/06_CIENCIAS_ECONOMICAS_CIC/comites/*.md", 0.7),
+    ("docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/*.md", 0.7),
+    ("docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/*.md", 0.7),
     ("docs/archivo_maestro/*.md", 0.35),
     ("docs/archivo_maestro/legalidad/*.md", 0.35),
 ]

@@ -6,9 +6,17 @@ search:
 # Wiki Operativa del SIIU — Universidad de Antioquia
 
 <div class="wiki-hero" markdown="1">
-**¡Bienvenido!** Esta guía reúne de forma clara, práctica y paso a paso todo lo que necesitas saber para gestionar tus proyectos en el **Sistema de Información para la Investigación Universitaria (SIIU)** de la Universidad de Antioquia.
+<span class="wiki-badge">Sistema Universitario de Investigación · UdeA</span>
 
-¿Es tu primera vez en la plataforma o tienes una duda puntual? Empieza por **[Empieza aquí en 5 minutos](inicio-rapido.md)** o consulta las **[Preguntas Frecuentes (FAQ)](faq.md)**.
+## Todo el ciclo de tus proyectos de investigación, en un solo lugar
+
+Consulta paso a paso cómo formular, avalar, ejecutar, modificar y liquidar proyectos en el **Sistema de Información para la Investigación Universitaria (SIIU)**, con acceso directo a **formatos oficiales, cronogramas CODI, comités de ética y normativa vigente**.
+
+<div class="wiki-actions">
+  <a class="wiki-btn wiki-btn--primary" href="inicio-rapido/">Empieza aquí en 5 minutos</a>
+  <a class="wiki-btn wiki-btn--secondary" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/">Formatos Descargables</a>
+  <a class="wiki-btn wiki-btn--secondary" href="faq/">Preguntas Frecuentes</a>
+</div>
 </div>
 
 ---

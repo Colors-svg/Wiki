@@ -5,12 +5,14 @@ titulo: "Productos de conocimiento UdeA"
 fecha_extraccion: "2026-11-18"
 recursos_asociados:
   []
+search:
+  boost: 1.6
 ---
 
 # Productos de conocimiento UdeA
 
 ## Resumen Ejecutivo
-With its unforgettable harbour, golden beaches and sunny climate, visiting Sydney has to be on your 'bucket' list. Make Experience 2012 your excuse to visit this vibrant and cosmopolitan city.
+Portafolio institucional de tecnologías y productos de conocimiento de la Universidad de Antioquia listos para procesos de transferencia, licenciamiento comercial y escalamiento productivo, en articulación con el Estatuto de Propiedad Intelectual (RR 49544 de 2022).
 
 ## Contenido Principal
 ![](https://www.udea.edu.co/wps/wcm/connect/udea/276d2a33-0bb0-461c-9967-831cbf7095cb/1/Rotador-Portafolio-Tecnologico-UdeA.png?MOD=AJPERES)

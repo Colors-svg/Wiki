@@ -5,6 +5,8 @@ titulo: "Asesorías y consultorías CIC"
 fecha_extraccion: "2026-11-11"
 recursos_asociados:
   []
+search:
+  boost: 1.1
 ---
 
 # Asesorías y consultorías CIC

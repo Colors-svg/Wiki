@@ -5,6 +5,8 @@ titulo: "GIFI - Semillero de Investigación en Finanzas (SIFI)"
 fecha_extraccion: "2026-11-11"
 recursos_asociados:
   []
+search:
+  boost: 0.7
 ---
 
 # GIFI - Semillero de Investigación en Finanzas (SIFI)

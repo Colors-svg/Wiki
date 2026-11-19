@@ -5,6 +5,8 @@ titulo: "Matriz Maestra de Conformación de Comités de Gobierno - FCE"
 fecha_extraccion: "2026-11-12"
 recursos_asociados:
   []
+search:
+  boost: 1.1
 ---
 
 # Matriz Maestra de Conformación de Comités de Gobierno y Académicos

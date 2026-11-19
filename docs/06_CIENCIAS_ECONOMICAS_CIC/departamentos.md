@@ -5,6 +5,8 @@ titulo: "Departamentos Académicos - Facultad de Ciencias Económicas"
 fecha_extraccion: "2026-11-12"
 recursos_asociados:
   []
+search:
+  boost: 1.1
 ---
 
 # Departamentos Académicos - Facultad de Ciencias Económicas

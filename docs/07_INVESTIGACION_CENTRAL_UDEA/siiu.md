@@ -7,6 +7,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/4338af16-b70b-46a7-a2e1-0f7b5b648ad3/Manual+Matricula+de+cupo+para+JI+2026+%2813%29.pdf?MOD=AJPERES&CVID=pW9A-yd"
+search:
+  boost: 1.6
 ---
 
 # Sistema Integrado de Información Universitaria

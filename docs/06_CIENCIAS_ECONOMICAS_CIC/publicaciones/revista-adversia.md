@@ -31,6 +31,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "PDF"
     url: "https://revistas.udea.edu.co/index.php/adversia/article/view/362611/20820090"
+search:
+  boost: 0.7
 ---
 
 # Adversia

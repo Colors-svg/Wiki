@@ -7,6 +7,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Acuerdo superior 451: Política Institucional de Acceso Abierto"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/e1796949-5363-404c-94c6-6b75ce5ace52/AS-openacces451.PDF?MOD=AJPERES&CVID=meWlyUD"
+search:
+  boost: 1.6
 ---
 
 # Política de Acceso Abierto

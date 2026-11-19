@@ -16,6 +16,8 @@ recursos_asociados:
   - tipo: "Repositorio"
     nombre: "Comunicados"
     url: "https://drive.google.com/drive/folders/1v2t7cksmYp0wXqWKoVsO82yE1FUGZcw2?usp=sharing"
+search:
+  boost: 0.7
 ---
 
 # Consejo de Facultad

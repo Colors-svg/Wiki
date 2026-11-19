@@ -34,6 +34,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "PDF (English)"
     url: "https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/360141/20822285"
+search:
+  boost: 0.7
 ---
 
 # Lecturas de Economía

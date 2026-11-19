@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1.1
+---
+
 # Arquitectura Funcional y Auditoría Estratégica: Centro de Investigaciones y Consultorías (CIC)
 **Unidad Académica:** Facultad de Ciencias Económicas — Universidad de Antioquia (UdeA)  
 **Fecha de Auditoría:** 2026-11-11  

@@ -34,6 +34,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "pdf"
     url: "https://revistas.udea.edu.co/index.php/cont/article/view/367342/20822355"
+search:
+  boost: 0.7
 ---
 
 # Contaduría Universidad de Antioquia

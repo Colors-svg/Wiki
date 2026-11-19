@@ -5,6 +5,8 @@ titulo: "Guía Exhaustiva de Grupos de Investigación Activos - Facultad de Cien
 fecha_extraccion: "2026-11-17"
 recursos_asociados:
   []
+search:
+  boost: 1.1
 ---
 
 # Grupos de Investigación Activos — Facultad de Ciencias Económicas (UdeA)
@@ -582,27 +584,11 @@ El grupo ampara la formación temprana de investigadores de pregrado y posgrado 
 
 ##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
 - **[Articulación con comunidades científicas - GER](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/Articulacionconcomunidadescientificas-GER):** Contamos con una articulación con diferentes comunidades científicas regionales, nacionales e internacionales.
-element
-Font
-font-family
-font-size
-font-style
-font-variant
-font-weigh...
-- **[El Grupo de Estudios Regionales (GER) y su presencia en Latin American Studies Association](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/GERysupresenciaenLatinAmericanStudiesAssociation):** El Grupo de Estudios Regionales (GER) ha tenido una presencia continua y creciente en
-Latin American Studies Association,
-en específico desde 2019, presentando investigaciones en a...
+- **[El Grupo de Estudios Regionales (GER) y su presencia en Latin American Studies Association](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/GERysupresenciaenLatinAmericanStudiesAssociation):** El Grupo de Estudios Regionales (GER) ha tenido una presencia continua y creciente en Latin American Studies Association, en específico desde 2019.
 - **[Atrapados/As Entre la Revolución Digital y una Crisis de la Democracia: Respuestas y Soluciones Pensadas por la Economía Feminista para el Futuro](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/AtrapadosEntrelaRevolucionDigitalyunaCrisisdelaDemocraciaRySPensadasporEconomiaFeministaparaFuturo):** La Conferencia IAFFE 2024 aspira a incitar a la reflexión crítica sobre las respuestas de la economía feminista a dos de las características determinantes del panorama económico y ...
 - **[Curso virtual en Análisis de Redes Sociales](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/curso-virtual-analisis-redes-sociales):** El Grupo de Estudios Regionales (GER) de la Universidad de Antioquia y la Red de Investigadores en Historia Económica de Colombia (RIHE) invitan al: Curso virtual en Análisis de Re...
 - **[II Congreso Colombiano de Historia Económica](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/congreso-colombiano-historia-economica):** La Asociación Colombiana de Historia Económica y Empresarial y la Red de Investigadores en Historia Económica de Colombia convocan a presentar ponencias al II Congreso Colombiano d...
-- **[Proyectos desarrollados](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/proyectos):** Lideramos investigación y consultoría que aportan a la construcción de una sociedad inclusiva, sostenible y competitiva
-element
-Font
-font-family
-font-size
-font-style
-font-variant
-f...
+- **[Proyectos desarrollados](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/proyectos):** Lideramos investigación y consultoría que aportan a la construcción de una sociedad inclusiva, sostenible y competitiva.
 
 
 ---
@@ -1769,14 +1755,7 @@ El grupo ampara la formación temprana de investigadores de pregrado y posgrado 
 ##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
 - **[Boletines Económicos Municipales de Antioquia](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/Boletines-Economicos-Municipales-de-Antioquia-Macroeconomia):** Iniciativa del Grupo de Macroeconomía Aplicada, de la Universidad de Antioquia, y con el respaldo del IDEA y la Gobernación de Antioquia, que tiene como propósito brindar informaci...
 - **[Articulación con Comunidades Científicas Grupo de Investigación Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/Articulacioncomunidadescientificasmacroeconomia):** Desde el Grupo de Investigación Macroeconomía Aplicada contamos con la articulación con comunidades científicas.
-element
-Font
-font-family
-font-size
-font-style
-font-variant
-font-wei...
-- **[Semilleros Grupo de Investigación Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/semillerosmacroeconomia):** Son espacios de innovación, dedicación, ingenio y compromiso, para el desarrollo de los proyectos de investigación que permiten a los participantes familiarizarse con las diferente...
+- **[Semilleros Grupo de Investigación Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/semillerosmacroeconomia):** Son espacios de innovación, dedicación, ingenio y compromiso, para el desarrollo de los proyectos de investigación que permiten a los participantes familiarizarse con las diferentes metodologías.
 - **[La influencia del contexto en la calidad de la educación](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/proyectos-investigacion):** Estudiar la economía de la educación resulta importante porque posibilita aportar con políticas públicas que precisamente se dirigen a mejorar la calidad de la misma, afirman los i...
 - **[Avanza investigación sobre el boom de las “multilatinas” colombianas](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/proyecto-multilatinas-colombianas-udea):** Representantes del Grupo Orbis, Procafecol (Juan Valdez) y Procolombia junto al investigador Ramón Javier Mesa Callejas expusieron sus experiencias y conocimientos sobre la inserci...
 

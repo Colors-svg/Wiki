@@ -7,6 +7,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Estatuto General"
     url: "http://secretariageneral.udea.edu.co/doc/a0001-1994.pdf"
+search:
+  boost: 1.6
 ---
 
 # Vicerrectoría de Investigación

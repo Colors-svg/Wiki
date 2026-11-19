@@ -30,12 +30,16 @@ Este documento condensa la arquitectura, estado de avance, convenciones operativ
 │   ├── 03_GUIAS_RAPIDAS_CHEAT_SHEETS/   # Cheat Sheets y Reglas de Oro operativas
 │   ├── 04_GLOSARIO_Y_CONCEPTOS/         # Glosario canónico de 17 estados y catálogo de 31 docs
 │   ├── 05_MARCO_NORMATIVO/              # Síntesis didáctica de las 21 normas institucionales
+│   ├── 06_CIENCIAS_ECONOMICAS_CIC/      # Ecosistema FCE/CIC: arquitectura, 9 grupos, 20 comités, semilleros y revistas
+│   ├── 07_INVESTIGACION_CENTRAL_UDEA/   # Portal VRI/CODI: cronograma 2026, 18 formatos, 66 circulares, ética y FCOI
 │   ├── archivo_maestro/                 # Transcripciones 1 a 1 de las 31 guías e instructivos
 │   │   └── legalidad/                   # Transcripciones 1 a 1 de las 21 normas institucionales
-│   ├── assets/                          # Logotipos SVG, favicon e iconografía
-│   │   └── figuras/                     # 1.574 capturas de pantalla reales extraídas de los PDFs
-│   └── stylesheets/extra.css            # Estilos personalizados, tipografía Inter y animaciones
+│   ├── assets/                          # Logotipos SVG (recortados), favicon e iconografía
+│   │   └── figuras/                     # 858 capturas de pantalla reales compuestas a 200 DPI
+│   └── stylesheets/wiki.css             # Sistema de diseño Paleta-Udea, tarjetas, responsive, modo claro/oscuro
 │
+├── overrides/                           # Plantillas Jinja2 personalizadas (banner footer institucional)
+├── fuentes_scrapeo/                     # Espejo archivístico canónico del scrapeo institucional (84 archivos data/)
 ├── archivo_maestro/                     # Espejo de preservación archivística estricta 1 a 1
 │   ├── VI-GU-01.md a VI-GU-25.md        # 21 Guías oficiales completas con figuras vinculadas
 │   ├── VI-IN-01.md a VI-IN-12.md        # 10 Instructivos oficiales completos con figuras
@@ -43,10 +47,12 @@ Este documento condensa la arquitectura, estado de avance, convenciones operativ
 │
 ├── fuentes_pdf/                         # 31 PDFs originales de la Vicerrectoría
 ├── Legalidad/                           # 21 PDFs originales de Acuerdos Superiores y Resoluciones
-├── scripts/                             # Scripts de automatización en Python (PyMuPDF)
+├── scripts/                             # Scripts de automatización en Python
 │   ├── extract_all_figures.py           # Extractor masivo de figuras desde los PDFs
-│   └── link_figures.py                  # Vinculador de imágenes en los archivos Markdown
-├── mkdocs.yml                           # Configuración de MkDocs Material, navegación y extensiones
+│   ├── link_figures.py                  # Vinculador de imágenes en los archivos Markdown
+│   ├── apply_search_boosts.py           # Ponderación de relevancia (search.boost) en frontmatter YAML
+│   └── generate_monolithic_wiki.py      # Compilador monolítico WIKI_COMPLETA_SIIU_UDEA.md para Wiki_Md
+├── mkdocs.yml                           # Configuración de MkDocs Material, navegación, search y overrides
 └── README.md                            # Portada principal del repositorio de GitHub
 ```
 

@@ -5,6 +5,8 @@ titulo: "Atención al ciudadano"
 fecha_extraccion: "2026-11-18"
 recursos_asociados:
   []
+search:
+  boost: 1.6
 ---
 
 # Atención al ciudadano

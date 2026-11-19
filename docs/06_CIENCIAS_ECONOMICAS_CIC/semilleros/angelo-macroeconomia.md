@@ -5,6 +5,8 @@ titulo: "MACROECONOMÍA - Semillero Ángelo de Investigación Económica"
 fecha_extraccion: "2026-11-11"
 recursos_asociados:
   []
+search:
+  boost: 0.7
 ---
 
 # MACROECONOMÍA - Semillero Ángelo de Investigación Económica

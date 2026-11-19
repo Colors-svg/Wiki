@@ -16,6 +16,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Leer circular"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/3c9af606-ebae-4aa9-bd4f-b1f052c56bee/Circular+01+del+2026_CronogramaJI.pdf?MOD=AJPERES&CVID=pL.E-QC"
+search:
+  boost: 1.6
 ---
 
 # Sobre el programa en la UdeA

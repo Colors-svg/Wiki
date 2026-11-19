@@ -19,12 +19,14 @@ recursos_asociados:
   - tipo: "Word"
     nombre: "DESCARGA el Formato de Declaración de Situaciones de Conflicto de Intereses"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/3a7e9c6f-94a3-4661-beed-e6bccbd7d52b/Formato+DECLARACIO%CC%81N+DE+SITUACIONES+DE+CONFLICTO+DE+INTERESES+VerDic20.docx?MOD=AJPERES&CVID=okQM-1u"
+search:
+  boost: 1.6
 ---
 
 # Política de gestión de conflicto de intereses financieros en investigación
 
 ## Resumen Ejecutivo
-With its unforgettable harbour, golden beaches and sunny climate, visiting Sydney has to be on your 'bucket' list. Make Experience 2012 your excuse to visit this vibrant and cosmopolitan city.
+Lineamientos oficiales, reglamentación vigente (Resolución Rectoral 49547) y formato obligatorio de declaración para identificar, prevenir y gestionar conflictos de intereses financieros (FCOI) en proyectos de investigación financiados por entes externos nacionales e internacionales.
 
 ## Contenido Principal
 ### Reglamentación de la Política de Conflictos de Intereses Financieros de la UdeA

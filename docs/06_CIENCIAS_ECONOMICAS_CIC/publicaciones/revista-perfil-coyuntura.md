@@ -22,6 +22,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "PDF"
     url: "https://revistas.udea.edu.co/index.php/coyuntura/article/view/327746/20784800"
+search:
+  boost: 0.7
 ---
 
 # Perfil de Coyuntura Económica

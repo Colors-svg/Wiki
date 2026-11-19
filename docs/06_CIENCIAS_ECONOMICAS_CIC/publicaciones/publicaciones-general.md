@@ -313,6 +313,8 @@ recursos_asociados:
   - tipo: "PDF"
     nombre: "Organismos reguladores del sistema de saludo colombiano: conformación, funcionamiento y responsabili"
     url: "http://bibliotecadigital.udea.edu.co/bitstream/10495/3321/1/VelandiaDurfari_2002_OrganismosReguladoresSalud.pdf"
+search:
+  boost: 0.7
 ---
 
 # Borradores del Departamento de Economía

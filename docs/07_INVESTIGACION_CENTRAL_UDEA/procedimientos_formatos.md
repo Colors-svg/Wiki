@@ -58,6 +58,8 @@ recursos_asociados:
   - tipo: "Excel"
     nombre: "Formato Informe Parcial y Final de cumplimiento de compromisos Estrategia para la Consolidación de Grupos de Investigaci"
     url: "https://www.udea.edu.co/wps/wcm/connect/udea/18d07f4f-f984-4058-9f31-6eb7e7fa235c/Plantilla_Compromisos_consolidacion.xlsx?MOD=AJPERES&CVID=lXK2tPp"
+search:
+  boost: 1.6
 ---
 
 # Procedimientos y formatos
