@@ -629,7 +629,7 @@ body, .md-typeset {
 [data-md-color-scheme="slate"] .mermaid .label,
 [data-md-color-scheme="slate"] .mermaid .cluster-label,
 [data-md-color-scheme="slate"] .mermaid .cluster-label span {
-  color: #EAF3EC !important;
+  color: #EAF3EC;
 }
 
 [data-md-color-scheme="default"] .mermaid .nodeLabel,
@@ -1051,4 +1051,124 @@ dialog.diagram-lightbox .diagram-zoom-btn {
   color: inherit !important;
   border-radius: 3px;
   padding: 0 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Pulido Modo Claro vs Modo Oscuro (Buscador, Footer, Tablas, TOC, Codigo)
+   -------------------------------------------------------------------------- */
+
+/* Buscador en cabecera: contraste optimo en ambos modos */
+[data-md-color-scheme="default"] .md-search__form {
+  background-color: rgba(255, 255, 255, 0.16) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+[data-md-color-scheme="default"] .md-search__form:hover {
+  background-color: rgba(255, 255, 255, 0.24) !important;
+}
+[data-md-color-scheme="default"] .md-search__input {
+  color: #FFFFFF !important;
+}
+[data-md-color-scheme="default"] .md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #111722 !important;
+  border: 1px solid #1E293B;
+}
+[data-md-color-scheme="slate"] .md-search__input {
+  color: #E2E8F0 !important;
+}
+[data-md-color-scheme="slate"] .md-search__output {
+  background-color: #0B0F15 !important;
+  border: 1px solid #1E293B;
+}
+[data-md-color-scheme="slate"] .md-search-result__meta {
+  background-color: #111722 !important;
+  color: #94A3B8 !important;
+}
+[data-md-color-scheme="slate"] .md-search-result__title {
+  color: #8DC63F !important;
+}
+
+[data-md-color-scheme="default"] .md-search__output {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0;
+}
+[data-md-color-scheme="default"] .md-search-result__meta {
+  background-color: #F0F5F2 !important;
+  color: #026937 !important;
+}
+[data-md-color-scheme="default"] .md-search-result__title {
+  color: #026937 !important;
+}
+
+/* Footer institucional en modo claro y oscuro */
+[data-md-color-scheme="default"] .md-footer {
+  background-color: #026937 !important;
+  color: #FFFFFF !important;
+  border-top: 3px solid #8DC63F;
+}
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: #014725 !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+[data-md-color-scheme="default"] .md-footer__link,
+[data-md-color-scheme="default"] .md-footer-meta a {
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background-color: #0B0F15 !important;
+  border-top: 2px solid #35944B;
+}
+[data-md-color-scheme="slate"] .md-footer-meta {
+  background-color: #070A0F !important;
+  border-top: 1px solid #1E293B;
+}
+
+/* Hover y zebra suave en tablas */
+[data-md-color-scheme="default"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: rgba(2, 105, 55, 0.025);
+}
+[data-md-color-scheme="default"] .md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(2, 105, 55, 0.06);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(141, 198, 63, 0.06);
+}
+
+/* Tabla de Contenidos (derecha) en ambos modos */
+[data-md-color-scheme="default"] .md-nav--secondary .md-nav__title {
+  color: #026937 !important;
+  font-weight: 700;
+}
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__title {
+  color: #8DC63F !important;
+  font-weight: 700;
+}
+[data-md-color-scheme="default"] .md-nav--secondary .md-nav__link--active {
+  color: #026937 !important;
+  font-weight: 600;
+}
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link--active {
+  color: #8DC63F !important;
+  font-weight: 600;
+}
+
+/* Bloques de codigo inline con buen contraste */
+[data-md-color-scheme="default"] .md-typeset code {
+  background-color: #EDF5F0;
+  color: #014725;
+  border: 1px solid #D3E6DA;
+  border-radius: 4px;
+}
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: #0D1622;
+  color: #AAD46F;
+  border: 1px solid #1E293B;
+  border-radius: 4px;
 }
