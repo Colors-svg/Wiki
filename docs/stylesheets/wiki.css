@@ -1250,83 +1250,51 @@ dialog.diagram-lightbox .diagram-zoom-btn {
 }
 
 /* --------------------------------------------------------------------------
-   Banner Inferior Institucional (Footer Multi-Columna Wiki SIIU)
+   Banner Inferior Institucional Corto y Elegante
    -------------------------------------------------------------------------- */
 .wiki-footer-banner {
-  background: linear-gradient(180deg, rgba(1, 71, 37, 0.96) 0%, #01381D 100%);
-  border-top: 1px solid rgba(141, 198, 63, 0.25);
-  padding: 2.2rem 1.5rem;
-  color: rgba(255, 255, 255, 0.88);
+  background: #013F21;
+  border-top: 1px solid rgba(141, 198, 63, 0.28);
+  padding: 0.9rem 0;
 }
 
 [data-md-color-scheme="slate"] .wiki-footer-banner {
-  background: linear-gradient(180deg, #0E1520 0%, #090D14 100%);
+  background: #090D14;
   border-top: 1px solid #1E293B;
 }
 
-.wiki-footer-banner__grid {
-  display: grid;
-  grid-template-columns: 1.35fr repeat(3, 1fr);
-  gap: 1.8rem;
-  align-items: start;
+.wiki-footer-banner__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding: 0 0.8rem;
 }
 
-@media screen and (max-width: 60em) {
-  .wiki-footer-banner__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 36em) {
-  .wiki-footer-banner__grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.wiki-footer-banner__title {
-  font-size: 1rem;
-  font-weight: 800;
-  color: #FFFFFF;
-  margin-bottom: 0.5rem;
-  letter-spacing: -0.02em;
-}
-
-.wiki-footer-banner__desc {
-  font-size: 0.76rem;
-  line-height: 1.55;
-  color: rgba(255, 255, 255, 0.78);
-  margin: 0;
-}
-
-.wiki-footer-banner__heading {
-  font-size: 0.75rem;
+.wiki-footer-banner__brand {
+  font-size: 0.72rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   color: #8DC63F;
-  margin-bottom: 0.65rem;
 }
 
-.wiki-footer-banner__col ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.wiki-footer-banner__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
 }
 
-.wiki-footer-banner__col li {
-  margin-bottom: 0.35rem;
-  font-size: 0.76rem;
-  line-height: 1.45;
-  color: rgba(255, 255, 255, 0.78);
-}
-
-.wiki-footer-banner__col a {
-  color: rgba(255, 255, 255, 0.88) !important;
+.wiki-footer-banner__links a {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.86) !important;
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
-.wiki-footer-banner__col a:hover {
+.wiki-footer-banner__links a:hover {
   color: #8DC63F !important;
   text-decoration: underline;
 }
