@@ -137,3 +137,38 @@ nav:
       - Privacidad y Datos: legal/privacidad.md
       - Cookies y Sesión: legal/cookies.md
       - Licencias y Reuso: legal/licencias.md
+  - Facultad Ciencias Económicas (CIC):
+      - Resumen FCE y CIC: 06_CIENCIAS_ECONOMICAS_CIC/index.md
+      - Arquitectura Funcional del CIC: 06_CIENCIAS_ECONOMICAS_CIC/arquitectura_funcional.md
+      - Grupos de Investigación Activos: 06_CIENCIAS_ECONOMICAS_CIC/grupos_investigacion_activos.md
+      - Matriz Conformación de Comités: 06_CIENCIAS_ECONOMICAS_CIC/matriz_conformacion_comites.md
+      - Asesorías y Consultorías CIC: 06_CIENCIAS_ECONOMICAS_CIC/asesorias_consultorias.md
+      - Centro de Documentación FCE: 06_CIENCIAS_ECONOMICAS_CIC/centro_documentacion.md
+      - Departamentos Académicos: 06_CIENCIAS_ECONOMICAS_CIC/departamentos.md
+      - Directorio Administrativo FCE: 06_CIENCIAS_ECONOMICAS_CIC/directorio_administrativo.md
+      - Comités de Gobierno:
+          - Consejo de Facultad: 06_CIENCIAS_ECONOMICAS_CIC/comites/consejo-facultad.md
+          - Inv. Ciencias Administrativas: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-administrativas.md
+          - Inv. Ciencias Contables: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-contables.md
+          - Revistas Ciencias Contables: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-revistas-departamento-ciencias-contables.md
+          - Comité de Posgrados: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-posgrados.md
+          - Comité de Currículo: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-curriculo.md
+          - Comité de Prácticas: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-practicas.md
+  - Investigación Central (CODI y Formatos):
+      - Resumen Investigación Central: 07_INVESTIGACION_CENTRAL_UDEA/index.md
+      - CODI (Comité y Cronograma 2026): 07_INVESTIGACION_CENTRAL_UDEA/codi.md
+      - Catálogo Maestro de Formatos (18): 07_INVESTIGACION_CENTRAL_UDEA/catalogo_formatos_descargables.md
+      - Procedimientos y Formatos: 07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md
+      - Vicerrectoría de Investigación: 07_INVESTIGACION_CENTRAL_UDEA/vicerrectoria.md
+      - Sede de Investigación (SIU): 07_INVESTIGACION_CENTRAL_UDEA/siu.md
+      - Comité Central de Ética: 07_INVESTIGACION_CENTRAL_UDEA/comite_central_etica.md
+      - Convocatorias CODI: 07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md
+      - Convocatorias Externas: 07_INVESTIGACION_CENTRAL_UDEA/convocatorias_externas.md
+      - Fondos de Apoyo: 07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md
+      - Programa Jóvenes Investigadores: 07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md
+      - SIIU (Portal Central): 07_INVESTIGACION_CENTRAL_UDEA/siiu.md
+      - Circulares de Vicerrectoría (66): 07_INVESTIGACION_CENTRAL_UDEA/circulares_vicerrectoria.md
+      - Reglamento de Investigación: 07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md
+      - Propiedad Intelectual: 07_INVESTIGACION_CENTRAL_UDEA/propiedad_intelectual.md
+      - Política de Acceso Abierto: 07_INVESTIGACION_CENTRAL_UDEA/acceso_abierto.md
+      - Conflicto de Intereses Financieros: 07_INVESTIGACION_CENTRAL_UDEA/conflicto_intereses_financieros.md
