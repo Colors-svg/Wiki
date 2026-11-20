@@ -1,7 +1,7 @@
 site_name: Wiki SIIU — Universidad de Antioquia
 site_description: Base de Conocimiento y Guía Operativa del Sistema de Información para la Investigación Universitaria
-site_author: Vicerrectoría de Investigación — Universidad de Antioquia
-copyright: Universidad de Antioquia — Vicerrectoría de Investigación y Extensión · Wiki Operativa SIIU
+site_author: Comunidad Universitaria UdeA · Guía Independiente
+copyright: Iniciativa académica independiente no oficial · Basada en la documentación pública del SIIU — Universidad de Antioquia
 
 theme:
   name: material
@@ -136,6 +136,7 @@ nav:
       - Catálogo Oficial (31 Documentos): 04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md
   - Módulo Legal:
       - Resumen Legal Simple: legal/index.md
+      - Políticas y Aclaraciones: legal/politicas-y-aclaraciones.md
       - Términos de Uso: legal/terminos.md
       - Privacidad y Datos: legal/privacidad.md
       - Cookies y Sesión: legal/cookies.md

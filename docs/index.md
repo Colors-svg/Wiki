@@ -6,7 +6,7 @@ search:
 # Wiki Operativa del SIIU — Universidad de Antioquia
 
 <div class="wiki-hero" markdown="1">
-<span class="wiki-badge">Sistema Universitario de Investigación · UdeA</span>
+<span class="wiki-badge">Guía Comunitaria No Oficial · Apoyo SIIU UdeA</span>
 
 ## Todo el ciclo de tus proyectos de investigación, en un solo lugar
 
@@ -15,6 +15,7 @@ Consulta paso a paso cómo formular, avalar, ejecutar, modificar y liquidar proy
 <div class="wiki-actions">
   <a class="wiki-btn wiki-btn--primary" href="inicio-rapido/">Empieza aquí en 5 minutos</a>
   <a class="wiki-btn wiki-btn--secondary" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/">Formatos Descargables</a>
+  <a class="wiki-btn wiki-btn--secondary" href="legal/politicas-y-aclaraciones/">Políticas y Aclaraciones</a>
   <a class="wiki-btn wiki-btn--secondary" href="faq/">Preguntas Frecuentes</a>
 </div>
 </div>

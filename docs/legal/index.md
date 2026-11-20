@@ -15,10 +15,11 @@
 
 ---
 
-## Las 4 fichas
+## Las 5 fichas legales y operativas
 
 | Ficha | Qué resuelve | Ir a |
 |---|---|---|
+| Políticas de Uso y Aclaraciones | Aclaración de no oficialidad, fines educativos y deslinde | [Políticas](politicas-y-aclaraciones.md) |
 | Términos de uso de la Wiki | Qué puedes esperar de esta guía y qué no es | [Términos](terminos.md) |
 | Privacidad y datos | Qué datos trata el SIIU/MARES y quién los ve | [Privacidad](privacidad.md) |
 | Cookies y sesión | Por qué falla el guardado y los pop-ups | [Cookies](cookies.md) |
