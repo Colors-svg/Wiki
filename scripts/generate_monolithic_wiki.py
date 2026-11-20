@@ -3,6 +3,11 @@ import os, glob, re
 BASE_DIR = "temp_build_mono"
 OUTPUT_FILE = os.path.join(BASE_DIR, "WIKI_COMPLETA_SIIU_UDEA.md")
 
+# Helpers to gather subdirectories in 06 and 07
+def get_rel_paths(pattern):
+    matches = glob.glob(os.path.join(BASE_DIR, pattern), recursive=True)
+    return sorted([os.path.relpath(p, BASE_DIR).replace('\\', '/') for p in matches])
+
 # Ordered categories
 sections_order = [
     ("1. MANUALES DE ROLES Y GOBERNANZA", [
@@ -31,7 +36,42 @@ sections_order = [
         "docs/inicio-rapido.md",
         "docs/faq.md",
     ]),
-    ("4. MAPAS DE CONTENIDO (MOC) Y CONCEPTOS", [
+    ("4. INVESTIGACIÓN CENTRAL UDEA — CODI Y VICERRECTORÍA", [
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/index.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/codi.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/catalogo_formatos_descargables.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/circulares_vicerrectoria.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/vicerrectoria.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/siu.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/siiu.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/comite_central_etica.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_externas.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/propiedad_intelectual.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/acceso_abierto.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/conflicto_intereses_financieros.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/permisos_investigacion.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/atencion_ciudadano.md",
+    ]),
+    ("5. ECOSISTEMA FACULTAD DE CIENCIAS ECONÓMICAS Y CIC", [
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/index.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/arquitectura_funcional.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/centro_investigacion.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/departamentos.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/grupos_investigacion_activos.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/matriz_conformacion_comites.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/directorio_administrativo.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/asesorias_consultorias.md",
+        "docs/06_CIENCIAS_ECONOMICAS_CIC/centro_documentacion.md",
+    ] + get_rel_paths("docs/06_CIENCIAS_ECONOMICAS_CIC/comites/*.md")
+      + get_rel_paths("docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/*.md")
+      + get_rel_paths("docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/*.md")
+    ),
+    ("6. MAPAS DE CONTENIDO (MOC) Y CONCEPTOS", [
         "docs/00_INICIO_Y_MOCS/MOC_Ciclo_de_Vida_Proyectos.md",
         "docs/00_INICIO_Y_MOCS/MOC_Por_Roles.md",
         "docs/00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md",
@@ -40,7 +80,7 @@ sections_order = [
         "docs/04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md",
         "docs/04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md",
     ]),
-    ("5. SÍNTESIS DEL MARCO NORMATIVO INSTITUCIONAL (21 NORMAS)", [
+    ("7. SÍNTESIS DEL MARCO NORMATIVO INSTITUCIONAL (21 NORMAS)", [
         "docs/05_MARCO_NORMATIVO/AS_01_1994_Estatuto_General.md",
         "docs/05_MARCO_NORMATIVO/AS_083_1996_Estatuto_Profesoral.md",
         "docs/05_MARCO_NORMATIVO/AS_086_1996_Profesores_Catedra_Proyectos.md",
@@ -63,13 +103,13 @@ sections_order = [
         "docs/05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md",
         "docs/05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md",
     ]),
-    ("6. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES", sorted(
-        [os.path.relpath(p, BASE_DIR).replace('\\', '/') for p in glob.glob(os.path.join(BASE_DIR, 'archivo_maestro', 'VI-*.md'))]
-    )),
-    ("7. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS", sorted(
-        [os.path.relpath(p, BASE_DIR).replace('\\', '/') for p in glob.glob(os.path.join(BASE_DIR, 'archivo_maestro', 'legalidad', 'LEG-*.md'))]
-    )),
-    ("8. TÉRMINOS LEGALES Y CUMPLIMIENTO", [
+    ("8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES",
+        get_rel_paths("archivo_maestro/VI-*.md")
+    ),
+    ("9. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS",
+        get_rel_paths("archivo_maestro/legalidad/LEG-*.md")
+    ),
+    ("10. TÉRMINOS LEGALES Y CUMPLIMIENTO", [
         "docs/legal/index.md",
         "docs/legal/terminos.md",
         "docs/legal/privacidad.md",
@@ -78,12 +118,12 @@ sections_order = [
     ])
 ]
 
-header = """# COMPENDIO TOTAL Y CANÓNICO DE LA WIKI SIIU
+header = """# COMPENDIO TOTAL Y CANÓNICO DE LA WIKI SIIU Y ECOSISTEMA DE INVESTIGACIÓN UDEA
 ## Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 
 > **Documento Consolidado Monolítico (All-in-One)**  
-> **Propósito:** Archivo único diseñado para ingesta directa de contexto completo por Agentes Inteligentes (Gemini, Claude, GPT), auditoría documental y lectura fuera de línea sin dependencias de red ni enlaces rotos.  
-> **Contenido Integrado:** Manuales de roles, 8 macroprocesos operativos, 31 guías e instructivos fidedignos transcritos íntegramente, síntesis didáctica y textos maestros de las 21 normas institucionales, mapas MOC y glosarios.
+> **Propósito:** Archivo único diseñado para ingesta directa de contexto completo por Agentes Inteligentes (Gemini, Claude, GPT), modelos LLM locales, auditoría documental exhaustiva y lectura offline sin dependencias externas.  
+> **Contenido Integrado:** Manuales de roles, 9 macroprocesos operativos, 31 guías e instructivos fidedignos transcritos íntegramente, 21 normas institucionales (síntesis y textos íntegros), gobernanza CODI y Cronograma 2026, catálogo de 18 formatos descargables, 66 circulares oficiales de la Vicerrectoría, arquitectura de la Facultad de Ciencias Económicas y CIC con sus 9 grupos MinCiencias, 20 comités, semilleros y revistas científicas.
 
 ---
 
@@ -91,14 +131,18 @@ header = """# COMPENDIO TOTAL Y CANÓNICO DE LA WIKI SIIU
 
 out_chunks = [header]
 total_files_merged = 0
+seen_files = set()
 
 for cat_title, file_list in sections_order:
     out_chunks.append(f"\n\n{'='*80}\n# {cat_title}\n{'='*80}\n\n")
     for rel_path in file_list:
+        if rel_path in seen_files:
+            continue
         full_path = os.path.join(BASE_DIR, rel_path)
         if not os.path.exists(full_path):
             continue
         
+        seen_files.add(rel_path)
         with open(full_path, 'r', encoding='utf-8', errors='ignore') as f:
             content = f.read().strip()
         
