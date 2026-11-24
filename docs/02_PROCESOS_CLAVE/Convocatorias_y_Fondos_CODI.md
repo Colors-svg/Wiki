@@ -42,9 +42,10 @@ La Universidad de Antioquia y el CODI convocan a los grupos de investigación in
 - **Operación en SIIU:** Las propuestas se radican en el módulo de convocatorias del SIIU, adjuntando el aval del Centro de Investigación correspondiente y los compromisos de producción científica asociados a la vigencia.
 
 ### B. Fondo de Apoyo al Primer Proyecto
-Mecanismo diseñado para impulsar la trayectoria investigativa de profesores vinculados que formulan su primer proyecto ante el Sistema Universitario de Investigación (SUI).
+Mecanismo permanente diseñado para impulsar la trayectoria investigativa de profesores vinculados por concurso de méritos o doctores retornados que formulan su primer proyecto ante el Sistema Universitario de Investigación (SUI).
 
-- **Normativa operativa:** Regulado originalmente mediante la [Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY) y actualizado respecto a su estado de ejecución en la [Circular informativa 01 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k).
+- **Términos de Referencia (Sesión CODI Nro. 833):** Consulta la ficha completa de cuantías (\$25M pregrado / \$40M maestría), requisitos de ventana de 2 años, reglas de evaluación ($\ge 80/100$), compromisos y libertad de cambios de rubro en [**Fondo de Apoyo al Primer Proyecto (TR CODI 833)**](../07_INVESTIGACION_CENTRAL_UDEA/fondo_primer_proyecto.md) o lee el texto normativo en [TR-CODI-833-Primer-Proyecto](../archivo_maestro/TR-CODI-833-Primer-Proyecto.md).
+- **Normativa y circulares complementarias:** Regulado originalmente mediante la [Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY) y actualizado respecto a su estado de ejecución en la [Circular informativa 01 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k).
 
 ### C. Fondos de Comunicación Pública de la Ciencia (CPC) y Apropiación Social del Conocimiento (ASC)
 El CODI dispone de fondos especiales orientados a fomentar la socialización, publicación de resultados, realización de eventos científicos y transferencia hacia públicos no especializados.

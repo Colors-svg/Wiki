@@ -16,6 +16,10 @@ El fondo tiene como objetivo financiar la realización de productos en torno a l
 
 ## Contenido Principal
 Mediante estos Fondos, el CODI apoya el desarrollo de la actividad investigativa en la Universidad de Antioquia a través de fondos especiales que fomenten la realización de proyectos, la socialización y publicación de resultados y la realización de eventos científicos.
+
+### Fondos Especiales Documentados
+- [**Fondo de Apoyo al Primer Proyecto de Profesores (TR CODI 833)**](fondo_primer_proyecto.md): Financiación hasta \$25M (pregrado) o \$40M (maestría) para profesores recién vinculados o doctores retornados.
+- **Fondos CPC y ASC:** Apoyo para productos de Comunicación Pública de la Ciencia y Apropiación Social del Conocimiento.
 ## Puntos de Contacto y Referencias
 ### Contacto
 - Vicerrectoría de Investigación — Universidad de Antioquia

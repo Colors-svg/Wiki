@@ -48,6 +48,7 @@ sections_order = [
         "docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md",
         "docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_externas.md",
         "docs/07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md",
+        "docs/07_INVESTIGACION_CENTRAL_UDEA/fondo_primer_proyecto.md",
         "docs/07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md",
         "docs/07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md",
         "docs/07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md",
@@ -103,8 +104,8 @@ sections_order = [
         "docs/05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md",
         "docs/05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md",
     ]),
-    ("8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES",
-        get_rel_paths("archivo_maestro/VI-*.md")
+    ("8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES Y TÉRMINOS DE REFERENCIA",
+        get_rel_paths("archivo_maestro/VI-*.md") + get_rel_paths("archivo_maestro/TR-*.md")
     ),
     ("9. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS",
         get_rel_paths("archivo_maestro/legalidad/LEG-*.md")
