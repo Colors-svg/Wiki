@@ -11,6 +11,8 @@ search:
 
 # Reglamento de Investigación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Documentación institucional y lineamientos oficiales de Reglamento de Investigación en el Sistema Universitario de Investigación de la Universidad de Antioquia.
 

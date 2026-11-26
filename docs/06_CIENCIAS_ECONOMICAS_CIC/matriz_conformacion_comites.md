@@ -10,6 +10,8 @@ search:
 ---
 
 # Matriz Maestra de Conformación de Comités de Gobierno y Académicos
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Documento consolidado de alta densidad de información que recopila la conformación nominal, cargos, representaciones, períodos y canales de contacto de los 20 comités de gobierno y gestión de la Facultad de Ciencias Económicas de la Universidad de Antioquia.
 

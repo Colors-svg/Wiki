@@ -64,6 +64,8 @@ search:
 
 # Procedimientos y formatos
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Esta documentación aplica para los proyectos y estrategias de sostenibilidad que aún están en Access no para los del SIIU, que deben ser gestionados directamente por el aplicativo.
 

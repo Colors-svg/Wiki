@@ -79,7 +79,7 @@ En esta fase, el Investigador Principal (IP) estructura la propuesta técnica, m
 
 ---
 
-## 阶段 2: Evaluación, Aval y Ajustes
+## Etapa 2: Evaluación, Aval y Ajustes
 
 El proyecto enviado por el investigador entra al flujo de evaluación del Centro de Investigación y de la Vicerrectoría.
 
@@ -94,7 +94,7 @@ El proyecto enviado por el investigador entra al flujo de evaluación del Centro
 
 ---
 
-## 阶段 3: Inicio Formal del Proyecto
+## Etapa 3: Inicio Formal del Proyecto
 
 Una vez el proyecto está en estado **Aprobado**, no puede ejecutar recursos ni certificar horas docentes hasta su formalización.
 
@@ -104,7 +104,7 @@ Una vez el proyecto está en estado **Aprobado**, no puede ejecutar recursos ni 
 
 ---
 
-## 阶段 4: Ejecución y Gestión de Novedades
+## Etapa 4: Ejecución y Gestión de Novedades
 
 Durante el desarrollo de la investigación, surgen necesidades de ajuste operacional o presupuestal.
 
@@ -126,7 +126,7 @@ Durante el desarrollo de la investigación, surgen necesidades de ajuste operaci
 
 ---
 
-## 阶段 5: Cierre, Liquidación y Certificación
+## Etapa 5: Cierre, Liquidación y Certificación
 
 Fase final donde se rinden cuentas y se emite el paz y salvo definitivo.
 

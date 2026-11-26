@@ -11,6 +11,8 @@ search:
 
 # Asesorías y consultorías CIC
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Nuestra oferta de servicios especializados, asesorías y consultorías está diseñada con el propósito de conectar nuestra producción de conocimiento con los intereses de las organizaciones y comunidades, buscando resolver con acierto y colaborativamente sus necesidades, favoreciendo la transferencia y apropiación social de conocimiento y aportando al desarrollo de los territorios y el mejoramiento d.
 

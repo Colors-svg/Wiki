@@ -13,6 +13,8 @@ search:
 
 # Política de Acceso Abierto
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Política Institucional de Acceso Abierto Universidad de Antioquia
 

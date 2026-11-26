@@ -97,6 +97,6 @@ Permite a la Vicerrectoría definir qué instancias deben intervenir para cada t
 
 ---
 
-## :material-link: Próximo Paso en el Flujo
+## Próximo Paso en el Flujo
 Para coordinar el cumplimiento de compromisos y plazos de entrega:
 Consulta **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.

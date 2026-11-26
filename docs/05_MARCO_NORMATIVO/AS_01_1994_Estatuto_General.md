@@ -5,6 +5,8 @@ search:
 
 # Acuerdo Superior 01 de 1994 — Estatuto General de la Universidad de Antioquia
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Jerarquía** | **Constitución Institucional / Norma Cúspide de la Universidad** |

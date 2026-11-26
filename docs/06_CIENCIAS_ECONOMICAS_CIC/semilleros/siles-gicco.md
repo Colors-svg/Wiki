@@ -11,6 +11,8 @@ search:
 
 # GICCO - Semillero de Investigación en Lectura y Escritura - SILES
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Somos un colectivo de estudiantes, con el acompañamiento de profesores, interesados en abordar el estudio de los aspectos formales de la lectura y escritura académica. Nuestro tema central de discusión es el de literacidad académica y subjetividad.
 

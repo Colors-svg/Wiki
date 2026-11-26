@@ -119,6 +119,6 @@ La Vicerrectoría de Investigación es la responsable de parametrizar las reglas
 
 ---
 
-## :material-link: Próximo Paso en el Flujo
+## Próximo Paso en el Flujo
 Una vez aprobado el proyecto por el Comité o CODI:
 Consulta **[Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md)**.

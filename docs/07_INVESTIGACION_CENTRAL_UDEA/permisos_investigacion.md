@@ -11,6 +11,8 @@ search:
 
 # Permisos para hacer investigación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Documentación institucional y lineamientos oficiales de Permisos para hacer investigación en el Sistema Universitario de Investigación de la Universidad de Antioquia.
 

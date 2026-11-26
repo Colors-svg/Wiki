@@ -5,9 +5,7 @@ search:
 
 # Facultad de Ciencias Económicas y Centro de Investigaciones y Consultorías (CIC)
 
-<div class="wiki-hero" markdown="1">
 Esta sección consolida la **arquitectura funcional, grupos de investigación activos, semilleros, revistas científicas, comités de gobierno y directorio** de la **Facultad de Ciencias Económicas (FCE)** de la Universidad de Antioquia, operando como caso modelo de articulación con el **SIIU**.
-</div>
 
 ---
 

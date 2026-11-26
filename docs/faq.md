@@ -5,10 +5,8 @@ search:
 
 # Preguntas Frecuentes (FAQ)
 
-<div class="wiki-hero" markdown="1">
 ¿Primera vez en el SIIU o te salió un error? Aquí encuentras respuestas directas en menos de 2 minutos, sin jerga técnica.
 Si buscas el texto legal literal, ve directo al **[Módulo Legal](legal/index.md)**.
-</div>
 
 ---
 

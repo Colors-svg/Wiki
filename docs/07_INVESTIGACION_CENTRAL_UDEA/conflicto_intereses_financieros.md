@@ -25,6 +25,8 @@ search:
 
 # Política de gestión de conflicto de intereses financieros en investigación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Lineamientos oficiales, reglamentación vigente (Resolución Rectoral 49547) y formato obligatorio de declaración para identificar, prevenir y gestionar conflictos de intereses financieros (FCOI) en proyectos de investigación financiados por entes externos nacionales e internacionales.
 

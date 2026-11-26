@@ -11,6 +11,8 @@ search:
 
 # Directorio Administrativo y de Investigaciones FCE
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Directorio telefónico y de sedes físicas oficial de la Facultad de Ciencias Económicas y el Centro de Investigaciones y Consultorías (CIC) de la Universidad de Antioquia.
 

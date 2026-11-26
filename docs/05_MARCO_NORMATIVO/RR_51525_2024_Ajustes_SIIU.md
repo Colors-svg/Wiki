@@ -5,6 +5,8 @@ search:
 
 # Resolución Rectoral 51525 de 2024 — Política de Austeridad y Eficiencia en el Gasto Público
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Norma Superior** | [Acuerdo Superior 01 de 1994 (Estatuto General)](AS_01_1994_Estatuto_General.md) y [AS 466 de 2020 (Estatuto Financiero)](AS_466_2020_Estatuto_Financiero_Vigente.md) |

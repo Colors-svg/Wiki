@@ -40,6 +40,8 @@ search:
 
 # Contaduría Universidad de Antioquia
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Portal oficial y repositorio de artículos de la Contaduría Universidad de Antioquia de la Facultad de Ciencias Económicas de la UdeA.
 

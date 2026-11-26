@@ -52,7 +52,7 @@ Una de las distinciones operativas más críticas en el SIIU es la fuente de fin
 - **Prórroga de Ejecución:** Se solicita cuando el proyecto está en estado **En ejecución** para extender el plazo de finalización y entrega de productos.
 - :material-book: Guía oficial: [VI-GU-23](../archivo_maestro/VI-GU-23.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#prorroga-de-proyecto)
 
-### 2. :material-cash: Cambio de Rubro / Modificación Presupuestal
+### 2. Cambio de Rubro / Modificación Presupuestal
 - Permite traslados entre rubros aprobados o la creación de subrubros dentro de rubros habilitados.
 - **Condición Estricta:** El proyecto debe estar **En ejecución**. No es posible trasladar saldo desde un rubro padre cuyo saldo disponible sea \$0.
 - :material-book: Guía oficial: [VI-GU-20](../archivo_maestro/VI-GU-20.md) | Síntesis: [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-rubro)

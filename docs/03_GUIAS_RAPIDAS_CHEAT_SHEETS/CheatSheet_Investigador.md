@@ -54,7 +54,7 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 
 ---
 
-## :material-help-circle: Preguntas Frecuentes (FAQ)
+## Preguntas Frecuentes (FAQ)
 
 ### ¿Por qué el sistema no me deja guardar los cambios en el presupuesto?
 > El proyecto debe encontrarse en estado **En ejecución**. Si estás intentando hacer un cambio de rubro, verifica que el rubro desde el cual quieres restar dinero tenga un saldo mayor a \$0. No se pueden hacer traslados desde rubros en cero.

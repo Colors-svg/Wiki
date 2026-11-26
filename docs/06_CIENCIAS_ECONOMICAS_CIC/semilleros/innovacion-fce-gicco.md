@@ -11,6 +11,8 @@ search:
 
 # GICCO - Semillero de Innovación FCE
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Grupo de estudiantes, con el apoyo de docentes de la Facultad de Ciencias Económicas y de los grupos de investigación Gestor y GICCO, que buscan promover la investigación que nutre el ecosistema de innovación y emprendimiento de la Universidad, teniendo una participación activa de los estudiantes para dinamizar las acciones de fomento a la innovación y conectarse con el ecosistema de innovación.
 

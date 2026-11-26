@@ -11,6 +11,8 @@ search:
 
 # Comité de Emergencias
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. La Resolución de Decanatura de la Facultad de Ciencias Económicas 0071 del 01 de marzo de 2023, modificada por la Resolución de Decanatura de la Facultad de Ciencias Económicas - 0256 del 27 de julio de 2023 define el comité.
 

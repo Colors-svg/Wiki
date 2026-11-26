@@ -11,6 +11,8 @@ search:
 
 # Comité de Egresados
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
 

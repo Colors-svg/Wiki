@@ -99,6 +99,6 @@ Para que el SIIU permita iniciar el trámite de cierre, se deben cumplir cuatro 
 
 ---
 
-## :material-link: Próximo Paso en el Flujo
+## Próximo Paso en el Flujo
 Para expedir certificados de finalización o paz y salvos institucionales:
 Consulta **[Reportes y Certificaciones](../02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md)**.

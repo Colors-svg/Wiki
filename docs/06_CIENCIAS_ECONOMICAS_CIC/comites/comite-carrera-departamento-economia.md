@@ -11,6 +11,8 @@ search:
 
 # Comité de Carrera Departamento de Economía
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad No 0352 del 13 de marzo de 2023 define el comité.
 

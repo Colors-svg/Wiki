@@ -70,6 +70,8 @@ search:
 
 # Centro de Documentación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Un espacio de la consulta y promoción de información especializada que sirve de soporte bibliográfico, de información y de documentación a los diferentes grupos de investigación y a la comunidad universitaria interesada en temas económicos. ![](https://www.udea.edu.co/wps/wcm/connect/udea/2c645f60-b810-475c-8584-0314b9903f3d/1/centrodocumentacionfce.jpg?MOD=AJPERES)
 

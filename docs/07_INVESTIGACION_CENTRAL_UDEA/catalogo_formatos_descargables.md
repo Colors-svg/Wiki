@@ -64,6 +64,8 @@ search:
 
 # Catálogo Maestro de Formatos y Procedimientos Descargables — UdeA
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Inventario exhaustivo y clasificado de los **18 formatos, actas, manuales y plantillas oficiales** dispuestos por la Vicerrectoría de Investigación de la Universidad de Antioquia para la gestión de proyectos en el SIIU, convocatorias CODI, estrategias de sostenibilidad/consolidación y liquidación.
 

@@ -152,6 +152,6 @@ flowchart LR
 
 ---
 
-## :material-link: Próximo Paso en el Flujo
+## Próximo Paso en el Flujo
 Una vez enviado el proyecto, el Centro de Investigación realizará la revisión habilitante:
 Consulta **[Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md)**.

@@ -11,6 +11,8 @@ search:
 
 # MACROECONOMÍA - Semillero Ángelo de Investigación Económica
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Somos un grupo interdisciplinar de profesores y estudiantes de Economía. Estamos interesados en formar en investigación económica a partir de la práctica de la investigación misma.
 

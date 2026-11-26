@@ -11,6 +11,8 @@ search:
 
 # Comité de Aseguramiento de la Calidad
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 365 del 30 de octubre de 2023 define el comité.
 

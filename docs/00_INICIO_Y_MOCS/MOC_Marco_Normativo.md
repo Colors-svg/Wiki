@@ -5,6 +5,8 @@ search:
 
 # MOC: Marco Normativo e Institucional de la Investigación
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Código MOC** | `MOC-05-LEGALIDAD` |

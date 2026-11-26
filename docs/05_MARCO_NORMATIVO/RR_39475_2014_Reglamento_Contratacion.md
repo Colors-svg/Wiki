@@ -5,6 +5,8 @@ search:
 
 # Resolución Rectoral 39475 de 2014 — Reglamento del Estatuto General de Contratación
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Norma Reglamentada** | [Acuerdo Superior 419 de 2014](AS_419_2014_Estatuto_Contratacion.md) |

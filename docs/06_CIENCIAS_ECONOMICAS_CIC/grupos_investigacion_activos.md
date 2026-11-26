@@ -11,6 +11,8 @@ search:
 
 # Grupos de Investigación Activos — Facultad de Ciencias Económicas (UdeA)
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Documento monográfico exhaustivo que consolida la totalidad de la información disponible sobre los nueve (9) grupos de investigación activos de la Facultad de Ciencias Económicas de la Universidad de Antioquia, adscritos y coordinados administrativamente por el Centro de Investigaciones y Consultorías (CIC). Incluye categorización institucional, trayectorias, líneas de investigación, nómina docente, oferta de consultoría, semilleros y medios de divulgación.
 

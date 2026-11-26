@@ -89,6 +89,6 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
 
 ---
 
-## :material-link: Próximo Paso en el Flujo
+## Próximo Paso en el Flujo
 Una vez aprobados el 100% de los compromisos e informes, el proyecto queda habilitado para el cierre definitivo:
 Consulta **[Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**.

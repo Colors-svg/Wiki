@@ -11,6 +11,8 @@ search:
 
 # Comité de Género
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Consejo de Facultad no 0367 febrero 7 de 2024 define el comité.
 

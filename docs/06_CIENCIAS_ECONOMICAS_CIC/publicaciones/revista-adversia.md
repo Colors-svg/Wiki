@@ -37,6 +37,8 @@ search:
 
 # Adversia
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Portal oficial y repositorio de artículos de la Adversia de la Facultad de Ciencias Económicas de la UdeA.
 

@@ -1,5 +1,5 @@
 # Base de Conocimiento y Wiki Operativa del SIIU
-### Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
+## Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 
 Bienvenido al centro de navegación y documentación interactiva del **Sistema de Información para la Investigación Universitaria (SIIU)**, administrado por la **Vicerrectoría de Investigación** y la **Vicerrectoría de Extensión** de la Universidad de Antioquia.
 
@@ -26,7 +26,7 @@ flowchart TD
 
 ---
 
-## :material-compass: Vías de Acceso Rápido
+## Vías de Acceso Rápido
 
 ### 1. ¿Quién eres? (Navegación por Perfil)
 - **[Investigador Principal / Tutor](../01_ROLES/Rol_Investigador.md):** Matrícula de propuestas, cupos de Joven Investigador, solicitudes de prórroga, cambios de rubro y reporte de compromisos.

@@ -11,6 +11,8 @@ search:
 
 # GESTOR - Grupo de Investigación en Gestión Organizacional
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Somos un grupo de estudiantes y docentes de administración de empresas apasionados por la investigación y la generación de conocimientos, donde ponemos en práctica los conceptos en productividad, emprendimiento y competitividad por y para la región de Urabá.
 

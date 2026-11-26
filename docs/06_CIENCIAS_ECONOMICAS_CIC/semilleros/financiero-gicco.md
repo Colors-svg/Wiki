@@ -11,6 +11,8 @@ search:
 
 # GICCO - Semillero Financiero
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Con los últimos resultados que ha obtenido Colombia en las pruebas PISA en el componente financiero, se genera la posibilidad de crear el Semillero Financiero, conformado por un grupo de estudiantes del programa de Contaduría Pública y se ha hecho extensivo a los demás programas de la FCE; somos apasionados por la investigación y la generación de conocimientos, donde ponemos en práctica los concep.
 

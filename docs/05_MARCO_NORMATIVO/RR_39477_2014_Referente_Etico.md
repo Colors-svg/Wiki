@@ -5,6 +5,8 @@ search:
 
 # Resolución Rectoral 39477 de 2014 — Referente Ético Institucional
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Norma Superior** | [Acuerdo Superior 01 de 1994 (Estatuto General)](AS_01_1994_Estatuto_General.md) — Arts. 4, 6 y 14 |

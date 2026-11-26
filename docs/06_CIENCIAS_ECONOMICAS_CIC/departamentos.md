@@ -11,6 +11,8 @@ search:
 
 # Departamentos Académicos - Facultad de Ciencias Económicas
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Estructura académica departamental de la Facultad de Ciencias Económicas, conformada por el Departamento de Ciencias Administrativas, Departamento de Ciencias Contables y Departamento de Economía.
 

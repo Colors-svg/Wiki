@@ -11,15 +11,17 @@ search:
 
 # Convocatorias CODI
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 La Universidad de Antioquia y el Comité para el Desarrollo de la Investigación (CODI) convocan a los grupos de investigación de la Universidad de Antioquia a presentar propuestas a la Convocatoria Estrategia para la sostenibilidad y consolidación de los grupos de investigación 2026.
 
 ## Contenido Principal
 El CODI financia programas y proyectos de investigación a través de convocatorias internas y conjuntas que permitan incrementar la producción científica y generar conocimiento de alto nivel en la Universidad de Antioquia.
 
-### 📅 Histórico de convocatorias CODI 2000 - 2018
+### Histórico de convocatorias CODI 2000 - 2018
 
-### 📅 Histórico de convocatorias CODI a partir del 2019
+### Histórico de convocatorias CODI a partir del 2019
 ## Puntos de Contacto y Referencias
 ### Contacto
 - Vicerrectoría de Investigación — Universidad de Antioquia

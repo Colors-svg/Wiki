@@ -11,6 +11,8 @@ search:
 
 # Productos de conocimiento UdeA
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Portafolio institucional de tecnologías y productos de conocimiento de la Universidad de Antioquia listos para procesos de transferencia, licenciamiento comercial y escalamiento productivo, en articulación con el Estatuto de Propiedad Intelectual (RR 49544 de 2022).
 

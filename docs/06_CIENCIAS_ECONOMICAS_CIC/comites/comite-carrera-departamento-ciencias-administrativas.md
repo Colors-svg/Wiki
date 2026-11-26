@@ -11,6 +11,8 @@ search:
 
 # Comité de Carrera Departamento de Ciencias Administrativas
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad No. 213 del 19de agosto del 2015 define el comité.
 

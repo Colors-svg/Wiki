@@ -11,6 +11,8 @@ search:
 
 # Sistema Universitario de Investigación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Sistema Universitario de Investigación
 

@@ -11,6 +11,8 @@ search:
 
 # Oikos
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Portal oficial y repositorio de artículos de la Oikos de la Facultad de Ciencias Económicas de la UdeA.
 

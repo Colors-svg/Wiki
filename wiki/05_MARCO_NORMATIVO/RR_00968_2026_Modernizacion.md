@@ -1,5 +1,7 @@
 # Resolución Rectoral 00968 de 2026 — Trámite de Prórrogas y Plazos en Proyectos SIIU
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Norma Superior Habilitante** | [Acuerdo Superior 204 de 2001 (SUI)](AS_204_2001_Sistema_Universitario_Investigacion.md) — Art. 44 y [AS 01 de 1994](AS_01_1994_Estatuto_General.md) |

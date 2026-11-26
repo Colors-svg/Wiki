@@ -13,6 +13,8 @@ search:
 
 # Sistema Integrado de Información Universitaria
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 ![](https://www.udea.edu.co/wps/wcm/connect/udea/6a327170-fadb-4f6a-a6d8-3476dd10d798/1/000.png?MOD=AJPERES) Conoce el SIIU y accede a los manuales para los módulos que se encuentran activos en esta plataforma.
 

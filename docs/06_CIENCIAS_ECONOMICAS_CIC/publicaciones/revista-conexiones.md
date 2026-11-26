@@ -11,6 +11,8 @@ search:
 
 # Revista Conexiones
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 En Conexiones, revista de movilidad nacional e internacional, podrás conocer más detalles sobre los intercambios, las experiencias de los estudiantes que llegan al bloque 13 y de aquellos que toman la decisión de estudiar en otro lugar.
 

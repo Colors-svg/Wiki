@@ -9,7 +9,7 @@ Para evitar caídas de sesión, pérdidas de datos, rechazos administrativos o b
 
 ---
 
-## 1. :material-paperclip: Nomenclatura y Formato de Archivos Adjuntos
+## 1. Nomenclatura y Formato de Archivos Adjuntos
 
 El motor de archivos del SIIU es altamente sensible a la sintaxis de nombres de archivo:
 
@@ -30,7 +30,7 @@ El motor de archivos del SIIU es altamente sensible a la sintaxis de nombres de 
 
 ---
 
-## 2. :material-web: Configuración de Navegadores y Pop-ups
+## 2. Configuración de Navegadores y Pop-ups
 
 El SIIU interactúa intensamente con ventanas modales y descargas automáticas de documentos.
 
@@ -43,7 +43,7 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 
 ---
 
-## 3. :material-credit-card: Cuentas Bancarias para Jóvenes Investigadores
+## 3. Cuentas Bancarias para Jóvenes Investigadores
 
 !!! danger "Restricción de tesorería institucional"
     1. **Billeteras electrónicas terminantemente prohibidas:** No se aceptan Nequi, Daviplata, Bancolombia Ahorro a la Mano ni Agroseguro.
@@ -52,7 +52,7 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 
 ---
 
-## 4. :material-cash: Manejo Presupuestal y Saldos
+## 4. Manejo Presupuestal y Saldos
 
 1. **Estado "En ejecución":** Ninguna modificación presupuestal ni cambio de rubro puede solicitarse mientras el proyecto esté en formulación, evaluación o aprobado. Debe estar formalmente **En ejecución**.
 2. **Saldo mayor a \$0:** No intentes trasladar dinero desde un rubro en cero. El rubro padre debe tener fondos disponibles suficientes.

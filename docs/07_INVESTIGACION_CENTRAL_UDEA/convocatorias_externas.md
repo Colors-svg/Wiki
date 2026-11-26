@@ -11,6 +11,8 @@ search:
 
 # Convocatorias externas
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Conformar un listado de macroproyectos nacionales elegibles para financiación con recursos de la Asignación para la CTeI del Sistema General de Regalías que atiendan las demandas territoriales del bienio 2025-2026 y fortalezcan las capacidades científico-tecnológicas del país mediante intervenciones articuladas en varias regiones.
 

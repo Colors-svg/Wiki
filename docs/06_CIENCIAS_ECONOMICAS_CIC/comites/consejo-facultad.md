@@ -22,6 +22,8 @@ search:
 
 # Consejo de Facultad
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Consejo de Facultad está definido en el Estatuto General de la Universidad, en su artículo 57 Acuerdo Superior 01 de 1994 , como un organismo decisorio en lo académico y asesor del decano en los demás asuntos.
 

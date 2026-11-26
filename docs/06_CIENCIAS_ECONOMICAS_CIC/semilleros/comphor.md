@@ -11,6 +11,8 @@ search:
 
 # COMPHOR - Semillero de Investigación Gestión de lo Propio
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Somos una organización de personas cuyo propósito es investigar y comprender cómo diversas comunidades gestionan asuntos relacionados con la vida cotidiana (como las relaciones de poder, los recursos escasos y la influencia de sus cosmogonías sobre estos fenómenos).
 

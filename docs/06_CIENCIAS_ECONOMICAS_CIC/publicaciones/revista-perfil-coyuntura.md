@@ -28,6 +28,8 @@ search:
 
 # Perfil de Coyuntura Económica
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Portal oficial y repositorio de artículos de la Perfil de Coyuntura Económica de la Facultad de Ciencias Económicas de la UdeA.
 

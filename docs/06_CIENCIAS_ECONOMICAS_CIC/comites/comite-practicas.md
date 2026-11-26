@@ -11,6 +11,8 @@ search:
 
 # Comité de Prácticas
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 163 del 29 de febrero de 2012 define el comité.
 

@@ -11,6 +11,8 @@ search:
 
 # IMARK - Investigación en Marketing
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Formar investigadores que promuevan la generación de conocimiento sobre el marketing y aporten a la sociedad y a las organizaciones (producción científica).
 

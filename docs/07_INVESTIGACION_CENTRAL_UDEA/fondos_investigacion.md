@@ -11,6 +11,8 @@ search:
 
 # Fondos de investigación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 El fondo tiene como objetivo financiar la realización de productos en torno a la Comunicación Pública de la Ciencia (CPC) y la Apropiación Social del Conocimiento (ASC). El tipo de contenidos que se financiarán corresponde a la tipología definida en la Tabla de Aceptación de Productos vigente de la Universidad de Antioquia como productos de Apropiación Social del Conocimiento (ASC).
 

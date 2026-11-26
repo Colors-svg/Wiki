@@ -81,6 +81,6 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 
 ---
 
-## :material-link: Próximo Paso en el Flujo
+## Próximo Paso en el Flujo
 Con el proyecto **En ejecución**, se habilitan las compras, contrataciones, solicitudes de cambio de presupuesto y adición de tiempo:
 Consulta **[Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)** y **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.

@@ -319,6 +319,8 @@ search:
 
 # Borradores del Departamento de Economía
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Material académico con el que se busca dar a conocer algunos avances e informes de los proyectos y actividades de investigación en los que trabajan los profesores del Departamento de Economía.
 

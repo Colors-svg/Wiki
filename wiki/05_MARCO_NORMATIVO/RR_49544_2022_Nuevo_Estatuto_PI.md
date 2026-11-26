@@ -1,5 +1,7 @@
 # Resolución Rectoral 49544 de 2022 — Estatuto de Propiedad Intelectual Vigente
 
+Ficha de síntesis normativa y operativa para consulta en el SIIU.
+
 | Metadato | Detalle Institucional |
 | :--- | :--- |
 | **Norma Delegante** | [Acuerdo Superior 01 de 1994 (Estatuto General)](AS_01_1994_Estatuto_General.md) — Art. 33 literal o y AS 073 de 1996 |

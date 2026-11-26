@@ -11,6 +11,8 @@ search:
 
 # GIFI - Semillero de Investigación en Finanzas (SIFI)
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 El Semillero de Investigación en Finanzas (SIFI) es una iniciativa de gestión académico-investigativa que propende por fomentar y desarrollar capacidades investigativas alrededor de las finanzas.
 

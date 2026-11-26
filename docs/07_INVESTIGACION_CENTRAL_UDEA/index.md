@@ -5,9 +5,7 @@ search:
 
 # Investigación Central — UdeA (CODI, Formatos y Convocatorias)
 
-<div class="wiki-hero" markdown="1">
 Documentación oficial del portal central de la **Vicerrectoría de Investigación (VRI)** y el **Sistema Universitario de Investigación (SUI)**: gobernanza del CODI, catálogo de formatos oficiales descargables, convocatorias, permisos ambientales, ética e integridad científica.
-</div>
 
 ---
 

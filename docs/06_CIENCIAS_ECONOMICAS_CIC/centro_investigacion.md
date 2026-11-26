@@ -16,6 +16,8 @@ search:
 
 # Centro de Investigaciones y Consultorías -CIC-
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 ![](https://www.udea.edu.co/wps/wcm/connect/udea/fc6776fd-470a-491d-9cfc-2e849eeb0c3e/1/Slides-grupos-de-investigacion-CIC.jpg?MOD=AJPERES)
 

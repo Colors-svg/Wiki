@@ -11,6 +11,8 @@ search:
 
 # Comité para el Desarrollo de la Investigación
 
+Documento de referencia institucional sobre procedimientos y lineamientos de investigación en la Universidad de Antioquia.
+
 ## Resumen Ejecutivo
 Comité para el Desarrollo de Investigación
 
