@@ -1,5 +1,5 @@
-site_name: Wiki SIIU — Universidad de Antioquia
-site_description: Base de Conocimiento y Guía Operativa del Sistema de Información para la Investigación Universitaria
+site_name: Wiki SIIU
+site_description: Base de Conocimiento y Guía Operativa del Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 site_author: Comunidad Universitaria UdeA · Guía Independiente
 copyright: Iniciativa académica independiente no oficial · Basada en la documentación pública del SIIU — Universidad de Antioquia
 
@@ -31,8 +31,8 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
-    - navigation.expand
     - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.footer
     - toc.follow
@@ -74,31 +74,40 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
 nav:
-  - Inicio: index.md
-  - Empieza aquí (5 min): inicio-rapido.md
-  - Roles y Gobernanza:
-      - Investigador Principal y Tutor: 01_ROLES/Rol_Investigador.md
-      - Centro de Investigación / Extensión: 01_ROLES/Rol_Centro_Investigacion.md
+  - Inicio:
+      - index.md
+      - Inicio rápido (5 min): inicio-rapido.md
+      - Ciclo de vida de proyectos: 00_INICIO_Y_MOCS/MOC_Ciclo_de_Vida_Proyectos.md
+      - Mapa por roles: 00_INICIO_Y_MOCS/MOC_Por_Roles.md
+      - Trámites y solicitudes: 00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md
+      - Reportes y constancias: 00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md
+  - Roles y gobernanza:
+      - Investigador principal y tutor: 01_ROLES/Rol_Investigador.md
+      - Centro de investigación: 01_ROLES/Rol_Centro_Investigacion.md
       - Vicerrectoría de Investigación: 01_ROLES/Rol_Vicerrectoria.md
-      - Ecosistema de Comités y Gobernanza: 01_ROLES/Ecosistema_Comites_Gobernanza.md
-      - Caso Práctico Unidad Académica (CIC): 01_ROLES/Caso_Aplicado_Centro_Facultad.md
-  - Procesos Clave:
-      - Matrícula de Proyectos: 02_PROCESOS_CLAVE/Matricula_Proyectos.md
-      - Evaluación Técnica y Aval: 02_PROCESOS_CLAVE/Evaluacion_y_Aval.md
-      - Convocatorias y Fondos CODI: 02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md
-      - Inicio Formal: 02_PROCESOS_CLAVE/Inicio_Formal.md
-      - Modificaciones y Trámites: 02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md
-      - Gestión de Compromisos: 02_PROCESOS_CLAVE/Gestion_Compromisos.md
+      - Comités y gobernanza: 01_ROLES/Ecosistema_Comites_Gobernanza.md
+      - Caso aplicado (CIC): 01_ROLES/Caso_Aplicado_Centro_Facultad.md
+  - Procesos:
+      - Matrícula de proyectos: 02_PROCESOS_CLAVE/Matricula_Proyectos.md
+      - Evaluación y aval: 02_PROCESOS_CLAVE/Evaluacion_y_Aval.md
+      - Convocatorias y fondos CODI: 02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md
+      - Inicio formal: 02_PROCESOS_CLAVE/Inicio_Formal.md
+      - Modificaciones y trámites: 02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md
+      - Gestión de compromisos: 02_PROCESOS_CLAVE/Gestion_Compromisos.md
       - Programa Joven Investigador: 02_PROCESOS_CLAVE/Programa_Joven_Investigador.md
-      - Cierre y Liquidación: 02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md
-      - Reportes y Certificaciones: 02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md
-  - Ciclos y Trámites (MOC):
-      - Ciclo de Vida de Proyectos: 00_INICIO_Y_MOCS/MOC_Ciclo_de_Vida_Proyectos.md
-      - Mapa por Roles: 00_INICIO_Y_MOCS/MOC_Por_Roles.md
-      - Trámites y Solicitudes: 00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md
-      - Reportes y Constancias: 00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md
-  - Marco Normativo Institucional:
-      - Índice General Normativo: 00_INICIO_Y_MOCS/MOC_Marco_Normativo.md
+      - Cierre y liquidación: 02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md
+      - Reportes y certificaciones: 02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md
+  - Guías rápidas:
+      - Preguntas frecuentes (FAQ): faq.md
+      - Ficha rápida investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
+      - Ficha rápida centro: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md
+      - Reglas de oro SIIU: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md
+      - Catálogo de formatos: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md
+  - Glosario:
+      - Glosario de términos: 04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md
+      - Catálogo oficial (31 documentos): 04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md
+  - Marco normativo:
+      - Índice general normativo: 00_INICIO_Y_MOCS/MOC_Marco_Normativo.md
       - Acuerdo Superior 01 de 1994 — Estatuto General: 05_MARCO_NORMATIVO/AS_01_1994_Estatuto_General.md
       - Acuerdo Superior 083 de 1996 — Estatuto Profesoral: 05_MARCO_NORMATIVO/AS_083_1996_Estatuto_Profesoral.md
       - Acuerdo Superior 086 de 1996 — Profesores de Cátedra en Proyectos: 05_MARCO_NORMATIVO/AS_086_1996_Profesores_Catedra_Proyectos.md
@@ -120,36 +129,39 @@ nav:
       - Resolución Rectoral 49544 de 2022 — Nuevo Estatuto de Propiedad Intelectual: 05_MARCO_NORMATIVO/RR_49544_2022_Nuevo_Estatuto_PI.md
       - Resolución Rectoral 51525 de 2024 — Ajustes Operativos al SIIU: 05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md
       - Resolución Rectoral 00968 de 2026 — Modernización Universitaria: 05_MARCO_NORMATIVO/RR_00968_2026_Modernizacion.md
-  - Archivo Maestro Fidedigno:
-      - Índice de Guías e Instructivos: archivo_maestro/index.md
-      - Índice de Normas (LEG): archivo_maestro/legalidad/index.md
-  - Referencia Rápida:
-      - Preguntas Frecuentes (FAQ): faq.md
-      - Ficha Rápida Investigador: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md
-      - Ficha Rápida Centro: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md
-      - Reglas de Oro SIIU: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md
-      - Catálogo de Formatos Descargables: 03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md
-      - Glosario de Términos: 04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md
-      - Catálogo Oficial (31 Documentos): 04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md
-  - Módulo Legal:
-      - Resumen Legal Simple: legal/index.md
-      - Políticas y Aclaraciones: legal/politicas-y-aclaraciones.md
-      - Términos de Uso: legal/terminos.md
-      - Privacidad y Datos: legal/privacidad.md
-      - Cookies y Sesión: legal/cookies.md
-      - Licencias y Reuso: legal/licencias.md
+  - Investigación central:
+      - 07_INVESTIGACION_CENTRAL_UDEA/index.md
+      - CODI (Comité y Cronograma 2026): 07_INVESTIGACION_CENTRAL_UDEA/codi.md
+      - Catálogo maestro de formatos (18): 07_INVESTIGACION_CENTRAL_UDEA/catalogo_formatos_descargables.md
+      - Procedimientos y formatos: 07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md
+      - Vicerrectoría de Investigación: 07_INVESTIGACION_CENTRAL_UDEA/vicerrectoria.md
+      - Sede de Investigación (SIU): 07_INVESTIGACION_CENTRAL_UDEA/siu.md
+      - Atención al ciudadano VRI: 07_INVESTIGACION_CENTRAL_UDEA/atencion_ciudadano.md
+      - Comité Central de Ética: 07_INVESTIGACION_CENTRAL_UDEA/comite_central_etica.md
+      - Permisos de investigación: 07_INVESTIGACION_CENTRAL_UDEA/permisos_investigacion.md
+      - Convocatorias CODI: 07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md
+      - Convocatorias externas: 07_INVESTIGACION_CENTRAL_UDEA/convocatorias_externas.md
+      - Fondos de apoyo: 07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md
+      - Fondo Primer Proyecto (TR CODI 833): 07_INVESTIGACION_CENTRAL_UDEA/fondo_primer_proyecto.md
+      - Programa Jóvenes Investigadores: 07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md
+      - SIIU (Portal Central): 07_INVESTIGACION_CENTRAL_UDEA/siiu.md
+      - Circulares de Vicerrectoría (66): 07_INVESTIGACION_CENTRAL_UDEA/circulares_vicerrectoria.md
+      - Reglamento de investigación: 07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md
+      - Propiedad intelectual: 07_INVESTIGACION_CENTRAL_UDEA/propiedad_intelectual.md
+      - Política de acceso abierto: 07_INVESTIGACION_CENTRAL_UDEA/acceso_abierto.md
+      - Conflicto de intereses financieros: 07_INVESTIGACION_CENTRAL_UDEA/conflicto_intereses_financieros.md
   - Facultad Ciencias Económicas (CIC):
-      - Resumen FCE y CIC: 06_CIENCIAS_ECONOMICAS_CIC/index.md
+      - 06_CIENCIAS_ECONOMICAS_CIC/index.md
       - Centro de Investigaciones (CIC): 06_CIENCIAS_ECONOMICAS_CIC/centro_investigacion.md
-      - Arquitectura Funcional del CIC: 06_CIENCIAS_ECONOMICAS_CIC/arquitectura_funcional.md
-      - Grupos de Investigación Activos: 06_CIENCIAS_ECONOMICAS_CIC/grupos_investigacion_activos.md
-      - Matriz Conformación de Comités: 06_CIENCIAS_ECONOMICAS_CIC/matriz_conformacion_comites.md
-      - Asesorías y Consultorías CIC: 06_CIENCIAS_ECONOMICAS_CIC/asesorias_consultorias.md
-      - Centro de Documentación FCE: 06_CIENCIAS_ECONOMICAS_CIC/centro_documentacion.md
-      - Departamentos Académicos: 06_CIENCIAS_ECONOMICAS_CIC/departamentos.md
-      - Directorio Administrativo FCE: 06_CIENCIAS_ECONOMICAS_CIC/directorio_administrativo.md
-      - Semilleros de Investigación:
-          - Panorama de Semilleros: 06_CIENCIAS_ECONOMICAS_CIC/semilleros/semilleros-general.md
+      - Arquitectura funcional del CIC: 06_CIENCIAS_ECONOMICAS_CIC/arquitectura_funcional.md
+      - Grupos de investigación activos: 06_CIENCIAS_ECONOMICAS_CIC/grupos_investigacion_activos.md
+      - Matriz conformación de comités: 06_CIENCIAS_ECONOMICAS_CIC/matriz_conformacion_comites.md
+      - Asesorías y consultorías CIC: 06_CIENCIAS_ECONOMICAS_CIC/asesorias_consultorias.md
+      - Centro de documentación FCE: 06_CIENCIAS_ECONOMICAS_CIC/centro_documentacion.md
+      - Departamentos académicos: 06_CIENCIAS_ECONOMICAS_CIC/departamentos.md
+      - Directorio administrativo FCE: 06_CIENCIAS_ECONOMICAS_CIC/directorio_administrativo.md
+      - Semilleros de investigación:
+          - Panorama de semilleros: 06_CIENCIAS_ECONOMICAS_CIC/semilleros/semilleros-general.md
           - Ángelo (Macroeconomía): 06_CIENCIAS_ECONOMICAS_CIC/semilleros/angelo-macroeconomia.md
           - COMPHOR: 06_CIENCIAS_ECONOMICAS_CIC/semilleros/comphor.md
           - Financiero (GICCO): 06_CIENCIAS_ECONOMICAS_CIC/semilleros/financiero-gicco.md
@@ -158,8 +170,8 @@ nav:
           - Innovación FCE (GICCO): 06_CIENCIAS_ECONOMICAS_CIC/semilleros/innovacion-fce-gicco.md
           - SIFI (GIFI): 06_CIENCIAS_ECONOMICAS_CIC/semilleros/sifi-gifi.md
           - SILES (GICCO): 06_CIENCIAS_ECONOMICAS_CIC/semilleros/siles-gicco.md
-      - Publicaciones y Revistas:
-          - Catálogo de Publicaciones: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/publicaciones-general.md
+      - Publicaciones y revistas:
+          - Catálogo de publicaciones: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/publicaciones-general.md
           - Borradores Depto. Economía: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/borradores-departamento-economia.md
           - Revista Lecturas de Economía: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-lecturas-economia.md
           - Revista Contaduría UdeA: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-contaduria.md
@@ -167,7 +179,7 @@ nav:
           - Revista Adversia: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-adversia.md
           - Revista Conexiones: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-conexiones.md
           - Revista Oikos: 06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-oikos.md
-      - Comités de Gobierno:
+      - Comités de gobierno:
           - Consejo de Facultad: 06_CIENCIAS_ECONOMICAS_CIC/comites/consejo-facultad.md
           - Comité Técnico: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-tecnico.md
           - Comité Administrativo: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-administrativo.md
@@ -177,7 +189,7 @@ nav:
           - Inv. Ciencias Contables: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-contables.md
           - Revistas Ciencias Contables: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-revistas-departamento-ciencias-contables.md
           - Comité de Posgrados: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-posgrados.md
-          - Posgrados por Departamentos: 06_CIENCIAS_ECONOMICAS_CIC/comites/comites-programas-posgrados-departamentos.md
+          - Posgrados por departamentos: 06_CIENCIAS_ECONOMICAS_CIC/comites/comites-programas-posgrados-departamentos.md
           - Comité de Currículo: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-curriculo.md
           - Comité de Carrera: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera.md
           - Carrera Ciencias Administrativas: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera-departamento-ciencias-administrativas.md
@@ -188,24 +200,15 @@ nav:
           - Comité de Clima: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-clima.md
           - Comité de Emergencias: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-emergencias.md
           - Comité de Género: 06_CIENCIAS_ECONOMICAS_CIC/comites/comite-genero.md
-  - Investigación Central (CODI y Formatos):
-      - Resumen Investigación Central: 07_INVESTIGACION_CENTRAL_UDEA/index.md
-      - CODI (Comité y Cronograma 2026): 07_INVESTIGACION_CENTRAL_UDEA/codi.md
-      - Catálogo Maestro de Formatos (18): 07_INVESTIGACION_CENTRAL_UDEA/catalogo_formatos_descargables.md
-      - Procedimientos y Formatos: 07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md
-      - Vicerrectoría de Investigación: 07_INVESTIGACION_CENTRAL_UDEA/vicerrectoria.md
-      - Sede de Investigación (SIU): 07_INVESTIGACION_CENTRAL_UDEA/siu.md
-      - Atención al Ciudadano VRI: 07_INVESTIGACION_CENTRAL_UDEA/atencion_ciudadano.md
-      - Comité Central de Ética: 07_INVESTIGACION_CENTRAL_UDEA/comite_central_etica.md
-      - Permisos de Investigación: 07_INVESTIGACION_CENTRAL_UDEA/permisos_investigacion.md
-      - Convocatorias CODI: 07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md
-      - Convocatorias Externas: 07_INVESTIGACION_CENTRAL_UDEA/convocatorias_externas.md
-      - Fondos de Apoyo: 07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md
-      - Fondo Primer Proyecto (TR CODI 833): 07_INVESTIGACION_CENTRAL_UDEA/fondo_primer_proyecto.md
-      - Programa Jóvenes Investigadores: 07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md
-      - SIIU (Portal Central): 07_INVESTIGACION_CENTRAL_UDEA/siiu.md
-      - Circulares de Vicerrectoría (66): 07_INVESTIGACION_CENTRAL_UDEA/circulares_vicerrectoria.md
-      - Reglamento de Investigación: 07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md
-      - Propiedad Intelectual: 07_INVESTIGACION_CENTRAL_UDEA/propiedad_intelectual.md
-      - Política de Acceso Abierto: 07_INVESTIGACION_CENTRAL_UDEA/acceso_abierto.md
-      - Conflicto de Intereses Financieros: 07_INVESTIGACION_CENTRAL_UDEA/conflicto_intereses_financieros.md
+  - Documentos fuente:
+      - Guías e instructivos (Archivo Maestro): archivo_maestro/index.md
+      - Normativa institucional (Archivo Maestro): archivo_maestro/legalidad/index.md
+      - PDFs originales de la VRI (GitHub): https://github.com/Colors-svg/Wiki/tree/main/fuentes_pdf
+      - PDFs normativos (GitHub): https://github.com/Colors-svg/Wiki/tree/main/Legalidad
+  - Información legal:
+      - Resumen legal: legal/index.md
+      - Políticas y aclaraciones: legal/politicas-y-aclaraciones.md
+      - Términos de uso: legal/terminos.md
+      - Privacidad y datos: legal/privacidad.md
+      - Cookies y sesión: legal/cookies.md
+      - Licencias y reuso: legal/licencias.md
