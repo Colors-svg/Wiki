@@ -10,22 +10,19 @@ theme:
   logo: assets/logo-udea.svg
   favicon: assets/favicon.svg
   palette:
-    # Modo Nocturno (Dark Slate & Verde Institucional UdeA)
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Cambiar a modo diurno
-    # Modo Diurno (Clean White & Verde Bosque UdeA)
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    # Modo oscuro por defecto con toggle a claro
+    - scheme: slate
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-sunny
-        name: Cambiar a modo nocturno
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
   font:
     text: Inter
     code: JetBrains Mono
@@ -44,7 +41,7 @@ theme:
     - content.code.copy
 
 extra_css:
-  - stylesheets/wiki.css
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/diagram-zoom.js

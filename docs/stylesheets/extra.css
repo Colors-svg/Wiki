@@ -1,0 +1,804 @@
+/* ==========================================================================
+   SISTEMA DE DISEÑO EDITORIAL — WIKI SIIU (UNIVERSIDAD DE ANTIOQUIA)
+   Referencia: GitHub Docs / Stripe Docs
+   Sobrio, institucional, alta legibilidad, sin degradados ni neones.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Tokens de Color
+   -------------------------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] {
+  --wiki-bg: #0d1117;
+  --wiki-surface: #161b22;
+  --wiki-surface-hover: #1c2128;
+  --wiki-border: #30363d;
+  --wiki-border-subtle: #21262d;
+  --wiki-text: #e6edf3;
+  --wiki-text-muted: #9198a1;
+  --wiki-link: #58a6ff;
+  --wiki-link-hover: #79c0ff;
+  --wiki-udea-accent: #2e7d4f;
+  --wiki-zebra: rgba(255, 255, 255, 0.02);
+
+  /* Variables nativas de MkDocs Material */
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #161b22;
+  --md-default-bg-color--lighter: #1c2128;
+  --md-default-bg-color--lightest: #30363d;
+  --md-default-fg-color: #e6edf3;
+  --md-default-fg-color--light: #9198a1;
+  --md-default-fg-color--lighter: #6e7681;
+  --md-default-fg-color--lightest: #30363d;
+
+  --md-primary-fg-color: #161b22;
+  --md-primary-fg-color--light: #1c2128;
+  --md-primary-fg-color--dark: #0d1117;
+  --md-primary-bg-color: #e6edf3;
+  --md-primary-bg-color--light: #9198a1;
+
+  --md-accent-fg-color: #58a6ff;
+  --md-accent-fg-color--transparent: rgba(88, 166, 255, 0.1);
+  --md-accent-bg-color: #0d1117;
+
+  --md-typeset-color: #e6edf3;
+  --md-typeset-a-color: #58a6ff;
+
+  --md-code-bg-color: #161b22;
+  --md-code-fg-color: #e6edf3;
+  --md-code-hl-color: rgba(88, 166, 255, 0.12);
+
+  --md-admonition-bg-color: #161b22;
+  --md-admonition-fg-color: #e6edf3;
+  --md-footer-bg-color: #0d1117;
+  --md-footer-bg-color--dark: #0d1117;
+  --md-footer-fg-color: #e6edf3;
+  --md-footer-fg-color--light: #9198a1;
+  --md-footer-fg-color--lighter: #6e7681;
+
+  /* Mermaid sobrio */
+  --md-mermaid-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --md-mermaid-label-fg-color: #e6edf3;
+  --md-mermaid-label-bg-color: #161b22;
+  --md-mermaid-node-fg-color: #e6edf3;
+  --md-mermaid-node-bg-color: #161b22;
+  --md-mermaid-edge-color: #6e7681;
+}
+
+[data-md-color-scheme="default"] {
+  --wiki-bg: #ffffff;
+  --wiki-surface: #f6f8fa;
+  --wiki-surface-hover: #eaeef2;
+  --wiki-border: #d1d9e0;
+  --wiki-border-subtle: #e5e9f0;
+  --wiki-text: #1f2328;
+  --wiki-text-muted: #59636e;
+  --wiki-link: #0969da;
+  --wiki-link-hover: #0550ae;
+  --wiki-udea-accent: #2e7d4f;
+  --wiki-zebra: rgba(31, 35, 40, 0.025);
+
+  /* Variables nativas de MkDocs Material */
+  --md-default-bg-color: #ffffff;
+  --md-default-bg-color--light: #f6f8fa;
+  --md-default-bg-color--lighter: #eaeef2;
+  --md-default-bg-color--lightest: #d1d9e0;
+  --md-default-fg-color: #1f2328;
+  --md-default-fg-color--light: #59636e;
+  --md-default-fg-color--lighter: #818b98;
+  --md-default-fg-color--lightest: #d1d9e0;
+
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #f6f8fa;
+  --md-primary-fg-color--dark: #eaeef2;
+  --md-primary-bg-color: #1f2328;
+  --md-primary-bg-color--light: #59636e;
+
+  --md-accent-fg-color: #0969da;
+  --md-accent-fg-color--transparent: rgba(9, 105, 218, 0.08);
+  --md-accent-bg-color: #ffffff;
+
+  --md-typeset-color: #1f2328;
+  --md-typeset-a-color: #0969da;
+
+  --md-code-bg-color: #f6f8fa;
+  --md-code-fg-color: #1f2328;
+  --md-code-hl-color: rgba(9, 105, 218, 0.08);
+
+  --md-admonition-bg-color: #f6f8fa;
+  --md-admonition-fg-color: #1f2328;
+  --md-footer-bg-color: #ffffff;
+  --md-footer-bg-color--dark: #f6f8fa;
+  --md-footer-fg-color: #1f2328;
+  --md-footer-fg-color--light: #59636e;
+  --md-footer-fg-color--lighter: #818b98;
+
+  /* Mermaid sobrio */
+  --md-mermaid-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --md-mermaid-label-fg-color: #1f2328;
+  --md-mermaid-label-bg-color: #ffffff;
+  --md-mermaid-node-fg-color: #1f2328;
+  --md-mermaid-node-bg-color: #f6f8fa;
+  --md-mermaid-edge-color: #818b98;
+}
+
+/* --------------------------------------------------------------------------
+   2. Foco Accesible y Base Global
+   -------------------------------------------------------------------------- */
+
+*:focus-visible {
+  outline: 2px solid var(--wiki-udea-accent) !important;
+  outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--wiki-bg);
+  color: var(--wiki-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --------------------------------------------------------------------------
+   3. Header Sobrio + Línea Institucional de 2px
+   -------------------------------------------------------------------------- */
+
+.md-header {
+  background-color: var(--wiki-surface);
+  color: var(--wiki-text);
+  border-bottom: 2px solid var(--wiki-udea-accent);
+  box-shadow: none !important;
+}
+
+.md-header[data-md-state="shadow"] {
+  box-shadow: none !important;
+}
+
+.md-header__title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--wiki-text);
+}
+
+.md-header__button {
+  color: var(--wiki-text-muted);
+}
+
+.md-header__button:hover {
+  color: var(--wiki-text);
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.65rem;
+  width: auto;
+}
+
+/* Buscador en el header */
+.md-search__form {
+  background-color: var(--wiki-bg);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  height: 2.1rem;
+}
+
+.md-search__form:hover {
+  background-color: var(--wiki-bg);
+  border-color: var(--wiki-text-muted);
+}
+
+.md-search__input {
+  color: var(--wiki-text);
+  font-size: 14px;
+}
+
+.md-search__input::placeholder {
+  color: var(--wiki-text-muted);
+}
+
+.md-search__icon {
+  color: var(--wiki-text-muted) !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. Layout Principal, Ancho de Lectura (~46rem) y Tipografía
+   -------------------------------------------------------------------------- */
+
+.md-grid {
+  max-width: 1400px;
+}
+
+.md-content__inner {
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 3.5rem;
+}
+
+/* Cuerpo de texto: 18px, interlineado 1.7 */
+.md-typeset {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--wiki-text);
+}
+
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol {
+  margin-top: 0;
+  margin-bottom: 1.25em;
+  font-weight: 400;
+}
+
+.md-typeset li {
+  margin-bottom: 0.35em;
+}
+
+/* Jerarquía de encabezados (sin pesos 800/900) */
+.md-typeset h1 {
+  font-size: 36px;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--wiki-text);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.md-typeset h2 {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--wiki-text);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--wiki-border);
+}
+
+.md-typeset h3 {
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 600;
+  color: var(--wiki-text);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.md-typeset h4 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--wiki-text);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset strong,
+.md-typeset b {
+  font-weight: 600;
+}
+
+.md-typeset a {
+  color: var(--wiki-link);
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  color: var(--wiki-link-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.md-typeset hr {
+  border-bottom: 1px solid var(--wiki-border);
+  margin: 2.25rem 0;
+}
+
+/* --------------------------------------------------------------------------
+   5. Navegación Lateral (15-16px) y TOC Derecho (14px)
+   -------------------------------------------------------------------------- */
+
+.md-sidebar--primary .md-nav {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.md-nav__title {
+  font-weight: 600;
+  color: var(--wiki-text);
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.md-nav__link {
+  color: var(--wiki-text-muted);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: var(--wiki-text);
+  background-color: var(--wiki-surface);
+}
+
+/* Marcador de ítem activo con acento institucional UdeA #2e7d4f */
+.md-sidebar--primary .md-nav__link--active {
+  color: var(--wiki-text);
+  font-weight: 600;
+  background-color: var(--wiki-surface);
+  border-left: 3px solid var(--wiki-udea-accent);
+  padding-left: calc(0.6rem - 3px);
+}
+
+/* TOC derecho: 14px */
+.md-sidebar--secondary .md-nav {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--wiki-text);
+  font-weight: 600;
+}
+
+/* Breadcrumbs (navigation.path) */
+.md-path {
+  font-size: 14px;
+  color: var(--wiki-text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.md-path__link {
+  color: var(--wiki-text-muted);
+}
+
+.md-path__link:hover {
+  color: var(--wiki-link);
+}
+
+/* --------------------------------------------------------------------------
+   6. Admonitions (1px border, superficie, radio 6px, sin saturación)
+   -------------------------------------------------------------------------- */
+
+.md-typeset .admonition,
+.md-typeset details {
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  box-shadow: none !important;
+  color: var(--wiki-text);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.md-typeset .admonition-title,
+.md-typeset details > summary {
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--wiki-border-subtle);
+  color: var(--wiki-text);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0.65rem 1rem 0.65rem 2.4rem;
+  margin: 0;
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset details > summary::before {
+  background-color: var(--wiki-text-muted) !important;
+  left: 0.85rem;
+  top: 0.78rem;
+}
+
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  color: var(--wiki-text);
+}
+
+.md-typeset .admonition.warning > .admonition-title::before,
+.md-typeset details.warning > summary::before {
+  background-color: #d29922 !important;
+}
+
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset details.danger > summary {
+  color: var(--wiki-text);
+}
+
+.md-typeset .admonition.danger > .admonition-title::before,
+.md-typeset details.danger > summary::before {
+  background-color: #f85149 !important;
+}
+
+.md-typeset .admonition.tip > .admonition-title::before,
+.md-typeset details.tip > summary::before,
+.md-typeset .admonition.note > .admonition-title::before,
+.md-typeset details.note > summary::before {
+  background-color: var(--wiki-link) !important;
+}
+
+.md-typeset .admonition > :not(.admonition-title),
+.md-typeset details > :not(summary) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.md-typeset .admonition > p:last-child,
+.md-typeset details > p:last-child {
+  margin-bottom: 0.85rem;
+}
+
+.md-typeset .admonition > :nth-child(2),
+.md-typeset details > :nth-child(2) {
+  margin-top: 0.75rem;
+}
+
+/* --------------------------------------------------------------------------
+   7. Tablas (bordes finos, zebra muy tenue, scroll horizontal en móvil)
+   -------------------------------------------------------------------------- */
+
+.md-typeset__scrollwrap {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.md-typeset table:not([class]) {
+  background-color: var(--wiki-bg);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.55;
+  width: 100%;
+  display: table;
+  box-shadow: none;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--wiki-surface);
+  color: var(--wiki-text);
+  font-weight: 600;
+  border-bottom: 1px solid var(--wiki-border);
+  border-right: 1px solid var(--wiki-border-subtle);
+  padding: 0.65rem 0.9rem;
+  text-align: left;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--wiki-border-subtle);
+  border-right: 1px solid var(--wiki-border-subtle);
+  padding: 0.65rem 0.9rem;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) th:last-child,
+.md-typeset table:not([class]) td:last-child {
+  border-right: none;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--wiki-zebra);
+}
+
+/* --------------------------------------------------------------------------
+   8. Código e Imágenes
+   -------------------------------------------------------------------------- */
+
+.md-typeset code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85em;
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border-subtle);
+  border-radius: 4px;
+  padding: 0.12em 0.35em;
+  color: var(--wiki-text);
+}
+
+.md-typeset pre {
+  margin: 1.5rem 0;
+}
+
+.md-typeset pre > code {
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  padding: 1rem 1.15rem;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.md-clipboard {
+  color: var(--wiki-text-muted);
+}
+
+.md-clipboard:hover {
+  color: var(--wiki-text);
+}
+
+.md-typeset img {
+  border-radius: 6px;
+  border: 1px solid var(--wiki-border);
+  max-width: 100%;
+  height: auto;
+}
+
+/* --------------------------------------------------------------------------
+   9. Diagramas Mermaid y Contenedor Zoom
+   -------------------------------------------------------------------------- */
+
+.diagram-zoom-wrap {
+  position: relative;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+}
+
+.diagram-zoom-btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.55rem;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--wiki-text-muted);
+  background-color: var(--wiki-bg);
+  border: 1px solid var(--wiki-border);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.diagram-zoom-btn:hover {
+  color: var(--wiki-text);
+  border-color: var(--wiki-text-muted);
+}
+
+dialog.diagram-lightbox {
+  background-color: var(--wiki-bg);
+  color: var(--wiki-text);
+  border: 1px solid var(--wiki-border);
+  border-radius: 8px;
+  max-width: 92vw;
+  max-height: 90vh;
+  width: 1100px;
+  padding: 0;
+}
+
+dialog.diagram-lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.diagram-lightbox-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--wiki-border);
+  background-color: var(--wiki-surface);
+}
+
+.diagram-lightbox-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.diagram-lightbox-actions button {
+  background-color: var(--wiki-bg);
+  color: var(--wiki-text);
+  border: 1px solid var(--wiki-border);
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.diagram-lightbox-body {
+  padding: 1.5rem;
+  overflow: auto;
+  max-height: calc(90vh - 60px);
+}
+
+/* --------------------------------------------------------------------------
+   10. Neutralización Transitoria de Clases Legacy (hasta Fases 3 y 5)
+   -------------------------------------------------------------------------- */
+
+.wiki-hero {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.wiki-badge {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--wiki-text-muted);
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.wiki-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.wiki-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--wiki-text) !important;
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  padding: 0.4rem 0.85rem;
+  text-decoration: none !important;
+}
+
+.wiki-btn:hover {
+  background-color: var(--wiki-surface-hover);
+  border-color: var(--wiki-text-muted);
+}
+
+.wiki-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.wiki-card {
+  display: block;
+  background-color: var(--wiki-surface);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  text-decoration: none !important;
+}
+
+.wiki-card:hover {
+  border-color: var(--wiki-text-muted);
+  text-decoration: none !important;
+}
+
+.wiki-card__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--wiki-link);
+  margin-bottom: 0.25rem;
+}
+
+.wiki-card__desc {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--wiki-text-muted);
+  margin: 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   11. Footer Sobrio y Enlaces Anterior / Siguiente
+   -------------------------------------------------------------------------- */
+
+.md-footer {
+  background-color: var(--wiki-bg);
+  border-top: 1px solid var(--wiki-border);
+  color: var(--wiki-text-muted);
+}
+
+.md-footer__inner {
+  padding: 1rem 0.8rem;
+}
+
+.md-footer__link {
+  color: var(--wiki-text);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  background-color: var(--wiki-surface);
+}
+
+.md-footer__link:hover {
+  border-color: var(--wiki-text-muted);
+}
+
+.md-footer__direction {
+  font-size: 12px;
+  color: var(--wiki-text-muted);
+}
+
+.md-footer-meta {
+  background-color: var(--wiki-bg);
+  border-top: 1px solid var(--wiki-border-subtle);
+  font-size: 13px;
+  color: var(--wiki-text-muted);
+}
+
+.wiki-footer-banner {
+  background-color: var(--wiki-surface);
+  border-top: 1px solid var(--wiki-border-subtle);
+  padding: 0.75rem 0;
+  font-size: 13px;
+}
+
+.wiki-footer-banner__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0 0.8rem;
+}
+
+.wiki-footer-banner__identity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--wiki-text-muted);
+}
+
+.wiki-footer-banner__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.wiki-footer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--wiki-text-muted);
+  text-decoration: none;
+}
+
+.wiki-footer-pill:hover {
+  color: var(--wiki-link);
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   12. Responsive (Móvil <= 768px)
+   -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .md-typeset {
+    font-size: 17px;
+  }
+
+  .md-typeset h1 {
+    font-size: 30px;
+  }
+
+  .md-typeset h2 {
+    font-size: 24px;
+  }
+
+  .md-typeset h3 {
+    font-size: 20px;
+  }
+
+  .md-content__inner {
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
