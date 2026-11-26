@@ -7,7 +7,7 @@ theme:
   name: material
   custom_dir: overrides
   language: es
-  logo: assets/logo-udea-simplificado-blanco.svg
+  logo: assets/logo_udea_vertical_facultad_de_ingenier_a_blanco.svg
   favicon: assets/favicon.svg
   palette:
     # Modo oscuro por defecto con toggle a claro

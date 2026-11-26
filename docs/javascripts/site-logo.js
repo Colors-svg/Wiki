@@ -5,8 +5,8 @@
  */
 (function () {
   'use strict';
-  var GREEN = 'logo-udea-simplificado.svg';
-  var WHITE = 'logo-udea-simplificado-blanco.svg';
+  var GREEN = 'logo_udea_vertical_facultad_de_ingenier_a.svg';
+  var WHITE = 'logo_udea_vertical_facultad_de_ingenier_a_blanco.svg';
 
   function withFile(src, file) {
     var i = src.lastIndexOf('/');
