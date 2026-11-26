@@ -16,18 +16,12 @@ Esta Wiki sintetiza de forma didáctica, estructurada y modular los **31 procedi
 
 Para explorar la base de conocimiento según tus necesidades, selecciona una de las siguientes rutas de navegación:
 
-```mermaid
-flowchart TD
-    HOME(["HOME: Wiki SIIU"])
-    
-    HOME --> MOC_ROLES["MOC por Roles<br><i>(Investigador, Centro, Vicerrectoría)</i>"]
-    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula → Evaluación → Inicio → Cierre)</i>"]
-    HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
-    HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
-    HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
-    HOME --> CHEAT["Guías Rápidas & Cheat Sheets<br><i>(Rutas express y reglas de oro)</i>"]
-
-                    ```
+- **[Mapa por roles](MOC_Por_Roles.md)** — Investigador, centro de investigación y vicerrectoría.
+- **[Ciclo de vida de proyectos](MOC_Ciclo_de_Vida_Proyectos.md)** — Matrícula, evaluación, inicio formal, ejecución y cierre.
+- **[Trámites administrativos](MOC_Tramites_y_Solicitudes.md)** — Prórrogas, cambios de rubro y modificaciones de participantes.
+- **[Reportes y constancias](MOC_Reportes_y_Constancias.md)** — Certificados de participación, evaluadores e historial.
+- **[Marco normativo](MOC_Marco_Normativo.md)** — Síntesis de leyes, estatutos y resoluciones rectorales.
+- **[Guías rápidas y formatos](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md)** — Rutas express, plantillas y reglas de oro.
 
 ---
 

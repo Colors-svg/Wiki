@@ -32,15 +32,15 @@ search:
 | [Documentos fuente](archivo_maestro/index.md) | Transcripción íntegra de las guías e instructivos oficiales de la Vicerrectoría y del marco legal universitario. |
 | [Información legal](legal/index.md) | Términos de uso, privacidad, cookies, licencias y políticas editoriales de este sitio comunitario. |
 
-## Mapa General de Navegación
+## Mapa general de navegación
 
-```mermaid
-flowchart TD
-    HOME(["HOME: Wiki SIIU"])
-    HOME --> MOC_ROLES["MOC por Roles<br><i>(Investigador, Centro, Vicerrectoría)</i>"]
-    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula → Evaluación → Inicio → Cierre)</i>"]
-    HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
-    HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
-    HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
-    HOME --> CHEAT["Guías Rápidas & Formatos<br><i>(Rutas express, plantillas y reglas de oro)</i>"]
-```
+- **Mapas de contenido (MOC)**
+  - [Ciclo de vida de proyectos](00_INICIO_Y_MOCS/MOC_Ciclo_de_Vida_Proyectos.md) — Matrícula, evaluación, inicio formal, ejecución y cierre.
+  - [Mapa por roles](00_INICIO_Y_MOCS/MOC_Por_Roles.md) — Acciones según perfil (investigador, centro de investigación y vicerrectoría).
+  - [Trámites y solicitudes](00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md) — Prórrogas, cambios de rubro y modificaciones de participantes.
+  - [Reportes y constancias](00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md) — Certificados de participación, evaluadores e historial.
+  - [Marco normativo](00_INICIO_Y_MOCS/MOC_Marco_Normativo.md) — Síntesis de leyes, estatutos y resoluciones rectorales.
+- **Atajos operativos**
+  - [Inicio rápido (5 min)](inicio-rapido.md) — Guía de arranque para usuarios nuevos.
+  - [Reglas de oro del SIIU](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md) — Requisitos técnicos del sistema.
+  - [Catálogo de formatos](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md) — Plantillas y minutas oficiales descargables.
