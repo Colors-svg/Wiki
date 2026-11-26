@@ -748,21 +748,14 @@ dialog.diagram-lightbox::backdrop {
   color: var(--wiki-text-muted);
 }
 
-.md-footer-meta {
-  background-color: var(--wiki-bg);
+.wiki-footer-line {
   border-top: 1px solid var(--wiki-border-subtle);
+  padding: 0.85rem 0;
   font-size: 13px;
   color: var(--wiki-text-muted);
 }
 
-.wiki-footer-banner {
-  background-color: var(--wiki-surface);
-  border-top: 1px solid var(--wiki-border-subtle);
-  padding: 0.75rem 0;
-  font-size: 13px;
-}
-
-.wiki-footer-banner__inner {
+.wiki-footer-line__inner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -771,28 +764,18 @@ dialog.diagram-lightbox::backdrop {
   padding: 0 0.8rem;
 }
 
-.wiki-footer-banner__identity {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--wiki-text-muted);
-}
-
-.wiki-footer-banner__links {
+.wiki-footer-line__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
-.wiki-footer-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
+.wiki-footer-line__links a {
   color: var(--wiki-text-muted);
   text-decoration: none;
 }
 
-.wiki-footer-pill:hover {
+.wiki-footer-line__links a:hover {
   color: var(--wiki-link);
   text-decoration: underline;
 }
