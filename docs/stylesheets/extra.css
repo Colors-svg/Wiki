@@ -321,7 +321,7 @@ body {
 .md-nav__title {
   font-weight: 600;
   color: var(--wiki-text);
-  background: transparent !important;
+  background-color: var(--wiki-bg) !important;
   box-shadow: none !important;
 }
 
@@ -380,7 +380,7 @@ body {
 .md-typeset .admonition,
 .md-typeset details {
   background-color: var(--wiki-surface);
-  border: 1px solid var(--wiki-border);
+  border: 1px solid var(--wiki-border) !important;
   border-radius: 6px;
   box-shadow: none !important;
   color: var(--wiki-text);
