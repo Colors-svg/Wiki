@@ -747,7 +747,13 @@ dialog.diagram-lightbox::backdrop {
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary {
     border-right: 1px solid var(--wiki-border-subtle);
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent 100%);
+    padding-bottom: 28px;
   }
 
   .md-sidebar--secondary {
@@ -768,27 +774,76 @@ dialog.diagram-lightbox::backdrop {
 }
 
 .md-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5rem 2.25rem 2rem 2.25rem;
+  padding: 1.25rem 2.25rem 1.75rem 2.25rem;
 }
 
 .md-footer__link {
-  color: var(--wiki-text);
-  padding: 0.65rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: auto;
+  max-width: 48%;
+  flex: 0 1 auto;
+  margin: 0 !important;
+  padding: 0.55rem 0.9rem !important;
   border: 1px solid var(--wiki-border);
   border-radius: 6px;
   background-color: var(--wiki-surface);
+  color: var(--wiki-text);
+  height: auto;
+}
+
+.md-footer__link--next {
+  margin-left: auto !important;
 }
 
 .md-footer__link:hover {
   border-color: var(--wiki-text-muted);
+  opacity: 1;
+}
+
+.md-footer__button {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-flex;
+  align-items: center;
+}
+
+.md-footer__button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.md-footer__title {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.md-footer__link--prev .md-footer__title {
+  text-align: left;
+}
+
+.md-footer__link--next .md-footer__title {
+  text-align: right;
 }
 
 .md-footer__direction {
-  font-size: 12px;
+  position: static !important;
+  display: block;
+  font-size: 11px;
+  line-height: 1.2;
   color: var(--wiki-text-muted);
+  margin-bottom: 0.15rem;
 }
 
 .wiki-footer-horizon {
