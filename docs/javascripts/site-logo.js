@@ -5,8 +5,8 @@
  */
 (function () {
   'use strict';
-  var GREEN = 'logo-udea.svg';
-  var WHITE = 'logo-udea-blanco.svg';
+  var GREEN = 'logo-udea-simplificado.svg';
+  var WHITE = 'logo-udea-simplificado-blanco.svg';
 
   function withFile(src, file) {
     var i = src.lastIndexOf('/');

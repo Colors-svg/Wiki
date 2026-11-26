@@ -157,11 +157,18 @@ body {
   box-shadow: none !important;
 }
 
+.md-header__inner {
+  min-height: 62px;
+  padding: 0.25rem 0.5rem;
+  gap: 0.75rem;
+}
+
 .md-header__title {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.01em;
   color: var(--wiki-text);
+  margin-left: 0.25rem;
 }
 
 .md-header__button {
@@ -172,9 +179,14 @@ body {
   color: var(--wiki-text);
 }
 
+.md-header__button.md-logo {
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.25rem;
+}
+
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 1.65rem;
+  height: 2.15rem;
   width: auto;
 }
 
@@ -183,7 +195,7 @@ body {
   background-color: var(--wiki-bg);
   border: 1px solid var(--wiki-border);
   border-radius: 6px;
-  height: 2.1rem;
+  height: 2.25rem;
 }
 
 .md-search__form:hover {
@@ -205,19 +217,30 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   4. Layout Principal, Ancho de Lectura (~46rem) y Tipografía
+   4. Layout Abierto (ancho completo), Ancho de Lectura y Tipografía
    -------------------------------------------------------------------------- */
 
 .md-grid {
-  max-width: 1400px;
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 16.5rem;
+  }
+
+  .md-sidebar--secondary {
+    width: 15rem;
+  }
 }
 
 .md-content__inner {
-  max-width: 46rem;
+  max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2rem;
-  padding-bottom: 3.5rem;
+  padding: 2.5rem 2.25rem 4rem 2.25rem;
 }
 
 /* Cuerpo de texto: 18px, interlineado 1.7 */
@@ -728,12 +751,15 @@ dialog.diagram-lightbox::backdrop {
 }
 
 .md-footer__inner {
-  padding: 1rem 0.8rem;
+  max-width: 52rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 2.25rem;
 }
 
 .md-footer__link {
   color: var(--wiki-text);
-  padding: 0.5rem 0.75rem;
+  padding: 0.65rem 1rem;
   border: 1px solid var(--wiki-border);
   border-radius: 6px;
   background-color: var(--wiki-surface);
@@ -749,9 +775,10 @@ dialog.diagram-lightbox::backdrop {
 }
 
 .wiki-footer-line {
-  border-top: 1px solid var(--wiki-border-subtle);
-  padding: 0.85rem 0;
-  font-size: 13px;
+  background-color: var(--wiki-surface);
+  border-top: 1px solid var(--wiki-border);
+  padding: 1.35rem 0;
+  font-size: 14px;
   color: var(--wiki-text-muted);
 }
 
@@ -760,18 +787,18 @@ dialog.diagram-lightbox::backdrop {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0 0.8rem;
+  gap: 1rem;
 }
 
 .wiki-footer-line__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
 .wiki-footer-line__links a {
-  color: var(--wiki-text-muted);
+  color: var(--wiki-text);
+  font-weight: 500;
   text-decoration: none;
 }
 
