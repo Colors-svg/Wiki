@@ -741,12 +741,29 @@ dialog.diagram-lightbox::backdrop {
 }
 
 /* --------------------------------------------------------------------------
-   11. Footer Sobrio y Enlaces Anterior / Siguiente
+   11. Footer Organizado estilo GitHub Docs + Horizonte 3D
    -------------------------------------------------------------------------- */
 
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    border-right: 1px solid var(--wiki-border-subtle);
+    padding-bottom: 2rem;
+  }
+
+  .md-sidebar--secondary {
+    border-left: 1px solid var(--wiki-border-subtle);
+  }
+}
+
+.md-main {
+  min-height: calc(100vh - 66px);
+}
+
 .md-footer {
+  position: relative;
+  z-index: 3;
   background-color: var(--wiki-bg);
-  border-top: 1px solid var(--wiki-border);
+  border-top: none;
   color: var(--wiki-text-muted);
 }
 
@@ -754,7 +771,7 @@ dialog.diagram-lightbox::backdrop {
   max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5rem 2.25rem;
+  padding: 1.5rem 2.25rem 2rem 2.25rem;
 }
 
 .md-footer__link {
@@ -774,63 +791,244 @@ dialog.diagram-lightbox::backdrop {
   color: var(--wiki-text-muted);
 }
 
-.wiki-footer-line {
+.wiki-footer-horizon {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  border-bottom: 2px solid var(--wiki-udea-accent);
+  background-color: var(--wiki-bg);
+}
+
+.wiki-footer-horizon img {
+  display: block;
+  width: 100%;
+  max-height: 110px;
+  object-fit: cover;
+  object-position: bottom center;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.wiki-footer-shell {
   background-color: var(--wiki-surface);
-  border-top: 1px solid var(--wiki-border);
-  padding: 1.35rem 0;
+  padding: 2rem 0 1.5rem 0;
   font-size: 14px;
   color: var(--wiki-text-muted);
 }
 
-.wiki-footer-line__inner {
+.wiki-footer-shell__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.wiki-footer-top {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--wiki-border);
 }
 
-.wiki-footer-line__links {
+.wiki-footer-brand {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--wiki-text);
 }
 
-.wiki-footer-line__links a {
-  color: var(--wiki-text);
+.wiki-footer-brand__logo {
+  height: 32px;
+  width: auto;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+[data-md-color-scheme="default"] .wiki-footer-brand__logo {
+  filter: invert(1) brightness(0.2);
+}
+
+.wiki-footer-top-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 13px;
   font-weight: 500;
+  color: var(--wiki-text);
+  background-color: var(--wiki-bg);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
   text-decoration: none;
 }
 
-.wiki-footer-line__links a:hover {
+.wiki-footer-top-btn:hover {
+  border-color: var(--wiki-text-muted);
+  text-decoration: none;
+}
+
+.wiki-footer-cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--wiki-border);
+}
+
+.wiki-footer-col__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--wiki-text);
+  margin: 0 0 0.6rem 0;
+}
+
+.wiki-footer-col__text {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--wiki-text-muted);
+  margin: 0 0 0.85rem 0;
+}
+
+.wiki-footer-col__link {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--wiki-link);
+  text-decoration: none;
+}
+
+.wiki-footer-col__link:hover {
+  text-decoration: underline;
+}
+
+.wiki-footer-btn {
+  display: inline-block;
+  padding: 0.4rem 0.85rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--wiki-text);
+  background-color: var(--wiki-bg);
+  border: 1px solid var(--wiki-border);
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.wiki-footer-btn:hover {
+  border-color: var(--wiki-text-muted);
+  text-decoration: none;
+}
+
+.wiki-footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.wiki-footer-list a {
+  font-size: 13.5px;
+  color: var(--wiki-link);
+  text-decoration: none;
+}
+
+.wiki-footer-list a:hover {
+  text-decoration: underline;
+}
+
+.wiki-footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 12.5px;
+  color: var(--wiki-text-muted);
+}
+
+.wiki-footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.15rem;
+}
+
+.wiki-footer-legal a {
+  color: var(--wiki-text-muted);
+  text-decoration: none;
+}
+
+.wiki-footer-legal a:hover {
   color: var(--wiki-link);
   text-decoration: underline;
 }
 
 /* --------------------------------------------------------------------------
-   12. Responsive (Móvil <= 768px)
+   12. Responsive (Tablet <= 1024px y Móvil <= 768px)
    -------------------------------------------------------------------------- */
 
+@media screen and (max-width: 1024px) {
+  .md-grid {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md-content__inner {
+    padding: 1.75rem 1.25rem 3rem 1.25rem;
+  }
+
+  .wiki-footer-cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .md-grid {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .md-typeset {
     font-size: 17px;
   }
 
   .md-typeset h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .md-typeset h2 {
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .md-typeset h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .md-content__inner {
-    padding-top: 1.25rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1.25rem 0.85rem 2.5rem 0.85rem;
+  }
+
+  .md-footer__inner {
+    padding: 1.25rem 0.85rem;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .wiki-footer-horizon img {
+    max-height: 70px;
+  }
+
+  .wiki-footer-cols {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .wiki-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

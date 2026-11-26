@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" fill="none" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="topA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#48b375"/>
+      <stop offset="100%" stop-color="#2e7d4f"/>
+    </linearGradient>
+    <linearGradient id="leftA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e7d4f"/>
+      <stop offset="100%" stop-color="#174229"/>
+    </linearGradient>
+    <linearGradient id="rightA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f5937"/>
+      <stop offset="100%" stop-color="#0d2618"/>
+    </linearGradient>
+    <linearGradient id="topB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7cd49f"/>
+      <stop offset="100%" stop-color="#35944b"/>
+    </linearGradient>
+    <linearGradient id="leftB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#35944b"/>
+      <stop offset="100%" stop-color="#1b4d2a"/>
+    </linearGradient>
+    <linearGradient id="rightB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#246335"/>
+      <stop offset="100%" stop-color="#102e19"/>
+    </linearGradient>
+    <linearGradient id="topC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#21262d"/>
+    </linearGradient>
+    <linearGradient id="leftC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#21262d"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="rightC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grupo Izquierdo de Cubos 3D -->
+  <g transform="translate(150, 32)">
+    <polygon points="56,0 112,28 56,56 0,28" fill="url(#topA)"/>
+    <polygon points="0,28 56,56 56,112 0,84" fill="url(#leftA)"/>
+    <polygon points="112,28 112,84 56,112 56,56" fill="url(#rightA)"/>
+  </g>
+  <g transform="translate(230, 14)">
+    <polygon points="68,0 136,34 68,68 0,34" fill="url(#topB)"/>
+    <polygon points="0,34 68,68 68,136 0,102" fill="url(#leftB)"/>
+    <polygon points="136,34 136,102 68,136 68,68" fill="url(#rightB)"/>
+  </g>
+  <g transform="translate(335, 52)">
+    <polygon points="48,0 96,24 48,48 0,24" fill="url(#topC)"/>
+    <polygon points="0,24 48,48 48,96 0,72" fill="url(#leftC)"/>
+    <polygon points="96,24 96,72 48,96 48,48" fill="url(#rightC)"/>
+  </g>
+
+  <!-- Cubo Central Sutil -->
+  <g transform="translate(650, 44)">
+    <polygon points="52,0 104,26 52,52 0,26" fill="url(#topB)"/>
+    <polygon points="0,26 52,52 52,104 0,78" fill="url(#leftB)"/>
+    <polygon points="104,26 104,78 52,104 52,52" fill="url(#rightB)"/>
+  </g>
+  <g transform="translate(725, 64)">
+    <polygon points="40,0 80,20 40,40 0,20" fill="url(#topC)"/>
+    <polygon points="0,20 40,40 40,80 0,60" fill="url(#leftC)"/>
+    <polygon points="80,20 80,60 40,80 40,40" fill="url(#rightC)"/>
+  </g>
+
+  <!-- Grupo Derecho de Cubos 3D -->
+  <g transform="translate(960, 46)">
+    <polygon points="48,0 96,24 48,48 0,24" fill="url(#topC)"/>
+    <polygon points="0,24 48,48 48,96 0,72" fill="url(#leftC)"/>
+    <polygon points="96,24 96,72 48,96 48,48" fill="url(#rightC)"/>
+  </g>
+  <g transform="translate(1030, 12)">
+    <polygon points="72,0 144,36 72,72 0,36" fill="url(#topB)"/>
+    <polygon points="0,36 72,72 72,144 0,108" fill="url(#leftB)"/>
+    <polygon points="144,36 144,108 72,144 72,72" fill="url(#rightB)"/>
+  </g>
+  <g transform="translate(1150, 38)">
+    <polygon points="56,0 112,28 56,56 0,28" fill="url(#topA)"/>
+    <polygon points="0,28 56,56 56,112 0,84" fill="url(#leftA)"/>
+    <polygon points="112,28 112,84 56,112 56,56" fill="url(#rightA)"/>
+  </g>
+  <g transform="translate(1245, 62)">
+    <polygon points="44,0 88,22 44,44 0,22" fill="url(#topC)"/>
+    <polygon points="0,22 44,44 44,88 0,66" fill="url(#leftC)"/>
+    <polygon points="88,22 88,66 44,88 44,44" fill="url(#rightC)"/>
+  </g>
+</svg>

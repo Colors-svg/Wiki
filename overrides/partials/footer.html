@@ -36,16 +36,64 @@
     {% endif %}
   {% endif %}
 
-  <div class="wiki-footer-line" role="region" aria-label="Información y enlaces de referencia">
-    <div class="wiki-footer-line__inner md-grid">
-      <span class="wiki-footer-line__notice">Sitio no oficial de uso académico</span>
-      <nav class="wiki-footer-line__links" aria-label="Enlaces de referencia">
-        <a href="https://www.udea.edu.co/" target="_blank" rel="noopener noreferrer">Portal UdeA</a>
-        <a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion" target="_blank" rel="noopener noreferrer">VRI</a>
-        <a href="{{ '03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/' | url }}">Formatos</a>
-        <a href="{{ 'legal/politicas-y-aclaraciones/' | url }}">Políticas</a>
-        <a href="{{ 'faq/' | url }}">FAQ</a>
-      </nav>
+  <!-- Horizonte geométrico 3D estilo GitHub Docs en paleta institucional UdeA -->
+  <div class="wiki-footer-horizon" aria-hidden="true">
+    <img src="{{ 'assets/footer-3d-udea.svg' | url }}" alt="" loading="lazy">
+  </div>
+
+  <!-- Contenedor principal organizado del Footer -->
+  <div class="wiki-footer-shell" role="region" aria-label="Información institucional y enlaces">
+    <div class="wiki-footer-shell__inner md-grid">
+
+      <!-- Barra superior: Marca + Volver arriba -->
+      <div class="wiki-footer-top">
+        <div class="wiki-footer-brand">
+          <img class="wiki-footer-brand__logo" src="{{ 'assets/logo_udea_vertical_facultad_de_ingenier_a_blanco.svg' | url }}" alt="UdeA">
+          <span>Wiki SIIU — Universidad de Antioquia</span>
+        </div>
+        <a class="wiki-footer-top-btn" href="#__top" aria-label="Volver arriba">
+          <span>Volver arriba</span>
+          <span aria-hidden="true">↑</span>
+        </a>
+      </div>
+
+      <!-- Columnas organizadas -->
+      <div class="wiki-footer-cols">
+        <div class="wiki-footer-col">
+          <h3 class="wiki-footer-col__title">Acerca de esta wiki</h3>
+          <p class="wiki-footer-col__text">Guía comunitaria no oficial para apoyar la formulación, aval, ejecución y cierre de proyectos en el SIIU.</p>
+          <a class="wiki-footer-col__link" href="{{ 'inicio-rapido/' | url }}">Comenzar en 5 minutos →</a>
+        </div>
+
+        <div class="wiki-footer-col">
+          <h3 class="wiki-footer-col__title">Documentación abierta</h3>
+          <p class="wiki-footer-col__text">Base de conocimiento abierta construida sobre la documentación pública de la Vicerrectoría de Investigación.</p>
+          <a class="wiki-footer-btn" href="https://github.com/Colors-svg/Wiki" target="_blank" rel="noopener noreferrer">Contribuir en GitHub</a>
+        </div>
+
+        <div class="wiki-footer-col">
+          <h3 class="wiki-footer-col__title">Recursos y enlaces</h3>
+          <ul class="wiki-footer-list">
+            <li><a href="https://www.udea.edu.co/" target="_blank" rel="noopener noreferrer">Portal UdeA Oficial</a></li>
+            <li><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion" target="_blank" rel="noopener noreferrer">Vicerrectoría de Investigación (VRI)</a></li>
+            <li><a href="{{ '03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/' | url }}">Catálogo de formatos</a></li>
+            <li><a href="{{ 'faq/' | url }}">Preguntas frecuentes (FAQ)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Barra inferior legal -->
+      <div class="wiki-footer-bottom">
+        <span>Sitio no oficial de uso académico · Basado en documentación pública UdeA</span>
+        <nav class="wiki-footer-legal" aria-label="Información legal">
+          <a href="{{ 'legal/politicas-y-aclaraciones/' | url }}">Políticas</a>
+          <a href="{{ 'legal/terminos/' | url }}">Términos</a>
+          <a href="{{ 'legal/privacidad/' | url }}">Privacidad</a>
+          <a href="{{ 'legal/cookies/' | url }}">Cookies</a>
+          <a href="{{ 'legal/licencias/' | url }}">Licencias</a>
+        </nav>
+      </div>
+
     </div>
   </div>
 </footer>
